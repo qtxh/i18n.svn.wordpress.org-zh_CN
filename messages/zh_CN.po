@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 1.5\n"
 "POT-Creation-Date: 2005-01-16 23:50-0500\n"
-"PO-Revision-Date: 2005-07-06 02:36+0800\n"
+"PO-Revision-Date: 2005-07-07 17:54+0800\n"
 "Last-Translator: Jeffrey <jtam@jtam.org>\n"
-"Language-Team: Corr <larkee@163.com>\n"
+"Language-Team: Jeffrey <jtam@jtam.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr "抱歉，您必须登录后才可以发表评论。"
 
 #: wp-comments-post.php:39
 msgid "Error: please fill the required fields (name, email)."
-msgstr "错误：请完整填写要求的内容（名字，电子邮件l）。"
+msgstr "错误：请完整填写要求的内容（名字，电子邮件）。"
 
 #: wp-comments-post.php:41
 msgid "Error: please enter a valid email address."
