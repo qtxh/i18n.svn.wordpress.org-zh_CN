@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.0\n"
 "POT-Creation-Date: 2005-01-16 23:50-0500\n"
-"PO-Revision-Date: 2006-02-06 20:22+0800\n"
+"PO-Revision-Date: 2006-02-10 12:12+0800\n"
 "Last-Translator: Jeffrey <jtam@jtam.org>\n"
 "Language-Team: Jeffrey <jtam@jtam.org>\n"
 "MIME-Version: 1.0\n"
@@ -66,12 +66,12 @@ msgstr "请留下您的信息，我们会为您发送一个新密码。"
 
 #: wp-login.php:71
 #: wp-login.php:233
-#: wp-register.php:113
+#: wp-register.php:111
 msgid "Username:"
 msgstr "用户名："
 
 #: wp-login.php:73
-#: wp-register.php:114
+#: wp-register.php:112
 #: wp-admin/edit-comments.php:92
 #: wp-admin/edit-form-comment.php:26
 #: wp-admin/moderation.php:145
@@ -86,19 +86,19 @@ msgstr "找回密码"
 
 #: wp-login.php:79
 #: wp-login.php:244
-#: wp-register.php:119
+#: wp-register.php:117
 msgid "Are you lost?"
 msgstr "不知道这是哪里？"
 
 #: wp-login.php:79
 #: wp-login.php:244
-#: wp-register.php:119
+#: wp-register.php:117
 msgid "Back to blog"
 msgstr "返回网志"
 
 #: wp-login.php:81
 #: wp-login.php:246
-#: wp-register.php:116
+#: wp-register.php:114
 #: wp-includes/template-functions-general.php:48
 msgid "Register"
 msgstr "注册"
@@ -106,8 +106,8 @@ msgstr "注册"
 #: wp-login.php:83
 #: wp-login.php:213
 #: wp-login.php:239
-#: wp-register.php:73
-#: wp-register.php:120
+#: wp-register.php:71
+#: wp-register.php:118
 #: wp-includes/template-functions-general.php:34
 msgid "Login"
 msgstr "登录"
@@ -123,7 +123,7 @@ msgstr "有人请求重设该账号的登陆密码。"
 
 #: wp-login.php:109
 #: wp-login.php:143
-#: wp-register.php:70
+#: wp-register.php:68
 #: wp-includes/pluggable-functions.php:415
 #: wp-includes/pluggable-functions.php:423
 #, php-format
@@ -170,7 +170,7 @@ msgid "Sorry, that key does not appear to be valid."
 msgstr "抱歉，密码不正确。"
 
 #: wp-login.php:144
-#: wp-register.php:71
+#: wp-register.php:69
 #: wp-includes/pluggable-functions.php:424
 #, php-format
 msgid "Password: %s"
@@ -210,12 +210,12 @@ msgid "Remember me"
 msgstr "记住我"
 
 #: wp-login.php:248
-#: wp-register.php:121
+#: wp-register.php:119
 msgid "Password Lost and Found"
 msgstr "找回密码"
 
 #: wp-login.php:248
-#: wp-register.php:121
+#: wp-register.php:119
 msgid "Lost your password?"
 msgstr "忘了密码？"
 
@@ -246,59 +246,59 @@ msgstr "<strong>错误</strong>：非法的用户名，请填写一个有效用�
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>错误</strong>：这个用户名已被注册，请另选一个。"
 
-#: wp-register.php:39
-msgid "<strong>ERROR</strong>: This email address is already registered, please supply another."
-msgstr "<strong>错误</strong>：这个邮件地址已被使用，请另选一个。"
+#: wp-register.php:37
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>错误</strong>：这个邮件地址已被注册，请另选一个。"
 
-#: wp-register.php:46
+#: wp-register.php:44
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>错误</strong>：无法为您注册...请联系<a href=\"mailto:%s\">管理员</a> ！"
 
-#: wp-register.php:57
-#: wp-register.php:69
+#: wp-register.php:55
+#: wp-register.php:67
 msgid "Registration Complete"
 msgstr "注册完成"
 
-#: wp-register.php:71
+#: wp-register.php:69
 msgid "emailed to you"
 msgstr "通过邮件发给您"
 
-#: wp-register.php:72
+#: wp-register.php:70
 #: wp-includes/pluggable-functions.php:416
 #, php-format
 msgid "E-mail: %s"
 msgstr "电子邮件：%s"
 
-#: wp-register.php:88
+#: wp-register.php:86
 msgid "Registration Form"
 msgstr "注册表单"
 
-#: wp-register.php:101
+#: wp-register.php:99
 msgid "Register for this blog"
 msgstr "注册本网志"
 
-#: wp-register.php:115
+#: wp-register.php:113
 msgid "A password will be emailed to you."
 msgstr "新密码将经电子邮件发送给您。"
 
-#: wp-register.php:137
+#: wp-register.php:135
 msgid "Registration Currently Disabled"
 msgstr "目前注册功能关闭"
 
-#: wp-register.php:145
+#: wp-register.php:143
 msgid "Registration Disabled"
 msgstr "注册功能关闭"
 
-#: wp-register.php:146
+#: wp-register.php:144
 msgid "User registration is currently not allowed."
 msgstr "目前不允许新用户注册。"
 
-#: wp-register.php:147
+#: wp-register.php:145
 msgid "Go back to the blog"
 msgstr "返回网志"
 
-#: wp-register.php:147
+#: wp-register.php:145
 msgid "Home"
 msgstr "主页"
 
@@ -307,20 +307,20 @@ msgstr "主页"
 msgid "It doesn't look like you've installed WP yet. Try running <a href='%s'>install.php</a>."
 msgstr "您似乎还没有安装WordPress。试试运行<a href='%s'>install.php</a>文件。"
 
-#: wp-includes/classes.php:845
+#: wp-includes/classes.php:842
 #, php-format
 msgid "Suspected spam comments: <strong>%s</strong>"
 msgstr "怀疑是垃圾评论：<strong>%s</strong>"
 
-#: wp-includes/classes.php:849
+#: wp-includes/classes.php:846
 msgid "Move suspect comments to moderation queue &raquo;"
 msgstr "把可疑的评论移至待审查队列 &raquo;"
 
-#: wp-includes/classes.php:852
+#: wp-includes/classes.php:849
 msgid "Check Comments Results:"
 msgstr "检查评论结果："
 
-#: wp-includes/classes.php:854
+#: wp-includes/classes.php:851
 msgid "&laquo; Return to Discussion Options page."
 msgstr "&laquo; 回到讨论选项页面。"
 
@@ -569,8 +569,8 @@ msgstr "文件无法读。"
 msgid "Template is missing."
 msgstr "缺少模板。"
 
-#: wp-includes/functions-post.php:908
-#: wp-includes/functions-post.php:942
+#: wp-includes/functions-post.php:926
+#: wp-includes/functions-post.php:960
 #, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "无法建立目录%s。是否上级目录没有写权限？"
@@ -1626,7 +1626,7 @@ msgstr "无法载入导入接口。"
 
 #: wp-admin/categories.php:4
 #: wp-admin/categories.php:122
-#: wp-admin/edit-form-advanced.php:92
+#: wp-admin/edit-form-advanced.php:93
 #: wp-admin/edit-form.php:28
 #: wp-admin/edit.php:126
 #: wp-admin/menu.php:25
@@ -1947,115 +1947,118 @@ msgid "Already pinged:"
 msgstr "已经ping过："
 
 #: wp-admin/edit-form-advanced.php:45
-#: wp-admin/edit-page-form.php:176
+#: wp-admin/edit-page-form.php:185
 msgid "Save and Continue Editing"
 msgstr "保存并继续编辑"
 
-#: wp-admin/edit-form-advanced.php:71
+#: wp-admin/edit-form-advanced.php:72
 #: wp-admin/edit-page-form.php:48
 #: wp-admin/menu.php:42
 msgid "Discussion"
 msgstr "讨论"
 
-#: wp-admin/edit-form-advanced.php:76
+#: wp-admin/edit-form-advanced.php:77
 #: wp-admin/edit-page-form.php:53
 msgid "Allow Comments"
 msgstr "允许评论"
 
-#: wp-admin/edit-form-advanced.php:77
+#: wp-admin/edit-form-advanced.php:78
 #: wp-admin/edit-page-form.php:54
 msgid "Allow Pings"
 msgstr "允许Pings"
 
-#: wp-admin/edit-form-advanced.php:82
-#: wp-admin/edit-page-form.php:59
+#: wp-admin/edit-form-advanced.php:83
+#: wp-admin/edit-page-form.php:68
 msgid "Password-Protect Post"
 msgstr "密码保护的文章"
 
-#: wp-admin/edit-form-advanced.php:87
-#: wp-admin/edit-page-form.php:84
+#: wp-admin/edit-form-advanced.php:88
+#: wp-admin/edit-page-form.php:93
 msgid "Post slug"
 msgstr "文章缩略名"
 
-#: wp-admin/edit-form-advanced.php:99
+#: wp-admin/edit-form-advanced.php:100
 msgid "Post Status"
 msgstr "文章状态"
 
-#: wp-admin/edit-form-advanced.php:101
+#: wp-admin/edit-form-advanced.php:102
+#: wp-admin/edit-page-form.php:61
 msgid "Published"
 msgstr "已发表"
 
-#: wp-admin/edit-form-advanced.php:103
+#: wp-admin/edit-form-advanced.php:104
+#: wp-admin/edit-page-form.php:63
 msgid "Draft"
 msgstr "草稿"
 
-#: wp-admin/edit-form-advanced.php:104
+#: wp-admin/edit-form-advanced.php:105
+#: wp-admin/edit-page-form.php:64
 msgid "Private"
 msgstr "个人"
 
-#: wp-admin/edit-form-advanced.php:109
+#: wp-admin/edit-form-advanced.php:110
 msgid "Post Timestamp"
 msgstr "文章时间戳"
 
-#: wp-admin/edit-form-advanced.php:116
-#: wp-admin/edit-page-form.php:90
+#: wp-admin/edit-form-advanced.php:117
+#: wp-admin/edit-page-form.php:99
 msgid "Post author"
 msgstr "文章作者"
 
-#: wp-admin/edit-form-advanced.php:138
+#: wp-admin/edit-form-advanced.php:139
 #: wp-admin/edit-form.php:23
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:125
 msgid "Title"
 msgstr "标题"
 
-#: wp-admin/edit-form-advanced.php:143
+#: wp-admin/edit-form-advanced.php:144
 #: wp-admin/edit-form.php:34
 msgid "Post"
 msgstr "文章"
 
-#: wp-admin/edit-form-advanced.php:199
-#: wp-admin/edit-page-form.php:177
+#: wp-admin/edit-form-advanced.php:200
+#: wp-admin/edit-page-form.php:186
 msgid "Save"
 msgstr "保存"
 
-#: wp-admin/edit-form-advanced.php:204
+#: wp-admin/edit-form-advanced.php:205
 #: wp-admin/edit-form.php:61
 msgid "Publish"
 msgstr "发表"
 
-#: wp-admin/edit-form-advanced.php:226
-#: wp-admin/edit-page-form.php:192
+#: wp-admin/edit-form-advanced.php:227
+#: wp-admin/edit-page-form.php:201
 #: wp-admin/import/blogger.php:12
 msgid "This feature requires iframe support."
 msgstr "此功能需要iframe支持。"
 
-#: wp-admin/edit-form-advanced.php:233
+#: wp-admin/edit-form-advanced.php:234
 msgid "Optional Excerpt"
 msgstr "可选摘要"
 
-#: wp-admin/edit-form-advanced.php:238
+#: wp-admin/edit-form-advanced.php:239
 msgid "Trackbacks"
 msgstr "Trackbacks"
 
-#: wp-admin/edit-form-advanced.php:239
+#: wp-admin/edit-form-advanced.php:240
 msgid "Send trackbacks to"
 msgstr "发送trackbacks到"
 
-#: wp-admin/edit-form-advanced.php:239
+#: wp-admin/edit-form-advanced.php:240
 msgid "Separate multiple URIs with spaces"
 msgstr "多个路径用空格分隔"
 
-#: wp-admin/edit-form-advanced.php:248
-#: wp-admin/edit-page-form.php:199
+#: wp-admin/edit-form-advanced.php:249
+#: wp-admin/edit-page-form.php:208
 msgid "Custom Fields"
 msgstr "自定义域"
 
-#: wp-admin/edit-form-advanced.php:268
+#: wp-admin/edit-form-advanced.php:269
 msgid "Delete this post"
 msgstr "删除该文章"
 
-#: wp-admin/edit-form-advanced.php:268
+#: wp-admin/edit-form-advanced.php:269
 #, php-format
 msgid ""
 "You are about to delete this post \\'%s\\'\\n"
@@ -2346,45 +2349,49 @@ msgstr "否"
 msgid "Write Page"
 msgstr "写页面"
 
-#: wp-admin/edit-page-form.php:64
+#: wp-admin/edit-page-form.php:59
+msgid "Page Status"
+msgstr "页面状态"
+
+#: wp-admin/edit-page-form.php:73
 msgid "Page Parent"
 msgstr "上级页面"
 
-#: wp-admin/edit-page-form.php:66
+#: wp-admin/edit-page-form.php:75
 msgid "Main Page (no parent)"
 msgstr "主页面（无上级页面）"
 
-#: wp-admin/edit-page-form.php:74
+#: wp-admin/edit-page-form.php:83
 msgid "Page Template:"
 msgstr "页面模板："
 
-#: wp-admin/edit-page-form.php:76
+#: wp-admin/edit-page-form.php:85
 msgid "Default Template"
 msgstr "默认模板"
 
-#: wp-admin/edit-page-form.php:107
+#: wp-admin/edit-page-form.php:116
 msgid "Page Order"
 msgstr "页面顺序"
 
-#: wp-admin/edit-page-form.php:117
+#: wp-admin/edit-page-form.php:126
 msgid "Page Title"
 msgstr "页面标题"
 
-#: wp-admin/edit-page-form.php:123
+#: wp-admin/edit-page-form.php:132
 msgid "Page Content"
 msgstr "页面内容"
 
-#: wp-admin/edit-page-form.php:177
-#: wp-admin/edit-page-form.php:179
+#: wp-admin/edit-page-form.php:186
+#: wp-admin/edit-page-form.php:188
 #: wp-admin/edit-pages.php:75
 msgid "Create New Page"
 msgstr "创建新页面"
 
-#: wp-admin/edit-page-form.php:219
+#: wp-admin/edit-page-form.php:228
 msgid "Delete this page"
 msgstr "删除该页面"
 
-#: wp-admin/edit-page-form.php:219
+#: wp-admin/edit-page-form.php:228
 #, php-format
 msgid ""
 "You are about to delete this page \\'%s\\'\\n"
