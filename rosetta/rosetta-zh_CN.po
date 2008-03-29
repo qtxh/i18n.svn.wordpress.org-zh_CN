@@ -1,0 +1,366 @@
+# Rosetta POT file.
+# Copyright (C) 2008 WordPress
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2008-02-18 21:36+0000\n"
+"PO-Revision-Date: 2008-03-29 11:28-0800\n"
+"Last-Translator: \n"
+"Language-Team: 72pines七十二松翻译团队 <webmaster@72pines.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mu-plugins/rosetta.php:138
+#: mu-plugins/rosetta/tmpl/translations.php:2
+#, php-format
+msgid "Translations for %s"
+msgstr "%s 的翻译"
+
+#: mu-plugins/rosetta.php:266
+#: mu-plugins/rosetta.php:291
+#, php-format
+msgid "Invalid version %s! Should conform to the %s regular expression"
+msgstr "错误的版本%s！应该符合正则表达式%s"
+
+#: mu-plugins/rosetta.php:269
+#: mu-plugins/rosetta.php:294
+#, php-format
+msgid "Invalid source %s! Should conform to the %s regular expression"
+msgstr "无效的源文件%s！应该符合正则表达式%s"
+
+#: mu-plugins/rosetta.php:280
+#, php-format
+msgid "Couldn&#8217;t copy %1$s to release dir %2$s"
+msgstr "无法将%1$s释放到指定目录%2$s"
+
+#: mu-plugins/rosetta.php:301
+#, php-format
+msgid "Couldn&#8217;t delete build file %s"
+msgstr "无法删除build文件 %s"
+
+#: mu-plugins/rosetta.php:309
+#: mu-plugins/rosetta.php:410
+msgid "Invalid version! Should conform to:"
+msgstr "错误的版本，版本应该符合："
+
+#: mu-plugins/rosetta.php:316
+#, php-format
+msgid "Couldn&#8217;t delete release file %s"
+msgstr "无法删除已发布文件 %s"
+
+#: mu-plugins/rosetta.php:413
+msgid "Invalid WordPress source! Should conform to:"
+msgstr "错误的WordPress源文件，格式应该符合："
+
+#: mu-plugins/rosetta.php:416
+msgid "Invalid locale source! Should conform to:"
+msgstr "错误的本地源文件！应该符合："
+
+#: mu-plugins/rosetta.php:419
+msgid "Invalid WordPress revision! Should conform to:"
+msgstr "错误的WordPress修订版本号！格式应该符合："
+
+#: mu-plugins/rosetta.php:597
+msgid "Couldn&#8217;t create a temporary file!"
+msgstr "无法删除临时文件。"
+
+#: mu-plugins/rosetta.php:602
+#, php-format
+msgid "Couldn&#8217;t delete temporary file %s!"
+msgstr "无法删除临时文件%s！"
+
+#: mu-plugins/rosetta.php:607
+#, php-format
+msgid "Couldn&#8217;t create temporary directory %s!"
+msgstr "无法删除临时目录%s！"
+
+#: mu-plugins/rosetta.php:658
+#, php-format
+msgid "Error in exporting theme/%s. Probably this branch/tag doesn&#8217;t exist."
+msgstr "%s主题导出时出错！可能是标签不存在。"
+
+#: mu-plugins/rosetta.php:678
+#, php-format
+msgid "Couldn&#8217;t open directory %s for reading!"
+msgstr "无法读取目录(%s)！"
+
+#: mu-plugins/rosetta.php:689
+#: mu-plugins/rosetta.php:763
+#, php-format
+msgid "Couldn&#8217;t create directory %s!"
+msgstr "无法创建目录%s"
+
+#: mu-plugins/rosetta.php:700
+#: mu-plugins/rosetta.php:745
+#, php-format
+msgid "Couldn&#8217;t copy %s to %s!"
+msgstr "无法从%s复制到%s！"
+
+#: mu-plugins/rosetta.php:731
+#, php-format
+msgid "Po file %s doesn&#8217;t exist!"
+msgstr "PO文件 %s 不存在！"
+
+#: mu-plugins/rosetta.php:737
+#, php-format
+msgid "Couldn&#8217;t create mo file %s from po file %s!"
+msgstr "无法创建MO文件 %s (PO文件%s)！"
+
+#: mu-plugins/rosetta.php:791
+#, php-format
+msgid "Couldn&#8217;t move %s to %s."
+msgstr "无法从%s移动到%s。"
+
+#: mu-plugins/rosetta/tmpl/translations.php:10
+msgid "Builds"
+msgstr "Builds"
+
+#: mu-plugins/rosetta/tmpl/translations.php:14
+#: mu-plugins/rosetta/tmpl/translations.php:51
+msgid "Version"
+msgstr "版本"
+
+#: mu-plugins/rosetta/tmpl/translations.php:15
+#: mu-plugins/rosetta/tmpl/translations.php:52
+msgid "Links"
+msgstr "链接"
+
+#: mu-plugins/rosetta/tmpl/translations.php:16
+msgid "Built On"
+msgstr "Build时间"
+
+#: mu-plugins/rosetta/tmpl/translations.php:17
+msgid "Locale Branch"
+msgstr "本地化分支"
+
+#: mu-plugins/rosetta/tmpl/translations.php:18
+#: mu-plugins/rosetta/tmpl/translations.php:54
+msgid "Action"
+msgstr "操作"
+
+#: mu-plugins/rosetta/tmpl/translations.php:36
+msgid "Release"
+msgstr "发布"
+
+#: mu-plugins/rosetta/tmpl/translations.php:37
+#: mu-plugins/rosetta/tmpl/translations.php:71
+msgid "Delete"
+msgstr "删除"
+
+#: mu-plugins/rosetta/tmpl/translations.php:42
+msgid "Go and build a localized version &raquo;"
+msgstr "创建本地化版本 &raquo;"
+
+#: mu-plugins/rosetta/tmpl/translations.php:47
+msgid "Releases"
+msgstr "发布版本"
+
+#: mu-plugins/rosetta/tmpl/translations.php:53
+msgid "Released On"
+msgstr "发布于"
+
+#: mu-plugins/rosetta/tmpl/translations.php:76
+msgid "No Releases"
+msgstr "还没有发布任何版本"
+
+#: mu-plugins/rosetta/tmpl/translations.php:81
+msgid "Build New Package"
+msgstr "建立新的下载文件包"
+
+#: mu-plugins/rosetta/tmpl/translations.php:86
+msgid "Locale branch:"
+msgstr "本地化分支:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:91
+msgid "The directory from your repository, from which the package will be built."
+msgstr "此目录是是你的存储空间，用于package的建立。"
+
+#: mu-plugins/rosetta/tmpl/translations.php:93
+msgid "WordPress branch:"
+msgstr "WordPress分支版本:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:98
+msgid "The directory from the WordPress repository, from which the package will be built."
+msgstr "此目录是WordPress的存储空间，用于package的建立。"
+
+#: mu-plugins/rosetta/tmpl/translations.php:100
+msgid "WordPress revision:"
+msgstr "WordPress 修订版本号:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:103
+msgid "If the WordPress version you want to use isn&#8217;t tagged enter the version file bump revision here to get the right files."
+msgstr "如果你使用的WordPress版本没有被列出，请在此输入版本修订号，以获取正确的文件。"
+
+#: mu-plugins/rosetta/tmpl/translations.php:105
+msgid "WordPress Version:"
+msgstr "WordPress版本:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:108
+msgid "This number will appear in the filename of your release."
+msgstr "这个数字将显示在你发布的文件名上。"
+
+#: mu-plugins/rosetta/tmpl/translations.php:110
+msgid "Default theme handling:"
+msgstr "默认主题处理:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:111
+msgid "Leave untranslated"
+msgstr "不使用翻译版本"
+
+#: mu-plugins/rosetta/tmpl/translations.php:112
+msgid "Use the translated version from the <code>theme/default</code> folder of my repository"
+msgstr "使用源代码库里面 <code>theme/default</code> 目录下的翻译版本"
+
+#: mu-plugins/rosetta/tmpl/translations.php:113
+msgid "Use the i18n-ed version of the theme and add my po/mo files from the <code>messages/kubrick</code> folder of my repository"
+msgstr "使用已经国际化的主题，并且加入 <code>messages/kubrick</code> 目录下的 po/mo 文件"
+
+#: mu-plugins/rosetta/tmpl/translations.php:114
+msgid "Include the original, untranslated default theme as another theme named <code>default-en</code>"
+msgstr "把英文原版的主题加入，并命名为<code>default-en</code>主题"
+
+#: mu-plugins/rosetta/tmpl/translations.php:115
+msgid "Build &raquo;"
+msgstr "Build版本 &raquo;"
+
+#: themes/rosetta/comments.php:2
+msgid "Comments"
+msgstr "评论"
+
+#: themes/rosetta/comments.php:8
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: themes/rosetta/comments.php:8
+msgid "g:i a"
+msgstr "g: i a"
+
+#: themes/rosetta/comments.php:9
+msgid "Permanent link to this comment"
+msgstr "该评论的永久链接"
+
+#: themes/rosetta/comments.php:10
+msgid "Edit&nbsp;This"
+msgstr "编辑 &nbsp; 这篇文章"
+
+#: themes/rosetta/comments.php:23
+msgid "Add a Comment"
+msgstr "发表评论"
+
+#: themes/rosetta/comments.php:27
+#, php-format
+msgid "Logged in as %s."
+msgstr "以 %s 成功登录。"
+
+#: themes/rosetta/comments.php:27
+msgid "Log out of this account."
+msgstr "登出此帐号。"
+
+#: themes/rosetta/comments.php:27
+msgid "Logout &raquo;"
+msgstr "登出 &raquo;"
+
+#: themes/rosetta/comments.php:33
+msgid "Name <em>(required)</em>"
+msgstr "姓名 <em>(必填)</em>"
+
+#: themes/rosetta/comments.php:36
+msgid "Email <em>(required)</em>"
+msgstr "Email地址 <em>(必填)</em>"
+
+#: themes/rosetta/comments.php:39
+msgid "Web Site"
+msgstr "网址"
+
+#: themes/rosetta/comments.php:46
+msgid "Post Comment &raquo;"
+msgstr "发表评论 &raquo;"
+
+#: themes/rosetta/comments.php:54
+msgid "Comments are closed."
+msgstr "评论已经关闭。"
+
+#: themes/rosetta/download.php:12
+msgid "Latest release"
+msgstr "最新版本"
+
+#: themes/rosetta/download.php:25
+#, php-format
+msgid "%s Branch"
+msgstr "%s 分支"
+
+#: themes/rosetta/download.php:40
+msgid "Beta &amp; RC releases"
+msgstr "Beta测试版本 &amp; RC候选发行版本"
+
+#: themes/rosetta/footer.php:2
+msgid "Code is Poetry."
+msgstr "代码如诗."
+
+#: themes/rosetta/functions.php:24
+msgid "Y-M-d"
+msgstr "Y-M-d"
+
+#: themes/rosetta/index.php:32
+#: themes/rosetta/page.php:19
+#, php-format
+msgid "Download <span>Version %s</span>"
+msgstr "下载 <span>%s 版本</span>"
+
+#: themes/rosetta/index.php:35
+#: themes/rosetta/page.php:22
+msgid "More download options"
+msgstr "更多下载选项"
+
+#: themes/rosetta/index.php:37
+#: themes/rosetta/page.php:24
+msgid "Other file formats"
+msgstr "其他文件格式"
+
+#: themes/rosetta/index.php:38
+#: themes/rosetta/page.php:25
+msgid "Older versions"
+msgstr "旧版本"
+
+#: themes/rosetta/index.php:39
+#: themes/rosetta/page.php:26
+msgid "Beta &amp; RC versions"
+msgstr "Beta测试版本 &amp; RC候选发行版本"
+
+#: themes/rosetta/index.php:42
+#: themes/rosetta/page.php:32
+msgid "Resources"
+msgstr "资源"
+
+#: themes/rosetta/index.php:44
+#: themes/rosetta/page.php:34
+msgid "For help with installing or using WordPress, consult our documentation in your language."
+msgstr "安装或使用WordPress的问题请查看相关文档。"
+
+#: themes/rosetta/index.php:67
+msgid "Blog"
+msgstr "Blog"
+
+#: themes/rosetta/index.php:73
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "%s 的永久链接"
+
+#: themes/rosetta/index.php:74
+#: themes/rosetta/single.php:8
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: themes/rosetta/index.php:83
+msgid "Blog Archives"
+msgstr "存档文章"
+
+#: themes/rosetta/single.php:10
+msgid "Read the rest of this entry &raquo;"
+msgstr "阅读全文 &raquo;"
+
