@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Theme\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2008-03-26 13:02+0200\n"
+"PO-Revision-Date: 2008-03-29 12:14-0800\n"
+"Last-Translator: \n"
+"Language-Team: jtam <jeffreytam@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: China\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:5
+msgid "Error 404 - Not Found"
+msgstr "错误 404 - 网页不存在"
+
+#: archive.php:9
+#, fuzzy, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "分类&#8216;%1$s&#8217;的文章"
+
+#: archive.php:11
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: archive.php:13
+#, php-format
+msgid "Archive for %s|Daily archive page"
+msgstr ""
+
+#: archive.php:13
+#: comments.php:37
+#: index.php:11
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: archive.php:15
+#, php-format
+msgid "Archive for %s|Monthly archive page"
+msgstr ""
+
+#: archive.php:15
+#: sidebar.php:27
+msgid "F, Y"
+msgstr "Y年F月"
+
+#: archive.php:17
+#, php-format
+msgid "Archive for %s|Yearly archive page"
+msgstr ""
+
+#: archive.php:17
+msgid "Y"
+msgstr ""
+
+#: archive.php:19
+msgid "Author Archive"
+msgstr "作者存档"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "网志存档"
+
+#: archive.php:26
+#: archive.php:46
+#: index.php:23
+#: search.php:10
+#: search.php:27
+#, fuzzy
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 上一页"
+
+#: archive.php:27
+#: archive.php:47
+#: index.php:24
+#: search.php:11
+#: search.php:28
+#, fuzzy
+msgid "Newer Entries &raquo;"
+msgstr "下一页 &raquo;"
+
+#: archive.php:32
+#: index.php:10
+#: search.php:18
+#, fuzzy, php-format
+msgid "Permanent Link to %s"
+msgstr "永久链接到%1$s"
+
+#: archive.php:33
+#: attachment.php:28
+#: image.php:24
+#: sidebar.php:24
+#: single.php:27
+msgid "l, F jS, Y"
+msgstr ", Y年n月j日"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+#: single.php:19
+#, fuzzy
+msgid "Tags:"
+msgstr "页面："
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+#, fuzzy, php-format
+msgid "Posted in %s"
+msgstr "发表于%1$s"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "Edit"
+msgstr "编辑"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "No Comments &#187;"
+msgstr "没有评论&#187;"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "1 Comment &#187;"
+msgstr "1条评论&#187;"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "% Comments &#187;"
+msgstr "%条评论&#187;"
+
+#: archive.php:52
+#: index.php:29
+msgid "Not Found"
+msgstr "没找到"
+
+#: archives.php:13
+msgid "Archives by Month:"
+msgstr "按月显示存档"
+
+#: archives.php:18
+msgid "Archives by Subject:"
+msgstr "按标题显示存档："
+
+#: attachment.php:14
+#, fuzzy, php-format
+msgid "Permanent Link: %s"
+msgstr "永久链接："
+
+#: attachment.php:18
+#: image.php:12
+#: index.php:14
+#: single.php:16
+msgid "Read the rest of this entry &raquo;"
+msgstr "阅读更多 &raquo;"
+
+#: attachment.php:20
+#: image.php:14
+#: page.php:11
+#: single.php:18
+msgid "Pages:"
+msgstr "页面："
+
+#: attachment.php:28
+#: single.php:27
+#, php-format
+msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+msgstr ""
+
+#: attachment.php:29
+#: image.php:26
+#: single.php:28
+#, fuzzy, php-format
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "本文于%1$s发表在%2$s，位于%3$s。您可以通过<a href=\"%4$s\">RSS 2.0</a>跟踪本文的所有回应。"
+
+#: attachment.php:33
+#: image.php:30
+#: single.php:32
+#, fuzzy, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "您可以<a href=\"#respond\">留下回复</a>或者<a href=\"%1$s\">trackback</a>到您的网站。"
+
+#: attachment.php:37
+#: image.php:34
+#: single.php:36
+#, fuzzy, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "本文不接受回复，但是您仍然可以<a href=\"%1$s\">trackback</a>本文到您的网站。"
+
+#: attachment.php:41
+#: image.php:38
+#: single.php:40
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "您可以跳到最后留下回复，本文暂时不接受Ping。"
+
+#: attachment.php:45
+#: image.php:42
+#: single.php:44
+msgid "Both comments and pings are currently closed."
+msgstr "暂时不接受评论和pings。"
+
+#: attachment.php:47
+#: image.php:44
+#: page.php:16
+#: single.php:46
+msgid "Edit this entry."
+msgstr "编辑本条："
+
+#: attachment.php:59
+#, fuzzy
+msgid "Sorry, no attachments matched your criteria."
+msgstr "抱歉，没有符合条件的文章。"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "该文章已经被密码保护，请输入密码查看评论。"
+
+#: comments.php:23
+msgid "No Responses"
+msgstr "没有回应"
+
+#: comments.php:23
+msgid "One Response"
+msgstr "一条回应"
+
+#: comments.php:23
+msgid "% Responses"
+msgstr "%条回应"
+
+#: comments.php:23
+#, fuzzy, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr "%1$s 到 &#8220; %2$s &#8221;"
+
+#: comments.php:31
+#, php-format
+msgid "<cite>%s</cite> Says:"
+msgstr ""
+
+#: comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审查。"
+
+#: comments.php:37
+#, fuzzy, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s "
+
+#: comments.php:37
+#, fuzzy
+msgid "edit"
+msgstr "编辑"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "不接受评论。"
+
+#: comments.php:67
+msgid "Leave a Reply"
+msgstr "回复"
+
+#: comments.php:70
+#, fuzzy, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须以<a href=\"%1$s\">登录</a>才能发表评论。"
+
+#: comments.php:77
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "已经登录为<a href=\"%1$s\">%2$s</a>。"
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "登出当前用户"
+
+#: comments.php:77
+#, fuzzy
+msgid "Log out &raquo;"
+msgstr "登出 &raquo;"
+
+#: comments.php:82
+#: comments-popup.php:64
+msgid "Name"
+msgstr "名字"
+
+#: comments.php:82
+#: comments.php:85
+#, fuzzy
+msgid "(required)"
+msgstr "名字（必要）"
+
+#: comments.php:85
+msgid "Mail (will not be published)"
+msgstr "电子邮件（不会被公开）"
+
+#: comments.php:88
+msgid "Website"
+msgstr "网址"
+
+#: comments.php:92
+#, fuzzy, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong>您可以使用如下代码：<code>%1$s</code>"
+
+#: comments.php:96
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: comments-popup.php:9
+#, fuzzy, php-format
+msgid "%1$s - Comments on %2$s"
+msgstr "%1$s中的评论"
+
+#: comments-popup.php:22
+msgid "Comments"
+msgstr "评论"
+
+#: comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>方式表示的feed"
+
+#: comments-popup.php:27
+#, fuzzy, php-format
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr "TrackBack本文的<acronym title=\"Uniform Resource Identifier\">地址</acronym>是：<em>%1$s</em>"
+
+#: comments-popup.php:45
+msgid "Comment"
+msgstr "评论"
+
+#: comments-popup.php:45
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments-popup.php:45
+msgid "Pingback"
+msgstr "Pingback"
+
+#: comments-popup.php:45
+#, php-format
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr ""
+
+#: comments-popup.php:51
+msgid "No comments yet."
+msgstr "还没有评论。"
+
+#: comments-popup.php:55
+msgid "Leave a comment"
+msgstr "留下评论"
+
+#: comments-popup.php:56
+#, fuzzy, php-format
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr "自动分行或段，电子邮件也不会显示出来，允许的<acronym title=\"Hypertext Markup Languagege（超文本标记语言）\">HTML</acronym>标签：<code>%1$s</code>"
+
+#: comments-popup.php:60
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments-popup.php:71
+msgid "E-mail"
+msgstr "电子邮件地址"
+
+#: comments-popup.php:76
+#, fuzzy
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "<acronym title=\"Uniform Resource Identifier\">URI</acronym>"
+
+#: comments-popup.php:81
+msgid "Your Comment"
+msgstr "您的评论"
+
+#: comments-popup.php:87
+msgid "Say It!"
+msgstr "发表！"
+
+#: comments-popup.php:92
+msgid "Sorry, the comment form is closed at this time."
+msgstr "抱歉，本评论表单暂时关闭。"
+
+#: comments-popup.php:97
+msgid "Close this window."
+msgstr "关闭窗口。"
+
+#: comments-popup.php:105
+#, fuzzy, php-format
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgstr "基于WordPress，完美的个人信息发布系统。"
+
+#: footer.php:6
+#, php-format
+msgid "%1$s is proudly powered by %2$s"
+msgstr ""
+
+#: footer.php:8
+#, fuzzy, php-format
+msgid "%1$s and %2$s."
+msgstr "%1$s 在 %2$s "
+
+#: footer.php:8
+msgid "Entries (RSS)"
+msgstr ""
+
+#: footer.php:8
+#, fuzzy
+msgid "Comments (RSS)"
+msgstr "评论"
+
+#: footer.php:9
+#, fuzzy, php-format
+msgid "%d queries. %s seconds."
+msgstr "%1$s秒钟。"
+
+#: functions.php:149
+msgid "Customize Header"
+msgstr ""
+
+#: functions.php:149
+#: functions.php:363
+msgid "Header Image and Color"
+msgstr ""
+
+#: functions.php:162
+msgid "Close Color Picker"
+msgstr ""
+
+#: functions.php:359
+msgid "Options saved."
+msgstr ""
+
+#: functions.php:376
+#: functions.php:383
+msgid "Save"
+msgstr ""
+
+#: functions.php:377
+msgid "Font Color:"
+msgstr ""
+
+#: functions.php:377
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr ""
+
+#: functions.php:378
+msgid "Upper Color:"
+msgstr ""
+
+#: functions.php:378
+#: functions.php:379
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr ""
+
+#: functions.php:379
+msgid "Lower Color:"
+msgstr ""
+
+#: functions.php:381
+msgid "Toggle Text"
+msgstr ""
+
+#: functions.php:382
+msgid "Use Defaults"
+msgstr ""
+
+#: functions.php:391
+msgid "Font Color"
+msgstr ""
+
+#: functions.php:392
+msgid "Upper Color"
+msgstr ""
+
+#: functions.php:393
+msgid "Lower Color"
+msgstr ""
+
+#: functions.php:394
+msgid "Revert"
+msgstr ""
+
+#: functions.php:395
+msgid "Advanced"
+msgstr ""
+
+#: functions.php:402
+msgid "Update Header &raquo;"
+msgstr ""
+
+#: functions.php:408
+msgid "Font Color (CSS):"
+msgstr ""
+
+#: functions.php:409
+msgid "Upper Color (HEX):"
+msgstr ""
+
+#: functions.php:410
+msgid "Lower Color (HEX):"
+msgstr ""
+
+#: functions.php:411
+msgid "Select Default Colors"
+msgstr ""
+
+#: functions.php:412
+msgid "Toggle Text Display"
+msgstr ""
+
+#: header.php:9
+msgid "&raquo; Blog Archive"
+msgstr "&raquo; 网志存档"
+
+#: header.php:14
+#, php-format
+msgid "%s RSS Feed"
+msgstr ""
+
+#: image.php:24
+#, php-format
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr ""
+
+#: image.php:57
+#: single.php:58
+msgid "Sorry, no posts matched your criteria."
+msgstr "抱歉，没有符合条件的文章。"
+
+#: index.php:30
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "抱歉，您寻找的内容不存在。"
+
+#: links.php:11
+msgid "Links:"
+msgstr "链接："
+
+#: page.php:9
+msgid "Read the rest of this page &raquo;"
+msgstr "阅读更多 &raquo;"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "搜索"
+
+#: search.php:7
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: search.php:33
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Author"
+msgstr "作者"
+
+#: sidebar.php:21
+#, fuzzy, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "您正在浏览<a href=\"%1$s\">%2$s</a>%3$s年的网志存档。"
+
+#: sidebar.php:24
+#, fuzzy, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgstr "您正在浏览<a href=\"%1$s\">%2$s</a>%3$s年的网志存档。"
+
+#: sidebar.php:27
+#, fuzzy, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgstr "您正在浏览<a href=\"%1$s\">%2$s</a>%3$s的网志存档。"
+
+#: sidebar.php:30
+#, fuzzy, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgstr "您正在浏览<a href=\"%1$s\">%2$s</a>%3$s年的网志存档。"
+
+#: sidebar.php:33
+#, fuzzy, php-format
+msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgstr "您已经在<a href=\"%1$s\">%2$s</a>网志存档中搜索了<strong>&#8216;%3$s\\&#8217;</strong>。如果还找不到任何结果，您可以试试下面的链接。"
+
+#: sidebar.php:36
+#, fuzzy, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgstr "您正在浏览<a href=\"%1$s\">%2$s</a>的网志存档。"
+
+#: sidebar.php:42
+msgid "Pages"
+msgstr "页"
+
+#: sidebar.php:44
+msgid "Archives"
+msgstr "存档"
+
+#: sidebar.php:50
+msgid "Categories"
+msgstr "分类"
+
+#: sidebar.php:55
+msgid "Meta"
+msgstr "功能"
+
+#: sidebar.php:59
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "本页面符合XHTML 1.0标准"
+
+#: sidebar.php:59
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "正确的<abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+
+#: sidebar.php:60
+#, fuzzy
+msgid "XHTML Friends Network"
+msgstr "<abbr title=\"XHTML Friends Network\">XFN</abbr>"
+
+#: sidebar.php:60
+msgid "XFN"
+msgstr ""
+
+#: sidebar.php:61
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "基于WordPress，完美的个人信息发布系统。"
+
+#~ msgid "Archive for %1$s"
+#~ msgstr "%1$s的存档"
+#~ msgid "Please do not load this page directly. Thanks!"
+#~ msgstr "请不要直接调用本页面，谢谢！"
+#~ msgid "%1$s Says:"
+#~ msgstr "%1$s说："
+#~ msgid "g:i a"
+#~ msgstr "g:i a"
+#~ msgid "Mail (will not be published) (required)"
+#~ msgstr "电子邮件（不会被公开）（必要）"
+#~ msgid ""
+#~ "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%1$s"
+#~ "\"><strong>Wordpress</strong></a></cite>"
+#~ msgstr ""
+#~ "<cite>基于<a href=\"http://wordpress.org\" title=\"%1$s"
+#~ "\"><strong>Wordpress</strong></a></cite>"
+#~ msgid ""
+#~ "%1$s is proudly powered by <a href=\"http://wordpress.org\">WordPress</a>"
+#~ msgstr "%1$s自豪基于<a href=\"http://wordpress.org\">WordPress</a>"
+#~ msgid ""
+#~ "<a href=\"feed:%1$s\">Entries (RSS)</a> and <a href=\"feed:%2$s"
+#~ "\">Comments (RSS)</a>."
+#~ msgstr ""
+#~ "<a href=\"feed:%1$s\">文章(RSS)</a> and <a href=\"feed:%2$s\">评论(RSS)</"
+#~ "a>。"
+#~ msgid "%1$s queries."
+#~ msgstr "%1$s条查询。"
+#~ msgid "%1$s by %2$s"
+#~ msgstr "%2$s的%1$s"
+#~ msgid "Posted in"
+#~ msgstr "发表于"
+#~ msgid "number"
+#~ msgstr "号码"
+#~ msgid "Permanent Link to"
+#~ msgstr "永久链接到"
+#~ msgid ""
+#~ "A little something about you, the author. Nothing lengthy, just an "
+#~ "overview."
+#~ msgstr "关于您--本文的作者的简单介绍，不用很详细。"
+
