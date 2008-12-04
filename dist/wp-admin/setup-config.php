@@ -31,20 +31,20 @@ require_once('../wp-includes/functions.php');
 require_once('../wp-includes/classes.php');
 
 if (!file_exists('../wp-config-sample.php'))
-	wp_die('��ʾ��δ�ܼ�⵽ wp-config-sample.php �ļ�����ȷ�ϸ�Ŀ¼���ڴ��ļ��������ϴ���');
+	wp_die('提示！未能检测到 wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
 
 $configFile = file('../wp-config-sample.php');
 
 if ( !is_writable('../'))
-	wp_die("��ʾ��Ŀ¼����д�������Ŀ¼���Ի����ֶ����� wp-config.php��");
+	wp_die("提示！目录不可写。请更改目录属性或者手动创建 wp-config.php。");
 
 // Check if wp-config.php has been created
 if (file_exists('../wp-config.php'))
-	wp_die("<p>'wp-config.php' �ļ��Ѵ��ڡ����������� wp-config.php �����е��趨������ɾ���������򵼻����´��� wp-config.php��<a href='install.php'>����</a>��</p>");
+	wp_die("<p>'wp-config.php' 文件已存在。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。<a href='install.php'>重试</a>。</p>");
 
 // Check if wp-config.php exists above the root directory
 if (file_exists('../../wp-config.php') && ! file_exists('../../wp-load.php'))
-	wp_die("<p>'wp-config.php' �Ѵ����ڸ���һ����Ŀ¼�ڡ����������� wp-config.php �����е��趨������ɾ���������򵼻����´��� wp-config.php�� <a href='install.php'>����</a>��</p>");
+	wp_die("<p>'wp-config.php' 已存在于更高一级的目录内。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。 <a href='install.php'>重试</a>。</p>");
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
@@ -66,7 +66,7 @@ function display_header() {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; ��װ��</title>
+<title>WordPress &rsaquo; 安装向导</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -80,18 +80,18 @@ switch($step) {
 		display_header();
 ?>
 
-<p>W��ӭ���� WordPress �����磡��ʽ��ʼ֮ǰ��������ҪһЩ�������ݿ����Ϣ����ȷ�����Ѿ�ӵ��������Ϣ��</p>
+<p>W欢迎来到 WordPress 的世界！正式开始之前，我们需要一些关于数据库的信息。请确认您已经拥有以下信息：</p>
 <ol>
-	<li>���ݿ�����</li>
-	<li>���ݿ��û���</li>
-	<li>���ݿ�����</li>
-	<li>���ݿ�������ַ</li>
-	<li>���ݱ�ǰ׺���������Ҫ��ͬһ���ݿ��ڰ�װ��� WordPress �Ļ���</li>
+	<li>数据库名称</li>
+	<li>数据库用户名</li>
+	<li>数据库密码</li>
+	<li>数据库主机地址</li>
+	<li>数据表前缀（如果您需要在同一数据库内安装多个 WordPress 的话）</li>
 </ol>
-<p><strong>����޷�������һ�������ż������򵼵�Ŀ�����ڴ��� Wordpress �������ļ���������������ֱ�����ı��༭���� <code>wp-config-sample.php</code>��������ʾ��д��Ӧ��Ϣ��Ȼ�󱣴沢����������Ϊ <code>wp-config.php</code>��</strong></p>
-<p>��������£����Ŀռ��̻��֪���ݿ���й���Ϣ���������̫�����������ϵ���Ŀռ��̡�����Ѿ�׼������ &hellip;</p>
+<p><strong>如果无法进入下一步，别着急。此向导的目的在于创建 Wordpress 的配置文件，所以您还可以直接用文本编辑器打开 <code>wp-config-sample.php</code>，根据提示填写相应信息，然后保存并将它重命名为 <code>wp-config.php</code>。</strong></p>
+<p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间商。如果已经准备好了 &hellip;</p>
 
-<p class="step"><a href="setup-config.php?step=1" class="button">��ô���ڿ�ʼ��</a></p>
+<p class="step"><a href="setup-config.php?step=1" class="button">那么现在开始！</a></p>
 <?php
 	break;
 
@@ -99,35 +99,35 @@ switch($step) {
 		display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p>��Ӧ��������ı����������Ӧ�����ݿ���Ϣ����ȷ������Ŀ����ϵ���Ŀռ���ȷ�ϡ�</p>
+	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间商确认。</p>
 	<table class="form-table">
 		<tr>
-			<th scope="row"><label for="dbname">���ݿ�����</label></th>
+			<th scope="row"><label for="dbname">数据库名称</label></th>
 			<td><input name="dbname" id="dbname" type="text" size="25" value="wordpress" /></td>
-			<td>���ڴ洢 WordPress ���ݵ����ݿ����ơ�</td>
+			<td>用于存储 WordPress 数据的数据库名称。</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="uname">���ݿ��û���</label></th>
+			<th scope="row"><label for="uname">数据库用户名</label></th>
 			<td><input name="uname" id="uname" type="text" size="25" value="username" /></td>
-			<td>���� MySQL �û���</td>
+			<td>您的 MySQL 用户名</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="pwd">���ݿ�����</label></th>
+			<th scope="row"><label for="pwd">数据库密码</label></th>
 			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
-			<td>...�Լ� MySQL ����</td>
+			<td>...以及 MySQL 密码</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="dbhost">���ݿ��ַ</label></th>
+			<th scope="row"><label for="dbhost">数据库地址</label></th>
 			<td><input name="dbhost" id="dbhost" type="text" size="25" value="localhost" /></td>
-			<td>�󲿷����������޸ġ�</td>
+			<td>大部分主机无需修改。</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="prefix">���ݱ�ǰ׺</label></th>
+			<th scope="row"><label for="prefix">数据表前缀</label></th>
 			<td><input name="prefix" id="prefix" type="text" id="prefix" value="wp_" size="25" /></td>
-			<td>�������ͬһ���ݿ��ڰ�װ��� WordPress ����������Ĵ��</td>
+			<td>如果有在同一数据库内安装多个 WordPress 的需求请更改此项。</td>
 		</tr>
 	</table>
-	<p class="step"><input name="submit" type="submit" value="�����" class="button" /></p>
+	<p class="step"><input name="submit" type="submit" value="填好了" class="button" /></p>
 </form>
 <?php
 	break;
@@ -183,9 +183,9 @@ switch($step) {
 
 	display_header();
 ?>
-<p>��ϲ��WordPress �����ݿ�������Ѿ�������׼�����ˣ� ��ʼ &hellip;</p>
+<p>恭喜！WordPress 和数据库的连接已经建立。准备好了？ 开始 &hellip;</p>
 
-<p class="step"><a href="install.php" class="button">��װ��</a></p>
+<p class="step"><a href="install.php" class="button">安装！</a></p>
 <?php
 	break;
 }
