@@ -31,20 +31,20 @@ require_once('../wp-includes/functions.php');
 require_once('../wp-includes/classes.php');
 
 if (!file_exists('../wp-config-sample.php'))
-	wp_die('Sorry, I need a wp-config-sample.php file to work from. Please re-upload this file from your WordPress installation.');
+	wp_die('提示！未能检测到 wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
 
 $configFile = file('../wp-config-sample.php');
 
 if ( !is_writable('../'))
-	wp_die("Sorry, I can't write to the directory. You'll have to either change the permissions on your WordPress directory or create your wp-config.php manually.");
+	wp_die("提示！目录不可写。请更改目录属性或者手动创建 wp-config.php。");
 
 // Check if wp-config.php has been created
 if (file_exists('../wp-config.php'))
-	wp_die("<p>The file 'wp-config.php' already exists. If you need to reset any of the configuration items in this file, please delete it first. You may try <a href='install.php'>installing now</a>.</p>");
+	wp_die("<p>'wp-config.php' 文件已存在。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。<a href='install.php'>重试</a>。</p>");
 
 // Check if wp-config.php exists above the root directory
 if (file_exists('../../wp-config.php') && ! file_exists('../../wp-load.php'))
-	wp_die("<p>The file 'wp-config.php' already exists one level above your WordPress installation. If you need to reset any of the configuration items in this file, please delete it first. You may try <a href='install.php'>installing now</a>.</p>");
+	wp_die("<p>'wp-config.php' 已存在于更高一级的目录内。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。 <a href='install.php'>重试</a>。</p>");
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
@@ -66,7 +66,7 @@ function display_header() {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; Setup Configuration File</title>
+<title>WordPress &rsaquo; 安装向导</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -80,18 +80,18 @@ switch($step) {
 		display_header();
 ?>
 
-<p>Welcome to WordPress. Before getting started, we need some information on the database. You will need to know the following items before proceeding.</p>
+<p>W欢迎来到 WordPress 的世界！正式开始之前，我们需要一些关于数据库的信息。请确认您已经拥有以下信息：</p>
 <ol>
-	<li>Database name</li>
-	<li>Database username</li>
-	<li>Database password</li>
-	<li>Database host</li>
-	<li>Table prefix (if you want to run more than one WordPress in a single database) </li>
+	<li>数据库名称</li>
+	<li>数据库用户名</li>
+	<li>数据库密码</li>
+	<li>数据库主机地址</li>
+	<li>数据表前缀（如果您需要在同一数据库内安装多个 WordPress 的话）</li>
 </ol>
-<p><strong>If for any reason this automatic file creation doesn't work, don't worry. All this does is fill in the database information to a configuration file. You may also simply open <code>wp-config-sample.php</code> in a text editor, fill in your information, and save it as <code>wp-config.php</code>. </strong></p>
-<p>In all likelihood, these items were supplied to you by your Web Host. If you do not have this information, then you will need to contact them before you can continue. If you&#8217;re all ready&hellip;</p>
+<p><strong>如果无法进入下一步，别着急。此向导的目的在于创建 Wordpress 的配置文件，所以您还可以直接用文本编辑器打开 <code>wp-config-sample.php</code>，根据提示填写相应信息，然后保存并将它重命名为 <code>wp-config.php</code>。</strong></p>
+<p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间商。如果已经准备好了 &hellip;</p>
 
-<p class="step"><a href="setup-config.php?step=1" class="button">Let&#8217;s go!</a></p>
+<p class="step"><a href="setup-config.php?step=1" class="button">那么现在开始！</a></p>
 <?php
 	break;
 
@@ -99,35 +99,35 @@ switch($step) {
 		display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p>Below you should enter your database connection details. If you're not sure about these, contact your host. </p>
+	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间商确认。</p>
 	<table class="form-table">
 		<tr>
-			<th scope="row"><label for="dbname">Database Name</label></th>
+			<th scope="row"><label for="dbname">数据库名称</label></th>
 			<td><input name="dbname" id="dbname" type="text" size="25" value="wordpress" /></td>
-			<td>The name of the database you want to run WP in. </td>
+			<td>用于存储 WordPress 数据的数据库名称。</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="uname">User Name</label></th>
+			<th scope="row"><label for="uname">数据库用户名</label></th>
 			<td><input name="uname" id="uname" type="text" size="25" value="username" /></td>
-			<td>Your MySQL username</td>
+			<td>您的 MySQL 用户名</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="pwd">Password</label></th>
+			<th scope="row"><label for="pwd">数据库密码</label></th>
 			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
-			<td>...and MySQL password.</td>
+			<td>...以及 MySQL 密码</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="dbhost">Database Host</label></th>
+			<th scope="row"><label for="dbhost">数据库地址</label></th>
 			<td><input name="dbhost" id="dbhost" type="text" size="25" value="localhost" /></td>
-			<td>99% chance you won't need to change this value.</td>
+			<td>大部分主机无需修改。</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="prefix">Table Prefix</label></th>
+			<th scope="row"><label for="prefix">数据表前缀</label></th>
 			<td><input name="prefix" id="prefix" type="text" id="prefix" value="wp_" size="25" /></td>
-			<td>If you want to run multiple WordPress installations in a single database, change this.</td>
+			<td>如果有在同一数据库内安装多个 WordPress 的需求请更改此项。</td>
 		</tr>
 	</table>
-	<p class="step"><input name="submit" type="submit" value="Submit" class="button" /></p>
+	<p class="step"><input name="submit" type="submit" value="填好了" class="button" /></p>
 </form>
 <?php
 	break;
@@ -183,9 +183,9 @@ switch($step) {
 
 	display_header();
 ?>
-<p>All right sparky! You've made it through this part of the installation. WordPress can now communicate with your database. If you are ready, time now to&hellip;</p>
+<p>恭喜！WordPress 和数据库的连接已经建立。准备好了？ 开始 &hellip;</p>
 
-<p class="step"><a href="install.php" class="button">Run the install</a></p>
+<p class="step"><a href="install.php" class="button">安装！</a></p>
 <?php
 	break;
 }
