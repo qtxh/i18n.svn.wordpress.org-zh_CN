@@ -16,13 +16,13 @@
 
 // ** MySQL设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', '修改这里');
+define('DB_NAME', 'putyourdbnamehere');
 
 /** MySQL数据库用户名 */
-define('DB_USER', '修改这里');
+define('DB_USER', 'usernamehere');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', '修改这里');
+define('DB_PASSWORD', 'yourpasswordhere');
 
 /** MySQL主机名 */
 define('DB_HOST', 'localhost');
@@ -61,7 +61,7 @@ $table_prefix  = 'wp_';
  * 本项设定能够让 WordPress 显示您需要的语言。wp-content/languages 内应放置同名的 .mo 语言文件
  * 要使用 WordPress 简体中文界面，只需填入 zh_CN。
  */
-define ('WPLANG', '');
+define ('WPLANG', 'zh_CN');
 
 /* 设定完毕，请保存该文件。 */
 

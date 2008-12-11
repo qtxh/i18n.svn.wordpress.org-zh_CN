@@ -31,7 +31,7 @@ require_once('../wp-includes/functions.php');
 require_once('../wp-includes/classes.php');
 
 if (!file_exists('../wp-config-sample.php'))
-	wp_die('提示！未能检测到wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
+	wp_die('提示！未能检测到 wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
 
 $configFile = file('../wp-config-sample.php');
 
