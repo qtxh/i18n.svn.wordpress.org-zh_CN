@@ -1515,7 +1515,7 @@ msgstr "允许在这篇文章上评论"
 
 #: wp-admin/edit-form-advanced.php:416
 msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
-msgstr "这篇文章允许<a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks 和 pingbacks</a>"
+msgstr "这篇文章允许 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks 和 pingbacks</a>"
 
 #: wp-admin/edit-form-advanced.php:437
 msgid "Show comments"

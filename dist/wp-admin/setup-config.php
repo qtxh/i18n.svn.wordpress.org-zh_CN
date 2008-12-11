@@ -99,7 +99,7 @@ switch($step) {
 		display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间商确认。</p>
+	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间提供商确认。</p>
 	<table class="form-table">
 		<tr>
 			<th scope="row"><label for="dbname">数据库名称</label></th>
@@ -183,7 +183,7 @@ switch($step) {
 
 	display_header();
 ?>
-<p>恭喜！WordPress 和数据库的连接已经建立。准备好了？ 开始 &hellip;</p>
+<p>恭喜！WordPress和数据库的连接已经建立。准备好了？ 开始 &hellip;</p>
 
 <p class="step"><a href="install.php" class="button">安装！</a></p>
 <?php

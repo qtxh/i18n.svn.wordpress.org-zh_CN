@@ -24,7 +24,7 @@ msgstr "错误 404 - 文件未找到"
 #: archive.php:9
 #, php-format
 msgid "Archive for the &#8216;%s&#8217; Category"
-msgstr "&#8216;%s&#8217; 目录存档"
+msgstr "“%s”目录存档"
 
 #: archive.php:11
 #, php-format
@@ -39,7 +39,7 @@ msgstr "%s 存档"
 #: archive.php:13
 #: index.php:11
 msgid "F jS, Y"
-msgstr "F jS, Y"
+msgstr "Y年m月j号"
 
 #: archive.php:15
 #, php-format
@@ -49,7 +49,7 @@ msgstr "%s 存档"
 #: archive.php:15
 #: sidebar.php:27
 msgid "F, Y"
-msgstr "F, Y"
+msgstr "Y年m月"
 
 #: archive.php:17
 #, php-format
@@ -58,7 +58,7 @@ msgstr "%s 存档"
 
 #: archive.php:17
 msgid "Y"
-msgstr "Y"
+msgstr "Y年"
 
 #: archive.php:19
 msgid "Author Archive"
@@ -82,7 +82,7 @@ msgstr "&laquo; 较老的文章"
 #: search.php:11
 #: search.php:28
 msgid "Newer Entries &raquo;"
-msgstr "较近的文章 &raquo;"
+msgstr "较新的文章 &raquo;"
 
 #: archive.php:32
 #: index.php:10
@@ -96,7 +96,7 @@ msgstr "%s的永久链接"
 #: sidebar.php:24
 #: single.php:27
 msgid "l, F jS, Y"
-msgstr "l, F jS, Y"
+msgstr "Y年m月j号，l"
 
 #: archive.php:39
 #: index.php:17
@@ -116,7 +116,7 @@ msgstr "发布在 %s"
 #: index.php:17
 #: search.php:21
 msgid "Edit"
-msgstr "编辑："
+msgstr "编辑"
 
 #: archive.php:39
 #: index.php:17
@@ -128,7 +128,7 @@ msgstr "没有评论 &#187;"
 #: index.php:17
 #: search.php:21
 msgid "1 Comment &#187;"
-msgstr "1条评论 &#187;"
+msgstr "一条评论 &#187;"
 
 #: archive.php:39
 #: index.php:17
@@ -280,7 +280,7 @@ msgstr "% 条评论"
 #: comments.php:15
 #, php-format
 msgid "to &#8220;%s&#8221;"
-msgstr "&#8220;%s&#8221; 上的"
+msgstr "发表在“%s”上"
 
 #: comments.php:33
 msgid "Comments are closed."
@@ -338,7 +338,7 @@ msgstr "提交评论"
 #: footer.php:6
 #, php-format
 msgid "%1$s is proudly powered by %2$s"
-msgstr "%1$s 由 %2$s 驱动"
+msgstr "%1$s由 %2$s 驱动"
 
 #: footer.php:8
 #, php-format
@@ -485,7 +485,7 @@ msgstr "这个条目发布于 %1$s %2$s 归类在 %3$s。"
 #: single.php:28
 #, php-format
 msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
-msgstr "您可以跟踪这篇文章的评论通过<a href='%s'>RSS 2.0</a> feed。"
+msgstr "您可以跟踪这篇文章的评论通过 <a href='%s'>RSS 2.0</a> feed。"
 
 #: image.php:31
 #: single.php:32
@@ -619,7 +619,7 @@ msgstr "由优雅的个人信息发布平台 WordPress 驱动。"
 #: single.php:27
 #, php-format
 msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
-msgstr "这篇文章发布于 %1$s %2$s %3$s 归类于 %4$s。"
+msgstr "这篇文章发布于%1$s %2$s，%3$s，归类于 %4$s。"
 
 #: single.php:46
 msgid "Edit this entry"
