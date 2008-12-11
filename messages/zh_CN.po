@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.7\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2008-12-03 08:55+0000\n"
+"POT-Creation-Date: 2008-12-11 00:55+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Paveo Chen <j@owind.com>\n"
 "Language-Team:  <wordpress@owind.com>\n"
@@ -52,77 +52,81 @@ msgstr "您没有输入一个标签名。"
 msgid "Tag <a href=\"#%s\">%s</a> added"
 msgstr "标签 <a href=\"#%s\">%s</a> 被添加"
 
-#: wp-admin/admin-ajax.php:521
+#: wp-admin/admin-ajax.php:432
+msgid "No tags found!"
+msgstr "找不到标签！"
+
+#: wp-admin/admin-ajax.php:522
 msgid "Error: you are replying to a comment on a draft post."
 msgstr "错误：您在草稿上回复评论。"
 
-#: wp-admin/admin-ajax.php:536
+#: wp-admin/admin-ajax.php:537
 msgid "Sorry, you must be logged in to reply to a comment."
 msgstr "抱歉，发表回复评论您必须登录。"
 
-#: wp-admin/admin-ajax.php:540
-#: wp-admin/admin-ajax.php:586
+#: wp-admin/admin-ajax.php:541
+#: wp-admin/admin-ajax.php:587
 #: wp-comments-post.php:69
 msgid "Error: please type a comment."
 msgstr "错误：请输入评论内容。"
 
-#: wp-admin/admin-ajax.php:701
+#: wp-admin/admin-ajax.php:702
 #, php-format
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "用户 <a href=\"#%s\">%s</a> 已添加"
 
-#: wp-admin/admin-ajax.php:722
+#: wp-admin/admin-ajax.php:723
 #, php-format
 msgid "Draft Saved at %s."
 msgstr "草稿保存于%s。"
 
-#: wp-admin/admin-ajax.php:722
+#: wp-admin/admin-ajax.php:723
 msgid "g:i:s a"
 msgstr "g:i:s a"
 
-#: wp-admin/admin-ajax.php:743
-#: wp-admin/admin-ajax.php:871
+#: wp-admin/admin-ajax.php:744
+#: wp-admin/admin-ajax.php:872
 msgid "Someone"
 msgstr "某人"
 
-#: wp-admin/admin-ajax.php:745
+#: wp-admin/admin-ajax.php:746
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
 msgstr "自动保存被禁用：%s 当前正在编辑这个页面。"
 
-#: wp-admin/admin-ajax.php:745
+#: wp-admin/admin-ajax.php:746
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
 msgstr "自动保存被禁用：%s 当前正在编辑这篇文章。"
 
-#: wp-admin/admin-ajax.php:754
-#: wp-admin/admin-ajax.php:863
+#: wp-admin/admin-ajax.php:755
+#: wp-admin/admin-ajax.php:864
 #: wp-admin/includes/post.php:143
 #: wp-admin/includes/post.php:1076
-#: wp-admin/page.php:125
+#: wp-admin/page.php:129
 msgid "You are not allowed to edit this page."
 msgstr "您没有修改这个页面的权限。"
 
-#: wp-admin/admin-ajax.php:757
-#: wp-admin/admin-ajax.php:866
+#: wp-admin/admin-ajax.php:758
+#: wp-admin/admin-ajax.php:867
 #: wp-admin/includes/post.php:146
 #: wp-admin/includes/post.php:1079
-#: wp-admin/post.php:162
+#: wp-admin/post.php:166
 #: wp-admin/upload.php:42
 msgid "You are not allowed to edit this post."
 msgstr "您没有修改这篇文章的权限。"
 
-#: wp-admin/admin-ajax.php:872
+#: wp-admin/admin-ajax.php:873
 #, php-format
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "无法保存：%s正在编辑这个页面。"
 
-#: wp-admin/admin-ajax.php:872
+#: wp-admin/admin-ajax.php:873
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "无法保存：%s正在编辑这篇文章。"
 
-#: wp-admin/admin-ajax.php:918
+#: wp-admin/admin-ajax.php:919
 #: wp-admin/admin-post.php:20
 #: wp-admin/categories.php:26
 #: wp-admin/categories.php:41
@@ -132,8 +136,8 @@ msgstr "无法保存：%s正在编辑这篇文章。"
 #: wp-admin/edit-tags.php:42
 #: wp-admin/edit-tags.php:55
 #: wp-admin/edit-tags.php:90
-#: wp-admin/import/opml.php:27
-#: wp-admin/import/opml.php:79
+#: wp-admin/import/opml.php:28
+#: wp-admin/import/opml.php:80
 #: wp-admin/import/wp-cat2tag.php:28
 #: wp-admin/includes/bookmark.php:30
 #: wp-admin/link-category.php:24
@@ -149,8 +153,8 @@ msgstr "无法保存：%s正在编辑这篇文章。"
 msgid "Cheatin&#8217; uh?"
 msgstr "开玩笑，呵？"
 
-#: wp-admin/admin-ajax.php:940
-#: wp-admin/admin-ajax.php:949
+#: wp-admin/admin-ajax.php:941
+#: wp-admin/admin-ajax.php:950
 #: wp-admin/categories.php:129
 #: wp-admin/edit-link-categories.php:59
 msgid "Category not updated."
@@ -164,20 +168,20 @@ msgstr "标签未更新。"
 
 #: wp-admin/admin-ajax.php:999
 #: wp-admin/edit-attachment-rows.php:205
-#: wp-admin/upload.php:372
+#: wp-admin/upload.php:375
 msgid "No posts found."
 msgstr "未找到任何文章。"
 
 #: wp-admin/admin-ajax.php:1001
-#: wp-admin/includes/dashboard.php:318
-#: wp-admin/includes/media.php:934
-#: wp-admin/includes/media.php:1862
-#: wp-admin/includes/media.php:1897
-#: wp-admin/includes/media.php:1932
-#: wp-admin/includes/template.php:732
-#: wp-admin/includes/template.php:963
+#: wp-admin/includes/dashboard.php:322
+#: wp-admin/includes/media.php:943
+#: wp-admin/includes/media.php:1878
+#: wp-admin/includes/media.php:1913
+#: wp-admin/includes/media.php:1948
+#: wp-admin/includes/template.php:736
+#: wp-admin/includes/template.php:968
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3227
+#: wp-includes/post.php:3255
 msgid "Title"
 msgstr "标题"
 
@@ -187,64 +191,64 @@ msgstr "时间"
 
 #: wp-admin/admin-ajax.php:1001
 #: wp-admin/edit-form-comment.php:36
-#: wp-admin/includes/template.php:1124
+#: wp-admin/includes/template.php:1131
 msgid "Status"
 msgstr "状态"
 
 #: wp-admin/admin-ajax.php:1007
-#: wp-admin/edit-form-advanced.php:109
-#: wp-admin/edit-form-advanced.php:130
-#: wp-admin/edit-page-form.php:103
-#: wp-admin/edit-page-form.php:124
+#: wp-admin/edit-form-advanced.php:110
+#: wp-admin/edit-form-advanced.php:131
+#: wp-admin/edit-page-form.php:102
+#: wp-admin/edit-page-form.php:123
 #: wp-admin/includes/post.php:777
-#: wp-admin/includes/template.php:1130
-#: wp-admin/includes/template.php:1352
-#: wp-admin/includes/template.php:1549
+#: wp-admin/includes/template.php:1137
+#: wp-admin/includes/template.php:1363
+#: wp-admin/includes/template.php:1562
 #: wp-includes/post.php:357
 #: wp-includes/post.php:377
-#: wp-includes/script-loader.php:199
-#: wp-includes/script-loader.php:219
+#: wp-includes/script-loader.php:205
+#: wp-includes/script-loader.php:226
 msgid "Published"
 msgstr "已发布"
 
 #: wp-admin/admin-ajax.php:1010
-#: wp-admin/edit-form-advanced.php:112
-#: wp-admin/edit-form-advanced.php:134
-#: wp-admin/edit-page-form.php:106
-#: wp-admin/edit-page-form.php:128
+#: wp-admin/edit-form-advanced.php:113
+#: wp-admin/edit-form-advanced.php:135
+#: wp-admin/edit-page-form.php:105
+#: wp-admin/edit-page-form.php:127
 #: wp-admin/includes/post.php:778
-#: wp-admin/includes/template.php:1131
-#: wp-admin/includes/template.php:1357
+#: wp-admin/includes/template.php:1138
+#: wp-admin/includes/template.php:1368
 msgid "Scheduled"
 msgstr "定时"
 
 #: wp-admin/admin-ajax.php:1013
-#: wp-admin/edit-form-advanced.php:115
-#: wp-admin/edit-form-advanced.php:136
-#: wp-admin/edit-page-form.php:109
-#: wp-admin/edit-page-form.php:130
+#: wp-admin/edit-form-advanced.php:116
+#: wp-admin/edit-form-advanced.php:137
+#: wp-admin/edit-page-form.php:108
+#: wp-admin/edit-page-form.php:129
 #: wp-admin/includes/post.php:779
-#: wp-admin/includes/template.php:1136
+#: wp-admin/includes/template.php:1143
 #: wp-includes/post.php:355
 msgid "Pending Review"
 msgstr "等待复审"
 
 #: wp-admin/admin-ajax.php:1016
 #: wp-admin/edit-attachment-rows.php:130
-#: wp-admin/includes/template.php:1137
-#: wp-admin/includes/template.php:1321
-#: wp-admin/includes/template.php:1530
-#: wp-admin/upload.php:353
+#: wp-admin/includes/template.php:1144
+#: wp-admin/includes/template.php:1332
+#: wp-admin/includes/template.php:1543
+#: wp-admin/upload.php:356
 msgid "Unpublished"
 msgstr "未发布的"
 
 #: wp-admin/admin-ajax.php:1023
 #: wp-admin/edit-attachment-rows.php:141
 #: wp-admin/edit-attachment-rows.php:155
-#: wp-admin/includes/template.php:1341
-#: wp-admin/includes/template.php:1542
-#: wp-admin/includes/template.php:1992
-#: wp-admin/upload.php:364
+#: wp-admin/includes/template.php:1352
+#: wp-admin/includes/template.php:1555
+#: wp-admin/includes/template.php:2005
+#: wp-admin/upload.php:367
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
@@ -260,20 +264,20 @@ msgstr "<a href=\"http://codex.wordpress.org/\">官方文档</a>"
 msgid "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
 msgstr "<a href=\"http://wordpress.org/support/forum/4\">反馈</a>"
 
-#: wp-admin/admin-header.php:97
+#: wp-admin/admin-header.php:104
 msgid "Visit site"
 msgstr "查看站点"
 
-#: wp-admin/admin-header.php:101
+#: wp-admin/admin-header.php:108
 #, php-format
 msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
 msgstr "嗨，<a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
 
-#: wp-admin/admin-header.php:102
+#: wp-admin/admin-header.php:109
 msgid "Turbo"
 msgstr "加速"
 
-#: wp-admin/admin-header.php:103
+#: wp-admin/admin-header.php:110
 msgid "Log Out"
 msgstr "退出"
 
@@ -323,14 +327,14 @@ msgid "You do not have permission to upload files."
 msgstr "您没有上传文件的权限。"
 
 #: wp-admin/categories.php:12
-#: wp-admin/edit-form-advanced.php:314
-#: wp-admin/edit-link-form.php:152
-#: wp-admin/includes/template.php:688
-#: wp-admin/includes/template.php:785
-#: wp-admin/includes/template.php:1023
+#: wp-admin/edit-form-advanced.php:316
+#: wp-admin/edit-link-form.php:150
+#: wp-admin/includes/template.php:692
+#: wp-admin/includes/template.php:789
+#: wp-admin/includes/template.php:1030
 #: wp-admin/menu.php:36
-#: wp-admin/press-this.php:479
-#: wp-includes/category-template.php:467
+#: wp-admin/press-this.php:473
+#: wp-includes/category-template.php:465
 #: wp-includes/widgets.php:1085
 #: wp-includes/widgets.php:1231
 msgid "Categories"
@@ -342,8 +346,6 @@ msgstr "您没有删除这个分类目录的权限。"
 
 #: wp-admin/categories.php:80
 #: wp-admin/edit-category-form.php:43
-#: wp-admin/edit-category-form.php:73
-#: wp-admin/edit-link-category-form.php:20
 #: wp-admin/link-category.php:64
 msgid "Edit Category"
 msgstr "编辑分类目录"
@@ -368,200 +370,210 @@ msgstr "分类目录已更新。"
 msgid "Category not added."
 msgstr "分类目录未被添加。"
 
-#: wp-admin/categories.php:144
-#: wp-admin/categories.php:146
-#: wp-admin/edit-link-categories.php:73
-#: wp-admin/edit-link-categories.php:75
+#: wp-admin/categories.php:136
+#: wp-admin/edit-comments.php:96
+#: wp-admin/edit-link-categories.php:66
+#: wp-admin/edit-pages.php:109
+#: wp-admin/edit-tags.php:135
+#: wp-admin/edit.php:101
+#: wp-admin/link-manager.php:76
+#: wp-admin/upload.php:169
+#: wp-admin/users.php:244
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "搜索 &#8220;%s&#8221; 的结果"
+
+#: wp-admin/categories.php:147
+#: wp-admin/categories.php:149
+#: wp-admin/edit-link-categories.php:76
+#: wp-admin/edit-link-categories.php:78
 msgid "Search Categories"
 msgstr "搜索分类目录"
 
-#: wp-admin/categories.php:168
-#: wp-admin/edit-comments.php:180
-#: wp-admin/edit-link-categories.php:97
-#: wp-admin/edit-pages.php:193
-#: wp-admin/edit-tags.php:165
-#: wp-admin/edit.php:181
-#: wp-admin/includes/media.php:1683
+#: wp-admin/categories.php:171
+#: wp-admin/edit-comments.php:209
+#: wp-admin/edit-link-categories.php:100
+#: wp-admin/edit-pages.php:196
+#: wp-admin/edit-tags.php:168
+#: wp-admin/edit.php:184
+#: wp-admin/includes/media.php:1699
 #: wp-admin/includes/plugin-install.php:274
 #: wp-admin/themes.php:56
-#: wp-admin/upload.php:224
+#: wp-admin/upload.php:227
 msgid "&laquo;"
 msgstr "“"
 
-#: wp-admin/categories.php:169
-#: wp-admin/edit-comments.php:181
-#: wp-admin/edit-link-categories.php:98
-#: wp-admin/edit-pages.php:194
-#: wp-admin/edit-tags.php:166
-#: wp-admin/edit.php:182
-#: wp-admin/includes/media.php:1684
+#: wp-admin/categories.php:172
+#: wp-admin/edit-comments.php:210
+#: wp-admin/edit-link-categories.php:101
+#: wp-admin/edit-pages.php:197
+#: wp-admin/edit-tags.php:169
+#: wp-admin/edit.php:185
+#: wp-admin/includes/media.php:1700
 #: wp-admin/includes/plugin-install.php:275
 #: wp-admin/themes.php:57
-#: wp-admin/upload.php:225
+#: wp-admin/upload.php:228
 msgid "&raquo;"
 msgstr "”"
 
-#: wp-admin/categories.php:180
-#: wp-admin/categories.php:220
-#: wp-admin/edit-comments.php:205
-#: wp-admin/edit-comments.php:291
-#: wp-admin/edit-link-categories.php:109
-#: wp-admin/edit-link-categories.php:163
-#: wp-admin/edit-pages.php:210
-#: wp-admin/edit-pages.php:249
-#: wp-admin/edit-tags.php:177
-#: wp-admin/edit-tags.php:220
-#: wp-admin/edit.php:191
-#: wp-admin/edit.php:271
-#: wp-admin/includes/plugin-install.php:292
-#: wp-admin/includes/plugin-install.php:302
-#: wp-admin/link-manager.php:100
-#: wp-admin/link-manager.php:255
+#: wp-admin/categories.php:183
+#: wp-admin/categories.php:223
+#: wp-admin/edit-comments.php:237
+#: wp-admin/edit-comments.php:323
+#: wp-admin/edit-link-categories.php:112
+#: wp-admin/edit-link-categories.php:166
+#: wp-admin/edit-pages.php:213
+#: wp-admin/edit-pages.php:252
+#: wp-admin/edit-tags.php:180
+#: wp-admin/edit-tags.php:223
+#: wp-admin/edit.php:194
+#: wp-admin/edit.php:274
+#: wp-admin/link-manager.php:103
+#: wp-admin/link-manager.php:258
 #: wp-admin/plugins.php:322
-#: wp-admin/upload.php:241
-#: wp-admin/upload.php:394
-#: wp-admin/users.php:304
-#: wp-admin/users.php:370
-#: wp-includes/post-template.php:1167
-msgid "Actions"
-msgstr "动作"
+#: wp-admin/upload.php:244
+#: wp-admin/upload.php:397
+#: wp-admin/users.php:307
+#: wp-admin/users.php:373
+msgid "Bulk Actions"
+msgstr "批量动作"
 
-#: wp-admin/categories.php:181
-#: wp-admin/categories.php:221
+#: wp-admin/categories.php:184
+#: wp-admin/categories.php:224
 #: wp-admin/edit-attachment-rows.php:85
-#: wp-admin/edit-comments.php:215
-#: wp-admin/edit-comments.php:301
-#: wp-admin/edit-form-advanced.php:225
+#: wp-admin/edit-comments.php:247
+#: wp-admin/edit-comments.php:333
+#: wp-admin/edit-form-advanced.php:227
 #: wp-admin/edit-form-comment.php:71
-#: wp-admin/edit-link-categories.php:110
-#: wp-admin/edit-link-categories.php:164
-#: wp-admin/edit-link-form.php:90
+#: wp-admin/edit-link-categories.php:113
+#: wp-admin/edit-link-categories.php:167
+#: wp-admin/edit-link-form.php:88
 #: wp-admin/edit-page-form.php:214
-#: wp-admin/edit-pages.php:212
-#: wp-admin/edit-pages.php:251
-#: wp-admin/edit-tags.php:178
-#: wp-admin/edit-tags.php:221
-#: wp-admin/edit.php:193
-#: wp-admin/edit.php:273
-#: wp-admin/includes/dashboard.php:452
-#: wp-admin/includes/media.php:1122
+#: wp-admin/edit-pages.php:215
+#: wp-admin/edit-pages.php:254
+#: wp-admin/edit-tags.php:181
+#: wp-admin/edit-tags.php:224
+#: wp-admin/edit.php:196
+#: wp-admin/edit.php:276
+#: wp-admin/includes/dashboard.php:480
+#: wp-admin/includes/media.php:1131
 #: wp-admin/includes/template.php:126
-#: wp-admin/includes/template.php:290
-#: wp-admin/includes/template.php:609
-#: wp-admin/includes/template.php:1376
-#: wp-admin/includes/template.php:1465
-#: wp-admin/includes/template.php:1563
-#: wp-admin/includes/template.php:1799
-#: wp-admin/includes/template.php:2019
-#: wp-admin/includes/template.php:2276
-#: wp-admin/link-manager.php:101
-#: wp-admin/link-manager.php:197
-#: wp-admin/link-manager.php:256
+#: wp-admin/includes/template.php:291
+#: wp-admin/includes/template.php:613
+#: wp-admin/includes/template.php:1387
+#: wp-admin/includes/template.php:1478
+#: wp-admin/includes/template.php:1577
+#: wp-admin/includes/template.php:1816
+#: wp-admin/includes/template.php:2032
+#: wp-admin/includes/template.php:2315
+#: wp-admin/link-manager.php:104
+#: wp-admin/link-manager.php:200
+#: wp-admin/link-manager.php:259
 #: wp-admin/plugins.php:330
-#: wp-admin/upload.php:242
-#: wp-admin/upload.php:339
-#: wp-admin/upload.php:395
-#: wp-admin/users.php:305
-#: wp-admin/users.php:371
+#: wp-admin/upload.php:245
+#: wp-admin/upload.php:342
+#: wp-admin/upload.php:398
+#: wp-admin/users.php:308
+#: wp-admin/users.php:374
 msgid "Delete"
 msgstr "删除"
 
-#: wp-admin/categories.php:183
-#: wp-admin/categories.php:223
-#: wp-admin/edit-comments.php:217
-#: wp-admin/edit-comments.php:303
-#: wp-admin/edit-link-categories.php:112
-#: wp-admin/edit-link-categories.php:166
-#: wp-admin/edit-pages.php:214
-#: wp-admin/edit-pages.php:253
-#: wp-admin/edit-tags.php:180
-#: wp-admin/edit-tags.php:223
-#: wp-admin/edit.php:195
-#: wp-admin/edit.php:275
-#: wp-admin/link-manager.php:103
-#: wp-admin/link-manager.php:258
+#: wp-admin/categories.php:186
+#: wp-admin/categories.php:226
+#: wp-admin/edit-comments.php:249
+#: wp-admin/edit-comments.php:335
+#: wp-admin/edit-link-categories.php:115
+#: wp-admin/edit-link-categories.php:169
+#: wp-admin/edit-pages.php:217
+#: wp-admin/edit-pages.php:256
+#: wp-admin/edit-tags.php:183
+#: wp-admin/edit-tags.php:226
+#: wp-admin/edit.php:198
+#: wp-admin/edit.php:278
+#: wp-admin/link-manager.php:106
+#: wp-admin/link-manager.php:261
 #: wp-admin/plugins.php:333
-#: wp-admin/upload.php:247
-#: wp-admin/upload.php:400
-#: wp-admin/users.php:307
-#: wp-admin/users.php:373
+#: wp-admin/upload.php:250
+#: wp-admin/upload.php:403
+#: wp-admin/users.php:310
+#: wp-admin/users.php:376
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
 msgid "Apply"
 msgstr "应用"
 
-#: wp-admin/categories.php:233
+#: wp-admin/categories.php:236
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>注意：</strong><br />删除分类目录不会把该分类目录下的文章一并删除，取而代之，文章会被归入 <strong>%s</strong> 分类目录。"
 
-#: wp-admin/categories.php:234
+#: wp-admin/categories.php:237
 #, php-format
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
 msgstr "分类目录可以有选择的转换成标签，请使用 <a href=\"%s\">分类目录到标签的转换器</a>。"
 
-#: wp-admin/categories.php:247
-#: wp-admin/categories.php:277
-#: wp-admin/edit-link-categories.php:189
-#: wp-admin/edit-link-categories.php:211
+#: wp-admin/categories.php:250
+#: wp-admin/categories.php:280
+#: wp-admin/edit-link-categories.php:192
+#: wp-admin/edit-link-categories.php:214
 #: wp-admin/edit-link-category-form.php:27
 msgid "Add Category"
 msgstr "添加分类目录"
 
-#: wp-admin/categories.php:254
+#: wp-admin/categories.php:257
 #: wp-admin/edit-category-form.php:51
 msgid "Category Name"
 msgstr "分类目录名"
 
-#: wp-admin/categories.php:256
+#: wp-admin/categories.php:259
 #: wp-admin/edit-category-form.php:53
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
 msgstr "此名称在很多地方用来区分分类目录，比如在文章底部或在分类目录小工具里。"
 
-#: wp-admin/categories.php:260
+#: wp-admin/categories.php:263
 #: wp-admin/edit-category-form.php:56
 msgid "Category Slug"
 msgstr "分类目录别名"
 
-#: wp-admin/categories.php:262
+#: wp-admin/categories.php:265
 #: wp-admin/edit-category-form.php:58
-#: wp-admin/edit-link-categories.php:203
+#: wp-admin/edit-link-categories.php:206
 #: wp-admin/edit-link-category-form.php:71
 #: wp-admin/edit-tag-form.php:34
-#: wp-admin/edit-tags.php:266
+#: wp-admin/edit-tags.php:269
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "&#8220;别名&#8221; 是URL友好的另外一个名称。它通常为小写并且只能包含字母，数字和连字符。"
 
-#: wp-admin/categories.php:266
+#: wp-admin/categories.php:269
 #: wp-admin/edit-category-form.php:61
 msgid "Category Parent"
 msgstr "分类目录上级"
 
-#: wp-admin/categories.php:267
+#: wp-admin/categories.php:270
 #: wp-admin/edit-category-form.php:63
-#: wp-admin/includes/media.php:807
-#: wp-admin/includes/media.php:1811
+#: wp-admin/includes/media.php:816
 #: wp-admin/includes/media.php:1827
+#: wp-admin/includes/media.php:1843
 #: wp-admin/includes/template.php:232
-#: wp-admin/includes/template.php:1812
+#: wp-admin/includes/template.php:1829
 #: wp-includes/deprecated.php:741
 #: wp-includes/js/tinymce/langs/wp-langs.php:424
 msgid "None"
 msgstr "无"
 
-#: wp-admin/categories.php:268
+#: wp-admin/categories.php:271
 #: wp-admin/edit-category-form.php:64
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
 msgstr "分类目录，和标签不同，它可以有层级关系。你可以有一个音乐的分类目录，在这个目录下面你可以创建流行或者古典的子目录。完全自由。"
 
-#: wp-admin/categories.php:272
+#: wp-admin/categories.php:275
 #: wp-admin/edit-category-form.php:68
-#: wp-admin/edit-link-form.php:395
-#: wp-admin/includes/media.php:829
-#: wp-admin/includes/media.php:942
+#: wp-admin/edit-link-form.php:393
+#: wp-admin/includes/media.php:838
+#: wp-admin/includes/media.php:951
 #: wp-admin/includes/plugin-install.php:291
 #: wp-admin/includes/plugin-install.php:301
-#: wp-admin/includes/template.php:798
-#: wp-admin/includes/template.php:808
+#: wp-admin/includes/template.php:802
+#: wp-admin/includes/template.php:812
 #: wp-admin/plugins.php:256
 #: wp-admin/plugins.php:266
 #: wp-admin/press-this.php:145
@@ -570,12 +582,12 @@ msgstr "分类目录，和标签不同，它可以有层级关系。你可以有
 msgid "Description"
 msgstr "描述"
 
-#: wp-admin/categories.php:274
+#: wp-admin/categories.php:277
 #: wp-admin/edit-category-form.php:70
 msgid "The description is not prominent by default, however some themes may show it."
 msgstr "描述不一定会被显示，有的主题会显示它。"
 
-#: wp-admin/categories.php:295
+#: wp-admin/categories.php:298
 msgid ""
 "You are about to delete the selected categories.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -652,28 +664,28 @@ msgid "Are you sure you want to do that?"
 msgstr "您确认要这么做么？"
 
 #: wp-admin/comment.php:93
-#: wp-admin/link-manager.php:173
+#: wp-admin/link-manager.php:176
 msgid "No"
 msgstr "否"
 
 #: wp-admin/comment.php:110
-#: wp-admin/edit-form-advanced.php:428
+#: wp-admin/edit-form-advanced.php:430
 #: wp-admin/edit-form-comment.php:87
-#: wp-admin/edit-pages.php:291
+#: wp-admin/edit-pages.php:294
 #: wp-admin/includes/plugin-install.php:173
-#: wp-admin/includes/template.php:687
-#: wp-admin/includes/template.php:711
-#: wp-admin/includes/template.php:733
-#: wp-admin/includes/template.php:773
-#: wp-admin/includes/template.php:993
+#: wp-admin/includes/template.php:691
+#: wp-admin/includes/template.php:715
+#: wp-admin/includes/template.php:737
+#: wp-admin/includes/template.php:777
+#: wp-admin/includes/template.php:998
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1166
+#: wp-includes/post-template.php:1179
 msgid "Author"
 msgstr "作者"
 
 #: wp-admin/comment.php:115
-#: wp-admin/includes/template.php:827
-#: wp-admin/includes/template.php:2114
+#: wp-admin/includes/template.php:832
+#: wp-admin/includes/template.php:2153
 #: wp-admin/user-edit.php:314
 #: wp-content/themes/classic/comments-popup.php:76
 #: wp-login.php:379
@@ -681,18 +693,18 @@ msgid "E-mail"
 msgstr "电子邮件"
 
 #: wp-admin/comment.php:121
-#: wp-admin/includes/media.php:1925
-#: wp-admin/includes/template.php:784
-#: wp-admin/includes/template.php:2119
-#: wp-admin/includes/template.php:2511
+#: wp-admin/includes/media.php:1941
+#: wp-admin/includes/template.php:788
+#: wp-admin/includes/template.php:2158
+#: wp-admin/includes/template.php:2550
 #: wp-admin/press-this.php:170
 msgid "URL"
 msgstr "URL"
 
 #: wp-admin/comment.php:126
-#: wp-admin/edit-form-advanced.php:429
-#: wp-admin/edit-pages.php:290
-#: wp-admin/includes/template.php:774
+#: wp-admin/edit-form-advanced.php:431
+#: wp-admin/edit-pages.php:293
+#: wp-admin/includes/template.php:778
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
 msgid "Comment|noun"
@@ -703,7 +715,7 @@ msgid "You are not allowed to edit comments on this post, so you cannot disappro
 msgstr "您没有在这篇文章上编辑评论的权限，所以没有驳回评论的权限。"
 
 #: wp-admin/comment.php:233
-#: wp-admin/includes/media.php:1474
+#: wp-admin/includes/media.php:1490
 msgid "Unknown action."
 msgstr "未知操作。"
 
@@ -741,9 +753,7 @@ msgid "Use Original Color"
 msgstr "使用默认颜色"
 
 #: wp-admin/custom-header.php:282
-#: wp-admin/edit-link-form.php:11
 #: wp-admin/import/blogger.php:660
-#: wp-admin/media.php:96
 #: wp-admin/options-discussion.php:223
 #: wp-admin/options-general.php:211
 #: wp-admin/options-media.php:68
@@ -753,7 +763,7 @@ msgstr "使用默认颜色"
 #: wp-admin/options-reading.php:83
 #: wp-admin/options-writing.php:130
 #: wp-admin/options.php:133
-#: wp-admin/widgets.php:309
+#: wp-admin/widgets.php:310
 msgid "Save Changes"
 msgstr "保存更改"
 
@@ -775,8 +785,8 @@ msgid "Choose an image from your computer:"
 msgstr "从您的电脑里选择一个图像："
 
 #: wp-admin/custom-header.php:296
-#: wp-admin/includes/media.php:1297
-#: wp-admin/includes/template.php:3126
+#: wp-admin/includes/media.php:1313
+#: wp-admin/includes/template.php:3165
 msgid "Upload"
 msgstr "上传"
 
@@ -811,59 +821,59 @@ msgstr "查看您的站点已启用了新的顶部图像。"
 #: wp-admin/edit-attachment-rows.php:65
 #: wp-admin/edit-attachment-rows.php:77
 #: wp-admin/edit-attachment-rows.php:185
-#: wp-admin/includes/dashboard.php:377
+#: wp-admin/includes/dashboard.php:385
 #: wp-admin/includes/template.php:121
-#: wp-admin/includes/template.php:285
-#: wp-admin/includes/template.php:605
-#: wp-admin/includes/template.php:1367
-#: wp-admin/includes/template.php:1558
-#: wp-admin/link-manager.php:194
-#: wp-admin/upload.php:327
+#: wp-admin/includes/template.php:286
+#: wp-admin/includes/template.php:609
+#: wp-admin/includes/template.php:1378
+#: wp-admin/includes/template.php:1571
+#: wp-admin/link-manager.php:197
 #: wp-admin/upload.php:330
+#: wp-admin/upload.php:333
 #, php-format
 msgid "Edit \"%s\""
 msgstr "编辑 \"%s\""
 
 #: wp-admin/edit-attachment-rows.php:83
 #: wp-admin/edit-attachment-rows.php:185
-#: wp-admin/edit-form-advanced.php:124
-#: wp-admin/edit-form-advanced.php:163
-#: wp-admin/edit-form-advanced.php:211
+#: wp-admin/edit-form-advanced.php:125
+#: wp-admin/edit-form-advanced.php:165
+#: wp-admin/edit-form-advanced.php:213
 #: wp-admin/edit-form-comment.php:62
-#: wp-admin/edit-page-form.php:118
+#: wp-admin/edit-page-form.php:117
 #: wp-admin/edit-page-form.php:155
 #: wp-admin/edit-page-form.php:200
-#: wp-admin/edit-pages.php:211
-#: wp-admin/edit-pages.php:250
-#: wp-admin/edit.php:192
-#: wp-admin/edit.php:272
-#: wp-admin/includes/dashboard.php:448
+#: wp-admin/edit-pages.php:214
+#: wp-admin/edit-pages.php:253
+#: wp-admin/edit.php:195
+#: wp-admin/edit.php:275
+#: wp-admin/includes/dashboard.php:476
 #: wp-admin/includes/post.php:965
 #: wp-admin/includes/template.php:123
-#: wp-admin/includes/template.php:287
-#: wp-admin/includes/template.php:607
-#: wp-admin/includes/template.php:1374
-#: wp-admin/includes/template.php:1459
-#: wp-admin/includes/template.php:1561
-#: wp-admin/includes/template.php:1797
-#: wp-admin/includes/template.php:2020
+#: wp-admin/includes/template.php:288
+#: wp-admin/includes/template.php:611
+#: wp-admin/includes/template.php:1385
+#: wp-admin/includes/template.php:1472
+#: wp-admin/includes/template.php:1575
+#: wp-admin/includes/template.php:1814
+#: wp-admin/includes/template.php:2033
 #: wp-admin/includes/widgets.php:132
 #: wp-admin/includes/widgets.php:284
-#: wp-admin/link-manager.php:196
+#: wp-admin/link-manager.php:199
 #: wp-admin/menu.php:33
 #: wp-admin/menu.php:43
 #: wp-admin/menu.php:48
 #: wp-admin/plugins.php:288
-#: wp-admin/upload.php:337
-#: wp-includes/script-loader.php:183
-#: wp-includes/script-loader.php:204
-#: wp-includes/script-loader.php:225
-#: wp-includes/script-loader.php:234
+#: wp-admin/upload.php:340
+#: wp-includes/script-loader.php:189
+#: wp-includes/script-loader.php:211
+#: wp-includes/script-loader.php:233
+#: wp-includes/script-loader.php:243
 msgid "Edit"
 msgstr "编辑"
 
 #: wp-admin/edit-attachment-rows.php:85
-#: wp-admin/upload.php:339
+#: wp-admin/upload.php:342
 #, php-format
 msgid ""
 "You are about to delete this attachment '%s'\n"
@@ -873,75 +883,79 @@ msgstr ""
 "您确定么？"
 
 #: wp-admin/edit-attachment-rows.php:86
-#: wp-admin/includes/template.php:1381
-#: wp-admin/includes/template.php:1567
-#: wp-admin/upload.php:340
+#: wp-admin/includes/template.php:1393
+#: wp-admin/includes/template.php:1583
+#: wp-admin/upload.php:343
 #, php-format
 msgid "View \"%s\""
 msgstr "查看 \"%s\""
 
 #: wp-admin/edit-attachment-rows.php:86
-#: wp-admin/includes/template.php:1381
-#: wp-admin/includes/template.php:1453
-#: wp-admin/includes/template.php:1567
-#: wp-admin/upload.php:340
+#: wp-admin/includes/template.php:1393
+#: wp-admin/includes/template.php:1466
+#: wp-admin/includes/template.php:1583
+#: wp-admin/upload.php:343
 msgid "View"
 msgstr "查看"
 
 #: wp-admin/edit-attachment-rows.php:116
-#: wp-admin/includes/template.php:1424
+#: wp-admin/includes/template.php:1437
 msgid "No Tags"
 msgstr "没有标签"
 
 # D:\WWW\wp21\nightly\wordpress/wp-admin/options-general.php:63
 #: wp-admin/edit-attachment-rows.php:132
-#: wp-admin/includes/dashboard.php:377
-#: wp-admin/includes/template.php:1323
-#: wp-admin/includes/template.php:1532
-#: wp-admin/upload.php:355
+#: wp-admin/includes/dashboard.php:385
+#: wp-admin/includes/template.php:1334
+#: wp-admin/includes/template.php:1545
+#: wp-admin/upload.php:358
 msgid "Y/m/d g:i:s A"
 msgstr "Y/m/d g:i:s A"
 
 #: wp-admin/edit-attachment-rows.php:137
-#: wp-admin/includes/template.php:1331
-#: wp-admin/includes/template.php:1538
-#: wp-admin/upload.php:360
+#: wp-admin/includes/template.php:1342
+#: wp-admin/includes/template.php:1551
+#: wp-admin/upload.php:363
 #, php-format
 msgid "%s from now"
 msgstr "%s 后"
 
 #: wp-admin/edit-attachment-rows.php:139
 #: wp-admin/includes/plugin-install.php:482
-#: wp-admin/includes/template.php:1339
-#: wp-admin/includes/template.php:1540
-#: wp-admin/includes/template.php:1961
-#: wp-admin/upload.php:362
+#: wp-admin/includes/template.php:1350
+#: wp-admin/includes/template.php:1553
+#: wp-admin/includes/template.php:1974
+#: wp-admin/upload.php:365
 #, php-format
 msgid "%s ago"
 msgstr "%s 前"
 
 #: wp-admin/edit-attachment-rows.php:171
-#: wp-admin/includes/template.php:1434
-#: wp-admin/includes/template.php:1588
+#: wp-admin/includes/template.php:1447
+#: wp-admin/includes/template.php:1605
+#: wp-admin/includes/template.php:2098
 #, php-format
 msgid "%s pending"
 msgstr "%s 待审中"
 
 #: wp-admin/edit-attachment-rows.php:174
-#: wp-admin/includes/template.php:1437
-#: wp-admin/includes/template.php:1591
+#: wp-admin/includes/template.php:1450
+#: wp-admin/includes/template.php:1608
+#: wp-admin/includes/template.php:2101
 msgid "0"
 msgstr "0"
 
 #: wp-admin/edit-attachment-rows.php:174
-#: wp-admin/includes/template.php:1437
-#: wp-admin/includes/template.php:1591
+#: wp-admin/includes/template.php:1450
+#: wp-admin/includes/template.php:1608
+#: wp-admin/includes/template.php:2101
 msgid "1"
 msgstr "1"
 
 #: wp-admin/edit-attachment-rows.php:174
-#: wp-admin/includes/template.php:1437
-#: wp-admin/includes/template.php:1591
+#: wp-admin/includes/template.php:1450
+#: wp-admin/includes/template.php:1608
+#: wp-admin/includes/template.php:2101
 msgid "%"
 msgstr "%"
 
@@ -949,135 +963,142 @@ msgstr "%"
 msgid "Get permalink"
 msgstr "获取固定链接"
 
-#: wp-admin/edit-comments.php:72
+#: wp-admin/edit-category-form.php:73
+#: wp-admin/edit-link-category-form.php:20
+#: wp-admin/includes/template.php:253
+msgid "Update Category"
+msgstr "更新分类目录"
+
+#: wp-admin/edit-comments.php:77
 #, php-format
 msgid "Edit Comments on &#8220;%s&#8221;"
 msgstr "编辑 &#8220;%s&#8221; 上评论"
 
-#: wp-admin/edit-comments.php:74
+#: wp-admin/edit-comments.php:79
 msgid "Edit Comments"
 msgstr "编辑评论"
 
-#: wp-admin/edit-comments.php:101
+#: wp-admin/edit-comments.php:109
 #, php-format
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
 msgstr[0] "已获准 %s 条评论"
 
-#: wp-admin/edit-comments.php:106
+#: wp-admin/edit-comments.php:114
 #, php-format
 msgid "%s comment deleted"
 msgid_plural "%s comments deleted"
 msgstr[0] "已删除 %s 条评论"
 
-#: wp-admin/edit-comments.php:111
+#: wp-admin/edit-comments.php:119
 #, php-format
 msgid "%s comment marked as spam"
 msgid_plural "%s comments marked as spam"
 msgstr[0] "已标记 %s 条为垃圾评论"
 
-#: wp-admin/edit-comments.php:128
+#: wp-admin/edit-comments.php:136
+#: wp-content/plugins/akismet/akismet.php:544
+msgid "All"
+msgid_plural "All"
+msgstr[0] "全部"
+
+#: wp-admin/edit-comments.php:137
 #, php-format
 msgid "Pending (<span class=\"pending-count\">%s</span>)"
 msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
 msgstr[0] "待审 (<span class=\"pending-count\">%s</span>)"
 
-#: wp-admin/edit-comments.php:129
+#: wp-admin/edit-comments.php:138
 #: wp-admin/includes/dashboard.php:228
 #: wp-includes/comment.php:255
 msgid "Approved"
 msgid_plural "Approved"
 msgstr[0] "获准"
 
-#: wp-admin/edit-comments.php:130
+#: wp-admin/edit-comments.php:139
 #, php-format
 msgid "Spam (<span class=\"spam-count\">%s</span>)"
 msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
 msgstr[0] "垃圾评论 (<span class=\"spam-count\">%s</span>)"
 
-#: wp-admin/edit-comments.php:133
-#: wp-content/plugins/akismet/akismet.php:544
-msgid "All"
-msgstr "全部"
-
-#: wp-admin/edit-comments.php:157
-#: wp-admin/edit-comments.php:159
+#: wp-admin/edit-comments.php:176
+#: wp-admin/edit-comments.php:178
 msgid "Search Comments"
 msgstr "搜索评论"
 
-#: wp-admin/edit-comments.php:195
-#: wp-admin/edit-pages.php:200
-#: wp-admin/edit.php:242
+#: wp-admin/edit-comments.php:227
+#: wp-admin/edit-pages.php:203
+#: wp-admin/edit.php:245
 #: wp-admin/includes/user.php:669
 #: wp-admin/themes.php:130
-#: wp-admin/upload.php:231
+#: wp-admin/upload.php:234
 #, php-format
 msgid "Displaying %s&#8211;%s of %s"
 msgstr "显示 %s&#8211;%s 共 %s"
 
-#: wp-admin/edit-comments.php:207
-#: wp-admin/edit-comments.php:293
-#: wp-admin/includes/dashboard.php:447
-#: wp-admin/includes/template.php:2007
-#: wp-admin/includes/template.php:2010
+#: wp-admin/edit-comments.php:239
+#: wp-admin/edit-comments.php:325
+#: wp-admin/includes/dashboard.php:475
+#: wp-admin/includes/template.php:2020
+#: wp-admin/includes/template.php:2023
 msgid "Unapprove"
 msgstr "驳回"
 
-#: wp-admin/edit-comments.php:210
-#: wp-admin/edit-comments.php:296
-#: wp-admin/includes/dashboard.php:446
-#: wp-admin/includes/template.php:2006
-#: wp-admin/includes/template.php:2013
+#: wp-admin/edit-comments.php:242
+#: wp-admin/edit-comments.php:328
+#: wp-admin/includes/dashboard.php:474
+#: wp-admin/includes/template.php:2019
+#: wp-admin/includes/template.php:2026
 msgid "Approve"
 msgstr "获准"
 
-#: wp-admin/edit-comments.php:213
-#: wp-admin/edit-comments.php:299
+#: wp-admin/edit-comments.php:245
+#: wp-admin/edit-comments.php:331
 msgid "Mark as Spam"
 msgstr "标记为垃圾"
 
-#: wp-admin/edit-comments.php:222
+#: wp-admin/edit-comments.php:254
 msgid "Show all comment types"
 msgstr "显示所有评论类型"
 
-#: wp-admin/edit-comments.php:225
+#: wp-admin/edit-comments.php:257
 #: wp-admin/import/blogger.php:205
 #: wp-admin/includes/file.php:14
-#: wp-admin/includes/template.php:1087
-#: wp-admin/includes/template.php:2958
-#: wp-admin/includes/template.php:3127
+#: wp-admin/includes/template.php:1094
+#: wp-admin/includes/template.php:2997
+#: wp-admin/includes/template.php:3166
 #: wp-content/plugins/akismet/akismet.php:549
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "评论"
 
-#: wp-admin/edit-comments.php:226
-#: wp-admin/includes/template.php:1096
+#: wp-admin/edit-comments.php:258
+#: wp-admin/includes/template.php:1103
 msgid "Pings"
 msgstr "通告"
 
-#: wp-admin/edit-comments.php:236
-#: wp-admin/edit.php:236
-#: wp-admin/link-manager.php:124
-#: wp-admin/upload.php:280
+#: wp-admin/edit-comments.php:268
+#: wp-admin/edit.php:239
+#: wp-admin/link-manager.php:127
+#: wp-admin/upload.php:283
 msgid "Filter"
 msgstr "过滤"
 
-#: wp-admin/edit-comments.php:244
-#: wp-admin/edit-comments.php:306
+#: wp-admin/edit-comments.php:276
+#: wp-admin/edit-comments.php:338
 msgid "Delete All Spam"
 msgstr "删除全部垃圾评论"
 
-#: wp-admin/edit-comments.php:327
+#: wp-admin/edit-comments.php:361
 msgid "No comments awaiting moderation&hellip; yet."
 msgstr "目前还没有等待审核的评论。"
 
-#: wp-admin/edit-comments.php:331
+#: wp-admin/edit-comments.php:365
 #: wp-content/plugins/akismet/akismet.php:675
 msgid "No results found."
 msgstr "未找到"
 
-#: wp-admin/edit-comments.php:343
+#: wp-admin/edit-comments.php:377
 msgid ""
 "You are about to delete the selected comments.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1114,205 +1135,207 @@ msgstr "文章已发布。<a href=\"%s\">查看文章</a>"
 msgid "Post saved."
 msgstr "文章已保存。"
 
-#: wp-admin/edit-form-advanced.php:30
+#: wp-admin/edit-form-advanced.php:28
+#, php-format
+msgid "Post submitted. <a href=\"%s\">Preview post</a>"
+msgstr "文章已提交。<a href=\"%s\">预览文章</a>"
+
+#: wp-admin/edit-form-advanced.php:31
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr "文章从修订版本 %s 还原"
 
-#: wp-admin/edit-form-advanced.php:33
+#: wp-admin/edit-form-advanced.php:34
 #, php-format
 msgid "There is an autosave of this post that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
 msgstr "这篇文章有一个比下面的修订版本更新的自动保存版本。<a href=\"%s\">查看自动保存</a>。"
 
-#: wp-admin/edit-form-advanced.php:77
-#: wp-admin/edit-link-form.php:65
-#: wp-admin/edit-link-form.php:108
-#: wp-admin/edit-page-form.php:71
-#: wp-admin/includes/template.php:253
-#: wp-admin/includes/template.php:1180
-#: wp-admin/includes/template.php:1183
-#: wp-admin/includes/template.php:2130
+#: wp-admin/edit-form-advanced.php:78
+#: wp-admin/edit-link-form.php:63
+#: wp-admin/edit-link-form.php:106
+#: wp-admin/edit-page-form.php:70
 #: wp-content/themes/default/functions.php:380
 #: wp-content/themes/default/functions.php:387
 #: wp-includes/js/tinymce/langs/wp-langs.php:76
-#: wp-includes/script-loader.php:173
+#: wp-includes/script-loader.php:178
 msgid "Save"
 msgstr "保存"
 
-#: wp-admin/edit-form-advanced.php:83
-#: wp-admin/edit-page-form.php:77
-#: wp-admin/includes/dashboard.php:341
-#: wp-admin/press-this.php:516
-#: wp-includes/script-loader.php:193
-#: wp-includes/script-loader.php:214
+#: wp-admin/edit-form-advanced.php:84
+#: wp-admin/edit-page-form.php:76
+#: wp-admin/includes/dashboard.php:349
+#: wp-admin/press-this.php:510
+#: wp-includes/script-loader.php:199
+#: wp-includes/script-loader.php:221
 msgid "Save Draft"
 msgstr "保存草稿"
 
-#: wp-admin/edit-form-advanced.php:85
-#: wp-admin/edit-page-form.php:79
-#: wp-includes/script-loader.php:192
-#: wp-includes/script-loader.php:213
+#: wp-admin/edit-form-advanced.php:86
+#: wp-admin/edit-page-form.php:78
+#: wp-includes/script-loader.php:198
+#: wp-includes/script-loader.php:220
 msgid "Save as Pending"
 msgstr "保存为待审"
 
-#: wp-admin/edit-form-advanced.php:92
-#: wp-admin/edit-page-form.php:86
-#: wp-admin/includes/template.php:1379
-#: wp-admin/includes/template.php:1565
+#: wp-admin/edit-form-advanced.php:93
+#: wp-admin/edit-page-form.php:85
+#: wp-admin/includes/template.php:1391
+#: wp-admin/includes/template.php:1581
 #: wp-admin/themes.php:192
 #: wp-includes/js/tinymce/langs/wp-langs.php:62
 #: wp-includes/js/tinymce/langs/wp-langs.php:308
 msgid "Preview"
 msgstr "预览"
 
-#: wp-admin/edit-form-advanced.php:101
-#: wp-admin/edit-page-form.php:95
+#: wp-admin/edit-form-advanced.php:102
+#: wp-admin/edit-page-form.php:94
 msgid "Status:"
 msgstr "状态："
 
-#: wp-admin/edit-form-advanced.php:106
-#: wp-admin/edit-form-advanced.php:132
-#: wp-admin/edit-page-form.php:100
-#: wp-admin/edit-page-form.php:126
-#: wp-includes/script-loader.php:198
-#: wp-includes/script-loader.php:218
+#: wp-admin/edit-form-advanced.php:107
+#: wp-admin/edit-form-advanced.php:133
+#: wp-admin/edit-page-form.php:99
+#: wp-admin/edit-page-form.php:125
+#: wp-includes/script-loader.php:204
+#: wp-includes/script-loader.php:225
 msgid "Privately Published"
 msgstr "私有发布"
 
-#: wp-admin/edit-form-advanced.php:118
-#: wp-admin/edit-form-advanced.php:137
-#: wp-admin/edit-page-form.php:112
-#: wp-admin/edit-page-form.php:131
+#: wp-admin/edit-form-advanced.php:119
+#: wp-admin/edit-form-advanced.php:138
+#: wp-admin/edit-page-form.php:111
+#: wp-admin/edit-page-form.php:130
 #: wp-admin/includes/post.php:780
-#: wp-admin/includes/template.php:3248
+#: wp-admin/includes/template.php:3287
 #: wp-includes/post.php:354
 #: wp-includes/post.php:375
 msgid "Draft"
 msgstr "草稿"
 
-#: wp-admin/edit-form-advanced.php:139
-#: wp-admin/edit-form-advanced.php:178
-#: wp-admin/edit-page-form.php:134
+#: wp-admin/edit-form-advanced.php:140
+#: wp-admin/edit-form-advanced.php:180
+#: wp-admin/edit-page-form.php:133
 #: wp-admin/edit-page-form.php:168
-#: wp-admin/includes/template.php:2414
+#: wp-admin/includes/template.php:2453
 msgid "OK"
 msgstr "好"
 
-#: wp-admin/edit-form-advanced.php:140
-#: wp-admin/edit-form-advanced.php:179
-#: wp-admin/edit-page-form.php:135
+#: wp-admin/edit-form-advanced.php:141
+#: wp-admin/edit-form-advanced.php:181
+#: wp-admin/edit-page-form.php:134
 #: wp-admin/edit-page-form.php:169
 #: wp-admin/includes/dashboard.php:118
-#: wp-admin/includes/dashboard.php:342
-#: wp-admin/includes/media.php:1126
-#: wp-admin/includes/media.php:1297
+#: wp-admin/includes/dashboard.php:350
+#: wp-admin/includes/media.php:1135
+#: wp-admin/includes/media.php:1313
 #: wp-admin/includes/template.php:252
-#: wp-admin/includes/template.php:1177
-#: wp-admin/includes/template.php:2128
-#: wp-admin/includes/template.php:2329
-#: wp-admin/includes/template.php:2415
+#: wp-admin/includes/template.php:1184
+#: wp-admin/includes/template.php:2167
+#: wp-admin/includes/template.php:2368
+#: wp-admin/includes/template.php:2454
 #: wp-admin/includes/widgets.php:280
 #: wp-admin/press-this.php:131
 #: wp-admin/press-this.php:155
 #: wp-admin/press-this.php:185
-#: wp-admin/press-this.php:313
+#: wp-admin/press-this.php:308
 #: wp-includes/js/tinymce/langs/wp-langs.php:30
-#: wp-includes/script-loader.php:174
-#: wp-includes/script-loader.php:182
-#: wp-includes/script-loader.php:203
-#: wp-includes/script-loader.php:224
-#: wp-includes/script-loader.php:235
+#: wp-includes/script-loader.php:179
+#: wp-includes/script-loader.php:188
+#: wp-includes/script-loader.php:210
+#: wp-includes/script-loader.php:232
+#: wp-includes/script-loader.php:244
 msgid "Cancel"
 msgstr "取消"
 
-#: wp-admin/edit-form-advanced.php:147
-#: wp-admin/edit-page-form.php:142
+#: wp-admin/edit-form-advanced.php:148
+#: wp-admin/edit-page-form.php:141
 msgid "Visibility:"
 msgstr "公开度："
 
-#: wp-admin/edit-form-advanced.php:151
-#: wp-admin/edit-form-advanced.php:173
+#: wp-admin/edit-form-advanced.php:153
+#: wp-admin/edit-form-advanced.php:177
 #: wp-admin/edit-page-form.php:146
-#: wp-admin/edit-page-form.php:163
-msgid "Password protected"
-msgstr "密码保护"
-
-#: wp-admin/edit-form-advanced.php:154
-#: wp-admin/edit-form-advanced.php:175
-#: wp-admin/edit-page-form.php:149
 #: wp-admin/edit-page-form.php:165
 #: wp-admin/includes/post.php:781
-#: wp-admin/includes/template.php:1133
-#: wp-admin/includes/template.php:3246
+#: wp-admin/includes/template.php:1140
+#: wp-admin/includes/template.php:3285
 #: wp-includes/post.php:356
 #: wp-includes/post.php:376
-#: wp-includes/script-loader.php:194
-#: wp-includes/script-loader.php:215
+#: wp-includes/script-loader.php:200
+#: wp-includes/script-loader.php:222
 msgid "Private"
 msgstr "私人的"
 
-#: wp-admin/edit-form-advanced.php:157
-#: wp-includes/script-loader.php:196
+#: wp-admin/edit-form-advanced.php:156
+#: wp-admin/edit-form-advanced.php:175
+#: wp-admin/edit-page-form.php:149
+#: wp-admin/edit-page-form.php:163
+#: wp-admin/includes/template.php:3283
+msgid "Password protected"
+msgstr "密码保护"
+
+#: wp-admin/edit-form-advanced.php:159
+#: wp-includes/script-loader.php:202
 msgid "Public, Sticky"
 msgstr "公开，置顶"
 
-#: wp-admin/edit-form-advanced.php:160
-#: wp-admin/edit-form-advanced.php:171
+#: wp-admin/edit-form-advanced.php:162
+#: wp-admin/edit-form-advanced.php:173
 #: wp-admin/edit-page-form.php:152
 #: wp-admin/edit-page-form.php:162
-#: wp-includes/script-loader.php:195
-#: wp-includes/script-loader.php:216
+#: wp-includes/script-loader.php:201
+#: wp-includes/script-loader.php:223
 msgid "Public"
 msgstr "发布"
 
-#: wp-admin/edit-form-advanced.php:172
+#: wp-admin/edit-form-advanced.php:174
 msgid "Stick this post to the front page"
 msgstr "置顶这篇文章到首页"
 
-#: wp-admin/edit-form-advanced.php:174
+#: wp-admin/edit-form-advanced.php:176
 #: wp-admin/edit-page-form.php:164
-#: wp-includes/post-template.php:972
+#: wp-includes/post-template.php:985
 msgid "Password:"
 msgstr "密码："
 
-#: wp-admin/edit-form-advanced.php:188
+#: wp-admin/edit-form-advanced.php:190
 #: wp-admin/edit-form-comment.php:58
 #: wp-admin/edit-page-form.php:177
 msgid "M j, Y @ G:i|Publish box date format"
 msgstr "M j, Y @ G:i|Publish box date format"
 
-#: wp-admin/edit-form-advanced.php:191
+#: wp-admin/edit-form-advanced.php:193
 #: wp-admin/edit-page-form.php:180
 #, php-format
 msgid "Scheduled for: <b>%1$s</b>"
 msgstr "计划发布：<b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:193
+#: wp-admin/edit-form-advanced.php:195
 #: wp-admin/edit-page-form.php:182
 #, php-format
 msgid "Published on: <b>%1$s</b>"
 msgstr "发布于：<b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:195
-#: wp-admin/edit-form-advanced.php:203
+#: wp-admin/edit-form-advanced.php:197
+#: wp-admin/edit-form-advanced.php:205
 #: wp-admin/edit-page-form.php:184
 #: wp-admin/edit-page-form.php:192
 msgid "Publish <b>immediately</b>"
 msgstr "<b>立即<b>发布"
 
-#: wp-admin/edit-form-advanced.php:197
+#: wp-admin/edit-form-advanced.php:199
 #: wp-admin/edit-page-form.php:186
 #, php-format
 msgid "Schedule for: <b>%1$s</b>"
 msgstr "计划任务：<b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:199
+#: wp-admin/edit-form-advanced.php:201
 #: wp-admin/edit-page-form.php:188
 #, php-format
 msgid "Publish on: <b>%1$s</b>"
 msgstr "发布：<b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:225
+#: wp-admin/edit-form-advanced.php:227
 #: wp-admin/edit-page-form.php:214
 #, php-format
 msgid ""
@@ -1322,7 +1345,7 @@ msgstr ""
 "您将删除此草稿 “%s”，\n"
 "您确定么？"
 
-#: wp-admin/edit-form-advanced.php:225
+#: wp-admin/edit-form-advanced.php:227
 #, php-format
 msgid ""
 "You are about to delete this post '%s'\n"
@@ -1331,201 +1354,202 @@ msgstr ""
 "您将删除文章 “%s”，\n"
 "您确定么？"
 
-#: wp-admin/edit-form-advanced.php:234
-#: wp-admin/edit-form-advanced.php:235
+#: wp-admin/edit-form-advanced.php:236
+#: wp-admin/edit-form-advanced.php:237
 #: wp-admin/edit-page-form.php:223
 #: wp-admin/edit-page-form.php:224
-#: wp-includes/script-loader.php:190
-#: wp-includes/script-loader.php:211
+#: wp-includes/script-loader.php:196
+#: wp-includes/script-loader.php:218
 msgid "Schedule"
 msgstr "定时"
 
-#: wp-admin/edit-form-advanced.php:237
-#: wp-admin/edit-form-advanced.php:238
-#: wp-admin/edit-form-advanced.php:255
+#: wp-admin/edit-form-advanced.php:239
+#: wp-admin/edit-form-advanced.php:240
+#: wp-admin/edit-form-advanced.php:257
 #: wp-admin/edit-page-form.php:226
 #: wp-admin/edit-page-form.php:227
 #: wp-admin/edit-page-form.php:243
-#: wp-admin/includes/dashboard.php:344
-#: wp-admin/press-this.php:513
-#: wp-admin/press-this.php:517
+#: wp-admin/includes/dashboard.php:352
+#: wp-admin/press-this.php:507
+#: wp-admin/press-this.php:511
 #: wp-admin/sidebar.php:121
-#: wp-includes/script-loader.php:189
-#: wp-includes/script-loader.php:210
+#: wp-includes/script-loader.php:195
+#: wp-includes/script-loader.php:217
 msgid "Publish"
 msgstr "发布"
 
-#: wp-admin/edit-form-advanced.php:241
-#: wp-admin/edit-form-advanced.php:242
+#: wp-admin/edit-form-advanced.php:243
+#: wp-admin/edit-form-advanced.php:244
 #: wp-admin/edit-page-form.php:230
 #: wp-admin/edit-page-form.php:231
-#: wp-admin/includes/dashboard.php:346
+#: wp-admin/includes/dashboard.php:354
 msgid "Submit for Review"
 msgstr "标记为复审"
 
-#: wp-admin/edit-form-advanced.php:245
-#: wp-admin/edit-form-advanced.php:246
-#: wp-includes/script-loader.php:191
+#: wp-admin/edit-form-advanced.php:247
+#: wp-admin/edit-form-advanced.php:248
+#: wp-admin/includes/template.php:1187
+#: wp-includes/script-loader.php:197
 msgid "Update Post"
 msgstr "更新文章"
 
-#: wp-admin/edit-form-advanced.php:266
-#: wp-admin/edit-form-advanced.php:271
+#: wp-admin/edit-form-advanced.php:268
+#: wp-admin/edit-form-advanced.php:273
 #: wp-admin/edit-tags.php:12
-#: wp-admin/includes/dashboard.php:332
-#: wp-admin/includes/template.php:689
-#: wp-admin/includes/template.php:1077
+#: wp-admin/includes/dashboard.php:340
+#: wp-admin/includes/template.php:693
+#: wp-admin/includes/template.php:1084
 #: wp-admin/menu.php:35
-#: wp-admin/press-this.php:502
-#: wp-admin/press-this.php:506
+#: wp-admin/press-this.php:496
+#: wp-admin/press-this.php:500
 #: wp-includes/widgets.php:1869
 msgid "Tags"
 msgstr "标签"
 
-#: wp-admin/edit-form-advanced.php:268
+#: wp-admin/edit-form-advanced.php:270
 msgid "Choose from the most popular tags"
 msgstr "从使用最频繁的标签中选择"
 
-#: wp-admin/edit-form-advanced.php:283
-#: wp-admin/edit-link-form.php:130
+#: wp-admin/edit-form-advanced.php:285
+#: wp-admin/edit-link-form.php:128
 msgid "All Categories"
 msgstr "全部分类目录"
 
-#: wp-admin/edit-form-advanced.php:284
-#: wp-admin/edit-link-form.php:131
+#: wp-admin/edit-form-advanced.php:286
+#: wp-admin/edit-link-form.php:129
 msgid "Most Used"
 msgstr "最常用"
 
-#: wp-admin/edit-form-advanced.php:301
+#: wp-admin/edit-form-advanced.php:303
+#: wp-admin/edit-link-form.php:117
 #: wp-admin/edit-link-form.php:119
-#: wp-admin/edit-link-form.php:121
-#: wp-admin/press-this.php:489
+#: wp-admin/press-this.php:483
 msgid "+ Add New Category"
 msgstr "+ 添加分类目录"
 
-#: wp-admin/edit-form-advanced.php:303
-#: wp-admin/press-this.php:491
+#: wp-admin/edit-form-advanced.php:305
+#: wp-admin/press-this.php:485
 msgid "Add New Category"
 msgstr "添加新分类目录"
 
-#: wp-admin/edit-form-advanced.php:303
-#: wp-admin/edit-link-form.php:122
-#: wp-admin/press-this.php:491
+#: wp-admin/edit-form-advanced.php:305
+#: wp-admin/edit-link-form.php:120
+#: wp-admin/press-this.php:485
 msgid "New category name"
 msgstr "新分类目录"
 
-#: wp-admin/edit-form-advanced.php:304
-#: wp-admin/press-this.php:492
+#: wp-admin/edit-form-advanced.php:306
+#: wp-admin/press-this.php:486
 msgid "Parent category"
 msgstr "上级分类目录"
 
-#: wp-admin/edit-form-advanced.php:305
-#: wp-admin/edit-link-form.php:123
+#: wp-admin/edit-form-advanced.php:307
+#: wp-admin/edit-link-form.php:121
 #: wp-admin/includes/widgets.php:126
-#: wp-admin/press-this.php:493
-#: wp-includes/script-loader.php:145
-#: wp-includes/script-loader.php:179
-#: wp-includes/script-loader.php:233
+#: wp-admin/press-this.php:487
+#: wp-includes/script-loader.php:148
+#: wp-includes/script-loader.php:185
+#: wp-includes/script-loader.php:242
 msgid "Add"
 msgstr "添加"
 
-#: wp-admin/edit-form-advanced.php:326
+#: wp-admin/edit-form-advanced.php:328
 msgid "Keep this post private"
 msgstr "保持这篇文章私有"
 
-#: wp-admin/edit-form-advanced.php:328
+#: wp-admin/edit-form-advanced.php:330
 msgid "Post Password"
 msgstr "文章保护密码"
 
-#: wp-admin/edit-form-advanced.php:329
+#: wp-admin/edit-form-advanced.php:331
 msgid "Password Protect This Post"
 msgstr "用密码保护这篇文章"
 
-#: wp-admin/edit-form-advanced.php:330
+#: wp-admin/edit-form-advanced.php:332
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
 msgstr "设置密码将会使得您的博客访问者在浏览您的文章和相应评论时需要输入以上密码。"
 
-#: wp-admin/edit-form-advanced.php:344
-#: wp-admin/edit-form-advanced.php:348
-#: wp-includes/post.php:3229
+#: wp-admin/edit-form-advanced.php:346
+#: wp-admin/edit-form-advanced.php:350
+#: wp-includes/post.php:3257
 msgid "Excerpt"
 msgstr "摘要"
 
-#: wp-admin/edit-form-advanced.php:345
+#: wp-admin/edit-form-advanced.php:347
 msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
 msgstr "摘要是您手动添加的内容概要。您可以<a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">在模板中使用它们</a>。"
 
-#: wp-admin/edit-form-advanced.php:360
+#: wp-admin/edit-form-advanced.php:362
 msgid "Already pinged:"
 msgstr "已经发送通告："
 
-#: wp-admin/edit-form-advanced.php:369
+#: wp-admin/edit-form-advanced.php:371
 msgid "Send trackbacks to:"
 msgstr "发送 Trackbacks 到："
 
-#: wp-admin/edit-form-advanced.php:369
+#: wp-admin/edit-form-advanced.php:371
 msgid "Separate multiple URLs with spaces"
 msgstr "每个 URL 用空格分开"
 
-#: wp-admin/edit-form-advanced.php:370
+#: wp-admin/edit-form-advanced.php:372
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
 msgstr "Trackbacks 是一种当你链接到老式博客系统的通告方式。如果你链接到 WordPress 博客上，它们会使用 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a> 自动通告，无需其它动作。"
 
-#: wp-admin/edit-form-advanced.php:375
+#: wp-admin/edit-form-advanced.php:377
 msgid "Send Trackbacks"
 msgstr "发送 Trackbacks"
 
-#: wp-admin/edit-form-advanced.php:394
+#: wp-admin/edit-form-advanced.php:396
 #: wp-admin/edit-page-form.php:311
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
 msgstr "自定义域可以用来向文章添加额外的元数据，你可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中使用它们</a>。"
 
-#: wp-admin/edit-form-advanced.php:397
+#: wp-admin/edit-form-advanced.php:399
 #: wp-admin/edit-page-form.php:314
 msgid "Custom Fields"
 msgstr "自定义域"
 
-#: wp-admin/edit-form-advanced.php:413
+#: wp-admin/edit-form-advanced.php:415
 msgid "Allow comments on this post"
 msgstr "允许在这篇文章上评论"
 
-#: wp-admin/edit-form-advanced.php:414
+#: wp-admin/edit-form-advanced.php:416
 msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
 msgstr "这篇文章允许<a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks 和 pingbacks</a>"
 
-#: wp-admin/edit-form-advanced.php:435
+#: wp-admin/edit-form-advanced.php:437
 msgid "Show comments"
 msgstr "显示评论"
 
-#: wp-admin/edit-form-advanced.php:443
+#: wp-admin/edit-form-advanced.php:445
 #: wp-admin/edit-page-form.php:333
 #: wp-admin/menu.php:96
 msgid "Discussion"
 msgstr "讨论"
 
-#: wp-admin/edit-form-advanced.php:454
-#: wp-admin/edit-form-advanced.php:458
+#: wp-admin/edit-form-advanced.php:456
+#: wp-admin/edit-form-advanced.php:460
 msgid "Post Slug"
 msgstr "文章别名"
 
-#: wp-admin/edit-form-advanced.php:477
-#: wp-admin/edit-form-advanced.php:480
+#: wp-admin/edit-form-advanced.php:479
+#: wp-admin/edit-form-advanced.php:482
 msgid "Post Author"
 msgstr "文章作者"
 
-#: wp-admin/edit-form-advanced.php:494
+#: wp-admin/edit-form-advanced.php:496
 #: wp-admin/revision.php:141
 msgid "Post Revisions"
 msgstr "文章修订版本"
 
-#: wp-admin/edit-form-advanced.php:579
-#: wp-admin/edit-page-form.php:463
+#: wp-admin/edit-form-advanced.php:581
+#: wp-admin/edit-page-form.php:462
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最后由 %1$s 编辑于 %2$s 在 %3$s"
 
-#: wp-admin/edit-form-advanced.php:581
-#: wp-admin/edit-page-form.php:465
+#: wp-admin/edit-form-advanced.php:583
+#: wp-admin/edit-page-form.php:464
 #, php-format
 msgid "Last edited on %1$s at %2$s"
 msgstr "最后编辑于： %1$s 在 %2$s"
@@ -1566,6 +1590,7 @@ msgstr ""
 "您确定么？"
 
 #: wp-admin/edit-form-comment.php:74
+#: wp-admin/includes/template.php:2169
 msgid "Update Comment"
 msgstr "更新评论"
 
@@ -1609,27 +1634,27 @@ msgstr "链接分类目录"
 msgid "Categories deleted."
 msgstr "分类目录已删除。"
 
-#: wp-admin/edit-link-categories.php:175
+#: wp-admin/edit-link-categories.php:178
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the links in that category. Instead, links that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>注意：</strong><br />删除分类目录不会把该分类目录下的链接一并删除，取而代之，链接会被归入 <strong>%s</strong> 分类目录。"
 
-#: wp-admin/edit-link-categories.php:196
+#: wp-admin/edit-link-categories.php:199
 #: wp-admin/edit-link-category-form.php:65
 msgid "Category name"
 msgstr "分类目录名"
 
-#: wp-admin/edit-link-categories.php:201
+#: wp-admin/edit-link-categories.php:204
 #: wp-admin/edit-link-category-form.php:69
 msgid "Category slug"
 msgstr "分类目录别名"
 
-#: wp-admin/edit-link-categories.php:207
+#: wp-admin/edit-link-categories.php:210
 #: wp-admin/edit-link-category-form.php:74
 msgid "Description (optional)"
 msgstr "描述(可选)"
 
-#: wp-admin/edit-link-categories.php:230
+#: wp-admin/edit-link-categories.php:233
 msgid ""
 "You are about to delete the selected link categories.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1650,26 +1675,31 @@ msgstr "添加链接分类目录"
 msgid "<a href=\"%s\">Links</a> / Edit Link"
 msgstr "<a href=\"%s\">链接</a>/编辑链接"
 
+#: wp-admin/edit-link-form.php:11
+#: wp-admin/edit-link-form.php:94
+msgid "Update Link"
+msgstr "更新链接"
+
 #: wp-admin/edit-link-form.php:15
 #, php-format
 msgid "<a href=\"%s\">Links</a> / Add New Link"
 msgstr "<a href=\"%s\">链接</a>/添加新链接"
 
 #: wp-admin/edit-link-form.php:16
-#: wp-admin/edit-link-form.php:98
+#: wp-admin/edit-link-form.php:96
 msgid "Add Link"
 msgstr "添加链接"
 
-#: wp-admin/edit-link-form.php:71
+#: wp-admin/edit-link-form.php:69
 msgid "Visit Link"
 msgstr "访问链接"
 
-#: wp-admin/edit-link-form.php:79
+#: wp-admin/edit-link-form.php:77
 msgid "Keep this link private"
 msgstr "保持这个链接为私有"
 
-#: wp-admin/edit-link-form.php:90
-#: wp-admin/link-manager.php:197
+#: wp-admin/edit-link-form.php:88
+#: wp-admin/link-manager.php:200
 #, php-format
 msgid ""
 "You are about to delete this link '%s'\n"
@@ -1678,194 +1708,190 @@ msgstr ""
 "您将删除链接“%s”\n"
 "您确定么？"
 
-#: wp-admin/edit-link-form.php:96
-msgid "Update Link"
-msgstr "更新链接"
-
-#: wp-admin/edit-link-form.php:162
-#: wp-admin/edit-link-form.php:176
+#: wp-admin/edit-link-form.php:160
+#: wp-admin/edit-link-form.php:174
 #: wp-includes/js/tinymce/langs/wp-langs.php:292
 #: wp-includes/js/tinymce/langs/wp-langs.php:341
 msgid "Target"
 msgstr "超链接目标"
 
-#: wp-admin/edit-link-form.php:171
-#: wp-admin/edit-link-form.php:213
-#: wp-admin/edit-link-form.php:246
-#: wp-admin/edit-link-form.php:269
+#: wp-admin/edit-link-form.php:169
+#: wp-admin/edit-link-form.php:211
+#: wp-admin/edit-link-form.php:244
+#: wp-admin/edit-link-form.php:267
 msgid "none"
 msgstr "无"
 
-#: wp-admin/edit-link-form.php:173
+#: wp-admin/edit-link-form.php:171
 msgid "Choose the frame your link targets. Essentially this means if you choose <code>_blank</code> your link will open in a new window."
 msgstr "请选择目标页面。如果你选择<code>_blank</code>将会打开一个新窗口。"
 
-#: wp-admin/edit-link-form.php:189
+#: wp-admin/edit-link-form.php:187
 msgid "rel:"
 msgstr "正向链接关系："
 
-#: wp-admin/edit-link-form.php:196
-#: wp-admin/edit-link-form.php:197
+#: wp-admin/edit-link-form.php:194
+#: wp-admin/edit-link-form.php:195
 msgid "identity"
 msgstr "我自己的"
 
-#: wp-admin/edit-link-form.php:200
+#: wp-admin/edit-link-form.php:198
 msgid "another web address of mine"
 msgstr "我的另一个 web 地址"
 
-#: wp-admin/edit-link-form.php:204
-#: wp-admin/edit-link-form.php:205
+#: wp-admin/edit-link-form.php:202
+#: wp-admin/edit-link-form.php:203
 msgid "friendship"
 msgstr "友情"
 
-#: wp-admin/edit-link-form.php:207
+#: wp-admin/edit-link-form.php:205
 msgid "contact"
 msgstr "联系人"
 
-#: wp-admin/edit-link-form.php:209
+#: wp-admin/edit-link-form.php:207
 msgid "acquaintance"
 msgstr "熟人"
 
-#: wp-admin/edit-link-form.php:211
+#: wp-admin/edit-link-form.php:209
 msgid "friend"
 msgstr "朋友"
 
-#: wp-admin/edit-link-form.php:217
-#: wp-admin/edit-link-form.php:218
+#: wp-admin/edit-link-form.php:215
+#: wp-admin/edit-link-form.php:216
 msgid "physical"
 msgstr "接触"
 
-#: wp-admin/edit-link-form.php:221
+#: wp-admin/edit-link-form.php:219
 msgid "met"
 msgstr "新识"
 
-#: wp-admin/edit-link-form.php:225
-#: wp-admin/edit-link-form.php:226
+#: wp-admin/edit-link-form.php:223
+#: wp-admin/edit-link-form.php:224
 msgid "professional"
 msgstr "专家"
 
-#: wp-admin/edit-link-form.php:229
+#: wp-admin/edit-link-form.php:227
 msgid "co-worker"
 msgstr "合作者"
 
-#: wp-admin/edit-link-form.php:232
+#: wp-admin/edit-link-form.php:230
 msgid "colleague"
 msgstr "同事"
 
-#: wp-admin/edit-link-form.php:236
-#: wp-admin/edit-link-form.php:237
+#: wp-admin/edit-link-form.php:234
+#: wp-admin/edit-link-form.php:235
 msgid "geographical"
 msgstr "地理区域："
 
-#: wp-admin/edit-link-form.php:240
+#: wp-admin/edit-link-form.php:238
 msgid "co-resident"
 msgstr "同区域"
 
-#: wp-admin/edit-link-form.php:243
+#: wp-admin/edit-link-form.php:241
 msgid "neighbor"
 msgstr "邻居"
 
-#: wp-admin/edit-link-form.php:250
-#: wp-admin/edit-link-form.php:251
+#: wp-admin/edit-link-form.php:248
+#: wp-admin/edit-link-form.php:249
 msgid "family"
 msgstr "家人"
 
-#: wp-admin/edit-link-form.php:254
+#: wp-admin/edit-link-form.php:252
 msgid "child"
 msgstr "孩子"
 
-#: wp-admin/edit-link-form.php:257
+#: wp-admin/edit-link-form.php:255
 msgid "kin"
 msgstr "家族"
 
-#: wp-admin/edit-link-form.php:260
+#: wp-admin/edit-link-form.php:258
 msgid "parent"
 msgstr "父母"
 
-#: wp-admin/edit-link-form.php:263
+#: wp-admin/edit-link-form.php:261
 msgid "sibling"
 msgstr "兄弟姐妹"
 
-#: wp-admin/edit-link-form.php:266
+#: wp-admin/edit-link-form.php:264
 msgid "spouse"
 msgstr "配偶"
 
-#: wp-admin/edit-link-form.php:273
-#: wp-admin/edit-link-form.php:274
+#: wp-admin/edit-link-form.php:271
+#: wp-admin/edit-link-form.php:272
 msgid "romantic"
 msgstr "浪漫的"
 
-#: wp-admin/edit-link-form.php:277
+#: wp-admin/edit-link-form.php:275
 msgid "muse"
 msgstr "我的女神"
 
-#: wp-admin/edit-link-form.php:280
+#: wp-admin/edit-link-form.php:278
 msgid "crush"
 msgstr "迷恋的"
 
-#: wp-admin/edit-link-form.php:283
+#: wp-admin/edit-link-form.php:281
 msgid "date"
 msgstr "与我约会的"
 
-#: wp-admin/edit-link-form.php:286
+#: wp-admin/edit-link-form.php:284
 msgid "sweetheart"
 msgstr "甜心"
 
-#: wp-admin/edit-link-form.php:293
+#: wp-admin/edit-link-form.php:291
 msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
 msgstr "如果链接是某个人的，您可以用上面的表单指定相应的关系。如果你想学习更多，请查看：<a href=\"http://gmpg.org/xfn/\">XFN</a>。"
 
-#: wp-admin/edit-link-form.php:296
+#: wp-admin/edit-link-form.php:294
 msgid "Link Relationship (XFN)"
 msgstr "链接关系 (XFN)"
 
-#: wp-admin/edit-link-form.php:309
+#: wp-admin/edit-link-form.php:307
 msgid "Image Address"
 msgstr "图像地址"
 
-#: wp-admin/edit-link-form.php:313
+#: wp-admin/edit-link-form.php:311
 msgid "RSS Address"
 msgstr "RSS 地址"
 
-#: wp-admin/edit-link-form.php:317
+#: wp-admin/edit-link-form.php:315
 msgid "Notes"
 msgstr "注解"
 
-#: wp-admin/edit-link-form.php:321
+#: wp-admin/edit-link-form.php:319
 #: wp-admin/includes/plugin-install.php:290
 #: wp-admin/includes/plugin-install.php:300
 msgid "Rating"
 msgstr "等级："
 
-#: wp-admin/edit-link-form.php:330
+#: wp-admin/edit-link-form.php:328
 msgid "(Leave at 0 for no rating.)"
 msgstr "(无等级时保持为 0)"
 
-#: wp-admin/edit-link-form.php:336
+#: wp-admin/edit-link-form.php:334
 #: wp-content/themes/default/functions.php:399
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
 #: wp-includes/js/tinymce/wp-mce-help.php:175
 msgid "Advanced"
 msgstr "高级"
 
-#: wp-admin/edit-link-form.php:352
+#: wp-admin/edit-link-form.php:350
 msgid "Link added."
 msgstr "链接已添加"
 
-#: wp-admin/edit-link-form.php:379
-#: wp-admin/includes/media.php:1554
+#: wp-admin/edit-link-form.php:377
+#: wp-admin/includes/media.php:1570
 #: wp-admin/includes/plugin-install.php:288
 #: wp-admin/includes/plugin-install.php:298
 #: wp-admin/includes/template.php:219
-#: wp-admin/includes/template.php:783
-#: wp-admin/includes/template.php:797
-#: wp-admin/includes/template.php:807
-#: wp-admin/includes/template.php:816
-#: wp-admin/includes/template.php:826
-#: wp-admin/includes/template.php:2109
-#: wp-admin/includes/template.php:2203
-#: wp-admin/includes/template.php:2218
-#: wp-admin/includes/template.php:2307
+#: wp-admin/includes/template.php:787
+#: wp-admin/includes/template.php:801
+#: wp-admin/includes/template.php:811
+#: wp-admin/includes/template.php:821
+#: wp-admin/includes/template.php:831
+#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2242
+#: wp-admin/includes/template.php:2257
+#: wp-admin/includes/template.php:2346
 #: wp-admin/themes.php:224
 #: wp-admin/user-edit.php:238
 #: wp-content/themes/classic/comments-popup.php:71
@@ -1874,19 +1900,19 @@ msgstr "链接已添加"
 msgid "Name"
 msgstr "名称"
 
-#: wp-admin/edit-link-form.php:382
+#: wp-admin/edit-link-form.php:380
 msgid "Example: Nifty blogging software"
 msgstr "例子：Nifty blogging software"
 
-#: wp-admin/edit-link-form.php:387
+#: wp-admin/edit-link-form.php:385
 msgid "Web Address"
 msgstr "Web地址"
 
-#: wp-admin/edit-link-form.php:390
+#: wp-admin/edit-link-form.php:388
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
 msgstr "例子：<code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
 
-#: wp-admin/edit-link-form.php:398
+#: wp-admin/edit-link-form.php:396
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
 msgstr "这个当你把光标移动到链接表上的链接时它会显示出来，或者显示在链接下方。"
 
@@ -1904,12 +1930,17 @@ msgstr "页面已更新。"
 msgid "Page published. <a href=\"%s\">View page</a>"
 msgstr "页面已发布。<a href=\"%s\">查看页面</a>"
 
-#: wp-admin/edit-page-form.php:28
+#: wp-admin/edit-page-form.php:26
+#, php-format
+msgid "Page submitted. <a href=\"%s\">Preview page</a>"
+msgstr "页面已提交。<a href=\"%s\">预览页面</a>"
+
+#: wp-admin/edit-page-form.php:29
 #, php-format
 msgid "Page restored to revision from %s"
 msgstr "页面从 %s 还原到修订版本"
 
-#: wp-admin/edit-page-form.php:31
+#: wp-admin/edit-page-form.php:32
 #, php-format
 msgid "There is an autosave of this page that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
 msgstr "这个页面有一个比下面的修订版本更新的自动保存版本。<a href=\"%s\">查看自动保存</a>。"
@@ -1925,7 +1956,8 @@ msgstr ""
 
 #: wp-admin/edit-page-form.php:234
 #: wp-admin/edit-page-form.php:235
-#: wp-includes/script-loader.php:212
+#: wp-admin/includes/template.php:1187
+#: wp-includes/script-loader.php:219
 msgid "Update Page"
 msgstr "更新页面"
 
@@ -1947,7 +1979,7 @@ msgstr "设置密码将会使得您的博客访问者在浏览您的文章和相
 
 #: wp-admin/edit-page-form.php:271
 #: wp-admin/includes/template.php:231
-#: wp-admin/includes/template.php:1044
+#: wp-admin/includes/template.php:1051
 msgid "Parent"
 msgstr "父级"
 
@@ -1956,7 +1988,7 @@ msgid "Page Parent"
 msgstr "上一级页面"
 
 #: wp-admin/edit-page-form.php:273
-#: wp-admin/includes/template.php:1049
+#: wp-admin/includes/template.php:1053
 msgid "Main Page (no parent)"
 msgstr "主页面 (无上级)"
 
@@ -1965,7 +1997,7 @@ msgid "You can arrange your pages in hierarchies, for example you could have an 
 msgstr "您可以以层级的方式组织您的页面，例如，你可以设置一个“关于”页面，它的下级有“人生”和“我的宠物”。层级深度没有任何限制。"
 
 #: wp-admin/edit-page-form.php:278
-#: wp-admin/includes/template.php:1064
+#: wp-admin/includes/template.php:1071
 msgid "Template"
 msgstr "模版"
 
@@ -1975,7 +2007,7 @@ msgid "Page Template"
 msgstr "页面模版"
 
 #: wp-admin/edit-page-form.php:280
-#: wp-admin/includes/template.php:1069
+#: wp-admin/includes/template.php:1076
 msgid "Default Template"
 msgstr "默认模版"
 
@@ -1984,9 +2016,9 @@ msgid "Some themes have custom templates you can use for certain pages that migh
 msgstr "某些主题有定制的模板，你可以用在一些你想添加新功能或者自定义的布局的页面上。如果这样，你可以在上面看到。"
 
 #: wp-admin/edit-page-form.php:287
-#: wp-admin/includes/media.php:953
-#: wp-admin/includes/media.php:1513
-#: wp-admin/includes/template.php:1057
+#: wp-admin/includes/media.php:962
+#: wp-admin/includes/media.php:1529
+#: wp-admin/includes/template.php:1064
 msgid "Order"
 msgstr "排列"
 
@@ -2003,12 +2035,12 @@ msgid "Attributes"
 msgstr "属性"
 
 #: wp-admin/edit-page-form.php:328
-#: wp-admin/includes/template.php:1110
+#: wp-admin/includes/template.php:1117
 msgid "Allow Comments"
 msgstr "允许评论"
 
 #: wp-admin/edit-page-form.php:329
-#: wp-admin/includes/template.php:1115
+#: wp-admin/includes/template.php:1122
 msgid "Allow Pings"
 msgstr "允许 Pings"
 
@@ -2026,13 +2058,13 @@ msgstr "页面别名"
 msgid "Page Author"
 msgstr "页面作者"
 
-#: wp-admin/edit-page-form.php:384
+#: wp-admin/edit-page-form.php:383
 #: wp-admin/revision.php:138
 msgid "Page Revisions"
 msgstr "页面修订版本"
 
 #: wp-admin/edit-pages.php:25
-#: wp-admin/page.php:162
+#: wp-admin/page.php:166
 msgid "You are not allowed to delete this page."
 msgstr "您没有删除这个页面的权限。"
 
@@ -2040,10 +2072,10 @@ msgstr "您没有删除这个页面的权限。"
 #: wp-admin/edit-pages.php:32
 #: wp-admin/edit.php:37
 #: wp-admin/edit.php:40
-#: wp-admin/page.php:166
-#: wp-admin/page.php:169
-#: wp-admin/post.php:207
-#: wp-admin/post.php:210
+#: wp-admin/page.php:170
+#: wp-admin/page.php:173
+#: wp-admin/post.php:211
+#: wp-admin/post.php:214
 #: wp-admin/upload.php:84
 msgid "Error in deleting..."
 msgstr "删除中发生错误..."
@@ -2124,74 +2156,74 @@ msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "私有文章 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:88
-#: wp-admin/includes/template.php:2992
+#: wp-admin/includes/template.php:3031
 #: wp-admin/menu.php:47
-#: wp-includes/post-template.php:595
+#: wp-includes/post-template.php:598
 #: wp-includes/widgets.php:673
 #: wp-includes/widgets.php:1918
 #: wp-includes/widgets.php:1919
 msgid "Pages"
 msgstr "页面"
 
-#: wp-admin/edit-pages.php:112
+#: wp-admin/edit-pages.php:115
 #, php-format
 msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "%s页面已更新。"
 
-#: wp-admin/edit-pages.php:117
+#: wp-admin/edit-pages.php:120
 #, php-format
 msgid "%s page not updated, invalid parent page specified."
 msgid_plural "%s pages not updated, invalid parent page specified."
 msgstr[0] "%s 个页面无法更新，指定了无效父页面。"
 
-#: wp-admin/edit-pages.php:122
+#: wp-admin/edit-pages.php:125
 #, php-format
 msgid "%s page not updated, somebody is editing it."
 msgid_plural "%s pages not updated, somebody is editing them."
 msgstr[0] " %s 个页面无法更新，因为有人在编辑它们。"
 
-#: wp-admin/edit-pages.php:127
+#: wp-admin/edit-pages.php:130
 #, php-format
 msgid "Page deleted."
 msgid_plural "%s pages deleted."
 msgstr[0] "%s页面已删除。"
 
-#: wp-admin/edit-pages.php:136
+#: wp-admin/edit-pages.php:139
 msgid "Your page has been saved."
 msgstr "您的页面已保存。"
 
-#: wp-admin/edit-pages.php:136
+#: wp-admin/edit-pages.php:139
 msgid "View page"
 msgstr "查看页面"
 
-#: wp-admin/edit-pages.php:136
+#: wp-admin/edit-pages.php:139
 msgid "Edit page"
 msgstr "编辑页面"
 
-#: wp-admin/edit-pages.php:150
-#: wp-admin/edit.php:141
-#: wp-admin/upload.php:187
-#: wp-admin/users.php:264
+#: wp-admin/edit-pages.php:153
+#: wp-admin/edit.php:144
+#: wp-admin/upload.php:190
+#: wp-admin/users.php:267
 #, php-format
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "全部<span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:169
-#: wp-admin/edit-pages.php:171
+#: wp-admin/edit-pages.php:172
+#: wp-admin/edit-pages.php:174
 msgid "Search Pages"
 msgstr "搜索页面"
 
-#: wp-admin/edit-pages.php:261
+#: wp-admin/edit-pages.php:264
 msgid "No pages found."
 msgstr "未找到任何页面。"
 
-#: wp-admin/edit-pages.php:292
+#: wp-admin/edit-pages.php:295
 msgid "Submitted"
 msgstr "已提交"
 
-#: wp-admin/edit-pages.php:318
+#: wp-admin/edit-pages.php:321
 msgid ""
 "You are about to delete the selected pages.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -2204,25 +2236,29 @@ msgid "A tag was not selected for editing."
 msgstr "没有选择一个标签来编辑。"
 
 #: wp-admin/edit-tag-form.php:19
-#: wp-admin/edit-tag-form.php:37
 #: wp-admin/edit-tags.php:75
 msgid "Edit Tag"
 msgstr "编辑标签"
 
 #: wp-admin/edit-tag-form.php:27
-#: wp-admin/edit-tags.php:258
+#: wp-admin/edit-tags.php:261
 msgid "Tag name"
 msgstr "标签名"
 
 #: wp-admin/edit-tag-form.php:29
-#: wp-admin/edit-tags.php:260
+#: wp-admin/edit-tags.php:263
 msgid "The name is how the tag appears on your site."
 msgstr "标签在网站上的显示名称。"
 
 #: wp-admin/edit-tag-form.php:32
-#: wp-admin/edit-tags.php:264
+#: wp-admin/edit-tags.php:267
 msgid "Tag slug"
 msgstr "标签别名"
+
+#: wp-admin/edit-tag-form.php:37
+#: wp-admin/includes/template.php:253
+msgid "Update Tag"
+msgstr "更新标签"
 
 #: wp-admin/edit-tags.php:124
 msgid "Tag added."
@@ -2244,24 +2280,24 @@ msgstr "标签未被添加。"
 msgid "Tags deleted."
 msgstr "标签已删除。"
 
-#: wp-admin/edit-tags.php:142
-#: wp-admin/edit-tags.php:144
+#: wp-admin/edit-tags.php:145
+#: wp-admin/edit-tags.php:147
 msgid "Search Tags"
 msgstr "搜索标签"
 
-#: wp-admin/edit-tags.php:238
+#: wp-admin/edit-tags.php:241
 msgid "Popular Tags"
 msgstr "热门标签"
 
-#: wp-admin/edit-tags.php:251
+#: wp-admin/edit-tags.php:254
 msgid "Add a New Tag"
 msgstr "添加新标签"
 
-#: wp-admin/edit-tags.php:269
+#: wp-admin/edit-tags.php:272
 msgid "Add Tag"
 msgstr "添加标签"
 
-#: wp-admin/edit-tags.php:286
+#: wp-admin/edit-tags.php:289
 msgid ""
 "You are about to delete the selected tags.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -2270,7 +2306,7 @@ msgstr ""
 "您确定么？"
 
 #: wp-admin/edit.php:33
-#: wp-admin/post.php:203
+#: wp-admin/post.php:207
 #: wp-admin/upload.php:80
 msgid "You are not allowed to delete this post."
 msgstr "您没有删除这篇文章的权限。"
@@ -2279,68 +2315,68 @@ msgstr "您没有删除这篇文章的权限。"
 msgid "Edit Posts"
 msgstr "编辑文章"
 
-#: wp-admin/edit.php:103
-#: wp-admin/press-this.php:527
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:521
 msgid "Your post has been saved."
 msgstr "您的文章已保存。"
 
-#: wp-admin/edit.php:103
-#: wp-admin/press-this.php:527
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:521
 msgid "View post"
 msgstr "查看文章"
 
-#: wp-admin/edit.php:103
-#: wp-admin/press-this.php:527
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:521
 #: wp-includes/link-template.php:725
 msgid "Edit post"
 msgstr "编辑文章"
 
-#: wp-admin/edit.php:110
+#: wp-admin/edit.php:113
 #, php-format
 msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s文章已更新。"
 
-#: wp-admin/edit.php:118
+#: wp-admin/edit.php:121
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
 msgstr[0] " %s 篇文章无法更新，因为有人在编辑它们。"
 
-#: wp-admin/edit.php:123
+#: wp-admin/edit.php:126
 #, php-format
 msgid "Post deleted."
 msgid_plural "%s posts deleted."
 msgstr[0] "%s 文章已删除。"
 
-#: wp-admin/edit.php:164
-#: wp-admin/edit.php:166
+#: wp-admin/edit.php:167
+#: wp-admin/edit.php:169
 msgid "Search Posts"
 msgstr "搜索文章"
 
-#: wp-admin/edit.php:210
-#: wp-admin/includes/media.php:1704
-#: wp-admin/upload.php:260
+#: wp-admin/edit.php:213
+#: wp-admin/includes/media.php:1720
+#: wp-admin/upload.php:263
 msgid "Show all dates"
 msgstr "显示所有日期"
 
-#: wp-admin/edit.php:231
+#: wp-admin/edit.php:234
 msgid "View all categories"
 msgstr "查看全部分类目录"
 
-#: wp-admin/edit.php:251
+#: wp-admin/edit.php:254
 msgid "List View"
 msgstr "列表视图"
 
-#: wp-admin/edit.php:252
+#: wp-admin/edit.php:255
 msgid "Excerpt View"
 msgstr "摘要显示"
 
-#: wp-admin/edit.php:283
+#: wp-admin/edit.php:286
 msgid "No posts found"
 msgstr "未找到文章"
 
-#: wp-admin/edit.php:302
+#: wp-admin/edit.php:305
 msgid ""
 "You are about to delete the selected posts.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -2434,14 +2470,14 @@ msgid "We were able to log in but there were no blogs. Try a different account n
 msgstr "我们虽然能访问您的账户但没发现任何博客。请使用另外一个账户。"
 
 #: wp-admin/import/blogger.php:194
-#: wp-admin/includes/media.php:1125
+#: wp-admin/includes/media.php:1134
 #: wp-admin/upgrade.php:52
 #: wp-admin/upgrade.php:79
 msgid "Continue"
 msgstr "继续"
 
 #: wp-admin/import/blogger.php:195
-#: wp-admin/import/opml.php:83
+#: wp-admin/import/opml.php:84
 msgid "Importing..."
 msgstr "导入中..."
 
@@ -2479,10 +2515,10 @@ msgid "The Magic Button"
 msgstr "The Magic Button"
 
 #: wp-admin/import/blogger.php:204
-#: wp-admin/includes/template.php:800
-#: wp-admin/includes/template.php:818
-#: wp-admin/includes/template.php:829
-#: wp-admin/includes/template.php:2990
+#: wp-admin/includes/template.php:804
+#: wp-admin/includes/template.php:823
+#: wp-admin/includes/template.php:834
+#: wp-admin/includes/template.php:3029
 #: wp-admin/menu.php:32
 msgid "Posts"
 msgstr "文章"
@@ -3104,7 +3140,7 @@ msgstr "选择 LiveJournal XML 文件然后上传导入。"
 
 #: wp-admin/import/livejournal.php:136
 #: wp-admin/import/mt.php:291
-#: wp-admin/import/wordpress.php:523
+#: wp-admin/import/wordpress.php:531
 #, php-format
 msgid "(%s comment)"
 msgid_plural "(%s comments)"
@@ -3140,7 +3176,7 @@ msgstr "这个导入器非常只能，可以在导入时自动分辨您的重复
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:256
-#: wp-admin/includes/template.php:2317
+#: wp-admin/includes/template.php:2356
 #: wp-admin/options-reading.php:41
 #: wp-admin/options-reading.php:42
 msgid "- Select -"
@@ -3177,7 +3213,7 @@ msgstr "建立用户 %1$s 或者映射成已存在的用户"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:972
+#: wp-includes/post-template.php:985
 msgid "Submit"
 msgstr "提交"
 
@@ -3212,54 +3248,54 @@ msgstr "从 Movable Type 或 Typepad blog 导入文章和评论。"
 msgid "Import Blogroll"
 msgstr "导入链接表"
 
-#: wp-admin/import/opml.php:34
+#: wp-admin/import/opml.php:35
 msgid "Import your blogroll from another system"
 msgstr "从其它系统导入链接表"
 
-#: wp-admin/import/opml.php:38
+#: wp-admin/import/opml.php:39
 msgid "If a program or website you use allows you to export your links or subscriptions as OPML you may import them here."
 msgstr "如果您的程序或网站允许导出链接或订阅为 OPML 的话，那么您可以在这里导入它们。"
 
-#: wp-admin/import/opml.php:43
+#: wp-admin/import/opml.php:44
 msgid "Specify an OPML URL:"
 msgstr "指定一个 OPML URL："
 
-#: wp-admin/import/opml.php:48
+#: wp-admin/import/opml.php:49
 msgid "Or choose from your local disk:"
 msgstr "或者从您的本地磁盘："
 
-#: wp-admin/import/opml.php:54
+#: wp-admin/import/opml.php:55
 msgid "Now select a category you want to put these links in."
 msgstr "选择一个目标分类目录导入链接"
 
-#: wp-admin/import/opml.php:55
+#: wp-admin/import/opml.php:56
 msgid "Category:"
 msgstr "分类目录："
 
-#: wp-admin/import/opml.php:66
+#: wp-admin/import/opml.php:67
 msgid "Import OPML File"
 msgstr "导入 OPML 文件"
 
-#: wp-admin/import/opml.php:122
+#: wp-admin/import/opml.php:124
 #, php-format
 msgid "Inserted <strong>%s</strong>"
 msgstr "插入 <strong>%s</strong>"
 
-#: wp-admin/import/opml.php:126
+#: wp-admin/import/opml.php:128
 #, php-format
 msgid "Inserted %1$d links into category %2$s. All done! Go <a href=\"%3$s\">manage those links</a>."
 msgstr "插入 %1$d 个链接到 %2$s 分类目录。您可以前往 <a href=\"%3$s\">管理链接</a>。"
 
-#: wp-admin/import/opml.php:132
+#: wp-admin/import/opml.php:134
 msgid "You need to supply your OPML url. Press back on your browser and try again"
 msgstr "您需要提供您的 OPML 路径。按 “后退” 然后重试。"
 
-#: wp-admin/import/opml.php:151
+#: wp-admin/import/opml.php:153
 #: wp-admin/includes/upgrade.php:102
 msgid "Blogroll"
 msgstr "链接表"
 
-#: wp-admin/import/opml.php:151
+#: wp-admin/import/opml.php:153
 msgid "Import links in OPML format."
 msgstr "从OPML文件导入链接。"
 
@@ -3529,49 +3565,49 @@ msgstr "全部完成。"
 msgid "Have fun!"
 msgstr "使用愉快！"
 
-#: wp-admin/import/wordpress.php:552
+#: wp-admin/import/wordpress.php:560
 #, php-format
 msgid "Importing attachment <em>%s</em>... "
 msgstr "导入附件 <em>%s</em>... "
 
-#: wp-admin/import/wordpress.php:560
+#: wp-admin/import/wordpress.php:568
 #, php-format
 msgid "Remote file error: %s"
 msgstr "远程文件错误：%s"
 
-#: wp-admin/import/wordpress.php:571
-#: wp-includes/functions.php:1960
+#: wp-admin/import/wordpress.php:579
+#: wp-includes/functions.php:1964
 msgid "Invalid file type"
 msgstr "无效的文件类型"
 
-#: wp-admin/import/wordpress.php:592
+#: wp-admin/import/wordpress.php:600
 #, php-format
 msgid "Skipping attachment <em>%s</em>"
 msgstr "跳过附件 <em>%s</em>"
 
-#: wp-admin/import/wordpress.php:615
+#: wp-admin/import/wordpress.php:623
 msgid "Remote server did not respond"
 msgstr "远程服务器无响应"
 
-#: wp-admin/import/wordpress.php:621
+#: wp-admin/import/wordpress.php:629
 #, php-format
 msgid "Remote file returned error response %1$d %2$s"
 msgstr "远程文件返回错误信息 %1$d %2$s"
 
-#: wp-admin/import/wordpress.php:625
+#: wp-admin/import/wordpress.php:633
 msgid "Remote file is incorrect size"
 msgstr "远程文件大小错误"
 
-#: wp-admin/import/wordpress.php:631
+#: wp-admin/import/wordpress.php:639
 #, php-format
 msgid "Remote file is too large, limit is %s"
 msgstr "远程文件太大，限制大小为 %s"
 
-#: wp-admin/import/wordpress.php:747
+#: wp-admin/import/wordpress.php:755
 msgid "Sorry, there has been an error."
 msgstr "抱歉，错误发生。"
 
-#: wp-admin/import/wordpress.php:796
+#: wp-admin/import/wordpress.php:804
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "从 WordPress 导出文件导入<strong>文章、页面、评论、自定义域、分类目录和标签</strong>。"
 
@@ -3856,8 +3892,8 @@ msgid "Other WordPress News"
 msgstr "其它 WordPress 相关新闻"
 
 #: wp-admin/includes/dashboard.php:93
-#: wp-admin/includes/dashboard.php:386
-#: wp-admin/includes/dashboard.php:416
+#: wp-admin/includes/dashboard.php:394
+#: wp-admin/includes/dashboard.php:443
 msgid "View all"
 msgstr "查看全部"
 
@@ -3890,7 +3926,7 @@ msgid_plural "Categories"
 msgstr[0] "分类目录"
 
 #: wp-admin/includes/dashboard.php:244
-#: wp-admin/includes/template.php:3250
+#: wp-admin/includes/template.php:3289
 msgid "Pending"
 msgid_plural "Pending"
 msgstr[0] "待审"
@@ -3923,145 +3959,163 @@ msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</s
 msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</span>"
 msgstr[0] "主题 <span class=\"b\">%1$s</span> 附属有<span class=\"b\">%2$s 个小工具</span>"
 
-#: wp-admin/includes/dashboard.php:295
+#: wp-admin/includes/dashboard.php:296
 #, php-format
 msgid "Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "文章已发布。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
-#: wp-admin/includes/dashboard.php:297
+#: wp-admin/includes/dashboard.php:298
+#, php-format
+msgid "Post submitted. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
+msgstr "文章已提交。<a href=\"%s\">预览文章</a> | <a href=\"%s\">编辑文章</a>"
+
+#: wp-admin/includes/dashboard.php:300
 #, php-format
 msgid "Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "草稿已保存。<a href=\"%s\">预览文章</a> | <a href=\"%s\">编辑文章</a>"
 
-#: wp-admin/includes/dashboard.php:327
-#: wp-includes/post.php:3228
+#: wp-admin/includes/dashboard.php:314
+#, php-format
+msgid "You can also try %s, easy blogging from anywhere on the Web."
+msgstr "您也可试试 %s，在Web上任何地方轻松发布日志。"
+
+#: wp-admin/includes/dashboard.php:314
+#: wp-admin/press-this.php:332
+#: wp-admin/press-this.php:461
+#: wp-admin/tools.php:82
+#: wp-admin/tools.php:87
+msgid "Press This"
+msgstr "快速发布"
+
+#: wp-admin/includes/dashboard.php:333
+#: wp-includes/post.php:3256
 msgid "Content"
 msgstr "内容"
 
-#: wp-admin/includes/dashboard.php:389
+#: wp-admin/includes/dashboard.php:397
 msgid "There are no drafts at the moment"
 msgstr "没有任何草稿"
 
-#: wp-admin/includes/dashboard.php:424
+#: wp-admin/includes/dashboard.php:451
 #: wp-content/themes/classic/comments-popup.php:58
 #: wp-content/themes/classic/comments.php:32
 msgid "No comments yet."
 msgstr "还没有任何评论。"
 
-#: wp-admin/includes/dashboard.php:446
-#: wp-admin/includes/template.php:2006
-#: wp-admin/includes/template.php:2013
+#: wp-admin/includes/dashboard.php:474
+#: wp-admin/includes/template.php:2019
+#: wp-admin/includes/template.php:2026
 msgid "Approve this comment"
 msgstr "获准这条评论"
 
-#: wp-admin/includes/dashboard.php:447
-#: wp-admin/includes/template.php:2007
-#: wp-admin/includes/template.php:2010
+#: wp-admin/includes/dashboard.php:475
+#: wp-admin/includes/template.php:2020
+#: wp-admin/includes/template.php:2023
 msgid "Unapprove this comment"
 msgstr "驳回这条评论"
 
-#: wp-admin/includes/dashboard.php:448
-#: wp-admin/includes/template.php:2020
+#: wp-admin/includes/dashboard.php:476
+#: wp-admin/includes/template.php:2033
 #: wp-includes/link-template.php:775
 msgid "Edit comment"
 msgstr "编辑评论"
 
-#: wp-admin/includes/dashboard.php:450
-#: wp-admin/includes/template.php:2023
+#: wp-admin/includes/dashboard.php:478
+#: wp-admin/includes/template.php:2036
 msgid "Reply to this comment"
 msgstr "回复这条评论"
 
-#: wp-admin/includes/dashboard.php:450
-#: wp-admin/includes/template.php:2023
+#: wp-admin/includes/dashboard.php:478
+#: wp-admin/includes/template.php:2036
 #: wp-includes/comment-template.php:968
 msgid "Reply"
 msgstr "回复"
 
-#: wp-admin/includes/dashboard.php:451
-#: wp-admin/includes/template.php:2018
+#: wp-admin/includes/dashboard.php:479
+#: wp-admin/includes/template.php:2031
 msgid "Mark this comment as spam"
 msgstr "标记这个评论为垃圾评论"
 
-#: wp-admin/includes/dashboard.php:451
-#: wp-admin/includes/template.php:2018
+#: wp-admin/includes/dashboard.php:479
+#: wp-admin/includes/template.php:2031
 msgid "Spam|verb"
 msgstr "垃圾评论"
 
-#: wp-admin/includes/dashboard.php:476
+#: wp-admin/includes/dashboard.php:503
 #, php-format
 msgid "From %1$s on %2$s%3$s"
 msgstr "在 %2$s%3$s  上 %1$s 的评论 "
 
-#: wp-admin/includes/dashboard.php:476
+#: wp-admin/includes/dashboard.php:503
 msgid "[Pending]"
 msgstr "[待审]"
 
-#: wp-admin/includes/dashboard.php:482
+#: wp-admin/includes/dashboard.php:509
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
 msgid "Pingback"
 msgstr "Pingback"
 
-#: wp-admin/includes/dashboard.php:485
+#: wp-admin/includes/dashboard.php:512
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
 msgid "Trackback"
 msgstr "Trackback"
 
-#: wp-admin/includes/dashboard.php:493
+#: wp-admin/includes/dashboard.php:520
 #: wp-includes/widgets.php:1401
 #, php-format
 msgid "%1$s on %2$s"
 msgstr "%1$s 在 %2$s 上的评论"
 
-#: wp-admin/includes/dashboard.php:542
-#: wp-admin/page.php:114
-#: wp-admin/post.php:149
+#: wp-admin/includes/dashboard.php:569
+#: wp-admin/page.php:118
+#: wp-admin/post.php:153
 msgid "Somebody"
 msgstr "某位"
 
-#: wp-admin/includes/dashboard.php:555
+#: wp-admin/includes/dashboard.php:582
 msgid "something"
 msgstr "一些"
 
-#: wp-admin/includes/dashboard.php:558
+#: wp-admin/includes/dashboard.php:585
 #, php-format
 msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\"|feed_display"
 msgstr "%1$s链接到这里<a href=\"%2$s\">说</a>，\"%3$s\"|feed显示"
 
-#: wp-admin/includes/dashboard.php:560
+#: wp-admin/includes/dashboard.php:587
 #, php-format
 msgid "%1$s linked here saying, \"%3$s\"|feed_display"
 msgstr "%1$s链接到这里说，\"%3$s\"|feed显示"
 
-#: wp-admin/includes/dashboard.php:564
+#: wp-admin/includes/dashboard.php:591
 #, php-format
 msgid " on %4$s|feed_display"
 msgstr "在%4$s|feed显示"
 
-#: wp-admin/includes/dashboard.php:576
+#: wp-admin/includes/dashboard.php:603
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
 msgstr "这个控制板小工具会查询<a href=\"http://blogsearch.google.com/\">Google博客搜索</a>，所以当有其它博客链接到你的站点时它们会显示在这里。目前还没发现引入的的链接，不用急。"
 
-#: wp-admin/includes/dashboard.php:662
+#: wp-admin/includes/dashboard.php:689
 msgid "Most Popular"
 msgstr "最热门的"
 
-#: wp-admin/includes/dashboard.php:662
+#: wp-admin/includes/dashboard.php:689
 msgid "Newest Plugins"
 msgstr "最新插件"
 
-#: wp-admin/includes/dashboard.php:662
+#: wp-admin/includes/dashboard.php:689
 #: wp-admin/plugin-install.php:33
 msgid "Recently Updated"
 msgstr "最近更新"
 
-#: wp-admin/includes/dashboard.php:699
+#: wp-admin/includes/dashboard.php:726
 #: wp-admin/includes/plugin-install.php:333
 msgid "Install"
 msgstr "安装"
 
-#: wp-admin/includes/dashboard.php:720
+#: wp-admin/includes/dashboard.php:747
 msgid "Loading&#8230;"
 msgstr "载入中&#8230;"
 
@@ -4228,7 +4282,7 @@ msgstr "文件类型不符合安全规则。试试别的文件。"
 
 #: wp-admin/includes/file.php:296
 #: wp-admin/includes/file.php:406
-#: wp-admin/includes/plugin-install.php:560
+#: wp-admin/includes/plugin-install.php:559
 #, php-format
 msgid "The uploaded file could not be moved to %s."
 msgstr "上传的文件无法转移到 %s 。"
@@ -4263,8 +4317,8 @@ msgid "Could not create Temporary file"
 msgstr "无法创建临时文件"
 
 #: wp-admin/includes/file.php:477
-#: wp-admin/includes/plugin-install.php:725
-#: wp-admin/includes/plugin-install.php:824
+#: wp-admin/includes/plugin-install.php:723
+#: wp-admin/includes/plugin-install.php:822
 #: wp-admin/includes/plugin.php:399
 #: wp-admin/includes/update.php:185
 #: wp-admin/includes/update.php:313
@@ -4291,24 +4345,24 @@ msgstr "无法创建目录"
 msgid "Could not copy file"
 msgstr "无法复制文件"
 
-#: wp-admin/includes/file.php:687
+#: wp-admin/includes/file.php:693
 msgid "<strong>Error:</strong> There was an error connecting to the server, Please verify the settings are correct."
 msgstr "<strong>有错误发生:</strong>无法连接到服务器，请确认设置是否有误。"
 
-#: wp-admin/includes/file.php:708
+#: wp-admin/includes/file.php:713
 msgid "Connection Information"
 msgstr "连接信息"
 
-#: wp-admin/includes/file.php:709
+#: wp-admin/includes/file.php:714
 msgid "To perform the requested action, connection information is required."
 msgstr "执行请求动作，连接信息必需提供。"
 
-#: wp-admin/includes/file.php:713
+#: wp-admin/includes/file.php:718
 msgid "Hostname"
 msgstr "主机名"
 
-#: wp-admin/includes/file.php:718
-#: wp-admin/includes/template.php:825
+#: wp-admin/includes/file.php:723
+#: wp-admin/includes/template.php:830
 #: wp-admin/install.php:115
 #: wp-admin/user-edit.php:242
 #: wp-login.php:375
@@ -4316,52 +4370,52 @@ msgstr "主机名"
 msgid "Username"
 msgstr "用户名"
 
-#: wp-admin/includes/file.php:723
-#: wp-admin/includes/template.php:1006
+#: wp-admin/includes/file.php:728
+#: wp-admin/includes/template.php:1011
 #: wp-admin/install.php:119
 #: wp-admin/options-writing.php:97
 #: wp-login.php:472
 msgid "Password"
 msgstr "密码"
 
-#: wp-admin/includes/file.php:724
+#: wp-admin/includes/file.php:729
 msgid "(Password not shown)"
 msgstr "(密码不会被显示)"
 
-#: wp-admin/includes/file.php:728
+#: wp-admin/includes/file.php:733
 msgid "Authentication Keys"
 msgstr "验证密钥"
 
-#: wp-admin/includes/file.php:730
+#: wp-admin/includes/file.php:735
 msgid "Public Key:"
 msgstr "公共密钥："
 
-#: wp-admin/includes/file.php:731
+#: wp-admin/includes/file.php:736
 msgid "Private Key:"
 msgstr "私钥："
 
-#: wp-admin/includes/file.php:734
+#: wp-admin/includes/file.php:739
 msgid "Enter the location on the server where the keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "输入您服务器上密钥的路径。如果需要口令，请在上面的密码框里填写。"
 
-#: wp-admin/includes/file.php:738
-#: wp-admin/includes/file.php:740
+#: wp-admin/includes/file.php:743
+#: wp-admin/includes/file.php:745
 msgid "Connection Type"
 msgstr "连接类型"
 
-#: wp-admin/includes/file.php:741
+#: wp-admin/includes/file.php:746
 msgid "FTP"
 msgstr "FTP"
 
-#: wp-admin/includes/file.php:742
+#: wp-admin/includes/file.php:747
 msgid "FTPS (SSL)"
 msgstr "FTPS (SSL)"
 
-#: wp-admin/includes/file.php:743
+#: wp-admin/includes/file.php:748
 msgid "SSH"
 msgstr "SSH"
 
-#: wp-admin/includes/file.php:756
+#: wp-admin/includes/file.php:761
 msgid "Proceed"
 msgstr "进行"
 
@@ -4396,342 +4450,360 @@ msgstr "相册"
 msgid "Media Library"
 msgstr "媒体库"
 
-#: wp-admin/includes/media.php:44
+#: wp-admin/includes/media.php:51
 #, php-format
 msgid "Gallery (%s)"
 msgstr "相册 (%s)"
 
-#: wp-admin/includes/media.php:292
+#: wp-admin/includes/media.php:299
 msgid "Uploads"
 msgstr "所有上传内容"
 
-#: wp-admin/includes/media.php:292
-#: wp-admin/includes/template.php:3202
+#: wp-admin/includes/media.php:299
+#: wp-admin/includes/template.php:3241
 msgid "WordPress"
 msgstr "WordPress"
 
-#: wp-admin/includes/media.php:333
+#: wp-admin/includes/media.php:340
 #, php-format
 msgid "Upload/Insert %s"
 msgstr "上传/插入 %s"
 
-#: wp-admin/includes/media.php:335
+#: wp-admin/includes/media.php:342
 #: wp-includes/js/tinymce/langs/wp-langs.php:412
 msgid "Add Media"
 msgstr "添加媒体"
 
-#: wp-admin/includes/media.php:337
+#: wp-admin/includes/media.php:344
 #: wp-includes/js/tinymce/langs/wp-langs.php:413
 msgid "Add an Image"
 msgstr "添加一个图像"
 
-#: wp-admin/includes/media.php:339
+#: wp-admin/includes/media.php:346
 #: wp-includes/js/tinymce/langs/wp-langs.php:414
 msgid "Add Video"
 msgstr "添加音频"
 
-#: wp-admin/includes/media.php:341
+#: wp-admin/includes/media.php:348
 #: wp-includes/js/tinymce/langs/wp-langs.php:415
 msgid "Add Audio"
 msgstr "添加音频"
 
-#: wp-admin/includes/media.php:464
-#: wp-admin/includes/media.php:555
-#: wp-admin/includes/media.php:608
-#: wp-admin/includes/media.php:661
+#: wp-admin/includes/media.php:473
+#: wp-admin/includes/media.php:564
+#: wp-admin/includes/media.php:617
+#: wp-admin/includes/media.php:670
 msgid "Saved."
 msgstr "保存。"
 
-#: wp-admin/includes/media.php:772
+#: wp-admin/includes/media.php:761
+#: wp-includes/js/tinymce/langs/wp-langs.php:426
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: wp-admin/includes/media.php:761
+#: wp-includes/js/tinymce/langs/wp-langs.php:427
+msgid "Medium"
+msgstr "中"
+
+#: wp-admin/includes/media.php:761
+msgid "Large"
+msgstr "大"
+
+#: wp-admin/includes/media.php:761
+msgid "Full size"
+msgstr "原尺寸"
+
+#: wp-admin/includes/media.php:781
 #, php-format
 msgid "(%d&nbsp;&times;&nbsp;%d)"
 msgstr "(%d&nbsp;&times;&nbsp;%d)"
 
-#: wp-admin/includes/media.php:780
+#: wp-admin/includes/media.php:789
 #: wp-includes/js/tinymce/langs/wp-langs.php:425
 msgid "Size"
 msgstr "大小"
 
-#: wp-admin/includes/media.php:808
+#: wp-admin/includes/media.php:817
 msgid "File URL"
 msgstr "文件URL"
 
-#: wp-admin/includes/media.php:809
+#: wp-admin/includes/media.php:818
 msgid "Post URL"
 msgstr "文章URL"
 
-#: wp-admin/includes/media.php:826
-#: wp-admin/includes/media.php:938
+#: wp-admin/includes/media.php:835
+#: wp-admin/includes/media.php:947
 msgid "Caption"
 msgstr "标题"
 
-#: wp-admin/includes/media.php:827
-#: wp-admin/includes/media.php:1774
+#: wp-admin/includes/media.php:836
+#: wp-admin/includes/media.php:1790
 msgid "Also used as alternate text for the image"
 msgstr "同时作为图像的替换文本"
 
-#: wp-admin/includes/media.php:832
-#: wp-admin/includes/media.php:1808
+#: wp-admin/includes/media.php:841
+#: wp-admin/includes/media.php:1824
 #: wp-includes/js/tinymce/langs/wp-langs.php:42
 #: wp-includes/js/tinymce/langs/wp-langs.php:281
 msgid "Alignment"
 msgstr "居中对齐"
 
-#: wp-admin/includes/media.php:871
+#: wp-admin/includes/media.php:880
 msgid "Empty Title filled from filename."
 msgstr "空的来自文件名的 Title 属性"
 
-#: wp-admin/includes/media.php:947
+#: wp-admin/includes/media.php:956
 #: wp-includes/js/tinymce/langs/wp-langs.php:291
 msgid "Link URL"
 msgstr "链接URL"
 
-#: wp-admin/includes/media.php:950
-#: wp-admin/includes/media.php:1829
+#: wp-admin/includes/media.php:959
+#: wp-admin/includes/media.php:1845
 #: wp-includes/js/tinymce/langs/wp-langs.php:431
 msgid "Enter a link URL or click above for presets."
 msgstr "输入一个链接URL或者点击上面采用预置。"
 
-#: wp-admin/includes/media.php:1043
-#: wp-admin/widgets.php:250
-#: wp-admin/widgets.php:267
+#: wp-admin/includes/media.php:1052
+#: wp-admin/widgets.php:251
+#: wp-admin/widgets.php:268
 msgid "Show"
 msgstr "显示"
 
-#: wp-admin/includes/media.php:1044
+#: wp-admin/includes/media.php:1053
 msgid "Hide"
 msgstr "隐藏"
 
-#: wp-admin/includes/media.php:1120
-#: wp-admin/includes/media.php:1835
-#: wp-admin/includes/media.php:1871
-#: wp-admin/includes/media.php:1906
-#: wp-admin/includes/media.php:1941
+#: wp-admin/includes/media.php:1129
+#: wp-admin/includes/media.php:1851
+#: wp-admin/includes/media.php:1887
+#: wp-admin/includes/media.php:1922
+#: wp-admin/includes/media.php:1957
 msgid "Insert into Post"
 msgstr "插入到文章"
 
-#: wp-admin/includes/media.php:1125
+#: wp-admin/includes/media.php:1134
 #, php-format
 msgid "You are about to delete <strong>%s</strong>."
 msgstr "您将删除 <strong>%s</strong>。"
 
-#: wp-admin/includes/media.php:1244
+#: wp-admin/includes/media.php:1260
 msgid "Select Files"
 msgstr "选择文件"
 
-#: wp-admin/includes/media.php:1287
+#: wp-admin/includes/media.php:1303
 msgid "Choose files to upload"
 msgstr "选择文件上传"
 
-#: wp-admin/includes/media.php:1289
+#: wp-admin/includes/media.php:1305
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "文件上传之后，您可以为它添加标题和描述。"
 
-#: wp-admin/includes/media.php:1302
+#: wp-admin/includes/media.php:1318
 msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
 msgstr "如果您想要让上传更加高效，例如同时上传多个文件，请升级到lighttpd 1.5。"
 
-#: wp-admin/includes/media.php:1332
+#: wp-admin/includes/media.php:1348
 msgid "Add media files from your computer"
 msgstr "从您的计算机上添加一个文件"
 
-#: wp-admin/includes/media.php:1359
-#: wp-admin/includes/media.php:1521
-#: wp-admin/includes/media.php:1753
+#: wp-admin/includes/media.php:1375
+#: wp-admin/includes/media.php:1537
+#: wp-admin/includes/media.php:1769
 #: wp-admin/media-upload.php:81
 msgid "Save all changes"
 msgstr "保存所有更改"
 
-#: wp-admin/includes/media.php:1389
+#: wp-admin/includes/media.php:1405
 msgid "Add media file from URL"
 msgstr "从URL添加媒体文件"
 
-#: wp-admin/includes/media.php:1512
+#: wp-admin/includes/media.php:1528
 #: wp-admin/menu.php:38
 #: wp-admin/menu.php:97
 msgid "Media"
 msgstr "媒体"
 
-#: wp-admin/includes/media.php:1528
+#: wp-admin/includes/media.php:1544
 msgid "Gallery Settings"
 msgstr "相册设置"
 
-#: wp-admin/includes/media.php:1533
+#: wp-admin/includes/media.php:1549
 msgid "Link thumbnails to:"
 msgstr "链接缩略图到："
 
-#: wp-admin/includes/media.php:1538
+#: wp-admin/includes/media.php:1554
 msgid "Image File"
 msgstr "图像文件"
 
-#: wp-admin/includes/media.php:1541
+#: wp-admin/includes/media.php:1557
 msgid "Attachment Page"
 msgstr "附件页面"
 
-#: wp-admin/includes/media.php:1548
+#: wp-admin/includes/media.php:1564
 msgid "Order images by:"
 msgstr "图像排序："
 
-#: wp-admin/includes/media.php:1553
+#: wp-admin/includes/media.php:1569
 msgid "Menu order"
 msgstr "菜单排序"
 
-#: wp-admin/includes/media.php:1555
+#: wp-admin/includes/media.php:1571
 msgid "Date/Time"
 msgstr "日期/时间"
 
-#: wp-admin/includes/media.php:1563
+#: wp-admin/includes/media.php:1579
 msgid "Order:"
 msgstr "排序："
 
-#: wp-admin/includes/media.php:1568
+#: wp-admin/includes/media.php:1584
 msgid "Ascending"
 msgstr "升序"
 
-#: wp-admin/includes/media.php:1571
+#: wp-admin/includes/media.php:1587
 msgid "Descending"
 msgstr "降序"
 
-#: wp-admin/includes/media.php:1578
+#: wp-admin/includes/media.php:1594
 msgid "Gallery columns:"
 msgstr "相册列："
 
-#: wp-admin/includes/media.php:1583
+#: wp-admin/includes/media.php:1599
 msgid "2"
 msgstr "2"
 
-#: wp-admin/includes/media.php:1584
+#: wp-admin/includes/media.php:1600
 msgid "3"
 msgstr "3"
 
-#: wp-admin/includes/media.php:1585
+#: wp-admin/includes/media.php:1601
 msgid "4"
 msgstr "4"
 
-#: wp-admin/includes/media.php:1586
+#: wp-admin/includes/media.php:1602
 msgid "5"
 msgstr "5"
 
-#: wp-admin/includes/media.php:1587
+#: wp-admin/includes/media.php:1603
 msgid "6"
 msgstr "6"
 
-#: wp-admin/includes/media.php:1588
+#: wp-admin/includes/media.php:1604
 msgid "7"
 msgstr "7"
 
-#: wp-admin/includes/media.php:1589
+#: wp-admin/includes/media.php:1605
 msgid "8"
 msgstr "8"
 
-#: wp-admin/includes/media.php:1590
+#: wp-admin/includes/media.php:1606
 msgid "9"
 msgstr "9"
 
-#: wp-admin/includes/media.php:1597
+#: wp-admin/includes/media.php:1613
 msgid "Insert gallery"
 msgstr "插入相册"
 
-#: wp-admin/includes/media.php:1598
+#: wp-admin/includes/media.php:1614
 msgid "Update gallery settings"
 msgstr "更新相册设置"
 
-#: wp-admin/includes/media.php:1640
-#: wp-admin/includes/media.php:1642
-#: wp-admin/upload.php:209
-#: wp-admin/upload.php:211
+#: wp-admin/includes/media.php:1656
+#: wp-admin/includes/media.php:1658
+#: wp-admin/upload.php:212
+#: wp-admin/upload.php:214
 msgid "Search Media"
 msgstr "搜索媒体"
 
-#: wp-admin/includes/media.php:1660
+#: wp-admin/includes/media.php:1676
 msgid "All Types"
 msgstr "全部类型"
 
-#: wp-admin/includes/media.php:1724
+#: wp-admin/includes/media.php:1740
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: wp-admin/includes/media.php:1770
+#: wp-admin/includes/media.php:1786
 msgid "Alternate Text"
 msgstr "替换文本"
 
-#: wp-admin/includes/media.php:1771
+#: wp-admin/includes/media.php:1787
 msgid "Alt text for the image, e.g. \"The Mona Lisa\""
 msgstr "图像的替换文本，例如，“蒙娜丽莎”"
 
-#: wp-admin/includes/media.php:1773
+#: wp-admin/includes/media.php:1789
 msgid "Image Caption"
 msgstr "图像描述"
 
-#: wp-admin/includes/media.php:1785
+#: wp-admin/includes/media.php:1801
 #: wp-includes/js/tinymce/langs/wp-langs.php:274
 msgid "Image URL"
 msgstr "图像URL"
 
-#: wp-admin/includes/media.php:1793
+#: wp-admin/includes/media.php:1809
 msgid "Image Title"
 msgstr "图像标题"
 
-#: wp-admin/includes/media.php:1813
+#: wp-admin/includes/media.php:1829
 #: wp-includes/js/tinymce/langs/wp-langs.php:43
 #: wp-includes/js/tinymce/langs/wp-langs.php:288
 #: wp-includes/js/tinymce/langs/wp-langs.php:385
 msgid "Left"
 msgstr "左"
 
-#: wp-admin/includes/media.php:1815
+#: wp-admin/includes/media.php:1831
 #: wp-includes/js/tinymce/langs/wp-langs.php:44
 #: wp-includes/js/tinymce/langs/wp-langs.php:365
 #: wp-includes/js/tinymce/langs/wp-langs.php:386
 msgid "Center"
 msgstr "中间"
 
-#: wp-admin/includes/media.php:1817
+#: wp-admin/includes/media.php:1833
 #: wp-includes/js/tinymce/langs/wp-langs.php:45
 #: wp-includes/js/tinymce/langs/wp-langs.php:289
 #: wp-includes/js/tinymce/langs/wp-langs.php:383
 msgid "Right"
 msgstr "右"
 
-#: wp-admin/includes/media.php:1823
+#: wp-admin/includes/media.php:1839
 msgid "Link Image To:"
 msgstr "链接图像到："
 
-#: wp-admin/includes/media.php:1828
+#: wp-admin/includes/media.php:1844
 msgid "Link to image"
 msgstr "链接到图像"
 
-#: wp-admin/includes/media.php:1855
+#: wp-admin/includes/media.php:1871
 msgid "Audio File URL"
 msgstr "音频文件URL"
 
-#: wp-admin/includes/media.php:1867
+#: wp-admin/includes/media.php:1883
 msgid "Link text, e.g. \"Still Alive by Jonathan Coulton\""
 msgstr "链接的文字, 例如: \"Still Alive by Jonathan Coulton\""
 
-#: wp-admin/includes/media.php:1890
+#: wp-admin/includes/media.php:1906
 msgid "Video URL"
 msgstr "视频URL"
 
-#: wp-admin/includes/media.php:1902
+#: wp-admin/includes/media.php:1918
 msgid "Link text, e.g. \"Lucy on YouTube\""
 msgstr "链接的文字, 例如: \"Lucy on YouTube\""
 
-#: wp-admin/includes/media.php:1937
+#: wp-admin/includes/media.php:1953
 msgid "Link text, e.g. \"Ransom Demands (PDF)\""
 msgstr "链接的文字, 例如: \"Ransom Demands (PDF)\""
 
-#: wp-admin/includes/media.php:1973
+#: wp-admin/includes/media.php:1989
 #, php-format
 msgid "You are using the Flash uploader.  Problems?  Try the <a href=\"%s\">Browser uploader</a> instead."
 msgstr "您使用的是Flash上传工具，有问题？试试<a href=\"%s\">浏览器上传工具</a>。"
 
-#: wp-admin/includes/media.php:1986
+#: wp-admin/includes/media.php:2002
 #, php-format
 msgid "You are using the Browser uploader.  Try the <a href=\"%s\">Flash uploader</a> instead."
 msgstr "您使用的是浏览器上传工具，有问题？试试<a href=\"%s\">Flash上传工具</a>。"
 
-#: wp-admin/includes/media.php:1989
+#: wp-admin/includes/media.php:2005
 msgid "You are using the Browser uploader."
 msgstr "您正在使用浏览器上传工具。"
 
@@ -4749,8 +4821,8 @@ msgstr "插件延伸、拓展 WordPress 的功能。您可以从<a href=\"http:/
 
 #: wp-admin/includes/plugin-install.php:127
 #: wp-admin/includes/plugin-install.php:177
-#: wp-admin/includes/template.php:2985
-#: wp-admin/includes/template.php:2987
+#: wp-admin/includes/template.php:3024
+#: wp-admin/includes/template.php:3026
 #: wp-content/plugins/akismet/akismet.php:511
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/general-template.php:114
@@ -4821,6 +4893,12 @@ msgstr "关键字"
 #: wp-includes/js/tinymce/langs/wp-langs.php:257
 msgid "Version"
 msgstr "版本"
+
+#: wp-admin/includes/plugin-install.php:292
+#: wp-admin/includes/plugin-install.php:302
+#: wp-includes/post-template.php:1180
+msgid "Actions"
+msgstr "动作"
 
 #: wp-admin/includes/plugin-install.php:309
 msgid "No plugins match your request."
@@ -4942,70 +5020,70 @@ msgstr "<strong>警告：</strong>该插件<strong>未被测试</strong>与您�
 msgid "<strong>Warning:</strong> This plugin has not been marked as <strong>compatible</strong> with your version of WordPress."
 msgstr "<strong>警告：</strong>该插件还未被标记为<strong>兼容</strong>您当前使用的 WordPress 版本。"
 
-#: wp-admin/includes/plugin-install.php:551
+#: wp-admin/includes/plugin-install.php:550
 #, php-format
 msgid "Installing Plugin from file: %s"
 msgstr "安装插件从文件：%s"
 
-#: wp-admin/includes/plugin-install.php:588
+#: wp-admin/includes/plugin-install.php:586
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "正在安装插件：%s"
 
-#: wp-admin/includes/plugin-install.php:607
-#: wp-admin/includes/plugin-install.php:662
+#: wp-admin/includes/plugin-install.php:605
+#: wp-admin/includes/plugin-install.php:660
 msgid "No plugin Specified"
 msgstr "没有指定插件"
 
-#: wp-admin/includes/plugin-install.php:635
-#: wp-admin/includes/plugin-install.php:691
-#: wp-admin/update-core.php:167
+#: wp-admin/includes/plugin-install.php:633
+#: wp-admin/includes/plugin-install.php:689
+#: wp-admin/update-core.php:172
 #: wp-admin/update.php:112
 msgid "Installation Failed"
 msgstr "安装失败"
 
-#: wp-admin/includes/plugin-install.php:637
+#: wp-admin/includes/plugin-install.php:635
 #, php-format
 msgid "Successfully installed the plugin <strong>%s %s</strong>."
 msgstr "成功安装插件<strong>%s %s</strong>。"
 
-#: wp-admin/includes/plugin-install.php:641
-#: wp-admin/includes/plugin-install.php:697
+#: wp-admin/includes/plugin-install.php:639
+#: wp-admin/includes/plugin-install.php:695
 #: wp-admin/plugins.php:285
 #: wp-admin/update.php:61
 msgid "Activate this plugin"
 msgstr "启用这个插件"
 
-#: wp-admin/includes/plugin-install.php:641
-#: wp-admin/includes/plugin-install.php:697
+#: wp-admin/includes/plugin-install.php:639
+#: wp-admin/includes/plugin-install.php:695
 #: wp-admin/update.php:61
 msgid "Activate Plugin"
 msgstr "激活插件"
 
-#: wp-admin/includes/plugin-install.php:642
-#: wp-admin/includes/plugin-install.php:698
+#: wp-admin/includes/plugin-install.php:640
+#: wp-admin/includes/plugin-install.php:696
 #: wp-admin/update.php:62
 msgid "Goto plugins page"
 msgstr "转到插件页面"
 
-#: wp-admin/includes/plugin-install.php:642
-#: wp-admin/includes/plugin-install.php:698
+#: wp-admin/includes/plugin-install.php:640
+#: wp-admin/includes/plugin-install.php:696
 #: wp-admin/update.php:62
 msgid "Return to Plugins page"
 msgstr "返回到插件页面"
 
-#: wp-admin/includes/plugin-install.php:645
-#: wp-admin/includes/plugin-install.php:701
+#: wp-admin/includes/plugin-install.php:643
+#: wp-admin/includes/plugin-install.php:699
 #: wp-admin/update.php:69
 msgid "Actions:"
 msgstr "动作："
 
-#: wp-admin/includes/plugin-install.php:693
+#: wp-admin/includes/plugin-install.php:691
 msgid "Successfully installed the plugin."
 msgstr "成功安装插件。"
 
-#: wp-admin/includes/plugin-install.php:728
-#: wp-admin/includes/plugin-install.php:827
+#: wp-admin/includes/plugin-install.php:726
+#: wp-admin/includes/plugin-install.php:825
 #: wp-admin/includes/plugin.php:402
 #: wp-admin/includes/update.php:188
 #: wp-admin/includes/update.php:316
@@ -5013,51 +5091,50 @@ msgstr "成功安装插件。"
 msgid "Filesystem error"
 msgstr "文件系统错误"
 
-#: wp-admin/includes/plugin-install.php:733
-#: wp-admin/includes/plugin-install.php:832
+#: wp-admin/includes/plugin-install.php:731
+#: wp-admin/includes/plugin-install.php:830
 #: wp-admin/includes/plugin.php:407
 #: wp-admin/includes/update.php:193
 msgid "Unable to locate WordPress Plugin directory."
 msgstr "无法定位 WordPress 插件目录。"
 
-#: wp-admin/includes/plugin-install.php:738
-#: wp-admin/includes/plugin-install.php:837
+#: wp-admin/includes/plugin-install.php:736
+#: wp-admin/includes/plugin-install.php:835
 #: wp-admin/includes/update.php:198
 #: wp-admin/includes/update.php:326
 #: wp-admin/includes/update.php:434
 msgid "Unable to locate WordPress Content directory (wp-content)."
 msgstr "无法定位 WordPress Content 目录(wp-content)。"
 
-#: wp-admin/includes/plugin-install.php:744
-#: wp-admin/includes/plugin-install.php:843
+#: wp-admin/includes/plugin-install.php:742
+#: wp-admin/includes/plugin-install.php:841
 msgid "Install package not available."
 msgstr "安装包不可用。"
 
-#: wp-admin/includes/plugin-install.php:747
+#: wp-admin/includes/plugin-install.php:745
 #, php-format
 msgid "Downloading plugin package from %s"
 msgstr "从 %s 下载插件包"
 
-#: wp-admin/includes/plugin-install.php:751
-#: wp-admin/includes/plugin-install.php:846
+#: wp-admin/includes/plugin-install.php:749
 #: wp-admin/includes/update.php:215
 #: wp-admin/includes/update.php:339
 #: wp-admin/includes/update.php:447
 msgid "Download failed."
 msgstr "下载失败。"
 
-#: wp-admin/includes/plugin-install.php:759
-#: wp-admin/includes/plugin-install.php:854
+#: wp-admin/includes/plugin-install.php:757
+#: wp-admin/includes/plugin-install.php:849
 msgid "Unpacking the plugin package"
 msgstr "解压插件安装包"
 
-#: wp-admin/includes/plugin-install.php:776
-#: wp-admin/includes/plugin-install.php:871
+#: wp-admin/includes/plugin-install.php:774
+#: wp-admin/includes/plugin-install.php:866
 msgid "Folder already exists."
 msgstr "文件夹已存在。"
 
-#: wp-admin/includes/plugin-install.php:779
-#: wp-admin/includes/plugin-install.php:874
+#: wp-admin/includes/plugin-install.php:777
+#: wp-admin/includes/plugin-install.php:869
 msgid "Installing the plugin"
 msgstr "正在安装插件"
 
@@ -5079,11 +5156,11 @@ msgstr "插件中的一个无效。"
 msgid "Could not fully remove the plugin(s) %s"
 msgstr "无法完全移除插件 %s"
 
-#: wp-admin/includes/plugin.php:472
+#: wp-admin/includes/plugin.php:475
 msgid "Invalid plugin path."
 msgstr "无效插件路径"
 
-#: wp-admin/includes/plugin.php:474
+#: wp-admin/includes/plugin.php:477
 msgid "Plugin file does not exist."
 msgstr "插件文件不存在。"
 
@@ -5268,16 +5345,16 @@ msgid "Subscriber|User role"
 msgstr "订阅者"
 
 #: wp-admin/includes/template.php:124
-#: wp-admin/includes/template.php:288
-#: wp-admin/includes/template.php:608
-#: wp-admin/includes/template.php:1375
-#: wp-admin/includes/template.php:1562
-#: wp-admin/includes/template.php:2021
+#: wp-admin/includes/template.php:289
+#: wp-admin/includes/template.php:612
+#: wp-admin/includes/template.php:1386
+#: wp-admin/includes/template.php:1576
+#: wp-admin/includes/template.php:2034
 msgid "Quick&nbsp;Edit"
 msgstr "快速编辑"
 
 #: wp-admin/includes/template.php:126
-#: wp-admin/includes/template.php:290
+#: wp-admin/includes/template.php:291
 #, php-format
 msgid ""
 "You are about to delete this category '%s'\n"
@@ -5287,19 +5364,20 @@ msgstr ""
 "您确定么？"
 
 #: wp-admin/includes/template.php:216
-#: wp-admin/includes/template.php:952
-#: wp-admin/includes/template.php:2021
+#: wp-admin/includes/template.php:957
+#: wp-admin/includes/template.php:2034
 msgid "Quick Edit"
 msgstr "快速编辑"
 
 #: wp-admin/includes/template.php:224
-#: wp-admin/includes/template.php:799
-#: wp-admin/includes/template.php:817
-#: wp-admin/includes/template.php:973
+#: wp-admin/includes/template.php:803
+#: wp-admin/includes/template.php:813
+#: wp-admin/includes/template.php:822
+#: wp-admin/includes/template.php:978
 msgid "Slug"
 msgstr "别名"
 
-#: wp-admin/includes/template.php:609
+#: wp-admin/includes/template.php:613
 #, php-format
 msgid ""
 "You are about to delete this tag '%s'\n"
@@ -5308,131 +5386,149 @@ msgstr ""
 "您将删除这个标签 “%s”\n"
 "您确定么？"
 
-#: wp-admin/includes/template.php:686
+#: wp-admin/includes/template.php:690
 msgid "Post|noun"
 msgstr "文章"
 
-#: wp-admin/includes/template.php:692
-#: wp-admin/includes/template.php:739
-#: wp-admin/includes/template.php:977
+#: wp-admin/includes/template.php:696
+#: wp-admin/includes/template.php:743
+#: wp-admin/includes/template.php:982
 msgid "Date"
 msgstr "日期"
 
-#: wp-admin/includes/template.php:710
+#: wp-admin/includes/template.php:714
 msgid "File|media column header"
 msgstr "文件"
 
-#: wp-admin/includes/template.php:713
+#: wp-admin/includes/template.php:717
 msgid "Attached to|media column header"
 msgstr "附属于"
 
-#: wp-admin/includes/template.php:716
+#: wp-admin/includes/template.php:720
 msgid "Date|media column header"
 msgstr "添加日期"
 
-#: wp-admin/includes/template.php:776
+#: wp-admin/includes/template.php:780
 msgid "In Response To"
 msgstr "回应"
 
-#: wp-admin/includes/template.php:786
+#: wp-admin/includes/template.php:790
 msgid "rel"
 msgstr "正向链接关系"
 
-#: wp-admin/includes/template.php:787
+#: wp-admin/includes/template.php:791
 msgid "Visible"
 msgstr "是否可见"
 
-#: wp-admin/includes/template.php:809
+#: wp-admin/includes/template.php:814
 #: wp-admin/menu.php:42
 #: wp-includes/widgets.php:1930
 msgid "Links"
 msgstr "链接"
 
-#: wp-admin/includes/template.php:828
+#: wp-admin/includes/template.php:833
 #: wp-admin/user-new.php:123
 msgid "Role"
 msgstr "角色"
 
-#: wp-admin/includes/template.php:952
+#: wp-admin/includes/template.php:957
 msgid "Bulk Edit Pages"
 msgstr "批量编辑页面"
 
-#: wp-admin/includes/template.php:952
+#: wp-admin/includes/template.php:957
 msgid "Bulk Edit Posts"
 msgstr "批量编辑文章"
 
-#: wp-admin/includes/template.php:990
-#: wp-admin/includes/template.php:1047
-#: wp-admin/includes/template.php:1067
-#: wp-admin/includes/template.php:1089
-#: wp-admin/includes/template.php:1098
-#: wp-admin/includes/template.php:1127
-#: wp-admin/includes/template.php:1148
+#: wp-admin/includes/template.php:995
+#: wp-admin/includes/template.php:1055
+#: wp-admin/includes/template.php:1074
+#: wp-admin/includes/template.php:1096
+#: wp-admin/includes/template.php:1105
+#: wp-admin/includes/template.php:1134
+#: wp-admin/includes/template.php:1155
 msgid "- No Change -"
 msgstr "-没有更改-"
 
-#: wp-admin/includes/template.php:1012
+#: wp-admin/includes/template.php:1015
+msgid "&ndash;OR&ndash;|Between password field and private checkbox on post quick edit interface"
+msgstr "或"
+
+#: wp-admin/includes/template.php:1019
 msgid "Private page"
 msgstr "私人页面"
 
-#: wp-admin/includes/template.php:1012
+#: wp-admin/includes/template.php:1019
 msgid "Private post"
 msgstr "私人文章"
 
-#: wp-admin/includes/template.php:1024
+#: wp-admin/includes/template.php:1031
 msgid "[more]"
 msgstr "[更多]"
 
-#: wp-admin/includes/template.php:1025
+#: wp-admin/includes/template.php:1032
 msgid "[less]"
 msgstr "[更少]"
 
-#: wp-admin/includes/template.php:1090
-#: wp-admin/includes/template.php:1099
+#: wp-admin/includes/template.php:1097
+#: wp-admin/includes/template.php:1106
 msgid "Allow"
 msgstr "允许"
 
-#: wp-admin/includes/template.php:1091
-#: wp-admin/includes/template.php:1100
+#: wp-admin/includes/template.php:1098
+#: wp-admin/includes/template.php:1107
 msgid "Do not allow"
 msgstr "不允许"
 
-#: wp-admin/includes/template.php:1146
-#: wp-admin/includes/template.php:1149
+#: wp-admin/includes/template.php:1153
+#: wp-admin/includes/template.php:1156
 msgid "Sticky"
 msgstr "置顶"
 
-#: wp-admin/includes/template.php:1150
+#: wp-admin/includes/template.php:1157
 msgid "Not Sticky"
 msgstr "不置顶"
 
-#: wp-admin/includes/template.php:1158
+#: wp-admin/includes/template.php:1165
 msgid "Make this post sticky"
 msgstr "保持这篇文章置顶"
 
-#: wp-admin/includes/template.php:1355
+#: wp-admin/includes/template.php:1189
+#: wp-admin/includes/template.php:2316
+#: wp-includes/js/tinymce/langs/wp-langs.php:29
+msgid "Update"
+msgstr "更新"
+
+#: wp-admin/includes/template.php:1192
+msgid "Update Pages"
+msgstr "更新页面"
+
+#: wp-admin/includes/template.php:1192
+msgid "Update Posts"
+msgstr "更新文章"
+
+#: wp-admin/includes/template.php:1366
 msgid "Missed schedule"
 msgstr "丢失计划任务"
 
-#: wp-admin/includes/template.php:1359
-#: wp-admin/includes/template.php:1551
+#: wp-admin/includes/template.php:1370
+#: wp-admin/includes/template.php:1564
 msgid "Last Modified"
 msgstr "最后修改"
 
-#: wp-admin/includes/template.php:1374
+#: wp-admin/includes/template.php:1385
 msgid "Edit this post"
 msgstr "编辑这篇文章"
 
-#: wp-admin/includes/template.php:1375
+#: wp-admin/includes/template.php:1386
 msgid "Edit this post inline"
 msgstr "实时编辑这篇文章"
 
-#: wp-admin/includes/template.php:1376
+#: wp-admin/includes/template.php:1387
 msgid "Delete this post"
 msgstr "删除这篇文章"
 
-#: wp-admin/includes/template.php:1376
-#: wp-admin/includes/template.php:1563
+#: wp-admin/includes/template.php:1387
+#: wp-admin/includes/template.php:1577
 #, php-format
 msgid ""
 "You are about to delete this draft '%s'\n"
@@ -5441,7 +5537,7 @@ msgstr ""
 "您将删除此这个草稿“%s”\n"
 "您确定么？"
 
-#: wp-admin/includes/template.php:1376
+#: wp-admin/includes/template.php:1387
 #, php-format
 msgid ""
 "You are about to delete this post '%s'\n"
@@ -5450,27 +5546,27 @@ msgstr ""
 "您将删除这篇文章“%s”\n"
 "您确定么？"
 
-#: wp-admin/includes/template.php:1379
-#: wp-admin/includes/template.php:1565
+#: wp-admin/includes/template.php:1391
+#: wp-admin/includes/template.php:1581
 #, php-format
 msgid "Preview \"%s\""
 msgstr "预览 \"%s\""
 
-#: wp-admin/includes/template.php:1408
+#: wp-admin/includes/template.php:1421
 #: wp-admin/includes/upgrade.php:96
 #: wp-includes/category-template.php:214
 msgid "Uncategorized"
 msgstr "未分类"
 
-#: wp-admin/includes/template.php:1561
+#: wp-admin/includes/template.php:1575
 msgid "Edit this page"
 msgstr "编辑这个页面"
 
-#: wp-admin/includes/template.php:1563
+#: wp-admin/includes/template.php:1577
 msgid "Delete this page"
 msgstr "删除这个页面"
 
-#: wp-admin/includes/template.php:1563
+#: wp-admin/includes/template.php:1577
 #, php-format
 msgid ""
 "You are about to delete this page '%s'\n"
@@ -5479,190 +5575,174 @@ msgstr ""
 "您将删除这个页面 “%s”\n"
 "您确定么？"
 
-#: wp-admin/includes/template.php:1837
+#: wp-admin/includes/template.php:1854
 #, php-format
 msgid "e-mail: %s"
 msgstr "电子邮件： %s"
 
-#: wp-admin/includes/template.php:1846
+#: wp-admin/includes/template.php:1863
 msgid "View posts by this author"
 msgstr "查看这个作者的文章"
 
 # D:\WWW\wp21\nightly\wordpress/wp-admin/options-general.php:63
-#: wp-admin/includes/template.php:1963
+#: wp-admin/includes/template.php:1976
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "Y/m/d \\a\\t g:i A"
 
-#: wp-admin/includes/template.php:1992
+#: wp-admin/includes/template.php:2005
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "提交于 <a href=\"%1$s\">%2$s at %3$s</a>"
 
-#: wp-admin/includes/template.php:1992
+#: wp-admin/includes/template.php:2005
 msgid "g:ia"
 msgstr "g:ia"
 
 # D:\WWW\wp21\nightly\wordpress/wp-admin/options-general.php:63
-#: wp-admin/includes/template.php:2062
-#: wp-admin/includes/template.php:2071
+#: wp-admin/includes/template.php:2078
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "Y/m/d \\a\\t g:i A"
 
-#: wp-admin/includes/template.php:2070
-#, php-format
-msgid "(%s)"
-msgid_plural "(%s)"
-msgstr[0] "(%s)"
-
-#: wp-admin/includes/template.php:2105
+#: wp-admin/includes/template.php:2144
 msgid "Reply to Comment"
 msgstr "回复评论"
 
-#: wp-admin/includes/template.php:2131
+#: wp-admin/includes/template.php:2170
 msgid "Submit Reply"
 msgstr "提交评论"
 
-#: wp-admin/includes/template.php:2204
-#: wp-admin/includes/template.php:2219
-#: wp-admin/includes/template.php:2281
-#: wp-admin/includes/template.php:2308
+#: wp-admin/includes/template.php:2243
+#: wp-admin/includes/template.php:2258
+#: wp-admin/includes/template.php:2320
+#: wp-admin/includes/template.php:2347
 msgid "Value"
 msgstr "值"
 
-#: wp-admin/includes/template.php:2273
+#: wp-admin/includes/template.php:2312
 msgid "Key"
 msgstr "键"
 
-#: wp-admin/includes/template.php:2277
-#: wp-includes/js/tinymce/langs/wp-langs.php:29
-msgid "Update"
-msgstr "更新"
-
-#: wp-admin/includes/template.php:2303
+#: wp-admin/includes/template.php:2342
 msgid "Add new custom field:"
 msgstr "添加新自定义域："
 
-#: wp-admin/includes/template.php:2328
+#: wp-admin/includes/template.php:2367
 msgid "Enter new"
 msgstr "输入新"
 
-#: wp-admin/includes/template.php:2338
+#: wp-admin/includes/template.php:2377
 msgid "Add Custom Field"
 msgstr "添加自定义域"
 
-#: wp-admin/includes/template.php:2397
+#: wp-admin/includes/template.php:2436
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
 msgstr "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
 
-#: wp-admin/includes/template.php:2481
+#: wp-admin/includes/template.php:2520
 msgid "WordPress recommends a better browser"
 msgstr "WordPress 推荐一款更好的浏览器"
 
-#: wp-admin/includes/template.php:2516
+#: wp-admin/includes/template.php:2555
 msgid "Thumbnail linked to file"
 msgstr "缩略图链接到文件"
 
-#: wp-admin/includes/template.php:2516
+#: wp-admin/includes/template.php:2555
 msgid "Image linked to file"
 msgstr "图像链接到文件"
 
-#: wp-admin/includes/template.php:2520
+#: wp-admin/includes/template.php:2559
 msgid "Thumbnail linked to page"
 msgstr "缩略图链接到页面"
 
-#: wp-admin/includes/template.php:2520
+#: wp-admin/includes/template.php:2559
 msgid "Image linked to page"
 msgstr "图像链接到页面"
 
-#: wp-admin/includes/template.php:2525
+#: wp-admin/includes/template.php:2564
 msgid "Link to file"
 msgstr "链接到文件"
 
-#: wp-admin/includes/template.php:2529
+#: wp-admin/includes/template.php:2568
 msgid "Link to page"
 msgstr "链接到页面"
 
-#: wp-admin/includes/template.php:2623
+#: wp-admin/includes/template.php:2662
 msgid "Choose a file from your computer:"
 msgstr "从您的计算机上选择一个文件："
 
-#: wp-admin/includes/template.php:2623
+#: wp-admin/includes/template.php:2662
 #, php-format
 msgid "Maximum size: %s"
 msgstr "文件最大为：%s"
 
-#: wp-admin/includes/template.php:2629
+#: wp-admin/includes/template.php:2668
 msgid "Upload file and import"
 msgstr "上传文件并导入"
 
-#: wp-admin/includes/template.php:2753
+#: wp-admin/includes/template.php:2792
 msgid "Click to toggle"
 msgstr "显示/隐藏"
 
-#: wp-admin/includes/template.php:2976
+#: wp-admin/includes/template.php:3015
 msgid "Find Posts or Pages"
 msgstr "查找文章或页面"
 
-#: wp-admin/includes/template.php:2997
+#: wp-admin/includes/template.php:3036
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
 msgid "Close"
 msgstr "关闭"
 
-#: wp-admin/includes/template.php:2998
+#: wp-admin/includes/template.php:3037
 #: wp-admin/theme-editor.php:118
 msgid "Select"
 msgstr "选择"
 
-#: wp-admin/includes/template.php:3123
+#: wp-admin/includes/template.php:3162
 msgid "New Post"
 msgstr "添加新文章"
 
-#: wp-admin/includes/template.php:3124
+#: wp-admin/includes/template.php:3163
 msgid "Drafts"
 msgstr "草稿"
 
-#: wp-admin/includes/template.php:3125
+#: wp-admin/includes/template.php:3164
 msgid "New Page"
 msgstr "添加新页面"
 
-#: wp-admin/includes/template.php:3171
-#: wp-includes/script-loader.php:257
+#: wp-admin/includes/template.php:3210
+#: wp-includes/script-loader.php:269
 msgid "(no title)"
 msgstr "(无标题)"
 
-#: wp-admin/includes/template.php:3244
-msgid "Protected"
-msgstr "受保护"
-
-#: wp-admin/includes/template.php:3286
+#: wp-admin/includes/template.php:3325
 msgid "Show on screen"
 msgstr "在屏幕上显示"
 
-#: wp-admin/includes/template.php:3307
+#: wp-admin/includes/template.php:3348
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">写文章</a>"
 
-#: wp-admin/includes/template.php:3309
+#: wp-admin/includes/template.php:3368
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">一般设置</a>"
 
-#: wp-admin/includes/template.php:3317
+#: wp-admin/includes/template.php:3377
 #, php-format
 msgid "Get help with \"%s\""
 msgstr "获取“%s”帮助"
 
-#: wp-admin/includes/template.php:3319
+#: wp-admin/includes/template.php:3379
 msgid "Get help with this page"
 msgstr "获取本页帮助"
 
-#: wp-admin/includes/template.php:3322
+#: wp-admin/includes/template.php:3382
 msgid "Other Help"
 msgstr "其它帮助"
 
-#: wp-admin/includes/template.php:3324
-#: wp-admin/includes/template.php:3338
+#: wp-admin/includes/template.php:3384
+#: wp-admin/includes/template.php:3398
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -5670,17 +5750,25 @@ msgstr "其它帮助"
 msgid "Help"
 msgstr "帮助"
 
-#: wp-admin/includes/template.php:3328
+#: wp-admin/includes/template.php:3388
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">文档</a>"
 
-#: wp-admin/includes/template.php:3330
+#: wp-admin/includes/template.php:3390
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
-#: wp-admin/includes/template.php:3342
+#: wp-admin/includes/template.php:3402
 msgid "Screen Options"
 msgstr "显示选项"
+
+#: wp-admin/includes/template.php:3429
+msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you’ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
+msgstr "这个页面上的大部分组件都是可以移动的，如果组件可以移动，您把鼠标指针放到一个组件的标题上指针会变成十字，那么您可以拖拽这个组件到一个新位置。当您拖拽的时候会有一灰色虚线框同时移动，这个框就是你松开鼠标后组件将移动到的新位置。"
+
+#: wp-admin/includes/template.php:3430
+msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
+msgstr "同样的组件可以通过单击标题展开和收起，也可以通过设置“显示选项”完全隐藏。"
 
 #: wp-admin/includes/update-core.php:217
 msgid "Verifying the unpacked files"
@@ -6074,51 +6162,51 @@ msgstr "您没有足够权限编辑该博客的链接。"
 msgid "Edit Links"
 msgstr "编辑链接"
 
-#: wp-admin/link-manager.php:80
+#: wp-admin/link-manager.php:83
 #, php-format
 msgid "%s link deleted."
 msgid_plural "%s links deleted"
 msgstr[0] "已经删除 %s 个链接"
 
-#: wp-admin/link-manager.php:88
-#: wp-admin/link-manager.php:90
+#: wp-admin/link-manager.php:91
+#: wp-admin/link-manager.php:93
 msgid "Search Links"
 msgstr "搜索链接"
 
-#: wp-admin/link-manager.php:108
+#: wp-admin/link-manager.php:111
 msgid "View all Categories"
 msgstr "查看全部分类目录"
 
-#: wp-admin/link-manager.php:114
+#: wp-admin/link-manager.php:117
 msgid "Order by Link ID"
 msgstr "以链接 ID排序"
 
-#: wp-admin/link-manager.php:115
+#: wp-admin/link-manager.php:118
 msgid "Order by Name"
 msgstr "以名称排序"
 
-#: wp-admin/link-manager.php:116
+#: wp-admin/link-manager.php:119
 msgid "Order by Address"
 msgstr "以地址排序"
 
-#: wp-admin/link-manager.php:117
+#: wp-admin/link-manager.php:120
 msgid "Order by Rating"
 msgstr "以级别排序"
 
-#: wp-admin/link-manager.php:173
+#: wp-admin/link-manager.php:176
 msgid "Yes"
 msgstr "是"
 
-#: wp-admin/link-manager.php:210
+#: wp-admin/link-manager.php:213
 #, php-format
 msgid "Visit %s"
 msgstr "访问 %s"
 
-#: wp-admin/link-manager.php:248
+#: wp-admin/link-manager.php:251
 msgid "No links found."
 msgstr "找不到任何链接。"
 
-#: wp-admin/link-manager.php:276
+#: wp-admin/link-manager.php:279
 msgid ""
 "You are about to delete the selected links.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -6126,7 +6214,7 @@ msgstr ""
 "您将删除选定链接。\n"
 "您确定么？"
 
-#: wp-admin/link-parse-opml.php:88
+#: wp-admin/link-parse-opml.php:90
 #, php-format
 msgid "XML error: %1$s at line %2$s"
 msgstr "XML 解析错误： %1$s 在第 %2$s 行处"
@@ -6161,6 +6249,10 @@ msgstr "编辑媒体"
 #: wp-admin/upload.php:153
 msgid "Media attachment updated."
 msgstr "媒体附件已更新。"
+
+#: wp-admin/media.php:96
+msgid "Update Media"
+msgstr "更新媒体"
 
 #: wp-admin/menu.php:34
 msgid "Add New|post"
@@ -6926,15 +7018,15 @@ msgstr "全部设置"
 msgid "Add New Page"
 msgstr "添加新页面"
 
-#: wp-admin/page.php:92
+#: wp-admin/page.php:96
 msgid "Edit Page"
 msgstr "编辑页面"
 
-#: wp-admin/page.php:97
+#: wp-admin/page.php:101
 msgid "You attempted to edit a page that doesn't exist. Perhaps it was deleted?"
 msgstr "您尝试编译一篇不存在的页面，它是不是被删除了？"
 
-#: wp-admin/page.php:115
+#: wp-admin/page.php:119
 #, php-format
 msgid "Warning: %s is currently editing this page"
 msgstr "注意：%s 正在编辑该页面"
@@ -6994,17 +7086,17 @@ msgid "Update File and Attempt to Reactivate"
 msgstr "更新文件并尝试重新激活"
 
 #: wp-admin/plugin-editor.php:147
-#: wp-admin/theme-editor.php:185
+#: wp-admin/theme-editor.php:195
 msgid "Update File"
 msgstr "更新文件"
 
 #: wp-admin/plugin-editor.php:151
-#: wp-admin/theme-editor.php:189
+#: wp-admin/theme-editor.php:199
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
 msgstr "在你可以保存更改前，你需要保证文件可写。参见<a href=\"http://codex.wordpress.org/Changing_File_Permissions\">知识库</a>。"
 
 #: wp-admin/plugin-editor.php:156
-#: wp-admin/theme-editor.php:195
+#: wp-admin/theme-editor.php:205
 msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "噢，没入这个文件。重新检查文件名再试试，谢谢。"
 
@@ -7208,16 +7300,16 @@ msgstr ""
 "您也可以<a href=\"mailto:%s?subject=提升我的权限?\">写信给管理员</a>要求提升级别。<br />\n"
 "如果您已经升级，刷新页面便可以发表文章了。:)"
 
-#: wp-admin/post.php:130
+#: wp-admin/post.php:134
 msgid "You attempted to edit a post that doesn't exist. Perhaps it was deleted?"
 msgstr "您尝试编译一篇不存在的文章，它是不是被删除了？"
 
-#: wp-admin/post.php:150
+#: wp-admin/post.php:154
 #, php-format
 msgid "Warning: %s is currently editing this post"
 msgstr "注意：%s 正在编辑该文章"
 
-#: wp-admin/post.php:159
+#: wp-admin/post.php:163
 msgid "Edit Post"
 msgstr "编辑文章"
 
@@ -7239,59 +7331,52 @@ msgstr "点击插入。"
 msgid "Insert Image"
 msgstr "插入图像"
 
-#: wp-admin/press-this.php:259
+#: wp-admin/press-this.php:254
 msgid "Unable to retrieve images or no images on page."
 msgstr "无法获取图像或者页面上没有图像。"
 
-#: wp-admin/press-this.php:313
+#: wp-admin/press-this.php:308
 msgid "click images to select"
 msgstr "点击选择图像"
 
-#: wp-admin/press-this.php:313
+#: wp-admin/press-this.php:308
 msgid "Add from URL"
 msgstr "从URL添加"
 
-#: wp-admin/press-this.php:313
+#: wp-admin/press-this.php:308
 msgid "Refresh"
 msgstr "刷新"
 
-#: wp-admin/press-this.php:337
-#: wp-admin/press-this.php:467
-#: wp-admin/tools.php:82
-#: wp-admin/tools.php:84
-msgid "Press This"
-msgstr "快速发布"
-
-#: wp-admin/press-this.php:427
+#: wp-admin/press-this.php:421
 msgid "Loading..."
 msgstr "载入中..."
 
-#: wp-admin/press-this.php:527
+#: wp-admin/press-this.php:521
 msgid "Close Window"
 msgstr "关闭窗口"
 
-#: wp-admin/press-this.php:541
-#: wp-admin/press-this.php:542
+#: wp-admin/press-this.php:535
+#: wp-admin/press-this.php:536
 msgid "Insert an Image"
 msgstr "插入一个图像"
 
-#: wp-admin/press-this.php:545
+#: wp-admin/press-this.php:539
 msgid "Embed a Video"
 msgstr "嵌入一个视频"
 
-#: wp-admin/press-this.php:550
+#: wp-admin/press-this.php:545
 #: wp-includes/general-template.php:1499
 #: wp-includes/general-template.php:1503
 msgid "HTML"
 msgstr "HTML"
 
-#: wp-admin/press-this.php:551
+#: wp-admin/press-this.php:546
 #: wp-includes/general-template.php:1500
 #: wp-includes/general-template.php:1504
 msgid "Visual"
 msgstr "可视化"
 
-#: wp-admin/press-this.php:559
+#: wp-admin/press-this.php:555
 msgid "via "
 msgstr "通过"
 
@@ -7347,7 +7432,7 @@ msgid "Tags:"
 msgstr "标签："
 
 #: wp-admin/sidebar.php:115
-#: wp-includes/script-loader.php:181
+#: wp-includes/script-loader.php:187
 msgid "Separate tags with commas"
 msgstr "多个标签请用英文逗号分开"
 
@@ -7379,7 +7464,7 @@ msgstr "主题文件"
 msgid "Templates"
 msgstr "模版"
 
-#: wp-admin/theme-editor.php:151
+#: wp-admin/theme-editor.php:161
 msgid "Styles|Theme stylesheets in theme editor"
 msgstr "样式|主题编辑器中的主题样式表"
 
@@ -7507,8 +7592,8 @@ msgstr "点击下面的按钮激活它。"
 
 #: wp-admin/tools.php:39
 #: wp-admin/tools.php:72
-msgid "However, Gears should not be enabled if this is a public or shared computer."
-msgstr "无论这台计算机是公用或是共享机器，都不要启用Gears。"
+msgid "Note: Do not enable Gears if this is a public or shared computer!"
+msgstr "注意：无论这台计算机是公用或是共享机器，都不要启用Gears！"
 
 #: wp-admin/tools.php:40
 msgid "Enable Gears"
@@ -7539,19 +7624,19 @@ msgid "Updating files:"
 msgstr "更新文件："
 
 #: wp-admin/tools.php:61
-msgid "This web site is denied to use Gears."
-msgstr "这个站点阻止使用 Gears。"
+msgid "Your browser&#8217;s settings do not permit this website to use Google Gears."
+msgstr "您的浏览器设置不允许这个网站使用 Google Gears。"
 
 #: wp-admin/tools.php:65
-msgid "To allow it, change the Gears settings from your browser&#8217;s Options, Under the Hood menu and reload this page."
+msgid "To allow it, change the Gears settings in your browser&#8217;s Options, Under the Hood menu and reload this page."
 msgstr "允许它，在您浏览器的高级选项中改变 Gears 设置，然后刷新页面。"
 
 #: wp-admin/tools.php:67
-msgid "To allow it, change the Gears settings from the Safari menu and reload this page."
-msgstr "允许它，在您浏览器的Safari菜单中改变 Gears 设置，然后刷新页面。"
+msgid "To allow it, change the Gears settings in the Safari menu and reload this page."
+msgstr "允许它，在您浏览器的 Safari 菜单中改变 Gears 设置，然后刷新页面。"
 
 #: wp-admin/tools.php:69
-msgid "To allow it, change the Gears settings from your browser&#8217;s Tools menu and reload this page."
+msgid "To allow it, change the Gears settings in your browser&#8217;s Tools menu and reload this page."
 msgstr "允许它，在您浏览器的工具菜单中改变 Gears 设置，然后刷新页面。"
 
 #: wp-admin/tools.php:76
@@ -7559,6 +7644,14 @@ msgid "Turbo is not available for your browser."
 msgstr "Turbo 不支持您的浏览器。"
 
 #: wp-admin/tools.php:83
+msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the web."
+msgstr "快速发布功能是个书签工具按钮：一个运行于浏览器上能帮你保存Web上一些零碎内容的小程序。"
+
+#: wp-admin/tools.php:85
+msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your blog."
+msgstr "用快速发布功能摘取任意网页上的文字、图像和视频。在您保存或发布文章之前可以直接通过快速发布功能编辑、添加更多内容。"
+
+#: wp-admin/tools.php:86
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
 msgstr "拖拽下面的链接到您的书签工具栏或者右键单击链接把它添加到您的收藏夹中可创建一个快速发布文章的快捷方式。"
 
@@ -7571,71 +7664,71 @@ msgstr "您没有权限更新插件。"
 msgid "Upgrade Automatically"
 msgstr "自动升级"
 
-#: wp-admin/update-core.php:23
+#: wp-admin/update-core.php:24
 msgid "You are using a development version of WordPress.  You can upgrade to the latest nightly build automatically or download the nightly build and install it manually:"
 msgstr "您正在使用开发版本的 WordPress。您可以让 WordPress 自动升级到最新的构建版本或者下载后手动安装。"
 
-#: wp-admin/update-core.php:24
+#: wp-admin/update-core.php:25
 msgid "Download nightly build"
 msgstr "下载最新构建版本"
 
-#: wp-admin/update-core.php:27
+#: wp-admin/update-core.php:28
 #, php-format
 msgid "You have the latest version of WordPress. You do not need to upgrade. However, if you want to re-install version %s, you can do so automatically or download the package and re-install manually:"
 msgstr "您正在使用最新版本的 WordPress。您无需升级。尽管这样， 您还是可以重新安装版本 %s，自动安装或者下载安装包手动重新安装："
 
-#: wp-admin/update-core.php:28
+#: wp-admin/update-core.php:29
 msgid "Re-install Automatically"
 msgstr "自动重新安装"
 
-#: wp-admin/update-core.php:30
+#: wp-admin/update-core.php:32
 #, php-format
 msgid "You can upgrade to version %s automatically or download the package and install it manually:"
 msgstr "您可以自动升级到版本 %s 或者下载安装包手动安装："
 
-#: wp-admin/update-core.php:32
+#: wp-admin/update-core.php:34
 #, php-format
 msgid "Download %s"
 msgstr "下载%s"
 
-#: wp-admin/update-core.php:47
+#: wp-admin/update-core.php:49
 msgid "Hide this update"
 msgstr "隐藏这个更新"
 
-#: wp-admin/update-core.php:49
+#: wp-admin/update-core.php:51
 msgid "Bring back this update"
 msgstr "重新采用这个升级"
 
-#: wp-admin/update-core.php:59
-#: wp-admin/update-core.php:71
+#: wp-admin/update-core.php:61
+#: wp-admin/update-core.php:73
 msgid "Show hidden updates"
 msgstr "显示隐藏升级"
 
-#: wp-admin/update-core.php:60
+#: wp-admin/update-core.php:62
 msgid "Hide hidden updates"
 msgstr "不显示隐藏升级"
 
-#: wp-admin/update-core.php:94
-#: wp-admin/update-core.php:153
-#: wp-admin/update-core.php:197
-#: wp-admin/update-core.php:204
+#: wp-admin/update-core.php:96
+#: wp-admin/update-core.php:155
+#: wp-admin/update-core.php:202
+#: wp-admin/update-core.php:209
 #: wp-admin/upgrade.php:64
 msgid "Upgrade WordPress"
 msgstr "升级 WordPress"
 
-#: wp-admin/update-core.php:98
+#: wp-admin/update-core.php:100
 msgid "You have the latest version of WordPress. You do not need to upgrade"
 msgstr "您的 WordPress 已经是最新版本。您无需升级"
 
-#: wp-admin/update-core.php:102
+#: wp-admin/update-core.php:104
 msgid "<strong>Important:</strong> before upgrading, please <a href=\"http://codex.wordpress.org/WordPress_Backups\">backup your database and files</a>."
 msgstr "<strong>重要：</strong>升级前，请<a href=\"http://codex.wordpress.org/WordPress_Backups\">备份您的数据库和文件</a>。"
 
-#: wp-admin/update-core.php:106
+#: wp-admin/update-core.php:108
 msgid "There is a new version of WordPress available for upgrade"
 msgstr "有一个新的 WordPress 版本可供升级"
 
-#: wp-admin/update-core.php:169
+#: wp-admin/update-core.php:174
 msgid "WordPress upgraded successfully"
 msgstr "WordPress更新成功"
 
@@ -7772,34 +7865,34 @@ msgstr "媒体已删除。"
 msgid "Error saving media attachment."
 msgstr "保存媒体附件错误。"
 
-#: wp-admin/upload.php:200
+#: wp-admin/upload.php:203
 msgid "Unattached"
 msgstr "解除附件"
 
-#: wp-admin/upload.php:244
-#: wp-admin/upload.php:397
+#: wp-admin/upload.php:247
+#: wp-admin/upload.php:400
 msgid "Attach to a post"
 msgstr "添加到文章"
 
-#: wp-admin/upload.php:285
+#: wp-admin/upload.php:288
 msgid "Scan for lost attachments"
 msgstr "扫描丢失附件"
 
-#: wp-admin/upload.php:301
-#: wp-admin/upload.php:310
+#: wp-admin/upload.php:304
+#: wp-admin/upload.php:313
 msgid "Media|media column header"
 msgstr "媒体|媒体列头部"
 
-#: wp-admin/upload.php:302
-#: wp-admin/upload.php:311
+#: wp-admin/upload.php:305
+#: wp-admin/upload.php:314
 msgid "Date Added|media column header"
 msgstr "添加日期|媒体列头部"
 
-#: wp-admin/upload.php:342
+#: wp-admin/upload.php:345
 msgid "Attach"
 msgstr "附件"
 
-#: wp-admin/upload.php:416
+#: wp-admin/upload.php:419
 msgid ""
 "You are about to delete the selected attachments.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -7946,7 +8039,7 @@ msgid "Type your new password again."
 msgstr "再输入一遍新密码。"
 
 #: wp-admin/user-edit.php:356
-#: wp-includes/script-loader.php:153
+#: wp-includes/script-loader.php:157
 msgid "Strength indicator"
 msgstr "强度"
 
@@ -8094,87 +8187,87 @@ msgstr "您无法删除当前登录的用户。"
 msgid "Other users have been deleted."
 msgstr "其它用户已删除。"
 
-#: wp-admin/users.php:277
+#: wp-admin/users.php:280
 #, php-format
 msgid "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
 msgstr "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
 
-#: wp-admin/users.php:289
-#: wp-admin/users.php:291
+#: wp-admin/users.php:292
+#: wp-admin/users.php:294
 msgid "Search Users"
 msgstr "搜索用户"
 
-#: wp-admin/users.php:308
+#: wp-admin/users.php:311
 msgid "Change role to&hellip;"
 msgstr "改变角色为 &hellip;"
 
-#: wp-admin/users.php:309
+#: wp-admin/users.php:312
 msgid "Change"
 msgstr "更改"
 
-#: wp-admin/users.php:331
+#: wp-admin/users.php:334
 msgid "&larr; Back to All Users"
 msgstr "&larr; 返回到所有用户"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2504
+#: wp-includes/functions.php:2509
 msgid "Widgets"
 msgstr "小工具"
 
-#: wp-admin/widgets.php:38
+#: wp-admin/widgets.php:41
 msgid "No Sidebars Defined"
 msgstr "边栏未定义"
 
-#: wp-admin/widgets.php:42
-msgid "You are seeing this message because the theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">follow these instructions</a>."
-msgstr "您看到此消息是因为您当前使用的外观主题还不是“边栏小工具”兼容，意味着当前外观文件未包含任何边栏可供定义使用 。如何让您的主题文件兼容“边栏小工具”，请<a href=\"http://codex.wordpress.org/Widgetizing_Themes\">查看这些指示</a>。"
+#: wp-admin/widgets.php:43
+msgid "The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">follow these instructions</a>."
+msgstr "您当前使用的外观主题还未提供“边栏小工具”兼容性，意味着当前外观文件未包含任何边栏可供定义使用 。如何让您的主题文件兼容“边栏小工具”，请<a href=\"http://codex.wordpress.org/Widgetizing_Themes\">查看这些指示</a>。"
 
-#: wp-admin/widgets.php:138
-#: wp-admin/widgets.php:152
+#: wp-admin/widgets.php:139
+#: wp-admin/widgets.php:153
 msgid "Add Widget"
 msgstr "添加小工具"
 
-#: wp-admin/widgets.php:194
+#: wp-admin/widgets.php:195
 #, php-format
 msgid "You are using %1$s widget in the \"%2$s\" sidebar."
 msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
 msgstr[0] "您正在使用 %1$s 个小工具( %2$s 边栏)."
 
-#: wp-admin/widgets.php:196
+#: wp-admin/widgets.php:197
 #, php-format
 msgid "You are using %1$s widget in the sidebar."
 msgid_plural "You are using %1$s widgets in the sidebar."
 msgstr[0] "边栏里正在使用 %1$s 个小工具."
 
-#: wp-admin/widgets.php:218
+#: wp-admin/widgets.php:219
 msgid "Show any widgets"
 msgstr "显示所有小工具"
 
-#: wp-admin/widgets.php:218
+#: wp-admin/widgets.php:219
 msgid "Show all widgets"
 msgstr "显示全部小工具"
 
-#: wp-admin/widgets.php:219
+#: wp-admin/widgets.php:220
 msgid "Show unused widgets"
 msgstr "显示未用的小工具"
 
-#: wp-admin/widgets.php:220
+#: wp-admin/widgets.php:221
 msgid "Show used widgets"
 msgstr "显示已用的小工具"
 
-#: wp-admin/widgets.php:226
+#: wp-admin/widgets.php:227
 msgid "Changes saved."
 msgstr "更改已保存。"
 
-#: wp-admin/widgets.php:243
+#: wp-admin/widgets.php:244
 msgid "Available Widgets"
 msgstr "可用小工具"
 
-#: wp-admin/widgets.php:259
+#: wp-admin/widgets.php:260
 msgid "Current Widgets"
 msgstr "当前的小工具"
 
-#: wp-admin/widgets.php:294
+#: wp-admin/widgets.php:295
 msgid "Add more from the Available Widgets section."
 msgstr "从可用的小工具箱中添加更多的小工具。"
 
@@ -8195,8 +8288,8 @@ msgstr "抱歉，您无权编辑或发表新文章。"
 #: wp-app.php:470
 #: wp-app.php:664
 #: wp-app.php:843
-#: xmlrpc.php:1876
-#: xmlrpc.php:2217
+#: xmlrpc.php:1877
+#: xmlrpc.php:2218
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "抱歉，某些错误的发生导致您的文章无法正常发表。"
 
@@ -8208,25 +8301,25 @@ msgstr "抱歉，您没有访问此文章的权限。"
 #: wp-app.php:696
 #: wp-app.php:772
 #: wp-app.php:814
-#: xmlrpc.php:1919
+#: xmlrpc.php:1920
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您没有编辑此文章的权限。"
 
 #: wp-app.php:553
 #: wp-app.php:712
-#: xmlrpc.php:1935
+#: xmlrpc.php:1936
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "由于某种奇怪的缘故，这篇文章无法被编辑。"
 
 #: wp-app.php:574
 #: wp-app.php:734
-#: xmlrpc.php:1972
+#: xmlrpc.php:1973
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您没有删除此文章的权限。"
 
 #: wp-app.php:583
 #: wp-app.php:750
-#: xmlrpc.php:1977
+#: xmlrpc.php:1978
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "由于某种奇怪的缘故，这篇文章无法被删除。"
 
@@ -8824,12 +8917,12 @@ msgstr "书签"
 msgid "View all posts in %s"
 msgstr "查看 %s 的全部文章"
 
+#: wp-includes/category-template.php:489
 #: wp-includes/category-template.php:491
-#: wp-includes/category-template.php:493
 msgid "No categories"
 msgstr "没有分类目录"
 
-#: wp-includes/category-template.php:596
+#: wp-includes/category-template.php:594
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -8949,25 +9042,33 @@ msgstr "%s 上的评论"
 msgid "Log in to Reply"
 msgstr "登录并回复"
 
-#: wp-includes/comment-template.php:1018
+#: wp-includes/comment-template.php:1027
+msgid "Leave a Comment"
+msgstr "留下评论"
+
+#: wp-includes/comment-template.php:1028
+msgid "Log in to leave a Comment"
+msgstr "登录留下评论"
+
+#: wp-includes/comment-template.php:1067
 msgid "Click here to cancel reply."
 msgstr "点击这里取消回复"
 
-#: wp-includes/comment-template.php:1177
+#: wp-includes/comment-template.php:1226
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">说：</span>"
 
-#: wp-includes/comment-template.php:1180
+#: wp-includes/comment-template.php:1229
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正在等待审核。"
 
-#: wp-includes/comment-template.php:1184
+#: wp-includes/comment-template.php:1233
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s于%2$s"
 
-#: wp-includes/comment-template.php:1184
+#: wp-includes/comment-template.php:1233
 msgid "(Edit)"
 msgstr "(编辑)"
 
@@ -9078,222 +9179,222 @@ msgstr "，和|只在两条列出条目之间"
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s 是一项WP的保护选项因此无法被修改"
 
-#: wp-includes/functions.php:1470
+#: wp-includes/functions.php:1474
 #, php-format
 msgid "ERROR: %s is not a valid feed template"
 msgstr "错误：%s 为无效 feed 模板"
 
-#: wp-includes/functions.php:1870
-#: wp-includes/functions.php:1971
+#: wp-includes/functions.php:1874
+#: wp-includes/functions.php:1975
 #, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "无法建立目录 %s。是否上级目录没有写权限？"
 
-#: wp-includes/functions.php:1956
+#: wp-includes/functions.php:1960
 msgid "Empty filename"
 msgstr "文件名为空"
 
-#: wp-includes/functions.php:1977
+#: wp-includes/functions.php:1981
 #, php-format
 msgid "Could not write file %s"
 msgstr "无法写文件 %s"
 
-#: wp-includes/functions.php:2124
+#: wp-includes/functions.php:2128
 #, php-format
 msgid "Your attempt to edit this attachment: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个附件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2126
+#: wp-includes/functions.php:2130
 msgid "Your attempt to add this category has failed."
 msgstr "您尝试添加这个分类目录失败。"
 
-#: wp-includes/functions.php:2127
+#: wp-includes/functions.php:2131
 #, php-format
 msgid "Your attempt to delete this category: &quot;%s&quot; has failed."
 msgstr "您尝试删除这个分类目录：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2128
+#: wp-includes/functions.php:2132
 #, php-format
 msgid "Your attempt to edit this category: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个分类目录：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2130
+#: wp-includes/functions.php:2134
 #, php-format
 msgid "Your attempt to delete this comment: &quot;%s&quot; has failed."
 msgstr "您尝试删除这条评论：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2131
+#: wp-includes/functions.php:2135
 #, php-format
 msgid "Your attempt to unapprove this comment: &quot;%s&quot; has failed."
 msgstr "您尝试驳回这条评论：&quot;%s&quot;失败。"
 
-#: wp-includes/functions.php:2132
+#: wp-includes/functions.php:2136
 #, php-format
 msgid "Your attempt to approve this comment: &quot;%s&quot; has failed."
 msgstr "您尝试获准这条评论：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2133
+#: wp-includes/functions.php:2137
 #, php-format
 msgid "Your attempt to edit this comment: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这条评论：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2134
+#: wp-includes/functions.php:2138
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "您尝试批量修改评论失败。"
 
-#: wp-includes/functions.php:2135
+#: wp-includes/functions.php:2139
 msgid "Your attempt to moderate comments has failed."
 msgstr "您尝试审核这条评论失败。"
 
-#: wp-includes/functions.php:2137
+#: wp-includes/functions.php:2141
 msgid "Your attempt to add this link has failed."
 msgstr "您尝试添加链接失败。"
 
-#: wp-includes/functions.php:2138
+#: wp-includes/functions.php:2142
 #, php-format
 msgid "Your attempt to delete this link: &quot;%s&quot; has failed."
 msgstr "您尝试删除这个链接：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2139
+#: wp-includes/functions.php:2143
 #, php-format
 msgid "Your attempt to edit this link: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个链接：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2140
+#: wp-includes/functions.php:2144
 msgid "Your attempt to bulk modify links has failed."
 msgstr "您尝试批量修改这些链接失败。"
 
-#: wp-includes/functions.php:2142
+#: wp-includes/functions.php:2146
 msgid "Your attempt to add this page has failed."
 msgstr "您尝试添加页面失败。"
 
-#: wp-includes/functions.php:2143
+#: wp-includes/functions.php:2147
 #, php-format
 msgid "Your attempt to delete this page: &quot;%s&quot; has failed."
 msgstr "您尝试删除这个页面：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2144
+#: wp-includes/functions.php:2148
 #, php-format
 msgid "Your attempt to edit this page: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个页面：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2146
+#: wp-includes/functions.php:2150
 #, php-format
 msgid "Your attempt to edit this plugin file: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个插件文件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2147
+#: wp-includes/functions.php:2151
 #, php-format
 msgid "Your attempt to activate this plugin: &quot;%s&quot; has failed."
 msgstr "您尝试启用这个插件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2148
+#: wp-includes/functions.php:2152
 #, php-format
 msgid "Your attempt to deactivate this plugin: &quot;%s&quot; has failed."
 msgstr "您尝试停用这个插件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2149
+#: wp-includes/functions.php:2153
 #, php-format
 msgid "Your attempt to upgrade this plugin: &quot;%s&quot; has failed."
 msgstr "尝试升级插件：&quot;%s&quot; 时发生错误。"
 
-#: wp-includes/functions.php:2151
+#: wp-includes/functions.php:2155
 msgid "Your attempt to add this post has failed."
 msgstr "您尝试添加文章失败。"
 
-#: wp-includes/functions.php:2152
+#: wp-includes/functions.php:2156
 #, php-format
 msgid "Your attempt to delete this post: &quot;%s&quot; has failed."
 msgstr "您尝试删除这篇文章：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2153
+#: wp-includes/functions.php:2157
 #, php-format
 msgid "Your attempt to edit this post: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这篇文章：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2155
+#: wp-includes/functions.php:2159
 msgid "Your attempt to add this user has failed."
 msgstr "您尝试添加用户失败。"
 
-#: wp-includes/functions.php:2156
+#: wp-includes/functions.php:2160
 msgid "Your attempt to delete users has failed."
 msgstr "您尝试删除用户失败。"
 
-#: wp-includes/functions.php:2157
+#: wp-includes/functions.php:2161
 msgid "Your attempt to bulk modify users has failed."
 msgstr "您尝试批量修改用户失败。"
 
-#: wp-includes/functions.php:2158
+#: wp-includes/functions.php:2162
 #, php-format
 msgid "Your attempt to edit this user: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个用户：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2159
+#: wp-includes/functions.php:2163
 #, php-format
 msgid "Your attempt to modify the profile for: &quot;%s&quot; has failed."
 msgstr "您尝试修改这个用户的配置：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2161
+#: wp-includes/functions.php:2165
 msgid "Your attempt to edit your settings has failed."
 msgstr "您尝试编辑您的设置失败。"
 
-#: wp-includes/functions.php:2162
+#: wp-includes/functions.php:2166
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "您尝试修改您的固定链接结构为：%s  失败。"
 
-#: wp-includes/functions.php:2163
+#: wp-includes/functions.php:2167
 #, php-format
 msgid "Your attempt to edit this file: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个文件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2164
+#: wp-includes/functions.php:2168
 #, php-format
 msgid "Your attempt to edit this theme file: &quot;%s&quot; has failed."
 msgstr "您尝试编辑这个主题文件：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2165
+#: wp-includes/functions.php:2169
 #, php-format
 msgid "Your attempt to switch to this theme: &quot;%s&quot; has failed."
 msgstr "您尝试应用这个主题：&quot;%s&quot; 失败。"
 
-#: wp-includes/functions.php:2167
+#: wp-includes/functions.php:2171
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "您正在退出 %s"
 
-#: wp-includes/functions.php:2182
+#: wp-includes/functions.php:2186
 msgid "Are you sure you want to do this?"
 msgstr "您确定要这样做？"
 
-#: wp-includes/functions.php:2198
+#: wp-includes/functions.php:2202
 msgid "WordPress Failure Notice"
 msgstr "WordPress错误提醒"
 
-#: wp-includes/functions.php:2201
+#: wp-includes/functions.php:2205
 msgid "Please try again."
 msgstr "请重试。"
 
-#: wp-includes/functions.php:2203
+#: wp-includes/functions.php:2207
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "您真的希望<a href='%s'>退出</a>？"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2269
+#: wp-includes/functions.php:2273
 #: wp-load.php:46
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; 错误"
 
-#: wp-includes/functions.php:2679
-#: wp-includes/functions.php:2716
+#: wp-includes/functions.php:2684
+#: wp-includes/functions.php:2721
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s 已<strong>过时</strong>因为版本 %2$s！使用 %3$s 替代。"
 
-#: wp-includes/functions.php:2681
-#: wp-includes/functions.php:2718
+#: wp-includes/functions.php:2686
+#: wp-includes/functions.php:2723
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s 已<strong>过时</strong>因为版本 %2$s 没有可选替换。"
@@ -9316,7 +9417,7 @@ msgstr "退出"
 #: wp-includes/general-template.php:190
 #: wp-login.php:318
 #: wp-login.php:384
-#: wp-login.php:490
+#: wp-login.php:488
 msgid "Register"
 msgstr "注册"
 
@@ -9364,18 +9465,18 @@ msgid "Does not appear to be chunked encoded or body is malformed."
 msgstr "未分块编码或主体有误"
 
 #: wp-includes/http.php:572
-#: wp-includes/http.php:1026
+#: wp-includes/http.php:1042
 msgid "Too many redirects."
 msgstr "太多重定向。"
 
 #: wp-includes/http.php:645
-#: wp-includes/http.php:747
+#: wp-includes/http.php:751
 #, php-format
 msgid "Malformed URL: %s"
 msgstr "不合适 URL：%s"
 
 #: wp-includes/http.php:656
-#: wp-includes/http.php:782
+#: wp-includes/http.php:786
 #, php-format
 msgid "Could not open handle for fopen() to %s"
 msgstr "无法打开 fopen() 操作到 %s"
@@ -10704,14 +10805,6 @@ msgstr "删除图像"
 msgid "Advanced Settings"
 msgstr "高级选项"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:426
-msgid "Thumbnail"
-msgstr "缩略图"
-
-#: wp-includes/js/tinymce/langs/wp-langs.php:427
-msgid "Medium"
-msgstr "中"
-
 #: wp-includes/js/tinymce/langs/wp-langs.php:428
 msgid "Full Size"
 msgstr "原尺寸"
@@ -11016,11 +11109,11 @@ msgstr "上一篇文章"
 msgid "Next Post"
 msgstr "下一篇文章"
 
-#: wp-includes/link-template.php:1284
+#: wp-includes/link-template.php:1275
 msgid "Newer Comments &raquo;"
 msgstr "较新评论 &raquo;"
 
-#: wp-includes/link-template.php:1314
+#: wp-includes/link-template.php:1305
 msgid "&laquo; Older Comments"
 msgstr "&laquo; 早前评论"
 
@@ -11313,47 +11406,47 @@ msgstr "下一页"
 msgid "Previous page"
 msgstr "上一页"
 
-#: wp-includes/post-template.php:672
+#: wp-includes/post-template.php:677
 msgid "Home"
 msgstr "首页"
 
-#: wp-includes/post-template.php:765
-#: wp-includes/post-template.php:797
+#: wp-includes/post-template.php:778
+#: wp-includes/post-template.php:810
 msgid "Missing Attachment"
 msgstr "附件丢失"
 
-#: wp-includes/post-template.php:971
+#: wp-includes/post-template.php:984
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "这是一篇受密码保护的文章。您需要提供访问密码："
 
-#: wp-includes/post-template.php:1034
+#: wp-includes/post-template.php:1047
 msgid "j F, Y @ G:i|revision date format"
 msgstr "j F, Y @ G:i|revision date format"
 
-#: wp-includes/post-template.php:1035
+#: wp-includes/post-template.php:1048
 #, php-format
 msgid "%s [Autosave]"
 msgstr "%s [自动保存]"
 
-#: wp-includes/post-template.php:1036
+#: wp-includes/post-template.php:1049
 #, php-format
 msgid "%s [Current Revision]"
 msgstr "%s [当前修订版本]"
 
-#: wp-includes/post-template.php:1101
+#: wp-includes/post-template.php:1114
 #, php-format
 msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
 msgstr "%1$s 由 %2$s|post revision 1:datetime, 2:name"
 
-#: wp-includes/post-template.php:1128
+#: wp-includes/post-template.php:1141
 msgid "Restore"
 msgstr "还原"
 
-#: wp-includes/post-template.php:1150
+#: wp-includes/post-template.php:1163
 msgid "Compare Revisions"
 msgstr "比较修订版本"
 
-#: wp-includes/post-template.php:1165
+#: wp-includes/post-template.php:1178
 msgid "Date Created"
 msgstr "创建日期"
 
@@ -11361,23 +11454,23 @@ msgstr "创建日期"
 msgid "Content, title, and excerpt are empty."
 msgstr "内容，标题和摘要为空。"
 
-#: wp-includes/post.php:1452
+#: wp-includes/post.php:1464
 msgid "Could not update post in the database"
 msgstr "无法在数据库中更新文章"
 
-#: wp-includes/post.php:1468
+#: wp-includes/post.php:1480
 msgid "Could not insert post into the database"
 msgstr "无法往数据库中插入文章"
 
-#: wp-includes/post.php:1504
+#: wp-includes/post.php:1516
 msgid "The page template is invalid."
 msgstr "页面模板无效。"
 
-#: wp-includes/post.php:3419
+#: wp-includes/post.php:3447
 msgid "Cannot create a revision of a revision"
 msgstr "无法从一个修订版本上创建新的修订"
 
-#: wp-includes/post.php:3591
+#: wp-includes/post.php:3619
 msgid "You do not have permission to preview drafts."
 msgstr "您没有权限预览草稿。"
 
@@ -11421,184 +11514,184 @@ msgstr "输入图像URL"
 msgid "Enter a description of the image"
 msgstr "为图像输入一个描述"
 
-#: wp-includes/script-loader.php:74
+#: wp-includes/script-loader.php:75
 msgid "You do not have permission to do that."
 msgstr "您没有权限进行此操作。"
 
-#: wp-includes/script-loader.php:75
+#: wp-includes/script-loader.php:76
 msgid "An unidentified error has occurred."
 msgstr "一个未知错误发生。"
 
-#: wp-includes/script-loader.php:115
+#: wp-includes/script-loader.php:117
 msgid "You have attempted to queue too many files."
 msgstr "您试图上传太多文件。"
 
-#: wp-includes/script-loader.php:116
+#: wp-includes/script-loader.php:118
 #, php-format
 msgid "This file is too big. Your php.ini upload_max_filesize is %s."
 msgstr "文件太大了。您的 php.ini upload_max_filesize 为 %s。"
 
-#: wp-includes/script-loader.php:117
+#: wp-includes/script-loader.php:119
 msgid "This file is empty. Please try another."
 msgstr "文件为空，请上传另一个。"
 
-#: wp-includes/script-loader.php:118
+#: wp-includes/script-loader.php:120
 msgid "This file type is not allowed. Please try another."
 msgstr "此文件类型不被允许。请上传另一个。"
 
-#: wp-includes/script-loader.php:119
+#: wp-includes/script-loader.php:121
 msgid "An error occurred in the upload. Please try again later."
 msgstr "上传时有错误发生，请稍后重试。"
 
-#: wp-includes/script-loader.php:120
+#: wp-includes/script-loader.php:122
 msgid "There was a configuration error. Please contact the server administrator."
 msgstr "配置错误。请联系您的服务器管理员。"
 
-#: wp-includes/script-loader.php:121
+#: wp-includes/script-loader.php:123
 msgid "You may only upload 1 file."
 msgstr "您只能上传一个文件。"
 
-#: wp-includes/script-loader.php:122
+#: wp-includes/script-loader.php:124
 msgid "HTTP error."
 msgstr "HTTP错误。"
 
-#: wp-includes/script-loader.php:123
+#: wp-includes/script-loader.php:125
 msgid "Upload failed."
 msgstr "上传失败。"
 
-#: wp-includes/script-loader.php:124
+#: wp-includes/script-loader.php:126
 msgid "IO error."
 msgstr "IO错误。"
 
-#: wp-includes/script-loader.php:125
+#: wp-includes/script-loader.php:127
 msgid "Security error."
 msgstr "安全错误。"
 
-#: wp-includes/script-loader.php:126
+#: wp-includes/script-loader.php:128
 msgid "File cancelled."
 msgstr "文件取消。"
 
-#: wp-includes/script-loader.php:127
+#: wp-includes/script-loader.php:129
 msgid "Upload stopped."
 msgstr "上传停止。"
 
-#: wp-includes/script-loader.php:128
+#: wp-includes/script-loader.php:130
 msgid "Dismiss"
 msgstr "忽略"
 
-#: wp-includes/script-loader.php:129
+#: wp-includes/script-loader.php:131
 msgid "Crunching&hellip;"
 msgstr "处理中&hellip;"
 
-#: wp-includes/script-loader.php:130
+#: wp-includes/script-loader.php:132
 msgid "Deleted"
 msgstr "已删除"
 
-#: wp-includes/script-loader.php:146
+#: wp-includes/script-loader.php:149
 msgid "Separate multiple categories with commas."
 msgstr "多个分类目录请用英文逗号分开"
 
-#: wp-includes/script-loader.php:154
+#: wp-includes/script-loader.php:158
 msgid "Very weak"
 msgstr "非常弱"
 
-#: wp-includes/script-loader.php:155
+#: wp-includes/script-loader.php:159
 msgid "Weak"
 msgstr "弱"
 
-#: wp-includes/script-loader.php:156
+#: wp-includes/script-loader.php:160
 msgid "Medium|password strength"
 msgstr "中"
 
-#: wp-includes/script-loader.php:157
+#: wp-includes/script-loader.php:161
 msgid "Strong"
 msgstr "强"
 
-#: wp-includes/script-loader.php:178
+#: wp-includes/script-loader.php:184
 msgid "Tags used on this post:"
 msgstr "这篇文章上的标签："
 
-#: wp-includes/script-loader.php:180
+#: wp-includes/script-loader.php:186
 msgid "Add new tag"
 msgstr "添加新标签"
 
-#: wp-includes/script-loader.php:184
-#: wp-includes/script-loader.php:205
+#: wp-includes/script-loader.php:190
+#: wp-includes/script-loader.php:212
 msgid "Publish on:"
 msgstr "发布："
 
-#: wp-includes/script-loader.php:185
-#: wp-includes/script-loader.php:206
+#: wp-includes/script-loader.php:191
+#: wp-includes/script-loader.php:213
 msgid "Schedule for:"
 msgstr "定时："
 
-#: wp-includes/script-loader.php:186
-#: wp-includes/script-loader.php:207
+#: wp-includes/script-loader.php:192
+#: wp-includes/script-loader.php:214
 msgid "Published on:"
 msgstr "发布于："
 
-#: wp-includes/script-loader.php:187
-#: wp-includes/script-loader.php:208
+#: wp-includes/script-loader.php:193
+#: wp-includes/script-loader.php:215
 msgid "Show more comments"
 msgstr "显示更多评论"
 
-#: wp-includes/script-loader.php:188
-#: wp-includes/script-loader.php:209
+#: wp-includes/script-loader.php:194
+#: wp-includes/script-loader.php:216
 msgid "No more comments found."
 msgstr "没有更多评论。"
 
-#: wp-includes/script-loader.php:197
-#: wp-includes/script-loader.php:217
+#: wp-includes/script-loader.php:203
+#: wp-includes/script-loader.php:224
 msgid "Password Protected"
 msgstr "密码保护"
 
-#: wp-includes/script-loader.php:226
+#: wp-includes/script-loader.php:234
 msgid "Submitted on:"
 msgstr "提交于："
 
-#: wp-includes/script-loader.php:236
+#: wp-includes/script-loader.php:245
 msgid "Remember to click the \"Save Changes\" button at the bottom of the Current Widgets column after you're all done!"
 msgstr "当你完成时记得点击“保存更改”按钮！"
 
-#: wp-includes/script-loader.php:237
+#: wp-includes/script-loader.php:246
 msgid "You're about to leave without having saved your changes!"
 msgstr "您即将离开页面但没有保存更改！"
 
-#: wp-includes/script-loader.php:242
+#: wp-includes/script-loader.php:252
 #, php-format
 msgid "Word count: %d"
 msgstr "字数：%d"
 
-#: wp-includes/script-loader.php:247
+#: wp-includes/script-loader.php:258
 msgid "Update completed."
 msgstr "升级完成。"
 
-#: wp-includes/script-loader.php:248
+#: wp-includes/script-loader.php:259
 msgid "Error:"
 msgstr "错误："
 
-#: wp-includes/script-loader.php:255
-#: wp-includes/script-loader.php:262
+#: wp-includes/script-loader.php:267
+#: wp-includes/script-loader.php:275
 msgid "Error while saving the changes."
 msgstr "保存时发生错误。"
 
-#: wp-includes/script-loader.php:256
+#: wp-includes/script-loader.php:268
 msgid "Remove From Bulk Edit"
 msgstr "从批量编辑移除"
 
-#: wp-includes/script-loader.php:267
+#: wp-includes/script-loader.php:281
 msgid "Plugin Information:"
 msgstr "插件信息："
 
-#: wp-includes/script-loader.php:370
+#: wp-includes/script-loader.php:385
 msgid "Preview this Page"
 msgstr "预览这个页面"
 
-#: wp-includes/script-loader.php:371
+#: wp-includes/script-loader.php:386
 msgid "Preview this Post"
 msgstr "预览这篇文章"
 
-#: wp-includes/script-loader.php:373
+#: wp-includes/script-loader.php:388
 msgid "Saving Draft&#8230;"
 msgstr "正在保存草稿..."
 
@@ -11638,6 +11731,10 @@ msgstr "无法往数据库中插入条目"
 #, php-format
 msgid "The slug \"%s\" is already in use by another term"
 msgstr "“%s” 别名已被其它条目占用"
+
+#: wp-includes/taxonomy.php:2245
+msgid "Invalid object ID"
+msgstr "无效对象ID"
 
 #: wp-includes/theme.php:295
 msgid "Stylesheet is missing."
@@ -11954,13 +12051,13 @@ msgstr "获取新密码"
 
 #: wp-login.php:326
 #: wp-login.php:394
-#: wp-login.php:499
+#: wp-login.php:497
 msgid "Are you lost?"
 msgstr "不知道自己在哪？"
 
 #: wp-login.php:326
 #: wp-login.php:394
-#: wp-login.php:499
+#: wp-login.php:497
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; 返回 %s"
@@ -11978,14 +12075,14 @@ msgid "A password will be e-mailed to you."
 msgstr "密码将通过电子邮件发送给您。"
 
 #: wp-login.php:389
+#: wp-login.php:489
 #: wp-login.php:491
-#: wp-login.php:493
 msgid "Password Lost and Found"
 msgstr "找回密码"
 
 #: wp-login.php:389
+#: wp-login.php:489
 #: wp-login.php:491
-#: wp-login.php:493
 msgid "Lost your password?"
 msgstr "忘记密码？"
 
@@ -12127,200 +12224,200 @@ msgid "Sorry, you must be able to edit posts to this blog in order to view categ
 msgstr "抱歉，您必须有编辑文章的权限才能查看分类目录。"
 
 #: xmlrpc.php:1028
-#: xmlrpc.php:1150
-#: xmlrpc.php:1182
-#: xmlrpc.php:1261
+#: xmlrpc.php:1151
+#: xmlrpc.php:1183
+#: xmlrpc.php:1262
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "您没有在这个博客上审核评论的权限。"
 
 #: xmlrpc.php:1033
-#: xmlrpc.php:1155
-#: xmlrpc.php:1187
+#: xmlrpc.php:1156
+#: xmlrpc.php:1188
 msgid "Invalid comment ID."
 msgstr "无效评论ID。"
 
-#: xmlrpc.php:1090
+#: xmlrpc.php:1091
 msgid "Sorry, you can not edit comments."
 msgstr "抱歉，您无权编辑评论。"
 
-#: xmlrpc.php:1194
+#: xmlrpc.php:1195
 msgid "Invalid comment status."
 msgstr "无效评论状态"
 
-#: xmlrpc.php:1225
+#: xmlrpc.php:1226
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "抱歉，评论无法被编辑。有错误发生。"
 
-#: xmlrpc.php:1254
+#: xmlrpc.php:1255
 msgid "You must be registered to comment"
 msgstr "您注册并登录才可以发表评论"
 
-#: xmlrpc.php:1270
-#: xmlrpc.php:1273
+#: xmlrpc.php:1271
+#: xmlrpc.php:1274
 msgid "Invalid post ID."
 msgstr "无效文章ID。"
 
-#: xmlrpc.php:1297
+#: xmlrpc.php:1298
 msgid "Comment author name and email are required"
 msgstr "评论作者必须填写姓名和电子邮件"
 
-#: xmlrpc.php:1299
+#: xmlrpc.php:1300
 msgid "A valid email address is required"
 msgstr "需要一个有效的电子邮件地址"
 
-#: xmlrpc.php:1332
-#: xmlrpc.php:1396
-#: xmlrpc.php:1425
-#: xmlrpc.php:1454
+#: xmlrpc.php:1333
+#: xmlrpc.php:1397
+#: xmlrpc.php:1426
+#: xmlrpc.php:1455
 msgid "You are not allowed access to details about this blog."
 msgstr "您没有访问博客详细信息的权限。"
 
-#: xmlrpc.php:1361
+#: xmlrpc.php:1362
 msgid "You are not allowed access to details about comments."
 msgstr "您没有访问评论详细信息的权限。"
 
-#: xmlrpc.php:1539
+#: xmlrpc.php:1540
 msgid "You are not allowed to update options."
 msgstr "您没有更新选项的权限。"
 
-#: xmlrpc.php:1623
+#: xmlrpc.php:1624
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "抱歉，您无权访问这个博客的用户数据。"
 
-#: xmlrpc.php:1662
-#: xmlrpc.php:2542
-#: xmlrpc.php:2982
-#: xmlrpc.php:3027
-#: xmlrpc.php:3138
+#: xmlrpc.php:1663
+#: xmlrpc.php:2543
+#: xmlrpc.php:2983
+#: xmlrpc.php:3028
+#: xmlrpc.php:3139
 msgid "Sorry, you can not edit this post."
 msgstr "抱歉，您不能修改这篇文章。"
 
-#: xmlrpc.php:1712
-#: xmlrpc.php:2889
+#: xmlrpc.php:1713
+#: xmlrpc.php:2890
 msgid "Either there are no posts, or something went wrong."
 msgstr "可能文章不存在，或者出现了什么错误。"
 
-#: xmlrpc.php:1769
-#: xmlrpc.php:1812
+#: xmlrpc.php:1770
+#: xmlrpc.php:1813
 msgid "Sorry, this user can not edit the template."
 msgstr "抱歉，该用户无权编辑模板。"
 
-#: xmlrpc.php:1823
+#: xmlrpc.php:1824
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "文件可能不可写，或者发生了什么错误。文件未被更新。"
 
-#: xmlrpc.php:1856
+#: xmlrpc.php:1857
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "抱歉，您无权在这个博客上发表文章。"
 
-#: xmlrpc.php:1912
-#: xmlrpc.php:1967
-#: xmlrpc.php:2623
-#: xmlrpc.php:3089
+#: xmlrpc.php:1913
+#: xmlrpc.php:1968
+#: xmlrpc.php:2624
+#: xmlrpc.php:3090
 msgid "Sorry, no such post."
 msgstr "抱歉，无此文章。"
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2467
+#: xmlrpc.php:1925
+#: xmlrpc.php:2468
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "抱歉，您无权发表这篇文章。"
 
-#: xmlrpc.php:2012
-#: xmlrpc.php:2285
+#: xmlrpc.php:2013
+#: xmlrpc.php:2286
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "抱歉，您无权在这个博客上发表文章。"
 
-#: xmlrpc.php:2018
-#: xmlrpc.php:2291
+#: xmlrpc.php:2019
+#: xmlrpc.php:2292
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "抱歉，您无权在这个博客上发布页面。"
 
-#: xmlrpc.php:2028
-#: xmlrpc.php:2077
-#: xmlrpc.php:2301
-#: xmlrpc.php:2361
+#: xmlrpc.php:2029
+#: xmlrpc.php:2078
+#: xmlrpc.php:2302
+#: xmlrpc.php:2362
 msgid "Invalid post type."
 msgstr "无效文章类型。"
 
-#: xmlrpc.php:2068
+#: xmlrpc.php:2069
 msgid "You are not allowed to post as this user"
 msgstr "您无法以当前用户的身份发表文章"
 
-#: xmlrpc.php:2073
+#: xmlrpc.php:2074
 msgid "You are not allowed to create pages as this user"
 msgstr "您无法以当前用户的身份创建页面"
 
-#: xmlrpc.php:2315
+#: xmlrpc.php:2316
 msgid "Invalid post id."
 msgstr "无效的文章ID。"
 
-#: xmlrpc.php:2352
+#: xmlrpc.php:2353
 msgid "You are not allowed to change the post author as this user."
 msgstr "您无法以当前用户的身份改变文章作者。"
 
-#: xmlrpc.php:2357
+#: xmlrpc.php:2358
 msgid "You are not allowed to change the page author as this user."
 msgstr "您无法以当前用户的身份改变页面作者。"
 
-#: xmlrpc.php:2465
+#: xmlrpc.php:2466
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "抱歉，您无权发布此页面。"
 
-#: xmlrpc.php:2500
+#: xmlrpc.php:2501
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "抱歉，您的文章无法被编辑。有错误发生。"
 
-#: xmlrpc.php:2753
-#: xmlrpc.php:2942
+#: xmlrpc.php:2754
+#: xmlrpc.php:2943
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "抱歉，您必须拥有在该博客上编辑文章的权限来查看分类目录。"
 
-#: xmlrpc.php:2809
+#: xmlrpc.php:2810
 msgid "You are not allowed to upload files to this site."
 msgstr "您在这个站点上没有上传文件的权限。"
 
-#: xmlrpc.php:2836
+#: xmlrpc.php:2837
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "无法写文件  %1$s (%2$s)"
 
-#: xmlrpc.php:3185
+#: xmlrpc.php:3186
 msgid "Is there no link to us?"
 msgstr "没有任何连接？"
 
-#: xmlrpc.php:3225
-#: xmlrpc.php:3235
-#: xmlrpc.php:3242
-#: xmlrpc.php:3350
+#: xmlrpc.php:3226
+#: xmlrpc.php:3236
+#: xmlrpc.php:3243
+#: xmlrpc.php:3351
 msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
 msgstr "指定的目标URL无法作为目标使用。目标不存在，或者它不是一个可通告的资源。"
 
-#: xmlrpc.php:3238
+#: xmlrpc.php:3239
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "源URL和目的URL不能定向到同一资源。"
 
-#: xmlrpc.php:3248
+#: xmlrpc.php:3249
 msgid "The pingback has already been registered."
 msgstr "此 pingback 已注册。"
 
-#: xmlrpc.php:3256
+#: xmlrpc.php:3257
 msgid "The source URL does not exist."
 msgstr "源URL不存在。"
 
-#: xmlrpc.php:3268
+#: xmlrpc.php:3269
 msgid "We cannot find a title on that page."
 msgstr "我们无法在该页面上找到什么。"
 
-#: xmlrpc.php:3304
+#: xmlrpc.php:3305
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "源URL地址未包含一个到目标URl的链接，所以无法使用源。"
 
-#: xmlrpc.php:3324
+#: xmlrpc.php:3325
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "从 %1$s 到 %2$s 的通告已注册，保持Web交流畅通 :-)"
 
-#: xmlrpc.php:3357
+#: xmlrpc.php:3358
 msgid "The specified target URL does not exist."
 msgstr "指定的URL不存在。"
 
@@ -12410,6 +12507,13 @@ msgstr "<strong>错误</strong>：在 <code>wp-config.php</code> 配置文件中
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要这个文件来开始一切，您可以查看<a href='http://codex.wordpress.org/Editing_wp-config.php'>更多帮助</a>。 您可以通过 Web 界面创建一个 <code>wp-config.php</code> 文件，但并非所有主机都支持，安全的做法是手动创建。</p><p><a href='%ssetup-config.php' class='button'>创建一个配置文件</a>"
 
+#~ msgid "(%s)"
+#~ msgid_plural "(%s)"
+#~ msgstr[0] "(%s)"
+#~ msgid "This web site is denied to use Gears."
+#~ msgstr "这个站点阻止使用 Gears。"
+#~ msgid "Protected"
+#~ msgstr "受保护"
 #~ msgid ""
 #~ "The setting below determines where images, documents, and other media "
 #~ "files will be linked to when inserted into the body of a post."
@@ -12425,10 +12529,6 @@ msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要�
 #~ msgstr "默认图像大小"
 #~ msgid "Auto"
 #~ msgstr "自动"
-#~ msgid "Large"
-#~ msgstr "大"
-#~ msgid "Full size"
-#~ msgstr "原尺寸"
 #~ msgid "Default image alignment"
 #~ msgstr "默认图像对齐"
 #~ msgid "Subtle"
@@ -12452,8 +12552,6 @@ msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要�
 #~ msgstr[0] "<a %s>私有</a><span class=\"count\">(%s)</span>"
 #~ msgid "Choose File"
 #~ msgstr "浏览文件"
-#~ msgid "Upload Media"
-#~ msgstr "上传媒体"
 #~ msgid "Upload an Image"
 #~ msgstr "上传一个图像"
 #~ msgid "Upload Video"

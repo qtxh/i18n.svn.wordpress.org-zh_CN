@@ -31,20 +31,20 @@ require_once('../wp-includes/functions.php');
 require_once('../wp-includes/classes.php');
 
 if (!file_exists('../wp-config-sample.php'))
-	wp_die('提示！未能检测到 wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
+	wp_die('提示！未能检测到wp-config-sample.php 文件，请确认根目录存在此文件或重新上传。');
 
 $configFile = file('../wp-config-sample.php');
 
 if ( !is_writable('../'))
-	wp_die("提示！目录不可写。请更改目录属性或者手动创建 wp-config.php。");
+	wp_die("提示！目录不可写。请更改目录属性或者手动创建wp-config.php。");
 
 // Check if wp-config.php has been created
 if (file_exists('../wp-config.php'))
-	wp_die("<p>'wp-config.php' 文件已存在。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。<a href='install.php'>重试</a>。</p>");
+	wp_die("<p>'wp-config.php'文件已存在。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建wp-config.php。<a href='install.php'>重试</a>。</p>");
 
 // Check if wp-config.php exists above the root directory
 if (file_exists('../../wp-config.php') && ! file_exists('../../wp-load.php'))
-	wp_die("<p>'wp-config.php' 已存在于更高一级的目录内。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php。 <a href='install.php'>重试</a>。</p>");
+	wp_die("<p>'wp-config.php'已存在于更高一级的目录内。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建wp-config.php。<a href='install.php'>重试</a>。</p>");
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
@@ -80,7 +80,7 @@ switch($step) {
 		display_header();
 ?>
 
-<p>W欢迎来到 WordPress 的世界！正式开始之前，我们需要一些关于数据库的信息。请确认您已经拥有以下信息：</p>
+<p>欢迎来到 WordPress 的世界！正式开始之前，我们需要一些关于数据库的信息。请确认您已经拥有以下信息：</p>
 <ol>
 	<li>数据库名称</li>
 	<li>数据库用户名</li>
@@ -89,7 +89,7 @@ switch($step) {
 	<li>数据表前缀（如果您需要在同一数据库内安装多个 WordPress 的话）</li>
 </ol>
 <p><strong>如果无法进入下一步，别着急。此向导的目的在于创建 Wordpress 的配置文件，所以您还可以直接用文本编辑器打开 <code>wp-config-sample.php</code>，根据提示填写相应信息，然后保存并将它重命名为 <code>wp-config.php</code>。</strong></p>
-<p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间商。如果已经准备好了 &hellip;</p>
+<p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间提供商。如果已经准备好了 &hellip;</p>
 
 <p class="step"><a href="setup-config.php?step=1" class="button">那么现在开始！</a></p>
 <?php
