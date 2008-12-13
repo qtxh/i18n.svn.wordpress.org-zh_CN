@@ -271,7 +271,7 @@ msgstr "查看站点"
 #: wp-admin/admin-header.php:108
 #, php-format
 msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
-msgstr "嗨，<a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
+msgstr "<a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
 
 #: wp-admin/admin-header.php:109
 msgid "Turbo"
@@ -1302,7 +1302,7 @@ msgstr "密码："
 #: wp-admin/edit-form-comment.php:58
 #: wp-admin/edit-page-form.php:177
 msgid "M j, Y @ G:i|Publish box date format"
-msgstr "M j, Y @ G:i|Publish box date format"
+msgstr "Y年m月j号 @ G:i|Publish box date format"
 
 #: wp-admin/edit-form-advanced.php:193
 #: wp-admin/edit-page-form.php:180
@@ -1493,7 +1493,7 @@ msgstr "每个 URL 用空格分开"
 
 #: wp-admin/edit-form-advanced.php:372
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
-msgstr "Trackbacks 是一种当你链接到老式博客系统的通告方式。如果你链接到 WordPress 博客上，它们会使用 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a> 自动通告，无需其它动作。"
+msgstr "Trackbacks 是针对老式博客系统的一种引用通知方式。如果文章内的链接指向同为 WordPress 的站点，则您无需手动填写 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a> 地址。"
 
 #: wp-admin/edit-form-advanced.php:377
 msgid "Send Trackbacks"
@@ -1511,11 +1511,11 @@ msgstr "自定义域"
 
 #: wp-admin/edit-form-advanced.php:415
 msgid "Allow comments on this post"
-msgstr "允许在这篇文章上评论"
+msgstr "这篇文章接受评论"
 
 #: wp-admin/edit-form-advanced.php:416
 msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
-msgstr "这篇文章允许 <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks 和 pingbacks</a>"
+msgstr "这篇文章接收<a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks 和 pingbacks</a>"
 
 #: wp-admin/edit-form-advanced.php:437
 msgid "Show comments"
@@ -1546,13 +1546,13 @@ msgstr "文章修订版本"
 #: wp-admin/edit-page-form.php:462
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
-msgstr "最后由 %1$s 编辑于 %2$s 在 %3$s"
+msgstr "最后由 %1$s 编辑于 %2$s %3$s"
 
 #: wp-admin/edit-form-advanced.php:583
 #: wp-admin/edit-page-form.php:464
 #, php-format
 msgid "Last edited on %1$s at %2$s"
-msgstr "最后编辑于： %1$s 在 %2$s"
+msgstr "最后编辑于： %1$s %2$s"
 
 #: wp-admin/edit-form-comment.php:13
 #, php-format
@@ -3836,7 +3836,7 @@ msgstr "在 %s 秒后连接服务器超时。 "
 
 #: wp-admin/includes/comment.php:36
 msgid "You are not allowed to edit comments on this post, so you cannot edit this comment."
-msgstr "您没有在这个博客上编辑评论的权力，所以您无法编辑这条评论。"
+msgstr "您没有在这个博客上编辑评论的权限，所以您无法编辑这条评论。"
 
 #: wp-admin/includes/dashboard.php:28
 msgid "Right Now"
@@ -4044,7 +4044,7 @@ msgstr "垃圾评论"
 #: wp-admin/includes/dashboard.php:503
 #, php-format
 msgid "From %1$s on %2$s%3$s"
-msgstr "在 %2$s%3$s  上 %1$s 的评论 "
+msgstr "%2$s%3$s 来自 %1$s 的评论 "
 
 #: wp-admin/includes/dashboard.php:503
 msgid "[Pending]"
@@ -5308,12 +5308,12 @@ msgstr "我的博客"
 
 #: wp-admin/includes/schema.php:186
 msgid "Just another WordPress weblog"
-msgstr "又是一个 WordPress 博客"
+msgstr "又一个 WordPress 博客"
 
 #: wp-admin/includes/schema.php:208
 #: wp-admin/options-general.php:138
 msgid "F j, Y"
-msgstr "F j, Y"
+msgstr "Y年m月j号"
 
 #: wp-admin/includes/schema.php:209
 #: wp-admin/options-general.php:171
@@ -5322,7 +5322,7 @@ msgstr "g:i a"
 
 #: wp-admin/includes/schema.php:210
 msgid "F j, Y g:i a"
-msgstr "F j, Y g:i a"
+msgstr "Y年m月j号 g:i a"
 
 #: wp-admin/includes/schema.php:341
 msgid "Administrator|User role"
@@ -5592,7 +5592,7 @@ msgstr "Y/m/d \\a\\t g:i A"
 #: wp-admin/includes/template.php:2005
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
-msgstr "提交于 <a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "提交于 <a href=\"%1$s\">%2$s %3$s</a>"
 
 #: wp-admin/includes/template.php:2005
 msgid "g:ia"
@@ -5637,7 +5637,7 @@ msgstr "添加自定义域"
 #: wp-admin/includes/template.php:2436
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
-msgstr "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
+msgstr "%3$s年 %1$s月 %2$s号  @ %4$s : %5$s|1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input"
 
 #: wp-admin/includes/template.php:2520
 msgid "WordPress recommends a better browser"
@@ -6378,11 +6378,11 @@ msgstr "默认文章选项"
 
 #: wp-admin/options-discussion.php:31
 msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
-msgstr "尝试通告所有链接到文章的博客站点 (发表文章将变慢)"
+msgstr "向文章内包含的链接发送通告(发表文章将变慢)"
 
 #: wp-admin/options-discussion.php:35
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
-msgstr "允许其它博客发出的链接引用通告 (pingbacks and trackbacks)"
+msgstr "接收来自外部博客的引用通告(pingbacks 和 trackbacks)"
 
 #: wp-admin/options-discussion.php:39
 msgid "Allow people to post comments on the article"
@@ -6461,11 +6461,11 @@ msgstr "在评论显示之前"
 
 #: wp-admin/options-discussion.php:120
 msgid "An administrator must always approve the comment"
-msgstr "评论必须得到管理员批准"
+msgstr "审核所有评论"
 
 #: wp-admin/options-discussion.php:122
 msgid "Comment author must have a previously approved comment"
-msgstr "评论作者必须有过通过批准的评论"
+msgstr "评论者必须成功发表过评论"
 
 #: wp-admin/options-discussion.php:126
 #: wp-admin/options-discussion.php:127
@@ -6590,7 +6590,7 @@ msgstr "博客地址 (URL)"
 
 #: wp-admin/options-general.php:75
 msgid "Enter the address here if you want your blog homepage <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different from the directory</a> you installed WordPress."
-msgstr "如果您想让博客地址和 WordPress 安装地址 <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">不相同</a> 的话，请在这里输入您期望的地址。"
+msgstr "如果您想让博客地址和 WordPress 的安装地址 <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">不相同</a> 的话，请在这里输入您期望的地址。"
 
 #: wp-admin/options-general.php:78
 msgid "E-mail address"
@@ -6644,7 +6644,7 @@ msgstr "UTC %1$s 是 <code>%2$s</code>"
 
 #: wp-admin/options-general.php:128
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
-msgstr "这个版本的夏令时的设置必须通过手动更新，这个问题会在下个版本中修复。"
+msgstr "目前此版本的夏令时设置必须通过手动更新，该问题会在下个版本中修正。"
 
 #: wp-admin/options-general.php:132
 #: wp-admin/options-general.php:134
@@ -6752,7 +6752,7 @@ msgstr "配置是可选的，默认情况下为空白。"
 
 #: wp-admin/options-misc.php:46
 msgid "Organize my uploads into month- and year-based folders"
-msgstr "以年月为目录基础组织我的上传内容"
+msgstr "以年-月目录形式整理上传内容"
 
 #: wp-admin/options-misc.php:59
 msgid "Track Links&#8217; Update Times"
@@ -6776,7 +6776,7 @@ msgstr "固定链接结构已更新。"
 
 #: wp-admin/options-permalink.php:132
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "一般 WordPress 的用户使用一个复杂不好记忆的<abbr title=\"Universal Resource Locator\">URL</abbr>s ，然而 WordPress 提供了让您自己定义 URL 结构的特性。这能让您的链接地址看起来更美、更具可用性和向前兼容性。一些<a href=\"http://codex.wordpress.org/Using_Permalinks\">内容可供参考</a>，并且还有若干例子。"
+msgstr "WordPress 允许您更改默认的链接形式，以此提高 <abbr title=\"Universal Resource Locator\">URL</abbr>s 的可读性和对搜索引擎的友好程度。<a href=\"http://codex.wordpress.org/Using_Permalinks\">参考</a>。"
 
 #: wp-admin/options-permalink.php:147
 msgid "Common settings"
@@ -6886,7 +6886,7 @@ msgstr "篇文章"
 
 #: wp-admin/options-reading.php:61
 msgid "Syndication feeds show the most recent"
-msgstr "联合 Feeds 显示最新的"
+msgstr "Feeds同步最新"
 
 #: wp-admin/options-reading.php:65
 #: wp-admin/options-reading.php:66
@@ -6903,7 +6903,7 @@ msgstr "摘要"
 
 #: wp-admin/options-reading.php:73
 msgid "Encoding for pages and feeds"
-msgstr "为页面和 Feeds 编码"
+msgstr "页面和 Feeds 编码"
 
 #: wp-admin/options-reading.php:75
 msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
@@ -6948,7 +6948,7 @@ msgstr "远程发布"
 
 #: wp-admin/options-writing.php:60
 msgid "To post to WordPress from a desktop blogging client or remote website that uses the Atom Publishing Protocol or one of the XML-RPC publishing interfaces you must enable them below."
-msgstr "从桌面客户端软件、远程网站上使用 Atom Publishing 协议或者其它 XML-RPC 发布接口在 WordPress 发布文章您必须在下面启用它们。"
+msgstr "下列选项用于开启 WordPress 对 Atom Publishing 和 XML-RPC 接口的支持(用于桌面客户端软件、远程网站发布文章)。"
 
 #: wp-admin/options-writing.php:63
 #: wp-admin/options-writing.php:64
@@ -7867,7 +7867,7 @@ msgstr "保存媒体附件错误。"
 
 #: wp-admin/upload.php:203
 msgid "Unattached"
-msgstr "解除附件"
+msgstr "孤立附件"
 
 #: wp-admin/upload.php:247
 #: wp-admin/upload.php:400
@@ -8527,13 +8527,13 @@ msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复动作
 #: wp-content/plugins/akismet/akismet.php:706
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr "<a href=\"%1$s\">Akismet</a>已经帮您的博客清除了 <a href=\"%2$s\">%3$s 条垃圾评论</a>。"
+msgstr "<a href=\"%1$s\">Akismet</a>已经帮您过滤了 <a href=\"%2$s\">%3$s 条垃圾评论</a>。"
 
 #: wp-content/plugins/akismet/akismet.php:724
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
-msgstr[0] "<a href=\"%1$s\">Akismet</a>已经帮您的博客清除了 %2$s 条垃圾评论, "
+msgstr[0] "<a href=\"%1$s\">Akismet</a>已经帮您过滤了 %2$s 条垃圾评论, "
 
 #: wp-content/plugins/akismet/akismet.php:729
 #, php-format
@@ -8544,12 +8544,12 @@ msgstr "<a href=\"%1$s\">Akismet</a> 在您的博客上过滤垃圾留言，"
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
-msgstr[0] "有<a href=\"%2$s\">%1$s 条评论</a>现在在您的垃圾评论队列里面。"
+msgstr[0] "有<a href=\"%2$s\">%1$s 条评论</a>现在在您的垃圾评论队列里。"
 
 #: wp-content/plugins/akismet/akismet.php:739
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
-msgstr "但目前<a href='%1$s'>垃圾评论队列</a>为空。"
+msgstr "目前<a href='%1$s'>垃圾评论队列</a>为空。"
 
 #: wp-content/plugins/akismet/akismet.php:742
 #, php-format
@@ -8646,7 +8646,7 @@ msgstr "关闭这个窗口。"
 #: wp-content/themes/classic/comments-popup.php:115
 #, php-format
 msgid "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a></cite>"
-msgstr "<cite>由 <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a> 所支持</cite>"
+msgstr "<cite>由 <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a> 所驱动</cite>"
 
 #: wp-content/themes/classic/comments-popup.php:115
 #: wp-content/themes/classic/footer.php:12
@@ -8711,7 +8711,7 @@ msgstr "发表评论"
 #: wp-content/themes/classic/footer.php:12
 #, php-format
 msgid "Powered by <a href='http://wordpress.org/' title='%s'><strong>WordPress</strong></a>"
-msgstr "由 <a href='http://wordpress.org/' title='%s'><strong>WordPress</strong></a> 所支持"
+msgstr "由 <a href='http://wordpress.org/' title='%s'><strong>WordPress</strong></a> 所驱动"
 
 #: wp-content/themes/classic/index.php:15
 msgid "Filed under:"
@@ -9092,7 +9092,7 @@ msgstr "每小时"
 
 #: wp-includes/cron.php:272
 msgid "Twice Daily"
-msgstr "每两天"
+msgstr "每天两次"
 
 #: wp-includes/cron.php:273
 msgid "Once Daily"
@@ -9619,62 +9619,62 @@ msgstr "十二月"
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:155
 msgid "Jan_January_abbreviation"
-msgstr "Jan"
+msgstr "一"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:156
 msgid "Feb_February_abbreviation"
-msgstr "Feb"
+msgstr "二"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:157
 msgid "Mar_March_abbreviation"
-msgstr "Mar"
+msgstr "三"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:158
 msgid "Apr_April_abbreviation"
-msgstr "Apr"
+msgstr "四"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:159
 msgid "May_May_abbreviation"
-msgstr "May"
+msgstr "五"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:160
 msgid "Jun_June_abbreviation"
-msgstr "Jun"
+msgstr "六"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:161
 msgid "Jul_July_abbreviation"
-msgstr "Jul"
+msgstr "七"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:162
 msgid "Aug_August_abbreviation"
-msgstr "Aug"
+msgstr "八"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:163
 msgid "Sep_September_abbreviation"
-msgstr "Sep"
+msgstr "九"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:164
 msgid "Oct_October_abbreviation"
-msgstr "Oct"
+msgstr "十"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:165
 msgid "Nov_November_abbreviation"
-msgstr "Nov"
+msgstr "十一"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54
 #: wp-includes/locale.php:166
 msgid "Dec_December_abbreviation"
-msgstr "Dec"
+msgstr "十二"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:55
 #: wp-includes/locale.php:108
@@ -11421,7 +11421,7 @@ msgstr "这是一篇受密码保护的文章。您需要提供访问密码："
 
 #: wp-includes/post-template.php:1047
 msgid "j F, Y @ G:i|revision date format"
-msgstr "j F, Y @ G:i|revision date format"
+msgstr "Y年m月j号 @ G:i|revision date format"
 
 #: wp-includes/post-template.php:1048
 #, php-format
@@ -11476,7 +11476,7 @@ msgstr "您没有权限预览草稿。"
 
 #: wp-includes/rss.php:904
 msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "有错误发生，feed可能停止响应，稍后再试。"
+msgstr "有错误发生，feed可能停止响应，请稍后再试。"
 
 #: wp-includes/script-loader.php:49
 msgid "(Quick Links)"
@@ -11953,7 +11953,7 @@ msgstr "<strong>错误</strong>：WordPress %s 要求 MySQL 4.0.0 或更高"
 
 #: wp-login.php:59
 msgid "Powered by WordPress"
-msgstr "由 WordPress 所支持"
+msgstr "由 WordPress 所驱动"
 
 #: wp-login.php:101
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
@@ -12505,7 +12505,7 @@ msgstr "<strong>错误</strong>：在 <code>wp-config.php</code> 配置文件中
 #. Not gettexted string WP_I18N_NO_CONFIG
 #: wp-load.php:46
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
-msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要这个文件来开始一切，您可以查看<a href='http://codex.wordpress.org/Editing_wp-config.php'>更多帮助</a>。 您可以通过 Web 界面创建一个 <code>wp-config.php</code> 文件，但并非所有主机都支持，安全的做法是手动创建。</p><p><a href='%ssetup-config.php' class='button'>创建一个配置文件</a>"
+msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要这个文件来让一切开始，您可以查看<a href='http://codex.wordpress.org/Editing_wp-config.php'>更多帮助</a>。 您可以通过 Web 界面创建一个 <code>wp-config.php</code> 文件，但并非所有主机都支持，安全的做法是手动创建。</p><p><a href='%ssetup-config.php' class='button'>创建一个配置文件</a>"
 
 #~ msgid "(%s)"
 #~ msgid_plural "(%s)"
