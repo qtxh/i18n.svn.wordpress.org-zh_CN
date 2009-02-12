@@ -37,7 +37,7 @@ define('DB_COLLATE', '');
  * 身份密匙设定。
  *
  * 您可以随意写一些字符
- * 或者直接访问 {@link http://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-key页面将自动为您生成}
+ * 或者直接访问 {@link https://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-key页面将自动为您生成}
  *
  * @since 2.6.0
  */
@@ -58,7 +58,7 @@ $table_prefix  = 'wp_';
 /**
  * WordPress语言设置。默认为英语。
  *
- * 本项设定能够让 WordPress 显示您需要的语言。wp-content/languages 内应放置同名的 .mo 语言文件
+ * 本项设定能够让 WordPress 显示您需要的语言。wp-content/languages 内应放置同名的 .mo 语言文件。
  * 要使用 WordPress 简体中文界面，只需填入 zh_CN。
  */
 define ('WPLANG', 'zh_CN');

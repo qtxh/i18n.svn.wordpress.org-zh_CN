@@ -39,7 +39,7 @@ msgstr "%s 存档"
 #: archive.php:13
 #: index.php:11
 msgid "F jS, Y"
-msgstr "Y年m月j号"
+msgstr "Y年m月j日"
 
 #: archive.php:15
 #, php-format
@@ -96,7 +96,7 @@ msgstr "%s的永久链接"
 #: sidebar.php:24
 #: single.php:27
 msgid "l, F jS, Y"
-msgstr "Y年m月j号，l"
+msgstr "Y年m月j日，l"
 
 #: archive.php:39
 #: index.php:17
