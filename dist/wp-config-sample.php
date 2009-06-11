@@ -37,7 +37,7 @@ define('DB_COLLATE', '');
  * 身份密匙设定。
  *
  * 您可以随意写一些字符
- * 或者直接访问 {@link https://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-key页面将自动为您生成}
+ * 或者直接访问 {@link https://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-key页面将自动为您生成，任何修改都会导致cookies失效，所以用户必须重新登录}
  *
  * @since 2.6.0
  */
