@@ -15,13 +15,13 @@
  */
 
 // ** MySQL设置 - 具体信息来自您正在使用的主机 ** //
-/** WordPress数据库的名称 */
+/** WordPress数据库的名称，替换掉 “putyourdbnamehere” */
 define('DB_NAME', 'putyourdbnamehere');
 
-/** MySQL数据库用户名 */
+/** MySQL数据库用户名，替换掉 “usernamehere” */
 define('DB_USER', 'usernamehere');
 
-/** MySQL数据库密码 */
+/** MySQL数据库密码，替换掉 “yourpasswordhere” */
 define('DB_PASSWORD', 'yourpasswordhere');
 
 /** MySQL主机名 */
