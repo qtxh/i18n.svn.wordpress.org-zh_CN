@@ -1360,7 +1360,7 @@ msgstr "发布于：<b>%1$s</b>"
 #: wp-admin/edit-page-form.php:190
 #: wp-admin/edit-page-form.php:198
 msgid "Publish <b>immediately</b>"
-msgstr "<b>立即<b>发布"
+msgstr "<b>立即</b>发布"
 
 #: wp-admin/edit-form-advanced.php:204
 #: wp-admin/edit-page-form.php:192
