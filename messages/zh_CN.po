@@ -10325,7 +10325,7 @@ msgstr "显示多少评论条目："
 
 #: wp-includes/default-widgets.php:686
 msgid "Entries from any RSS or Atom feed"
-msgstr "来着任何 RSS 或 Atom feed 的条目"
+msgstr "来自任何 RSS 或 Atom feed 的条目"
 
 #: wp-includes/default-widgets.php:726
 msgid "Syndicate this content"
