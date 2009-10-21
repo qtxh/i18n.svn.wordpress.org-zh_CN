@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.8\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
+"POT-Creation-Date: 2009-10-21 00:56+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Paveo <j@owind.com>\n"
 "Language-Team: cn.WordPress.org <wordpress@owind.com>\n"
@@ -146,16 +146,16 @@ msgstr "自动保存被禁用：%s 当前正在编辑这篇文章。"
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "您没有修改这个页面的权限。"
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "您没有修改这篇文章的权限。"
@@ -374,7 +374,7 @@ msgstr "导入"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "您没有上传文件的权限。"
 
@@ -386,7 +386,7 @@ msgstr "您没有上传文件的权限。"
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -708,7 +708,7 @@ msgstr "否"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "作者"
 
@@ -718,7 +718,7 @@ msgstr "作者"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "电子邮件"
 
@@ -736,7 +736,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "评论"
@@ -1044,7 +1044,7 @@ msgid_plural "%s comments marked as spam"
 msgstr[0] "已标记 %s 条为垃圾评论"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:747
 msgid "All"
 msgid_plural "All"
 msgstr[0] "全部"
@@ -1114,7 +1114,7 @@ msgstr "显示所有评论类型"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:752
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "评论"
@@ -1141,7 +1141,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "目前还没有等待审核的评论。"
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:878
 msgid "No results found."
 msgstr "未找到"
 
@@ -1340,7 +1340,7 @@ msgstr "置顶这篇文章到首页"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "密码："
 
@@ -2161,7 +2161,7 @@ msgid "Page Revisions"
 msgstr "页面修订版本"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "您没有删除这个页面的权限。"
 
@@ -2169,10 +2169,10 @@ msgstr "您没有删除这个页面的权限。"
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "删除中发生错误..."
@@ -2269,7 +2269,7 @@ msgstr[0] "私有文章<span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "页面"
 
@@ -2421,7 +2421,7 @@ msgid "Add Tag"
 msgstr "添加标签"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "您没有删除这篇文章的权限。"
@@ -2778,80 +2778,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "从 Blogware 导入文章"
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "导入 Bunny&#8217;s Technorati Tags"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "导入 DotClear"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "根据您的数据库大小操作可能持续一段时间。请耐心等候。"
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "嗨！这里将帮您从 Bunny&#8217;s Technorati Tags 导入标签到 WordPress 的内置标签系统。"
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "这适用于 Bunny&#8217;s Technorati Tags 0.6 版本。"
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "所有存在的 Bunny&#8217;s Technorati 标签将会在导入后被移除。"
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "请不要犯傻！凡事先备份您的数据库！"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "导入标签"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "读取 Bunny&#8217;s Technorati Tags&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "找不到任何标签！"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "成功找到 <strong>%s</strong> 篇文章及其标签。"
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "下一步"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "成功导入！"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "导入 Bunny&#8217;s Technorati Tags 到 WordPress 标签中。"
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "导入 DotClear"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3207,46 +3143,6 @@ msgstr "GreyMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "从 Greymatter 导入用户、文章和评论。"
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "导入 Jerome&#8217;s Keywords"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "嗨！这里将帮您从 Jerome&#8217;s Keywords 导入标签到 WordPress 的内置标签系统。"
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "这试用于 Jerome&#8217;s Keywords 1.x 和 2.0a 版本。"
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "所有存在的 Jerome&#8217;s Keywords 标签将会在导入后被移除。"
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "导入版本 1.x"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "导入版本 2.0a"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "读取 Jerome&#8217;s Keywords Tags&#8230;"
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "成功找到 <strong>%s</strong> 个标签。"
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "导入 Jerome&#8217;s Keywords 标签到 WordPress 标签系统。"
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "导入 LiveJournal"
@@ -3535,7 +3431,7 @@ msgstr "建立用户 %1$s 或者映射成已存在的用户"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "提交"
 
@@ -3673,6 +3569,11 @@ msgstr "这个没有在其它版本的 Simple Tagging 上测试过。效果可�
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "我们使用四个步骤来帮助标签狂们从 Simple Tagging 平稳迁移到内置标签系统。您只需点击按钮，我们会帮您解决其它问题。"
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "请不要犯傻！凡事先备份您的数据库！"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3714,6 +3615,11 @@ msgstr[0] "成功加入 <strong>%s</strong> 个标签！"
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "第三步"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "成功导入！"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3810,6 +3716,16 @@ msgstr "我们使用五个步骤来帮助标签狂们从 UTW 平稳迁移到内�
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "读取 UTW Tags&#8230;"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "找不到任何标签！"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "成功找到 <strong>%s</strong> 个标签。"
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -4546,7 +4462,7 @@ msgid_plural "Tags"
 msgstr[0] "标签"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:903
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "垃圾评论"
@@ -4634,7 +4550,7 @@ msgstr "回复这条评论"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "回复"
 
@@ -4662,14 +4578,14 @@ msgstr "[待审]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Pingback"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Trackback"
 
@@ -4708,8 +4624,7 @@ msgstr "这个控制板小工具会查询<a href=\"http://blogsearch.google.com/
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "某位"
 
@@ -4977,20 +4892,20 @@ msgstr "主机名"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "用户名"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "密码"
 
@@ -5467,7 +5382,7 @@ msgstr "插件延伸、拓展 WordPress 的功能。您可以从<a href=\"http:/
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:714
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5541,7 +5456,7 @@ msgstr "版本"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "动作"
 
@@ -5865,7 +5780,7 @@ msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "视频<span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "View Post"
 msgstr "查看文章"
 
@@ -5886,7 +5801,22 @@ msgstr "改变固定链接"
 msgid "Click to edit this part of the permalink"
 msgstr "点击编辑这部分固定链接"
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "注意：%s 正在编辑该文章"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "注意：%s 正在编辑该页面"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "注意：%s 当前正在编辑。"
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "预览不可用。请先保存草稿。"
 
@@ -6740,19 +6670,19 @@ msgstr "无法定位 WordPress 主题目录。"
 msgid "Could not fully remove the theme %s"
 msgstr "无法完全移除主题 %s"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "校验解压的文件"
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "升级包无法被解压"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "安装最新版本"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "升级数据库"
 
@@ -6921,7 +6851,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "您无法为用户指定该角色。"
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>错误</strong>：请输入一个用户名。"
 
@@ -6963,7 +6893,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>错误</strong>：电子邮件不正确。"
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>错误</strong>：该电子邮件地址已经被注册，请选择另外一个。"
 
@@ -7000,81 +6930,81 @@ msgstr "控制板"
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; 安装"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>错误</strong>：%s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "博客标题"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "电子邮件"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "请仔细检查邮件地址后继续。"
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "允许我的博客出现在诸如 Google 和 Technorati 之类的搜索结果上。"
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "安装 WordPress"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "已经安装"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "您的 WordPress 看起来已经安装妥当。如果想重新安装，请删除数据库中的数据表。"
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "欢迎"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "欢迎使用亲切的 WordPress 五分钟安装程序。如果您愿意花时间，可以看看<a href=\"%s\">介绍文档</a>，否则请简单地填写下面的表格，开始使用这个世界上最具弹性的、强大的个人信息发布平台。"
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "第一步"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "需要您提供的信息"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "您需要填写一些基本信息。无需担心填写出错，这些信息以后可以再次修改。"
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "请输入一个有效的电子邮件地址。"
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "电子邮件地址无效，有效的地址如 <code>username@example.com</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "完成！"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress安装完成。您是否还沉浸在愉悦的安装过程中？很遗憾，一切皆已完成！ :)"
 
-#: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-admin/install.php:147
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "登录"
 
@@ -8014,11 +7944,6 @@ msgstr "编辑页面"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "您尝试编译一篇不存在的页面，它是不是被删除了？"
 
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "注意：%s 正在编辑该页面"
-
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
 msgstr "编辑插件"
@@ -8320,12 +8245,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "您尝试编译一篇不存在的文章，它是不是被删除了？"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "注意：%s 正在编辑该文章"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "编辑文章"
 
@@ -8391,14 +8311,14 @@ msgid "Embed a Video"
 msgstr "嵌入一个视频"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "可视化"
 
@@ -8435,7 +8355,7 @@ msgid "Post published."
 msgstr "文章已发布。"
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1084
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9407,9 +9327,9 @@ msgstr "抱歉，您无权编辑或发表新文章。"
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "抱歉，某些错误的发生导致您的文章无法正常发表。"
 
@@ -9420,26 +9340,26 @@ msgstr "抱歉，您没有访问此文章的权限。"
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您没有编辑此文章的权限。"
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "由于某种奇怪的缘故，这篇文章无法被编辑。"
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您没有删除此文章的权限。"
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "由于某种奇怪的缘故，这篇文章无法被删除。"
 
@@ -9448,8 +9368,8 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "您没有上传文件的权限。"
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "由于文件路径无效，访问文章头部元数据时发生错误。"
 
@@ -9636,144 +9556,144 @@ msgstr "Akismet 检测到一个问题。"
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "网络或服务器问题导致 Akismet 工作异常， <a href=\"%1$s\">点击这里</a>查看怎么修复它。"
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:589
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet 反垃圾评论 (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:591
+#: wp-content/plugins/akismet/akismet.php:593
 msgid "Akismet Spam"
 msgstr "Akismet 反垃圾"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:603
+#: wp-content/plugins/akismet/akismet.php:622
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "您没有审核评论的权限。"
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:634
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s 条评论被恢复。"
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:638
 msgid "All spam deleted."
 msgstr "所有垃圾评论被删除。"
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:686
 msgid "Caught Spam"
 msgstr "捕获垃圾信息"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:691
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "从您首次安装 Akismet 以来，它为您捕获了 <strong>%1$s 条垃圾评论</strong>。"
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:698
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "干净的一天。您门前没有任何垃圾。"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:701
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "您只需按一下鼠标就可以删除全部垃圾评论。因为该操作无法撤销，您可能需要先检查一下以确保没有合法的评论被误认为垃圾评论。被认定为垃圾的评论会在 15 天后自动被系统删除。"
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "现在有 %1$s 条评论被认定为垃圾评论。"
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "Delete all"
 msgstr "删除全部"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:716
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "这些是最近被 Akismet 认定为垃圾的评论。如果您发现任何错误，您只需将它标成“不是垃圾”，然后 Akismet 会自动学习并纠正错误。如果您希望恢复一条被误标成垃圾的评论，选中它，然后点击 “不是垃圾”。15 天后，垃圾箱将被自动清空。"
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:770
 msgid "Search Spam &raquo;"
 msgstr "搜索垃圾评论 &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; 上一页"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:798
+#: wp-content/plugins/akismet/akismet.php:865
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "下一页 &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:820
 msgid "IP:"
 msgstr "IP："
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "Not Spam"
 msgstr "不是垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:871
 msgid "De-spam marked comments &raquo;"
 msgstr "这不是垃圾 &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:873
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复动作将帮助 Akismet 变得更聪明，为您拦截更多的垃圾。"
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:909
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a>已经帮您过滤了 <a href=\"%2$s\">%3$s 条垃圾评论</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a>已经帮您过滤了 %2$s 条垃圾评论, "
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> 在您的博客上过滤垃圾留言，"
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:937
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "有<a href=\"%2$s\">%1$s 条评论</a>现在在您的垃圾评论队列里。"
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:942
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "目前<a href='%1$s'>垃圾评论队列</a>为空。"
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:945
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|马上使用Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:960
 msgid "Recheck Queue for Spam"
 msgstr "重新检查垃圾评论队列"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:977
 msgid "Check for Spam"
 msgstr "检查垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1052
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$s条垃圾评论%3$s %4$s被截获%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "spam comments"
 msgstr "垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "blocked by"
 msgstr "截获自"
 
@@ -9860,20 +9780,20 @@ msgid "Enter your password to view comments."
 msgstr "查看留言请输入您的密码。"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "评论暂缺"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 条评论"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "% 条评论"
 
@@ -9916,7 +9836,7 @@ msgid "Filed under:"
 msgstr "类归于："
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "标签："
 
@@ -9950,7 +9870,7 @@ msgid "Older Posts &raquo;"
 msgstr "早前文章 &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "页面："
 
@@ -10111,12 +10031,12 @@ msgstr "书签"
 msgid "View all posts in %s"
 msgstr "查看 %s 的全部文章"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "没有分类目录"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10218,59 +10138,59 @@ msgstr "查看 %s 下的所有文章"
 msgid "Feed for all posts filed under %s"
 msgstr "%s 下的所有文章 Feed"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "评论关闭"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "查看留言请输入密码"
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "%s 上的评论"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "登录并回复"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "留下评论"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "登录留下评论"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "点击这里取消回复"
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "留下评论"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "评论回复 %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">说：</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正在等待审核。"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s于%2$s"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(编辑)"
 
@@ -10580,36 +10500,36 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1664
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s 分钟"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1670
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s 个小时"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1676
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s 天"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2550
 msgid ", "
 msgstr "，"
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2552
 msgid ", and "
 msgstr "，和"
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2554
 msgid " and "
 msgstr "和"
 
@@ -10856,9 +10776,9 @@ msgid "Search for:"
 msgstr "搜索："
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "登录"
 
@@ -10867,9 +10787,9 @@ msgid "Log out"
 msgstr "退出"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "注册"
 
@@ -10899,66 +10819,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%2$s年%1$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "查看 %1$s %2$s 的文章"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Feed"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s 评论 Feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s 评论 Feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s 分类目录Feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s 标签Feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Posts by %3$s Feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s &#8220;%3$s&#8221; 搜索结果 Feed"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; 上一页"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "下一页 &raquo;"
 
@@ -12892,7 +12812,7 @@ msgstr "在您博客上的新注册用户 %s："
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "用户名：%s"
@@ -12908,7 +12828,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] 新用户注册"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "密码：%s"
@@ -12932,61 +12852,61 @@ msgstr "私有的：%s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "无法提供任何摘要。这是一篇受保护的文章。"
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "下一页"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "上一页"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "首页"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "附件丢失"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "这是一篇受密码保护的文章。您需要提供访问密码："
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "Y年m月j日 @ G:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [自动保存]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [当前修订版本]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s 由 %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "还原"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "比较修订版本"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "创建日期"
 
@@ -13348,128 +13268,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] 密码已重置"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "电子文件无法发送。"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "可能原因：您的主机禁用了 mail() 功能..."
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "无效密钥"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] 您的新密码"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>错误</strong>：这个用户名无效，请输入一个有效的用户名。"
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>错误</strong>：这个用户名已经被注册了，请您选择另外一个。"
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>错误</strong>：请输入电子邮件。"
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>错误</strong>：电子邮件不正确。"
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>错误</strong>：无法完成您的注册请求... 请联系<a href=\"mailto:%s\">管理员</a>！"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "抱歉，Key似乎无效。"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "忘记密码："
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "请输入您的用户名和电子邮件地址。您将通过电子邮件收到新密码。"
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "用户名或电子邮件："
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "获取新密码"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "不知道自己在哪？"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; 返回 %s"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "注册表单"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "在这个站点注册"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "密码将通过电子邮件发送给您。"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "找回密码"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "忘记密码？"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>错误</strong>：Cookies被阻止或者您的浏览器不支持。使用 WordPress 您必须<a href='http://www.google.com/cookies.html'>激活cookies</a>。"
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "您已登出。"
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "新用户注册暂时关闭。"
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "请检查您的新邮件中的确认激活链接。"
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "请查收您新邮件中的新密码。"
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "注册完成。请查收我们给您发出的新邮件。"
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "记住我的登录信息"
 
@@ -13533,254 +13454,254 @@ msgstr "博客副标题"
 msgid "Sorry, you cannot edit this page."
 msgstr "抱歉，您不可以修改这个页面。"
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "抱歉，此页面不存在。"
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "抱歉，您不可以编辑页面。"
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "抱歉，您不可以添加新页面。"
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "抱歉，您没有删除此页面的权限。"
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "删除页面失败。"
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "抱歉，您没有编辑此页面的权限。"
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "抱歉，您不可以在这个博客上编辑文章。"
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "抱歉，您必须拥有在该博客上编辑文章的权限来查看标签。"
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "抱歉，您没有添加分类目录的权限。"
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "抱歉，新建分类目录失败。"
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "抱歉，您没有删除分类目录的权限。"
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "抱歉，您必须有编辑文章的权限才能查看分类目录。"
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "您没有在这个博客上审核评论的权限。"
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "无效评论ID。"
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "抱歉，您不可以编辑评论。"
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "无效评论状态"
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "抱歉，评论无法被编辑。有错误发生。"
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "您注册并登录才可以发表评论"
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "无效文章ID。"
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "评论作者必须填写姓名和电子邮件"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "需要一个有效的电子邮件地址"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "您没有访问博客详细信息的权限。"
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "您没有访问评论详细信息的权限。"
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "您没有更新选项的权限。"
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "抱歉，您无权访问这个博客的用户数据。"
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "抱歉，您不可以修改这篇文章。"
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "可能文章不存在，或者出现了什么错误。"
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "抱歉，该用户无权编辑模板。"
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "抱歉，该用户不可以编辑模板。"
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "文件可能不可写，或者发生了什么错误。文件未被更新。"
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "抱歉，您无权在这个博客上发表文章。"
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "抱歉，无此文章。"
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "抱歉，您无权发表这篇文章。"
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "抱歉，您无权在这个博客上发表文章。"
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "抱歉，您无权在这个博客上发布页面。"
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "无效文章类型。"
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "您无法以当前用户的身份发表文章"
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "您无法以当前用户的身份创建页面"
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "您无法以当前用户的身份改变文章作者。"
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "您无法以当前用户的身份改变页面作者。"
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "抱歉，您无权发布此页面。"
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "抱歉，您的文章无法被编辑。有错误发生。"
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "抱歉，您必须拥有在该博客上编辑文章的权限来查看分类目录。"
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "您在这个站点上没有上传文件的权限。"
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "无法写文件  %1$s (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "抱歉，您不能修改这篇文章。"
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "没有任何连接？"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "指定的目标URL无法作为目标使用。目标不存在，或者它不是一个可通告的资源。"
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "源URL和目的URL不能定向到同一资源。"
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "此 pingback 已注册。"
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "源URL不存在。"
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "我们无法在该页面上找到什么。"
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "源URL地址未包含一个到目标URl的链接，所以无法使用源。"
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "从 %1$s 到 %2$s 的通告已注册，保持Web交流畅通 :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "指定的URL不存在。"
 
@@ -13875,6 +13796,49 @@ msgstr "从左到右"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。我们需要这个文件来让一切开始，可以查看<a href='http://codex.wordpress.org/Editing_wp-config.php'>更多帮助</a>。 那么现在您可以通过这个 Web 界面创建一个 <code>wp-config.php</code> 文件，但并非所有主机都支持，安全的做法是手动创建。</p><p><a href='%ssetup-config.php' class='button'>试试创建一个配置文件</a>"
 
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "导入 Bunny&#8217;s Technorati Tags"
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "嗨！这里将帮您从 Bunny&#8217;s Technorati Tags 导入标签到 WordPress 的内置"
+#~ "标签系统。"
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr "这适用于 Bunny&#8217;s Technorati Tags 0.6 版本。"
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr "所有存在的 Bunny&#8217;s Technorati 标签将会在导入后被移除。"
+#~ msgid "Import Tags"
+#~ msgstr "导入标签"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "读取 Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] "成功找到 <strong>%s</strong> 篇文章及其标签。"
+#~ msgid "Next"
+#~ msgstr "下一步"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "导入 Bunny&#8217;s Technorati Tags 到 WordPress 标签中。"
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "导入 Jerome&#8217;s Keywords"
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr ""
+#~ "嗨！这里将帮您从 Jerome&#8217;s Keywords 导入标签到 WordPress 的内置标签系"
+#~ "统。"
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr "这试用于 Jerome&#8217;s Keywords 1.x 和 2.0a 版本。"
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr "所有存在的 Jerome&#8217;s Keywords 标签将会在导入后被移除。"
+#~ msgid "Import Version 1.x"
+#~ msgstr "导入版本 1.x"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "导入版本 2.0a"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "读取 Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "导入 Jerome&#8217;s Keywords 标签到 WordPress 标签系统。"
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "激活语法高亮"
 #~ msgid "Disable syntax highlighting"
