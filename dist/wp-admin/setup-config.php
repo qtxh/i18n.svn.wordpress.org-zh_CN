@@ -103,7 +103,7 @@ switch($step) {
 <p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间提供商。如果已经准备好了 &hellip;</p>
 
 
-<p class="step"><a href="setup-config.php?step=1" class="button">Let&#8217;s go!</a></p>
+<p class="step"><a href="setup-config.php?step=1" class="button">开始!</a></p>
 <?php
 	break;
 
@@ -139,7 +139,7 @@ switch($step) {
 			<td>如果有在同一数据库内安装多个 WordPress 的需求请更改此项。</td>
 		</tr>
 	</table>
-	<p class="step"><input name="submit" type="submit" value="Submit" class="button" /></p>
+	<p class="step"><input name="submit" type="submit" value="提交" class="button" /></p>
 </form>
 <?php
 	break;
