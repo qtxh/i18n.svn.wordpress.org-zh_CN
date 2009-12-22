@@ -1,74 +1,74 @@
 <?php
 /** 
- * WordPress»ù´¡ÅäÖÃÎÄ¼þ¡£
+ * WordPressåŸºç¡€é…ç½®æ–‡ä»¶ã€‚
  *
- * ±¾ÎÄ¼þ°üº¬ÒÔÏÂÅäÖÃÑ¡Ïî: MySQLÉèÖÃ, Êý¾Ý¿â±íÃûÇ°×º,
- * ÃÜ³×, WordPressÓïÑÔÉè¶¨ÒÔ¼°ABSPATH. ÈçÐè¸ü¶àÐÅÏ¢£¬Çë·ÃÎÊ
- * {@link http://codex.wordpress.org/Editing_wp-config.php ±à¼­
- * wp-config.php}Codex. MySQLÉèÖÃ¾ßÌåÐÅÏ¢Çë×ÉÑ¯ÄúµÄ¿Õ¼äÌá¹©ÉÌ¡£
+ * æœ¬æ–‡ä»¶åŒ…å«ä»¥ä¸‹é…ç½®é€‰é¡¹: MySQLè®¾ç½®, æ•°æ®åº“è¡¨åå‰ç¼€,
+ * å¯†åŒ™, WordPressè¯­è¨€è®¾å®šä»¥åŠABSPATH. å¦‚éœ€æ›´å¤šä¿¡æ¯ï¼Œè¯·è®¿é—®
+ * {@link http://codex.wordpress.org/Editing_wp-config.php ç¼–è¾‘
+ * wp-config.php}Codex. MySQLè®¾ç½®å…·ä½“ä¿¡æ¯è¯·å’¨è¯¢æ‚¨çš„ç©ºé—´æä¾›å•†ã€‚
  *
- * Õâ¸öÎÄ¼þÓÃÔÚÓÚ°²×°³ÌÐò×Ô¶¯Éú³É wp-config.php ÅäÖÃÎÄ¼þ£¬
- * Äã¿ÉÒÔÊÖ¶¯¸´ÖÆÕâ¸öÎÄ¼þ£¬²¢ÖØÃüÃûÎª wp-config.php£¬È»ºóÊäÈëÏà¹ØÐÅÏ¢¡£
+ * è¿™ä¸ªæ–‡ä»¶ç”¨åœ¨äºŽå®‰è£…ç¨‹åºè‡ªåŠ¨ç”Ÿæˆ wp-config.php é…ç½®æ–‡ä»¶ï¼Œ
+ * ä½ å¯ä»¥æ‰‹åŠ¨å¤åˆ¶è¿™ä¸ªæ–‡ä»¶ï¼Œå¹¶é‡å‘½åä¸º wp-config.phpï¼Œç„¶åŽè¾“å…¥ç›¸å…³ä¿¡æ¯ã€‚
  *
  *
  * @package WordPress
  */
 
-// ** MySQLÉèÖÃ - ¾ßÌåÐÅÏ¢À´×ÔÄúÕýÔÚÊ¹ÓÃµÄÖ÷»ú ** //
-/** WordPressÊý¾Ý¿âµÄÃû³Æ£¬Ìæ»»µô ¡°putyourdbnamehere¡± */
+// ** MySQLè®¾ç½® - å…·ä½“ä¿¡æ¯æ¥è‡ªæ‚¨æ­£åœ¨ä½¿ç”¨çš„ä¸»æœº ** //
+/** WordPressæ•°æ®åº“çš„åç§°ï¼Œæ›¿æ¢æŽ‰ â€œputyourdbnamehereâ€ */
 define('DB_NAME', 'putyourdbnamehere');
 
-/** MySQLÊý¾Ý¿âÓÃ»§Ãû£¬Ìæ»»µô ¡°usernamehere¡± */
+/** MySQLæ•°æ®åº“ç”¨æˆ·åï¼Œæ›¿æ¢æŽ‰ â€œusernamehereâ€ */
 define('DB_USER', 'usernamehere');
 
-/** MySQLÊý¾Ý¿âÃÜÂë£¬Ìæ»»µô ¡°yourpasswordhere¡± */
+/** MySQLæ•°æ®åº“å¯†ç ï¼Œæ›¿æ¢æŽ‰ â€œyourpasswordhereâ€ */
 define('DB_PASSWORD', 'yourpasswordhere');
 
-/** MySQLÖ÷»úÃû */
+/** MySQLä¸»æœºå */
 define('DB_HOST', 'localhost');
 
-/** ´´½¨Êý¾Ý±íÊ±Ä¬ÈÏµÄÎÄ×Ö±àÂë */
+/** åˆ›å»ºæ•°æ®è¡¨æ—¶é»˜è®¤çš„æ–‡å­—ç¼–ç  */
 define('DB_CHARSET', 'utf8');
 
-/** Êý¾Ý¿âÕûÀíÀàÐÍ¡£Èç²»È·¶¨ÇëÎð¸ü¸Ä */
+/** æ•°æ®åº“æ•´ç†ç±»åž‹ã€‚å¦‚ä¸ç¡®å®šè¯·å‹¿æ›´æ”¹ */
 define('DB_COLLATE', '');
 
 /**#@+
- * Éí·ÝÃÜ³×Éè¶¨¡£
+ * èº«ä»½å¯†åŒ™è®¾å®šã€‚
  *
- * Äú¿ÉÒÔËæÒâÐ´Ò»Ð©×Ö·û
- * »òÕßÖ±½Ó·ÃÎÊ {@link https://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-keyÒ³Ãæ½«×Ô¶¯ÎªÄúÉú³É£¬ÈÎºÎÐÞ¸Ä¶¼»áµ¼ÖÂcookiesÊ§Ð§£¬ËùÒÔÓÃ»§±ØÐëÖØÐÂµÇÂ¼}
+ * æ‚¨å¯ä»¥éšæ„å†™ä¸€äº›å­—ç¬¦
+ * æˆ–è€…ç›´æŽ¥è®¿é—® {@link https://api.wordpress.org/secret-key/1.1/ WordPress.org Secret-keyé¡µé¢å°†è‡ªåŠ¨ä¸ºæ‚¨ç”Ÿæˆï¼Œä»»ä½•ä¿®æ”¹éƒ½ä¼šå¯¼è‡´cookieså¤±æ•ˆï¼Œæ‰€ä»¥ç”¨æˆ·å¿…é¡»é‡æ–°ç™»å½•}
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'Ìæ»»¸Ã×Ö·û´®');
-define('SECURE_AUTH_KEY', 'Ìæ»»¸Ã×Ö·û´®');
-define('LOGGED_IN_KEY', 'Ìæ»»¸Ã×Ö·û´®');
-define('NONCE_KEY', 'Ìæ»»¸Ã×Ö·û´®');
+define('AUTH_KEY', 'æ›¿æ¢è¯¥å­—ç¬¦ä¸²');
+define('SECURE_AUTH_KEY', 'æ›¿æ¢è¯¥å­—ç¬¦ä¸²');
+define('LOGGED_IN_KEY', 'æ›¿æ¢è¯¥å­—ç¬¦ä¸²');
+define('NONCE_KEY', 'æ›¿æ¢è¯¥å­—ç¬¦ä¸²');
 /**#@-*/
 
 /**
- * WordPressÊý¾Ý±íÇ°×º¡£
+ * WordPressæ•°æ®è¡¨å‰ç¼€ã€‚
  *
- * Èç¹ûÄúÓÐÔÚÍ¬Ò»Êý¾Ý¿âÄÚ°²×°¶à¸ö WordPress µÄÐèÇó£¬ÇëÎªÃ¿¸ö WordPress ÉèÖÃ²»Í¬µÄÊý¾Ý±íÇ°×º¡£
- * Ç°×ºÃûÖ»ÄÜÎªÊý×Ö¡¢×ÖÄ¸¼ÓÏÂ»®Ïß¡£
+ * å¦‚æžœæ‚¨æœ‰åœ¨åŒä¸€æ•°æ®åº“å†…å®‰è£…å¤šä¸ª WordPress çš„éœ€æ±‚ï¼Œè¯·ä¸ºæ¯ä¸ª WordPress è®¾ç½®ä¸åŒçš„æ•°æ®è¡¨å‰ç¼€ã€‚
+ * å‰ç¼€ååªèƒ½ä¸ºæ•°å­—ã€å­—æ¯åŠ ä¸‹åˆ’çº¿ã€‚
  */
 $table_prefix  = 'wp_';
 
 /**
- * WordPressÓïÑÔÉèÖÃ¡£Ä¬ÈÏÎªÓ¢Óï¡£
+ * WordPressè¯­è¨€è®¾ç½®ã€‚é»˜è®¤ä¸ºè‹±è¯­ã€‚
  *
- * ±¾ÏîÉè¶¨ÄÜ¹»ÈÃ WordPress ÏÔÊ¾ÄúÐèÒªµÄÓïÑÔ¡£wp-content/languages ÄÚÓ¦·ÅÖÃÍ¬ÃûµÄ .mo ÓïÑÔÎÄ¼þ¡£
- * ÒªÊ¹ÓÃ WordPress ¼òÌåÖÐÎÄ½çÃæ£¬Ö»ÐèÌîÈë zh_CN¡£
+ * æœ¬é¡¹è®¾å®šèƒ½å¤Ÿè®© WordPress æ˜¾ç¤ºæ‚¨éœ€è¦çš„è¯­è¨€ã€‚wp-content/languages å†…åº”æ”¾ç½®åŒåçš„ .mo è¯­è¨€æ–‡ä»¶ã€‚
+ * è¦ä½¿ç”¨ WordPress ç®€ä½“ä¸­æ–‡ç•Œé¢ï¼Œåªéœ€å¡«å…¥ zh_CNã€‚
  */
 define ('WPLANG', 'zh_CN');
 
-/* Éè¶¨Íê±Ï£¬Çë±£´æ¸ÃÎÄ¼þ¡£ */
+/* è®¾å®šå®Œæ¯•ï¼Œè¯·ä¿å­˜è¯¥æ–‡ä»¶ã€‚ */
 
-/** WordPressÄ¿Â¼µÄ¾ø¶ÔÂ·¾¶¡£ */
+/** WordPressç›®å½•çš„ç»å¯¹è·¯å¾„ã€‚ */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** ÉèÖÃWordPress±äÁ¿ºÍ°üº¬ÎÄ¼þ¡£ */
+/** è®¾ç½®WordPresså˜é‡å’ŒåŒ…å«æ–‡ä»¶ã€‚ */
 require_once(ABSPATH . 'wp-settings.php');
 ?>
