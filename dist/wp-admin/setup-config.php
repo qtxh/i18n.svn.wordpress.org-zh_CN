@@ -16,6 +16,14 @@
  */
 define('WP_INSTALLING', true);
 
+/**
+ * Disable error reporting
+ *
+ * Set this to error_reporting( E_ALL ) or error_reporting( E_ALL | E_STRICT ) f
+or debugging
+ */
+error_reporting(0);
+
 /**#@+
  * These three defines are required to allow us to use require_wp_db() to load
  * the database class while being wp-content/db.php aware.
@@ -35,9 +43,6 @@ if (!file_exists(ABSPATH . 'wp-config-sample.php'))
 
 $configFile = file(ABSPATH . 'wp-config-sample.php');
 
-if ( !is_writable(ABSPATH))
-	wp_die("提示！目录不可写。请更改目录属性或者手动创建 wp-config.php 。");
-
 // Check if wp-config.php has been created
 if (file_exists(ABSPATH . 'wp-config.php'))
 	wp_die("<p>'wp-config.php'文件已存在。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建 wp-config.php 。<a href='install.php'>重试</a>。</p>");
@@ -45,6 +50,12 @@ if (file_exists(ABSPATH . 'wp-config.php'))
 // Check if wp-config.php exists above the root directory but is not part of another install
 if (file_exists(ABSPATH . '../wp-config.php') && ! file_exists(ABSPATH . '../wp-settings.php'))
 	wp_die("<p>'wp-config.php'已存在于更高一级的目录内。如果您想更改 wp-config.php 内已有的设定，请先删除它，本向导会重新创建wp-config.php。<a href='install.php'>重试</a>。</p>");
+
+if ( version_compare( '4.3', phpversion(), '>' ) )
+	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'您服务器的PHP版本为 %s 但 WordPress 至少需要 4.3.'/*/WP_I18N_OLD_PHP*/, phpversion() ) );
+
+if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
+	wp_die( /*WP_I18N_OLD_MYSQL*/'您的PHP似乎没有 MySQL 拓展。'/*/WP_I18N_OLD_MYSQL*/ );
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
@@ -66,7 +77,7 @@ function display_header() {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; 安装向导</title>
+<title>WordPress &rsaquo; Setup Configuration File</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -91,7 +102,8 @@ switch($step) {
 <p><strong>如果无法进入下一步，别着急。此向导的目的在于创建 Wordpress 的配置文件，所以您还可以直接用文本编辑器打开 <code>wp-config-sample.php</code>，根据提示填写相应信息，然后保存并将它重命名为 <code>wp-config.php</code>。</strong></p>
 <p>正常情况下，您的空间商会告知数据库的有关信息。如果您不太清楚，请先联系您的空间提供商。如果已经准备好了 &hellip;</p>
 
-<p class="step"><a href="setup-config.php?step=1" class="button">那么现在开始！</a></p>
+
+<p class="step"><a href="setup-config.php?step=1" class="button">Let&#8217;s go!</a></p>
 <?php
 	break;
 
@@ -99,7 +111,7 @@ switch($step) {
 		display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间提供商确认。</p>
+	<p>您应该在下面的表单中填入对应的数据库信息，不确定的项目请联系您的空间提供商确认。 </p>
 	<table class="form-table">
 		<tr>
 			<th scope="row"><label for="dbname">数据库名称</label></th>
@@ -127,7 +139,7 @@ switch($step) {
 			<td>如果有在同一数据库内安装多个 WordPress 的需求请更改此项。</td>
 		</tr>
 	</table>
-	<p class="step"><input name="submit" type="submit" value="填好了" class="button" /></p>
+	<p class="step"><input name="submit" type="submit" value="Submit" class="button" /></p>
 </form>
 <?php
 	break;
@@ -155,38 +167,52 @@ switch($step) {
 	if ( !empty($wpdb->error) )
 		wp_die($wpdb->error->get_error_message());
 
-	$handle = fopen(ABSPATH . 'wp-config.php', 'w');
-
 	foreach ($configFile as $line_num => $line) {
 		switch (substr($line,0,16)) {
 			case "define('DB_NAME'":
-				fwrite($handle, str_replace("putyourdbnamehere", $dbname, $line));
+				$configFile[$line_num] = str_replace("putyourdbnamehere", $dbname, $line);
 				break;
 			case "define('DB_USER'":
-				fwrite($handle, str_replace("'usernamehere'", "'$uname'", $line));
+				$configFile[$line_num] = str_replace("'usernamehere'", "'$uname'", $line);
 				break;
 			case "define('DB_PASSW":
-				fwrite($handle, str_replace("'yourpasswordhere'", "'$passwrd'", $line));
+				$configFile[$line_num] = str_replace("'yourpasswordhere'", "'$passwrd'", $line);
 				break;
 			case "define('DB_HOST'":
-				fwrite($handle, str_replace("localhost", $dbhost, $line));
+				$configFile[$line_num] = str_replace("localhost", $dbhost, $line);
 				break;
 			case '$table_prefix  =':
-				fwrite($handle, str_replace('wp_', $prefix, $line));
+				$configFile[$line_num] = str_replace('wp_', $prefix, $line);
 				break;
-			default:
-				fwrite($handle, $line);
 		}
 	}
-	fclose($handle);
-	chmod(ABSPATH . 'wp-config.php', 0666);
-
-	display_header();
+	if ( ! is_writable(ABSPATH) ) :
+		display_header();
+?>
+<p>抱歉，无法写入<code>wp-config.php</code>文件。</p>
+<p>您可以手动创建<code>wp-config.php</code>文件，然后复制粘贴下面的文本过去。</p>
+<textarea cols="90" rows="15"><?php
+		foreach( $configFile as $line ) {
+			echo htmlentities($line);
+		}
+?></textarea>
+<p>完成后，点击“开始安装”</p>
+<p class="step"><a href="install.php" class="button">开始安装</a></p>
+<?php
+	else :
+		$handle = fopen(ABSPATH . 'wp-config.php', 'w');
+		foreach( $configFile as $line ) {
+			fwrite($handle, $line);
+		}
+		fclose($handle);
+		chmod(ABSPATH . 'wp-config.php', 0666);
+		display_header();
 ?>
 <p>恭喜！WordPress和数据库的连接已经建立。准备好了？ 开始 &hellip;</p>
 
-<p class="step"><a href="install.php" class="button">安装！</a></p>
+<p class="step"><a href="install.php" class="button">开始安装</a></p>
 <?php
+	endif;
 	break;
 }
 ?>
