@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Kubrick\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/theme\n"
-"POT-Creation-Date: 2009-05-18 17:54+0300\n"
+"POT-Creation-Date: 2009-12-23 23:38+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Paveo <j@owind.com>\n"
 "Language-Team:  <wordpress@owind.com>\n"
@@ -91,6 +91,7 @@ msgid "Permanent Link to %s"
 msgstr "%s的永久链接"
 
 #: archive.php:40
+#: image.php:32
 #: sidebar.php:30
 #: single.php:34
 msgid "l, F jS, Y"
@@ -249,6 +250,7 @@ msgid "Close this window."
 msgstr "关闭这个窗口。"
 
 #: comments-popup.php:109
+#: image.php:65
 #: single.php:65
 msgid "Sorry, no posts matched your criteria."
 msgstr "抱歉，没有符合你要求的文章。"
@@ -355,106 +357,146 @@ msgstr "评论 (RSS)"
 msgid "%d queries. %s seconds."
 msgstr "%d 查询，%s 秒完成。"
 
-#: functions.php:156
+#: functions.php:160
 msgid "Custom Header"
 msgstr "Custom Header"
 
-#: functions.php:169
+#: functions.php:173
 msgid "Close Color Picker"
 msgstr "关闭颜色选择器"
 
-#: functions.php:366
+#: functions.php:376
 msgid "Options saved."
 msgstr "选项已保存。"
 
-#: functions.php:369
+#: functions.php:379
 msgid "Customize Header"
 msgstr "自定义头部"
 
-#: functions.php:383
-#: functions.php:390
+#: functions.php:393
+#: functions.php:400
 msgid "Save"
 msgstr "保存"
 
-#: functions.php:384
+#: functions.php:394
 msgid "Font Color:"
 msgstr "字体颜色："
 
-#: functions.php:384
+#: functions.php:394
 #, php-format
 msgid "Any CSS color (%s or %s or %s)"
 msgstr "任何CSS颜色 (%s 或 %s 或 %s)"
 
-#: functions.php:385
+#: functions.php:395
 msgid "Upper Color:"
 msgstr "上层颜色："
 
-#: functions.php:385
-#: functions.php:386
+#: functions.php:395
+#: functions.php:396
 #, php-format
 msgid "HEX only (%s or %s)"
 msgstr "十六进制颜色 (%s 或 %s)"
 
-#: functions.php:386
+#: functions.php:396
 msgid "Lower Color:"
 msgstr "下层颜色："
 
-#: functions.php:388
+#: functions.php:398
 msgid "Toggle Text"
 msgstr "显示/隐藏文字"
 
-#: functions.php:389
+#: functions.php:399
 msgid "Use Defaults"
 msgstr "使用默认"
 
-#: functions.php:398
+#: functions.php:408
 msgid "Font Color"
 msgstr "字体颜色"
 
-#: functions.php:399
+#: functions.php:409
 msgid "Upper Color"
 msgstr "上层颜色"
 
-#: functions.php:400
+#: functions.php:410
 msgid "Lower Color"
 msgstr "下层颜色"
 
-#: functions.php:401
+#: functions.php:411
 msgid "Revert"
 msgstr "恢复"
 
-#: functions.php:402
+#: functions.php:412
 msgid "Advanced"
 msgstr "高级"
 
-#: functions.php:409
+#: functions.php:419
 msgid "Update Header"
 msgstr "Update Header"
 
-#: functions.php:415
+#: functions.php:425
 msgid "Font Color (CSS):"
 msgstr "字体颜色(CSS)："
 
-#: functions.php:416
+#: functions.php:426
 msgid "Upper Color (HEX):"
 msgstr "上层颜色 (HEX)："
 
-#: functions.php:417
+#: functions.php:427
 msgid "Lower Color (HEX):"
 msgstr "下层颜色 (HEX)："
 
-#: functions.php:418
+#: functions.php:428
 msgid "Select Default Colors"
 msgstr "选择默认颜色"
 
-#: functions.php:419
+#: functions.php:429
 msgid "Toggle Text Display"
 msgstr "文字显示/隐藏"
 
+#: image.php:20
 #: index.php:20
 #: single.php:23
 msgid "Read the rest of this entry &raquo;"
 msgstr "阅读这个条目剩下部分 &raquo;"
+
+#: image.php:22
+#: page.php:17
+#: single.php:25
+msgid "Pages:"
+msgstr "页面："
+
+#: image.php:32
+#, php-format
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr "这个条目发布于 %1$s %2$s 归类在 %3$s。"
+
+#: image.php:34
+#: single.php:35
+#, php-format
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "您可以跟踪这篇文章的评论通过 <a href='%s'>RSS 2.0</a> feed。"
+
+#: image.php:38
+#: single.php:39
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "您可以<a href=\"#respond\">留下评论</a>，或者从您的站点<a href=\"%s\" rel=\"trackback\">trackback</a>。"
+
+#: image.php:42
+#: single.php:43
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "评论已经关闭，但是您可以从您的站点<a href=\"%s\" rel=\"trackback\">trackback</a>。"
+
+#: image.php:46
+#: single.php:47
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "您可以跳过直接留下评论。目前不允许Pinging。"
+
+#: image.php:50
+#: single.php:51
+msgid "Both comments and pings are currently closed."
+msgstr "评论和Pings都被关闭。"
 
 #: index.php:35
 msgid "Not Found"
@@ -471,11 +513,6 @@ msgstr "链接："
 #: page.php:15
 msgid "Read the rest of this page &raquo;"
 msgstr "阅读这个页面剩下部分 &raquo;"
-
-#: page.php:17
-#: single.php:25
-msgid "Pages:"
-msgstr "页面："
 
 #: page.php:22
 msgid "Edit this entry."
@@ -564,29 +601,6 @@ msgstr "由优雅的个人信息发布平台 WordPress 驱动。"
 msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
 msgstr "这篇文章发布于%1$s %2$s，%3$s，归类于 %4$s。"
 
-#: single.php:35
-#, php-format
-msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
-msgstr "您可以跟踪这篇文章的评论通过 <a href='%s'>RSS 2.0</a> feed。"
-
-#: single.php:39
-#, php-format
-msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
-msgstr "您可以<a href=\"#respond\">留下评论</a>，或者从您的站点<a href=\"%s\" rel=\"trackback\">trackback</a>。"
-
-#: single.php:43
-#, php-format
-msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
-msgstr "评论已经关闭，但是您可以从您的站点<a href=\"%s\" rel=\"trackback\">trackback</a>。"
-
-#: single.php:47
-msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
-msgstr "您可以跳过直接留下评论。目前不允许Pinging。"
-
-#: single.php:51
-msgid "Both comments and pings are currently closed."
-msgstr "评论和Pings都被关闭。"
-
 #: single.php:53
 msgid "Edit this entry"
 msgstr "编辑"
@@ -621,8 +635,6 @@ msgstr "蓝色、自定义头部、固定宽度、两栏、小工具支持"
 #~ msgstr "%s RSS Feed"
 #~ msgid "%s Atom Feed"
 #~ msgstr "%s Atom Feed"
-#~ msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
-#~ msgstr "这个条目发布于 %1$s %2$s 归类在 %3$s。"
 #~ msgid "Search for:"
 #~ msgstr "搜索："
 #~ msgid "Search"
