@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-12 21:54+0800\n"
+"PO-Revision-Date: 2010-08-14 23:50+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -7481,7 +7481,7 @@ msgstr "用简洁的文字描述本站点。"
 
 #: wp-admin/options-general.php:87
 msgid "WordPress address (URL)"
-msgstr "WordPress 安装地址 (URL)"
+msgstr "WordPress 地址（URL）"
 
 #: wp-admin/options-general.php:91
 msgid "Site address (URL)"
@@ -9012,7 +9012,7 @@ msgstr "本地化版本包含了翻译和其他本地化修复，您可以跳过
 #: wp-admin/update-core.php:73
 #, php-format
 msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
-msgstr "您将安装<strong>英文版本</strong>的 WordPress %s ，这可能会破坏您当前的翻译，您可以等待本地化版本发布。"
+msgstr "您将安装<strong>英文版本</strong>的 WordPress %s，这可能会破坏您当前的翻译，您可以等待本地化版本发布。"
 
 #: wp-admin/update-core.php:83
 #: wp-admin/update-core.php:95
@@ -10213,7 +10213,7 @@ msgstr "阻塞"
 #: wp-content/plugins/akismet/akismet.php:211
 #, php-format
 msgid "Last checked %s ago."
-msgstr "最后一次检查在 %s 之前"
+msgstr "最后一次检查在 %s之前"
 
 #: wp-content/plugins/akismet/akismet.php:212
 msgid "Check network status &raquo;"
