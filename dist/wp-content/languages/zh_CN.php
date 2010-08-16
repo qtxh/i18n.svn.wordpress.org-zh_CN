@@ -27,10 +27,10 @@ function zh_cn_language_pack_settings_page() { ?>
 	<table class="form-table">
 		<tr valign="top">
 			<th scope="row">后台样式优化</th>
-				<td>
-					<input type="checkbox" id="zh_cn_language_pack_enable_backend_style_modifications" name="zh_cn_language_pack_enable_backend_style_modifications" value="1"<?php checked('1', get_option('zh_cn_language_pack_enable_backend_style_modifications')); ?> /><label for="zh_cn_language_pack_enable_backend_style_modifications">启用</label><br />
-					<span class="description">启用对后台样式的优化，专为中文用户设计。</span>
-				</td>
+			<td>
+				<input type="checkbox" id="zh_cn_language_pack_enable_backend_style_modifications" name="zh_cn_language_pack_enable_backend_style_modifications" value="1"<?php checked('1', get_option('zh_cn_language_pack_enable_backend_style_modifications')); ?> /><label for="zh_cn_language_pack_enable_backend_style_modifications">启用</label><br />
+				<span class="description">启用对后台样式的优化，专为中文用户设计。</span>
+			</td>
 		</tr>
 	</table>
 
