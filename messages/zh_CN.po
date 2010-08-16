@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-14 23:50+0800\n"
+"PO-Revision-Date: 2010-08-16 18:44+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1620,7 +1620,7 @@ msgstr "<strong>父级</strong> - 您可以以层级的方式组织您的页面�
 
 #: wp-admin/edit-form-advanced.php:187
 msgid "<strong>Template</strong> - Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them in this dropdown menu."
-msgstr "<strong>模板</strong> - 某些主题有定制的模板，您可以用在一些您想添加新功能或者自定义布局的页面上。如果这样，您可以在上面看到。"
+msgstr "<strong>模板</strong> - 某些主题有定制的模板，您可以用在一些您想添加新功能或者自定义布局的页面上。如果这样，您可以在下拉菜单中看到。"
 
 #: wp-admin/edit-form-advanced.php:188
 msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
@@ -4762,13 +4762,13 @@ msgstr "自定义链接"
 #: wp-admin/includes/nav-menu.php:469
 #: wp-admin/nav-menus.php:450
 msgid "The current theme does not natively support menus, but you can use the &#8220;Custom Menu&#8221; widget to add any menus you create here to the theme&#8217;s sidebar."
-msgstr "当前的主题不提供原生的自定义目录支持。您可以用“自定义目录”小工具将您在这里创建的目录添加至主题的侧边栏。"
+msgstr "当前的主题不提供原生的自定义菜单支持。您可以用“自定义菜单”小工具将您在这里创建的菜单添加至主题的侧边栏。"
 
 #: wp-admin/includes/nav-menu.php:478
 #, php-format
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
-msgstr[0] "您的主题支持 %s 个目录。请为您的目录指定显示的位置。"
+msgstr[0] "您的主题支持 %s 个菜单。请为您的目录指定显示的位置。"
 
 #: wp-admin/includes/nav-menu.php:543
 msgid "Label"
@@ -4776,13 +4776,13 @@ msgstr "标签"
 
 #: wp-admin/includes/nav-menu.php:544
 msgid "Menu Item"
-msgstr "目录项目"
+msgstr "菜单项目"
 
 #: wp-admin/includes/nav-menu.php:551
 #: wp-admin/includes/nav-menu.php:765
 #: wp-admin/includes/nav-menu.php:937
 msgid "Add to Menu"
-msgstr "添加到目录"
+msgstr "添加至菜单"
 
 #: wp-admin/includes/nav-menu.php:595
 #: wp-admin/includes/nav-menu.php:807
@@ -4854,11 +4854,11 @@ msgstr "名为 <strong>%s</strong> 的 walker 类不存在。"
 
 #: wp-admin/includes/nav-menu.php:1087
 msgid "Click Save Menu to make pending menu items public."
-msgstr "点击“保存目录”使刚刚做出的改动于前台生效。"
+msgstr "点击“保存菜单”使刚刚做出的改动于前台生效。"
 
 #: wp-admin/includes/nav-menu.php:1110
 msgid "Show advanced menu properties"
-msgstr "显示高级目录属性"
+msgstr "显示高级菜单属性"
 
 #: wp-admin/includes/nav-menu.php:1113
 msgid "CSS Classes"
@@ -7017,7 +7017,7 @@ msgstr "外观"
 #: wp-admin/menu.php:166
 #: wp-admin/nav-menus.php:466
 msgid "Menus"
-msgstr "目录"
+msgstr "菜单"
 
 #: wp-admin/menu.php:173
 msgctxt "theme editor"
@@ -7113,64 +7113,64 @@ msgstr "您的主题不支持导航菜单或小工具。"
 
 #: wp-admin/nav-menus.php:237
 msgid "The menu item has been successfully deleted."
-msgstr "目录项已被成功删除。"
+msgstr "菜单项已被成功删除。"
 
 #: wp-admin/nav-menus.php:256
 msgid "The menu has been successfully deleted."
-msgstr "目录已被成功删除。"
+msgstr "菜单已被成功删除。"
 
 #: wp-admin/nav-menus.php:296
 #, php-format
 msgid "The <strong>%s</strong> menu has been successfully created."
-msgstr "<strong>%s</strong> 目录建立成功。"
+msgstr "<strong>%s</strong> 菜单建立成功。"
 
 #: wp-admin/nav-menus.php:299
 #: wp-admin/nav-menus.php:309
 msgid "Please enter a valid menu name."
-msgstr "请输入一个有效的目录名。"
+msgstr "请输入一个有效的菜单名称。"
 
 #: wp-admin/nav-menus.php:385
 #, php-format
 msgid "The <strong>%s</strong> menu has been updated."
-msgstr "<strong>%s</strong> 目录更新成功。"
+msgstr "<strong>%s</strong> 菜单更新成功。"
 
 #: wp-admin/nav-menus.php:452
 msgid "This feature is new in version 3.0; to use a custom menu in place of your theme&#8217;s default menus, support for this feature must be registered in the theme&#8217;s functions.php file. If your theme does not support the custom menus feature yet (the new default theme, Twenty Ten, does), you can learn about adding support yourself by following the below link."
-msgstr "这是 3.0 版本中引入的一个新功能。要使用自定义目录替换主题中的默认目录，在主题的 functions.php 中必须进行此功能的注册。若您的主题暂不提供此功能（我们的新默认主题 Twenty Ten 支持此功能），您可以访问下列页面来学习如何自行为主题加入支持。"
+msgstr "这是 3.0 版本中引入的一个新功能。要使用自定义菜单替换主题中的默认导航菜单，在主题的 functions.php 中必须进行此功能的注册。若您的主题暂不提供此功能（我们的新默认主题 Twenty Ten 支持此功能），您可以访问下列页面来学习如何自行为主题加入支持。"
 
 #: wp-admin/nav-menus.php:453
 msgid "You can create custom menus for your site. These menus may contain links to pages, categories, custom links or other content types (use the Screen Options tab to decide which ones to show on the screen). You can specify a different navigation label for a menu item as well as other attributes. You can create multiple menus. If your theme includes more than one menu, you can choose which custom menu to associate with each. You can also use custom menus in conjunction with the Custom Menus widget."
-msgstr "您可以为站点创建自定义目录。自定义目录可以包含指向页面、目录，甚至其他站点的链接（在“页面选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个目录项指定一个不同的导航标签。您可以创建多个目录，若您的主题支持多个目录，您可指定各个位置和主题的对应关系。您也可以在“自定义目录”小工具中调用自定义目录。"
+msgstr "您可以为站点创建自定义菜单。自定义菜单可以包含指向页面、目录，甚至其他站点的链接（在“页面选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个菜单项指定一个不同的导航标签。您可以创建多个菜单，若您的主题支持多个菜单，您可指定各个菜单在何处显示。您也可以在“自定义菜单”边栏小工具中调用自定义菜单。"
 
 #: wp-admin/nav-menus.php:454
 msgid "To create a new custom menu, click on the + tab, give the menu a name, and click Create Menu. Next, add menu items from the appropriate boxes. You&#8217;ll be able to edit the information for each menu item, and can drag and drop to put them in order. You can also drag a menu item a little to the right to make it a submenu, to create menus with hierarchy. You&#8217;ll see when the position of the drop target shifts over to create the nested placement. Don&#8217;t forget to click Save when you&#8217;re finished."
-msgstr "要创建自定义目录，请点击“+”选项卡，为菜单起一个名字，并点击“创建目录”。接着，从想要的部件中选择项目，加入到目录中去。您可以编辑每个目录项目的信息，并用拖放的方式为其排序。将某个项目稍稍向右拖动，这个项目即变为子目录，这样您的目录就有了层级关系。在完成后请不要忘记点击“保存”。"
+msgstr "要创建自定义菜单，请点击“+”选项卡，为菜单起一个名字，并点击“创建菜单”。接着，从想要的部件中选择项目，加入到菜单中去。您可以编辑每个菜单项目的信息，并用拖放的方式为其排序。将某个菜单项稍稍向右拖动，这个项目即变为子菜单，这样您的菜单就有了层级关系。在完成后请不要忘记点击“保存”。"
 
 #: wp-admin/nav-menus.php:456
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">Menus Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">关于目录的文档</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">关于菜单的文档</a>"
 
 #: wp-admin/nav-menus.php:487
 #: wp-includes/default-widgets.php:1106
 msgid "Select Menu:"
-msgstr "选择目录："
+msgstr "选择菜单："
 
 #: wp-admin/nav-menus.php:494
 msgid "Add New Menu"
-msgstr "添加新目录"
+msgstr "添加新菜单"
 
 #: wp-admin/nav-menus.php:519
 #: wp-admin/nav-menus.php:529
 msgid "Add menu"
-msgstr "添加目录"
+msgstr "添加菜单"
 
 #: wp-admin/nav-menus.php:539
 msgid "Menu Name"
-msgstr "目录名"
+msgstr "菜单名称"
 
 #: wp-admin/nav-menus.php:540
 msgid "Enter menu name here"
-msgstr "在此输入目录名"
+msgstr "在此输入菜单名称"
 
 #: wp-admin/nav-menus.php:554
 msgid "Automatically add new top-level pages"
@@ -7178,27 +7178,27 @@ msgstr "自动添加顶级页面"
 
 #: wp-admin/nav-menus.php:559
 msgid "Create Menu"
-msgstr "创建目录"
+msgstr "创建菜单"
 
 #: wp-admin/nav-menus.php:559
 msgid "Save Menu"
-msgstr "保存目录"
+msgstr "保存菜单"
 
 #: wp-admin/nav-menus.php:564
 msgid "Delete Menu"
-msgstr "删除目录"
+msgstr "删除菜单"
 
 #: wp-admin/nav-menus.php:585
 msgid "To create a custom menu, give it a name above and click Create Menu. Then choose items like pages, categories or custom links from the left column to add to this menu."
-msgstr "要创建一个自定义目录，为它起一个名字并点击“创建目录”。然后选择要加入目录的项目（页面、分类目录、自定义链接等）。"
+msgstr "要创建一个自定义菜单，为它起一个名字，并点击“创建菜单”。然后选择要加入菜单的项目（页面、分类目录、自定义链接等）。"
 
 #: wp-admin/nav-menus.php:586
 msgid "After you have added your items, drag and drop to put them in the order you want. You can also click each item to reveal additional configuration options."
-msgstr "添加完项目后，使用拖放的方式来对它们进行排序。您可以点击它们，进行更详细的设置。"
+msgstr "添加完菜单项后，使用拖放的方式来对它们进行排序。您可以点击它们，进行更详细的设置。"
 
 #: wp-admin/nav-menus.php:587
 msgid "When you have finished building your custom menu, make sure you click the Save Menu button."
-msgstr "当您构建完成自定义目录后，不要忘记点击“保存目录”按钮。"
+msgstr "当您完成自定义菜单的构建后，不要忘记点击“保存菜单”按钮。"
 
 #: wp-admin/options-discussion.php:13
 #: wp-admin/options-general.php:13
@@ -8720,7 +8720,7 @@ msgstr "要开始，请在右上角选择一个主题，并点击“选择”。
 
 #: wp-admin/theme-editor.php:20
 msgid "For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Lookup takes you to a web page with reference material about that particular function."
-msgstr "对于 PHP 文件，您可以使用“文档”下拉菜单选择我们从文件中识别出的函数。点击“查询”按钮可查看有关该函数的页面。"
+msgstr "对于 PHP 文件，您可以使用“文档”下拉列表选择我们从文件中识别出的函数。点击“查询”按钮可查看有关该函数的页面。"
 
 #: wp-admin/theme-editor.php:21
 msgid "After typing in your edits, click Update File."
@@ -8807,7 +8807,7 @@ msgstr "您不仅可以用关键词、作者或标签来搜索主题，也可以
 
 #: wp-admin/theme-install.php:58
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
-msgstr "您可以手动上传从别处下载的 ZIP 文件（请确认来源可靠）。您也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
+msgstr "您可以手动上传从别处下载的 zip 文件（请确认来源可靠）。您也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
 
 #: wp-admin/theme-install.php:60
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
@@ -11388,7 +11388,7 @@ msgstr "未找到页面"
 #: wp-includes/general-template.php:925
 #, php-format
 msgid "%1$s %2$d"
-msgstr "%2$d 年 %1$s"
+msgstr "%2$d 年%1$s"
 
 #. translators: Calendar caption: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:1134
@@ -13200,12 +13200,12 @@ msgstr "文件 &#8220;%s&#8221; 不存在？"
 
 #: wp-includes/media.php:249
 msgid "The GD image library is not installed."
-msgstr "GD 图像模块没有安装。"
+msgstr "GD 图像模块未安装。"
 
 #: wp-includes/media.php:256
 #, php-format
 msgid "File &#8220;%s&#8221; is not an image."
-msgstr "文件 “%s” 不是一个图像文件。"
+msgstr "“%s”不是图像文件。"
 
 #: wp-includes/media.php:413
 msgid "Could not read image size"
@@ -13233,7 +13233,7 @@ msgstr "给出的对象 ID 不是一个目录项目的 ID。"
 
 #: wp-includes/nav-menu.php:580
 msgid "Custom"
-msgstr "自定"
+msgstr "自定义"
 
 #: wp-includes/pluggable.php:490
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
@@ -13524,11 +13524,11 @@ msgstr "修订版本"
 
 #: wp-includes/post.php:72
 msgid "Navigation Menu Items"
-msgstr "导航目录项目"
+msgstr "导航菜单项目"
 
 #: wp-includes/post.php:73
 msgid "Navigation Menu Item"
-msgstr "导航目录项目"
+msgstr "导航菜单项目"
 
 #: wp-includes/post.php:84
 msgctxt "post"
@@ -13942,7 +13942,7 @@ msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"您将永久删除所选目录。\n"
+"您将永久删除所选菜单。\n"
 " 点击“取消”停止，点击“确定”删除。"
 
 #: wp-includes/script-loader.php:508
@@ -13959,11 +13959,11 @@ msgstr "正在保存草稿 &#8230;"
 
 #: wp-includes/taxonomy.php:41
 msgid "Navigation Menus"
-msgstr "导航目录"
+msgstr "导航菜单"
 
 #: wp-includes/taxonomy.php:42
 msgid "Navigation Menu"
-msgstr "导航目录"
+msgstr "导航菜单"
 
 #: wp-includes/taxonomy.php:355
 msgctxt "taxonomy general name"
