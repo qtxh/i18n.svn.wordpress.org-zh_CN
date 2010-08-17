@@ -59,27 +59,43 @@ function zh_cn_language_pack_settings_page() { ?>
 function zh_cn_language_pack_backend_style_modify() {
 	echo <<<EOF
 <style type="text/css" media="screen">
+	body { font: 12px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif,"新宋体","宋体"; }
 	#adminmenu .wp-submenu a { font-size: 11.5px; }
-	#adminmenu a.menu-top { font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
-	h1#site-heading span { font-family:  Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
+	#adminmenu a.menu-top { font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
+	h1#site-heading span { font-family:  Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
 	.form-table td { font-size: 12px; }
-	#footer, #footer a, #footer p { font-size: 13px; }
-	#screen-meta a.show-settings { font-size: 11.5px; }
+	#footer, #footer a, #footer p { font-size: 13px; font-style: normal; }
+	#screen-meta a.show-settings { font-size: 12px; }
 	#favorite-actions a { font-size: 12px; }
 	.postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message { font-size: 13px; }
-	#dashboard_right_now p.sub { font-size: 14px; }
+	#dashboard_right_now p.sub { font-size: 14px; font-style: normal; }
 	.row-actions { font-size: 12px; }
 	.widefat td, .widefat th, .widefat td p, .widefat td ol, .widefat td ul { font-size: 13px; }
 	.submit input, .button, input.button, .button-primary, input.button-primary, .button-secondary, input.button-secondary, .button-highlighted, input.button-highlighted, #postcustomstuff .submit input { font-size: 12px !important; }
 	.subsubsub { font-size: 12px; }
 	#wpcontent select { font-size: 12px; }
-	form.upgrade .hint { font-size: 100%; }
+	form.upgrade .hint { font-style: normal; font-weight: bold; font-size: 100% }
 	#poststuff .inside, #poststuff .inside p { font-size: 12px; line-height: 112% }
-	.tablenav .displaying-num { font-size: 13px; }
+	.tablenav .displaying-num { font-size: 12px; font-style: normal; }
 	p.help, p.description, span.description, .form-wrap { font-size: 13px; }
 	.widget .widget-inside, .widget .widget-description { font-size: 12px; }
-	.appearance_page_custom-header #upload-form p label { font-size: 12px; }	
+	.appearance_page_custom-header #upload-form p label { font-size: 12px; }
+	.wp_themeSkin .mceMenu span.mceText, .wp_themeSkin .mceMenu .mcePreview { font-size: 12px; }
+	form .forgetmenot label { font-size: 12px; }
+	.wrap h2 { font: normal 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
+	.howto { font-style: normal; }
+	p.help, p.description, span.description, .form-wrap p { font-style: normal; }
+	.inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title { font-style: normal; }
+	#edithead .inside, #edithead .inside input { font-size: 12px; }
+	h2 .nav-tab { font: normal 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
+	em { font-style: normal; }
+	.menu-name-label span, .auto-add-pages label { font-size: 12px; }
+	#dashboard_quick_press #media-buttons { font-size: 12px; }
+	p.install-help { font-style: normal; }
+	.inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row .catshow, .inline-edit-row .cathide, .inline-edit-row #bulk-titles div { font-size: 12px; }
+	#utc-time, #local-time { font-style: normal; }
 </style>
+
 EOF;
 }
 
@@ -91,6 +107,7 @@ if ( is_admin() ) {
 
 if ( get_option('zh_cn_language_pack_enable_backend_style_modifications') == 1 ) {
 	add_action( 'admin_head', 'zh_cn_language_pack_backend_style_modify' );
+	add_action( 'login_head', 'zh_cn_language_pack_backend_style_modify' );
 }
 
 ?>
