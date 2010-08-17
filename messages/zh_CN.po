@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-16 18:44+0800\n"
+"PO-Revision-Date: 2010-08-17 19:37+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1288,7 +1288,7 @@ msgstr "搜索评论"
 #: wp-admin/upload.php:291
 #, php-format
 msgid "Displaying %s&#8211;%s of %s"
-msgstr "已显示 %s&#8211;%s，共 %s"
+msgstr "当前显示 %s&#8211;%s 条，共 %s 条"
 
 #: wp-admin/edit-comments.php:325
 #: wp-admin/edit-comments.php:425
@@ -8186,7 +8186,7 @@ msgstr "文档："
 #: wp-admin/plugin-editor.php:224
 #: wp-admin/theme-editor.php:221
 msgid "Lookup"
-msgstr "查"
+msgstr "查询"
 
 #: wp-admin/plugin-editor.php:228
 msgid "<strong>Warning:</strong> Making changes to active plugins is not recommended.  If your changes cause a fatal error, the plugin will be automatically deactivated."
@@ -13726,15 +13726,15 @@ msgstr "(快捷链接)"
 
 #: wp-includes/script-loader.php:76
 msgid "Enter a word to look up:"
-msgstr "输入一个供查找："
+msgstr "输入关键词以查询："
 
 #: wp-includes/script-loader.php:77
 msgid "Dictionary lookup"
-msgstr "查看字典"
+msgstr "查字典"
 
 #: wp-includes/script-loader.php:78
 msgid "lookup"
-msgstr "查"
+msgstr "查字典"
 
 #: wp-includes/script-loader.php:79
 msgid "Close all open tags"
@@ -14317,7 +14317,7 @@ msgstr "站点被挂起。"
 #: wp-includes/user.php:109
 #, php-format
 msgid "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>错误</strong>：错误的密码。<a href=\"%s\" title=\"Password Lost and Found\">忘记密码</a>？"
+msgstr "<strong>错误</strong>：密码不正确。<a href=\"%s\" title=\"Password Lost and Found\">忘记密码</a>？"
 
 #: wp-includes/user.php:134
 msgid "Please log in again."
