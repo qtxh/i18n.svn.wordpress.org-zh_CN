@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-17 19:37+0800\n"
+"PO-Revision-Date: 2010-08-18 22:28+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2316,7 +2316,7 @@ msgstr "列表视图"
 
 #: wp-admin/edit.php:407
 msgid "Excerpt View"
-msgstr "摘要显示"
+msgstr "摘要视图"
 
 #: wp-admin/export.php:13
 msgid "You do not have sufficient permissions to export the content of this site."
@@ -2996,15 +2996,15 @@ msgstr "近期草稿"
 
 #: wp-admin/includes/dashboard.php:70
 msgid "http://wordpress.org/news/"
-msgstr "http://wordpress.org/news/"
+msgstr "http://cn.wordpress.org/"
 
 #: wp-admin/includes/dashboard.php:71
 msgid "http://wordpress.org/news/feed/"
-msgstr "http://wordpress.org/news/feed/"
+msgstr "http://cn.wordpress.org/feed/"
 
 #: wp-admin/includes/dashboard.php:72
 msgid "WordPress Blog"
-msgstr "WordPress 博客"
+msgstr "WordPress China 博客"
 
 #: wp-admin/includes/dashboard.php:85
 msgid "http://planet.wordpress.org/"
@@ -5111,7 +5111,7 @@ msgstr "综合评级"
 
 #: wp-admin/includes/plugin-install.php:589
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>警告：</strong>该插件<strong>未被测试</strong>与您当前使用的 WordPress 版本的兼容性。"
+msgstr "<strong>警告：</strong>目前<strong>尚未测试</strong>该插件与您当前使用的 WordPress 版本的兼容性。"
 
 #: wp-admin/includes/plugin-install.php:592
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
@@ -6179,7 +6179,7 @@ msgstr "<strong>错误：</strong>该主题目前不可用，请稍后重试。"
 
 #: wp-admin/includes/theme-install.php:473
 msgid "<strong>Warning:</strong> This theme has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>警告：</strong>该主题<strong>未被测试</strong>与您当前使用的 WordPress 版本的兼容性。"
+msgstr "<strong>警告：</strong>目前<strong>尚未测试</strong>该主题与您当前使用的 WordPress 版本的兼容性。"
 
 #: wp-admin/includes/theme-install.php:475
 msgid "<strong>Warning:</strong> This theme has not been marked as <strong>compatible</strong> with your version of WordPress."
@@ -8331,7 +8331,7 @@ msgstr "您可以使用全新的<a href=\"%1$s\">插件浏览/安装器</a>查�
 
 #: wp-admin/plugins.php:319
 msgid "Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&#8217;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue."
-msgstr "大多数时候，每个插件其他插件、WordPress 核心程序共同工作，一切正常。但是 ... 有的时候某些插件会和其他插件相冲突，进而产生兼容性问题。如果您的站点工作异常，可能是由这个原因导致的。您可尝试禁用所有插件，再逐个启用，以排除问题。"
+msgstr "通常，每个插件其他插件、WordPress 核心程序共同工作，一切正常。但是 ... 有的时候某些插件会和其他插件相冲突，进而产生兼容性问题。如果您的站点工作异常，可能是由这个原因导致的。您可尝试禁用所有插件，再逐个启用，以排除问题。"
 
 #: wp-admin/plugins.php:320
 #, php-format
@@ -9066,7 +9066,7 @@ msgstr "升级插件"
 #: wp-admin/update-core.php:206
 #, php-format
 msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
-msgstr "与 WordPress %1$s 的兼容性：100%%（来自作者）"
+msgstr "与 WordPress %1$s 的兼容性：100%%（作者自评）"
 
 #: wp-admin/update-core.php:209
 #: wp-admin/update-core.php:217
@@ -9078,7 +9078,7 @@ msgstr "与 WordPress %1$s 的兼容性：%2$d%%（%4$d 人次投票，其中 %3
 #: wp-admin/update-core.php:219
 #, php-format
 msgid "Compatibility with WordPress %1$s: Unknown"
-msgstr "WordPress %1$s 兼容性：未知"
+msgstr "与 WordPress %1$s 的兼容性：未知"
 
 #: wp-admin/update-core.php:231
 #: wp-admin/update-core.php:281
