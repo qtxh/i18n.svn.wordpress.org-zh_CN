@@ -93,6 +93,7 @@ function zh_cn_language_pack_backend_style_modify() {
 	#dashboard_quick_press #media-buttons { font-size: 12px; }
 	p.install-help { font-style: normal; }
 	.inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row .catshow, .inline-edit-row .cathide, .inline-edit-row #bulk-titles div { font-size: 12px; }
+	#the-comment-list .comment-item p.row-actions { font-size: 12px; }
 	#utc-time, #local-time { font-style: normal; }
 </style>
 
