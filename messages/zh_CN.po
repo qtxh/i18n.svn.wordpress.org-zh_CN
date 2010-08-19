@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-18 22:28+0800\n"
+"PO-Revision-Date: 2010-08-19 21:19+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2791,7 +2791,7 @@ msgstr "启用这个插件"
 #: wp-admin/includes/class-wp-upgrader.php:1028
 #: wp-admin/includes/class-wp-upgrader.php:1271
 msgid "Activate Plugin"
-msgstr "激活插件"
+msgstr "启用插件"
 
 #: wp-admin/includes/class-wp-upgrader.php:1029
 #: wp-admin/includes/class-wp-upgrader.php:1187
@@ -2802,7 +2802,7 @@ msgstr "转到插件页面"
 #: wp-admin/includes/class-wp-upgrader.php:1187
 #: wp-admin/includes/class-wp-upgrader.php:1281
 msgid "Return to Plugins page"
-msgstr "返回到插件页面"
+msgstr "返回插件页面"
 
 #: wp-admin/includes/class-wp-upgrader.php:1038
 #: wp-admin/includes/class-wp-upgrader.php:1193
@@ -2812,7 +2812,7 @@ msgstr "返回到插件页面"
 #: wp-admin/includes/class-wp-upgrader.php:1411
 #: wp-admin/update-core.php:344
 msgid "Actions:"
-msgstr "动作："
+msgstr "操作："
 
 #: wp-admin/includes/class-wp-upgrader.php:1072
 msgid "The update process is starting. This process may take awhile on some hosts, so please be patient."
@@ -2878,7 +2878,7 @@ msgstr "返回主题页面"
 #: wp-admin/includes/class-wp-upgrader.php:1257
 #, php-format
 msgid "Successfully installed the plugin <strong>%s %s</strong>."
-msgstr "成功安装插件<strong>%s %s</strong>。"
+msgstr "成功安装插件 <strong>%s %s</strong>。"
 
 #: wp-admin/includes/class-wp-upgrader.php:1269
 msgid "Activate Plugin &amp; Run Importer"
@@ -9471,7 +9471,7 @@ msgstr "撰写文章时禁用可视化编辑器"
 
 #: wp-admin/user-edit.php:209
 msgid "Enable keyboard shortcuts for comment moderation."
-msgstr "激活评论审核键盘快捷键。"
+msgstr "启用评论审核键盘快捷键。"
 
 #: wp-admin/user-edit.php:209
 msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">More information</a>"
@@ -10820,7 +10820,7 @@ msgstr "功能"
 
 #: wp-includes/default-widgets.php:298
 msgid "Syndicate this site using RSS 2.0"
-msgstr "使用 RSS 2.0 同步此内容"
+msgstr "使用 RSS 2.0 同步站点内容"
 
 #: wp-includes/default-widgets.php:298
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
@@ -10832,7 +10832,7 @@ msgstr "RSS 上的最近评论"
 
 #: wp-includes/default-widgets.php:299
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
-msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> 评论"
+msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-includes/default-widgets.php:300
 #: wp-includes/theme-compat/sidebar.php:75
