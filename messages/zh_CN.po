@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-19 21:19+0800\n"
+"PO-Revision-Date: 2010-08-27 23:14+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -940,7 +940,7 @@ msgstr "您无权进行自定义头部操作。"
 #: wp-admin/upload.php:406
 #, php-format
 msgid "Edit &#8220;%s&#8221;"
-msgstr "编辑“%s”"
+msgstr "编辑《%s》"
 
 #: wp-admin/edit-attachment-rows.php:99
 #: wp-admin/edit-attachment-rows.php:214
@@ -1641,12 +1641,12 @@ msgstr "获取短链接地址"
 #: wp-admin/edit-form-advanced.php:282
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
-msgstr "最后由 %1$s 编辑于 %2$s %3$s"
+msgstr "最后由 %1$s 编辑于 %2$s%3$s"
 
 #: wp-admin/edit-form-advanced.php:284
 #, php-format
 msgid "Last edited on %1$s at %2$s"
-msgstr "最后编辑于：%1$s %2$s"
+msgstr "最后编辑于 %1$s%2$s"
 
 #: wp-admin/edit-form-comment.php:17
 #, php-format
@@ -5881,11 +5881,11 @@ msgstr "待审"
 
 #: wp-admin/includes/template.php:3582
 msgid "Enable accessibility mode"
-msgstr "启用便捷使用模式"
+msgstr "启用无障碍模式"
 
 #: wp-admin/includes/template.php:3582
 msgid "Disable accessibility mode"
-msgstr "禁用便捷使用模式"
+msgstr "停用无障碍模式"
 
 #: wp-admin/includes/template.php:3594
 msgctxt "Metaboxes"
@@ -5952,7 +5952,7 @@ msgstr "页面布局"
 
 #: wp-admin/includes/template.php:3720
 msgid "Number of Columns:"
-msgstr "显示多少栏："
+msgstr "分栏数目："
 
 #: wp-admin/includes/template.php:3743
 msgctxt "sites per page (screen options)"
@@ -7308,7 +7308,7 @@ msgstr "在每个页面顶部显示 %s 评论"
 #: wp-admin/options-discussion.php:116
 #: wp-admin/options-discussion.php:117
 msgid "E-mail me whenever"
-msgstr "任何时候都给我发送电子邮件"
+msgstr "何时发送电子邮件"
 
 #: wp-admin/options-discussion.php:120
 msgid "Anyone posts a comment"
@@ -7806,11 +7806,11 @@ msgstr "可选"
 
 #: wp-admin/options-permalink.php:234
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <kbd>topics</kbd> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr>s 结构。例如，使用 <kbd>topics</kbd> 将让您的分类目录链接地址呈现为 <code>http://example.org/topics/uncategorized/</code>。留空则使用默认结构。"
+msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr> 结构。例如，使用 <kbd>topics</kbd> 将让您的分类目录链接地址呈现为 <code>http://example.org/topics/uncategorized/</code>。留空则使用默认结构。"
 
 #: wp-admin/options-permalink.php:236
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>topics</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr>s 结构。例如，使用 <code>topics</code> 将让您的分类目录链接地址呈现为 <code>http://example.org/index.php/topics/uncategorized/</code>。留空则使用默认结构。"
+msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr> 结构。例如，使用 <code>topics</code> 将让您的分类目录链接地址呈现为 <code>http://example.org/index.php/topics/uncategorized/</code>。留空则使用默认结构。"
 
 #. translators: prefix for category permalinks
 #: wp-admin/options-permalink.php:241
@@ -8052,7 +8052,7 @@ msgstr "Atom 发布协议"
 
 #: wp-admin/options-writing.php:119
 msgid "Enable the Atom Publishing Protocol."
-msgstr "激活 Atom 发布协议。"
+msgstr "启用 Atom 发布协议。"
 
 #: wp-admin/options-writing.php:123
 #: wp-admin/options-writing.php:124
@@ -10828,7 +10828,7 @@ msgstr "文章 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-includes/default-widgets.php:299
 msgid "The latest comments to all posts in RSS"
-msgstr "RSS 上的最近评论"
+msgstr "使用 RSS 同步站点的近期评论"
 
 #: wp-includes/default-widgets.php:299
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
@@ -14202,25 +14202,25 @@ msgstr "发表评论"
 #: wp-includes/theme-compat/footer.php:17
 #, php-format
 msgid "%1$s is proudly powered by %2$s"
-msgstr "%1$s 由 %2$s 构建"
+msgstr "%1$s 自豪地采用 %2$s 构建"
 
 #: wp-includes/theme-compat/footer.php:19
 #, php-format
 msgid "%1$s and %2$s."
-msgstr "%1$s 与 %2$s。"
+msgstr "%1$s 和%2$s。"
 
 #: wp-includes/theme-compat/footer.php:19
 msgid "Entries (RSS)"
-msgstr "条目（RSS）"
+msgstr "文章 RSS"
 
 #: wp-includes/theme-compat/footer.php:19
 msgid "Comments (RSS)"
-msgstr "评论（RSS）"
+msgstr "评论 RSS"
 
 #: wp-includes/theme-compat/footer.php:20
 #, php-format
 msgid "%d queries. %s seconds."
-msgstr "%d 次查询。用时 %s 秒。"
+msgstr "%d 次查询，用时 %s 秒。"
 
 #: wp-includes/theme-compat/sidebar.php:32
 #, php-format
