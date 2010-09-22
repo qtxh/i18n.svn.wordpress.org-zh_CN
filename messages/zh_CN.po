@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-27 23:14+0800\n"
+"PO-Revision-Date: 2010-09-03 19:27+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "<strong>警告：您已登出！</strong>因此无法保存草稿。<a h
 #: wp-admin/themes.php:88
 #: wp-admin/upload.php:284
 msgid "&laquo;"
-msgstr "“"
+msgstr "&laquo;"
 
 #: wp-admin/admin-ajax.php:202
 #: wp-admin/edit-comments.php:294
@@ -49,7 +49,7 @@ msgstr "“"
 #: wp-admin/themes.php:89
 #: wp-admin/upload.php:285
 msgid "&raquo;"
-msgstr "”"
+msgstr "&raquo;"
 
 #: wp-admin/admin-ajax.php:370
 #: wp-admin/edit-link-categories.php:28
@@ -2882,7 +2882,7 @@ msgstr "成功安装插件 <strong>%s %s</strong>。"
 
 #: wp-admin/includes/class-wp-upgrader.php:1269
 msgid "Activate Plugin &amp; Run Importer"
-msgstr "激活插件并运行导入器"
+msgstr "启用插件并运行导入器"
 
 #: wp-admin/includes/class-wp-upgrader.php:1274
 #: wp-admin/plugins.php:582
@@ -2925,7 +2925,7 @@ msgstr "预览 &#8220;%s&#8221;"
 #: wp-admin/themes.php:192
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
-msgstr "激活 &#8220;%s&#8221;"
+msgstr "启用“%s”"
 
 #: wp-admin/includes/class-wp-upgrader.php:1344
 #: wp-admin/includes/class-wp-upgrader.php:1401
@@ -4680,7 +4680,7 @@ msgstr "注解"
 #: wp-admin/includes/plugin-install.php:323
 #: wp-admin/includes/template.php:710
 msgid "Rating"
-msgstr "等级："
+msgstr "等级"
 
 #: wp-admin/includes/meta-boxes.php:877
 msgid "(Leave at 0 for no rating.)"
@@ -4845,7 +4845,7 @@ msgstr "全选"
 
 #: wp-admin/includes/nav-menu.php:1067
 msgid "Select menu items (pages, categories, links) from the boxes at left to begin building your custom menu."
-msgstr "从左侧挑选一些项目（页面、分类目录、链接等）来开始构建您的自定义目录。"
+msgstr "从左侧挑选一些项目（页面、分类目录、链接等）来开始构建您的自定义菜单。"
 
 #: wp-admin/includes/nav-menu.php:1078
 #, php-format
@@ -4874,7 +4874,7 @@ msgstr "发生了一个未知错误。"
 
 #: wp-admin/includes/plugin-install.php:130
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> or upload a plugin in .zip format via this page."
-msgstr "插件延伸、拓展 WordPress 的功能。您可以从 <a href=\"http://wordpress.org/extend/plugins/\">WordPress 插件网站</a>自动安装插件或者在这个页面上传 .zip 格式的插件包。"
+msgstr "插件为 WordPress 添加新功能。您可以从 <a href=\"http://wordpress.org/extend/plugins/\">WordPress 插件网站</a>自动安装插件或者在这个页面上传 .zip 格式的插件包。"
 
 #: wp-admin/includes/plugin-install.php:133
 msgid "Search for plugins by keyword, author, or tag."
@@ -7174,7 +7174,7 @@ msgstr "在此输入菜单名称"
 
 #: wp-admin/nav-menus.php:554
 msgid "Automatically add new top-level pages"
-msgstr "自动添加顶级页面"
+msgstr "加入所有顶级页面"
 
 #: wp-admin/nav-menus.php:559
 msgid "Create Menu"
@@ -8318,7 +8318,7 @@ msgstr "不，把我带到插件列表"
 
 #: wp-admin/plugins.php:287
 msgid "Click to view entire list of files which will be deleted"
-msgstr "点击查看将被删除的文件条目列表"
+msgstr "点击查看将被删除的文件列表"
 
 #: wp-admin/plugins.php:317
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
@@ -10959,11 +10959,11 @@ msgstr "分类方法："
 
 #: wp-includes/default-widgets.php:1059
 msgid "Use this widget to add one of your custom menus as a widget."
-msgstr "这个小工具可使自定义目录显示在边栏中"
+msgstr "这个小工具可使自定义菜单显示在边栏中"
 
 #: wp-includes/default-widgets.php:1060
 msgid "Custom Menu"
-msgstr "自定义目录"
+msgstr "自定义菜单"
 
 #: wp-includes/default-widgets.php:1097
 #, php-format

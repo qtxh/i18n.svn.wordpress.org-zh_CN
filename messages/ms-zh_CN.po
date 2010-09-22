@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Multisite\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:35+0000\n"
-"PO-Revision-Date: 2010-08-18 23:54+0800\n"
+"PO-Revision-Date: 2010-09-05 16:37+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -559,9 +559,8 @@ msgid "This screen sets and changes options for the network as a whole. The firs
 msgstr "在本页面可对整个网络的设置进行修改。第一个站点是网络中的主站点，网络的设置从原始站点的设置中继承。"
 
 #: wp-admin/ms-options.php:23
-#, fuzzy
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
-msgstr "运营上的设置包括网络的名称以及管理员邮件地址字段。"
+msgstr "运营设置包括网络的名称以及管理员邮件地址字段。"
 
 #: wp-admin/ms-options.php:24
 msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is Subscriber, but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
@@ -997,9 +996,8 @@ msgstr "删除"
 
 #: wp-admin/ms-sites.php:161
 #: wp-admin/ms-sites.php:523
-#, fuzzy
 msgid "Mature"
-msgstr "成熟"
+msgstr "成人"
 
 #: wp-admin/ms-sites.php:175
 #: wp-admin/ms-sites.php:221
@@ -2070,7 +2068,7 @@ msgstr "创建站点"
 #: wp-signup.php:225
 #, php-format
 msgid "The site %s is yours."
-msgstr "站点 %s 是您的。"
+msgstr "站点 %s 属于您了。"
 
 #: wp-signup.php:227
 #, php-format
