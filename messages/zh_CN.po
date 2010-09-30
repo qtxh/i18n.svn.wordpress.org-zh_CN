@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-09-03 19:27+0800\n"
+"PO-Revision-Date: 2010-09-28 23:29+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -120,17 +120,17 @@ msgstr "草稿保存于 %s。"
 #: wp-admin/admin-ajax.php:989
 #: wp-admin/admin-ajax.php:1201
 msgid "Someone"
-msgstr "某人"
+msgstr "有人"
 
 #: wp-admin/admin-ajax.php:991
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
-msgstr "自动保存被停用：%s 当前正在编辑这个页面。"
+msgstr "自动保存已停用：%s 正在编辑这个页面。"
 
 #: wp-admin/admin-ajax.php:991
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
-msgstr "自动保存被停用：%s 当前正在编辑这篇文章。"
+msgstr "自动保存已停用：%s 正在编辑这篇文章。"
 
 #: wp-admin/admin-ajax.php:1000
 #: wp-admin/admin-ajax.php:1190
@@ -2521,7 +2521,7 @@ msgstr "找到 %s"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:28
 msgid "The ftp PHP extension is not available"
-msgstr "PHP 的 FTP 拓展不可用"
+msgstr "PHP 的 FTP 扩展不可用"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:44
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:38
@@ -2554,11 +2554,11 @@ msgstr "%s 用户名/密码错误"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:57
 msgid "The ssh2 PHP extension is not available"
-msgstr "PHP 的 SSH2 拓展不可用"
+msgstr "PHP 的 SSH2 扩展不可用"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:61
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
-msgstr "PHP 的 SSH2 拓展可用，但还需要 PHP5 的 <code>stream_get_contents()</code> 函数"
+msgstr "PHP 的 SSH2 扩展可用，但还需要 PHP5 的 <code>stream_get_contents()</code> 函数"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -2659,7 +2659,7 @@ msgstr "正在启用维护模式 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:61
 msgid "Disabling Maintenance mode&#8230;"
-msgstr "正在禁用维护模式 &#8230;"
+msgstr "正在停用维护模式 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:370
 msgid "The plugin is at the latest version."
@@ -2676,7 +2676,7 @@ msgstr "升级包不可用。"
 #: wp-admin/includes/class-wp-upgrader.php:854
 #, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
-msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件。"
+msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:373
 #: wp-admin/includes/class-wp-upgrader.php:608
@@ -3971,7 +3971,7 @@ msgstr "文章 URL"
 #: wp-admin/includes/media.php:937
 #: wp-admin/includes/media.php:2048
 msgid "Alternate Text"
-msgstr "备选文本"
+msgstr "替代文本"
 
 #: wp-admin/includes/media.php:938
 #: wp-admin/includes/media.php:2051
@@ -3992,7 +3992,7 @@ msgstr "文件名返回空的标题。"
 
 #: wp-admin/includes/media.php:1053
 msgid "Caption"
-msgstr "标题"
+msgstr "说明"
 
 #: wp-admin/includes/media.php:1062
 #: wp-includes/js/tinymce/langs/wp-langs.php:291
@@ -4216,7 +4216,7 @@ msgstr "筛选 &#187;"
 
 #: wp-admin/includes/media.php:2014
 msgid "Image Caption"
-msgstr "图像描述"
+msgstr "图像说明"
 
 #: wp-admin/includes/media.php:2028
 msgid "Insert an image from another web site"
@@ -7225,7 +7225,7 @@ msgstr "本页面包含对评论、引用通告的显示选项。这么多，实
 #: wp-admin/options-reading.php:22
 #: wp-admin/options-writing.php:20
 msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
-msgstr "当您完成时，记得点击页面下方“保存更改”按钮使设置生效。"
+msgstr "调整完成后，记得点击页面下方“保存更改”按钮使设置生效。"
 
 #: wp-admin/options-discussion.php:22
 msgid "<a href=\"http://codex.wordpress.org/Settings_Discussion_SubPanel\" target=\"_blank\">Discussion Settings Documentation</a>"
@@ -7729,7 +7729,7 @@ msgstr "本页面提供固定链接结构的设置。"
 
 #: wp-admin/options-permalink.php:20
 msgid "If you pick an option other than Default, your general URL path with structure tags, terms surrounded by <code>%</code>, will also appear in the custom structure field and your path can be further modified there."
-msgstr "若您选择的不是“默认”，“自定义结构”栏会出现一些字符。其中，变量的前后以 <code>%</code> 包裹，您可对它进行进一步的修改。"
+msgstr "若您选择的不是“默认”，“自定义结构”栏会出现一些字符，您可对它进行进一步的修改。请注意，变量名的前后各有一个 <code>%</code>。"
 
 #: wp-admin/options-permalink.php:21
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
@@ -7774,7 +7774,7 @@ msgstr "固定链接结构已更新。"
 
 #: wp-admin/options-permalink.php:185
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress 允许您更改默认的链接形式，以此提高 <abbr title=\"Universal Resource Locator\">URL</abbr> 的可读性和对搜索引擎的友好程度。<a href=\"http://codex.wordpress.org/Using_Permalinks\">参考</a>。"
+msgstr "WordPress 允许您更改默认的链接形式，以此提高 <abbr title=\"Universal Resource Locator\">URL</abbr> 的可读性和对搜索引擎的友好程度。<a href=\"http://codex.wordpress.org/Using_Permalinks\">阅读参考资料</a>。"
 
 #: wp-admin/options-permalink.php:201
 msgid "Common settings"
@@ -8014,7 +8014,7 @@ msgstr "拖拽下面的链接到您的书签工具栏或者右键单击链接把
 
 #: wp-admin/options-writing.php:78
 msgid "Post via e-mail"
-msgstr "通过电子邮件发表"
+msgstr "通过电子邮件发布"
 
 #: wp-admin/options-writing.php:79
 #, php-format
@@ -8345,7 +8345,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Managing_Plugins#Plugin_Management\
 #: wp-admin/plugins.php:333
 #, php-format
 msgid "The plugin <code>%s</code> has been <strong>deactivated</strong> due to an error: %s"
-msgstr "插件<code>%s</code><strong>未被启用</strong>由于错误：%s"
+msgstr "插件<code>%s</code> <strong>未能启用</strong>，因为：%s"
 
 #: wp-admin/plugins.php:339
 #, php-format
@@ -9172,7 +9172,7 @@ msgstr "上传插件"
 #: wp-admin/update.php:137
 #, php-format
 msgid "Installing Plugin from uploaded file: %s"
-msgstr "安装插件从上传的文件：%s"
+msgstr "安装您上传的插件：%s"
 
 #: wp-admin/update.php:150
 #: wp-admin/update.php:170
@@ -14781,7 +14781,7 @@ msgstr "您在这个站点上没有上传文件的权限。"
 #: xmlrpc.php:2812
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
-msgstr "无法写文件  %1$s（%2$s）"
+msgstr "无法写文件 %1$s（%2$s）"
 
 #: xmlrpc.php:2955
 msgid "Sorry, you can not edit this post."
@@ -14911,7 +14911,7 @@ msgstr "您的服务器现在运行的 PHP 版本为 %1$s 但 WordPress %2$s 要
 #. Not gettexted string WP_I18N_OLD_MYSQL
 #: wp-includes/load.php:110
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "您的 PHP 似乎没有安装运行 WordPress 必须的 MySQL 拓展。"
+msgstr "您的 PHP 似乎没有安装运行 WordPress 必须的 MySQL 扩展。"
 
 #. Not gettexted string WP_I18N_MAINTENANCE
 #: wp-includes/load.php:168
