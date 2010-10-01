@@ -10,7 +10,6 @@
  * 这个文件用在于安装程序自动生成 wp-config.php 配置文件，
  * 您可以手动复制这个文件，并重命名为 wp-config.php，然后输入相关信息。
  *
- *
  * @package WordPress
  */
 
@@ -65,7 +64,7 @@ $table_prefix  = 'wp_';
  * WordPress 语言设置，默认为英语。
  *
  * 本项设定能够让 WordPress 显示您需要的语言。
- * 	wp-content/languages 内应放置同名的 .mo 语言文件。
+ * wp-content/languages 内应放置同名的 .mo 语言文件。
  * 要使用 WordPress 简体中文界面，只需填入 zh_CN。
  */
 define ('WPLANG', 'zh_CN');
@@ -73,7 +72,7 @@ define ('WPLANG', 'zh_CN');
 /**
  * 开发者专用：WordPress 调试模式。
  *
- * 将这个值改为“true”，WordPress 将显示所有开发过程中的提示。
+ * 将这个值改为“true”，WordPress 将显示所有用于开发的提示。
  * 强烈建议插件开发者在开发环境中启用本功能。
  */
 define('WP_DEBUG', false);

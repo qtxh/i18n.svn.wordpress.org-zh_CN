@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-09-28 23:29+0800\n"
+"PO-Revision-Date: 2010-10-01 18:13+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -4997,7 +4997,7 @@ msgstr "已安装"
 #, php-format
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "（基于 %s 次评级）"
+msgstr[0] "（基于 %s 次评价）"
 
 #: wp-admin/includes/plugin-install.php:393
 #: wp-admin/includes/plugin-install.php:577
