@@ -12,23 +12,20 @@ function zh_cn_language_pack_backend_register_settings() {
                         'zh_cn_language_pack_is_configured' );
 }
 
-function zh_cn_language_pack_init() {
-    /*    
-        XXX TODO 这段代码当前不适用。将在未来选项有变化时使用。
-        
-        if( !(get_option('zh_cn_language_pack_options_version') > 0) ) {
-            // 初次使用        
-            // TODO 未来在这里添加新选项的初始值
-        }
-        
+function zh_cn_language_pack_init() {        
+    if( !(get_option('zh_cn_language_pack_options_version') > 0) ) {
+        // 初次使用      
+        // 记录当前语言包设置版本
+        update_option( 'zh_cn_language_pack_enable_backend_style_modifications', 1 );
+        update_option( 'zh_cn_language_pack_options_version', ZH_CN_PACK_OPTIONS_VERSION );
+    }
+    
+    /*        
         if( get_option('zh_cn_language_pack_options_version') < [SOME VERSION] ) {
             // 曾使用过，升级
             // TODO 未来在这里添加新选项的初始值
         }
     */
-    
-    // 记录当前语言包版本
-    update_option( 'zh_cn_language_pack_options_version', ZH_CN_PACK_OPTIONS_VERSION );
 }
 
 function zh_cn_language_pack_backend_create_menu() {
