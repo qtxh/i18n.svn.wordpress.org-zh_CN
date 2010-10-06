@@ -24,6 +24,8 @@ function zh_cn_language_pack_init() {
         if( get_option('zh_cn_language_pack_options_version') < [SOME VERSION] ) {
             // 曾使用过，升级
             // TODO 未来在这里添加新选项的初始值
+            // TODO 记录升级后语言包设置版本
+            update_option( 'zh_cn_language_pack_options_version', [SOME VERSION] );
         }
     */
 }

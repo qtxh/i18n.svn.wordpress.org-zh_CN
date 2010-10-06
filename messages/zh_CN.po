@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-10-01 18:48+0800\n"
+"PO-Revision-Date: 2010-10-05 23:15+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -95,11 +95,11 @@ msgstr "错误：请输入评论内容。"
 #: wp-admin/admin-ajax.php:882
 #: wp-admin/admin-ajax.php:902
 msgid "Please provide a custom field value."
-msgstr "请输入一个自定义栏目值。"
+msgstr "请输入一个自定义字段值。"
 
 #: wp-admin/admin-ajax.php:900
 msgid "Please provide a custom field name."
-msgstr "请输入一个自定义栏目的名称。"
+msgstr "请输入一个自定义字段的名称。"
 
 #: wp-admin/admin-ajax.php:949
 #, php-format
@@ -190,7 +190,7 @@ msgstr "开玩笑，呵？"
 #: wp-admin/admin-ajax.php:1268
 #: wp-admin/edit-link-categories.php:67
 msgid "Category not updated."
-msgstr "分类目录未被更新。"
+msgstr "分类目录未更新。"
 
 #: wp-admin/admin-ajax.php:1283
 #: wp-admin/admin-ajax.php:1292
@@ -1415,12 +1415,12 @@ msgstr "文章已更新。<a href=\"%s\">查看文章</a>"
 #: wp-admin/edit-form-advanced.php:40
 #: wp-admin/edit-form-advanced.php:56
 msgid "Custom field updated."
-msgstr "自定义栏目已更新。"
+msgstr "自定义字段已更新。"
 
 #: wp-admin/edit-form-advanced.php:41
 #: wp-admin/edit-form-advanced.php:57
 msgid "Custom field deleted."
-msgstr "自定义栏目已删除。"
+msgstr "自定义字段已删除。"
 
 #: wp-admin/edit-form-advanced.php:42
 msgid "Post updated."
@@ -1544,7 +1544,7 @@ msgstr "发送 trackback"
 
 #: wp-admin/edit-form-advanced.php:139
 msgid "Custom Fields"
-msgstr "自定义栏目"
+msgstr "自定义字段"
 
 #: wp-admin/edit-form-advanced.php:143
 #: wp-admin/includes/dashboard.php:290
@@ -2329,7 +2329,7 @@ msgstr "导出"
 
 #: wp-admin/export.php:20
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can set filters to have the WXR file only include a certain date, author, category, tag, all posts or all pages, certain publishing statuses."
-msgstr "您可以导出整个站点的内容，在另一个 WordPress 站点乃至其它平台中导入。WordPress 将导出一个 XML 文件，通常叫做 WXR。其中包含文章、页面、评论、自定义栏目、分类和标签。您也可以只导出一部分内容，比如某段时间的文章、由某位作者撰写的文章，同时，WordPress 也允许您导出特定分类、标签，甚至特定状态的文章。同时，导出所有页面也是可以的。"
+msgstr "您可以导出整个站点的内容，在另一个 WordPress 站点乃至其它平台中导入。WordPress 将导出一个 XML 文件，通常叫做 WXR。其中包含文章、页面、评论、自定义字段、分类和标签。您也可以只导出一部分内容，比如某段时间的文章、由某位作者撰写的文章，同时，WordPress 也允许您导出特定分类、标签，甚至特定状态的文章。同时，导出所有页面也是可以的。"
 
 #: wp-admin/export.php:21
 msgid "Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
@@ -2345,7 +2345,7 @@ msgstr "当您点击下面的按钮时 WordPress 会创建一个 XML 文件，�
 
 #: wp-admin/export.php:72
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
-msgstr "我们称这种格式为 WordPress eXtended RSS 或 WXR，它包含了您的全部文章、页面、评论、自定义栏目、分类目录和标签。"
+msgstr "我们称这种格式为 WordPress eXtended RSS 或 WXR，它包含了您的全部文章、页面、评论、自定义字段、分类目录和标签。"
 
 #: wp-admin/export.php:73
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress site to import this site."
@@ -2469,7 +2469,7 @@ msgstr "安装 RSS 导入器，以从 RSS feed 导入文章。"
 
 #: wp-admin/import.php:36
 msgid "Install the WordPress importer to import posts, pages, comments, custom fields, categories, and tags from a WordPress export file."
-msgstr "安装 WordPress 导入器，以从 WordPress 导出文件导入文章、页面、评论、自定义栏目、分类目录和标签。"
+msgstr "安装 WordPress 导入器，以从 WordPress 导出文件导入文章、页面、评论、自定义字段、分类目录和标签。"
 
 #: wp-admin/import.php:53
 msgid "ERROR:"
@@ -4149,7 +4149,7 @@ msgstr "媒体"
 #: wp-admin/includes/media.php:1746
 #: wp-includes/post-template.php:1217
 msgid "Actions"
-msgstr "动作"
+msgstr "操作"
 
 #: wp-admin/includes/media.php:1762
 msgid "Gallery Settings"
@@ -4425,7 +4425,7 @@ msgstr "Trackback 是针对老式博客系统的一种引用通知方式。如�
 
 #: wp-admin/includes/meta-boxes.php:408
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
-msgstr "自定义栏目可以用来向文章添加额外的属性，您可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中使用它们</a>。"
+msgstr "自定义字段可以用来向文章添加额外的属性，您可以<a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">在主题中使用它们</a>。"
 
 #: wp-admin/includes/meta-boxes.php:424
 msgid "Allow comments."
@@ -5716,7 +5716,7 @@ msgstr "键"
 
 #: wp-admin/includes/template.php:2426
 msgid "Add New Custom Field:"
-msgstr "添加自定义栏目："
+msgstr "添加自定义字段："
 
 #: wp-admin/includes/template.php:2440
 #: wp-admin/options-reading.php:60
@@ -5727,11 +5727,11 @@ msgstr "&mdash; 选择 &mdash;"
 
 #: wp-admin/includes/template.php:2450
 msgid "Enter new"
-msgstr "输入新栏目"
+msgstr "输入新字段"
 
 #: wp-admin/includes/template.php:2460
 msgid "Add Custom Field"
-msgstr "添加自定义栏目"
+msgstr "添加自定义字段"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
 #: wp-admin/includes/template.php:2522
@@ -10331,7 +10331,7 @@ msgstr "这不是垃圾 &raquo;"
 
 #: wp-content/plugins/akismet/akismet.php:938
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
-msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复动作将帮助 Akismet 变得更聪明，为您拦截更多的垃圾。"
+msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复操作将使 Akismet 变得更聪明，为您拦截更多的垃圾。"
 
 #: wp-content/plugins/akismet/akismet.php:968
 msgid "Spam"
@@ -13011,7 +13011,7 @@ msgstr "字母"
 #: wp-includes/js/tinymce/wp-mce-help.php:206
 #: wp-includes/js/tinymce/wp-mce-help.php:222
 msgid "Action"
-msgstr "动作"
+msgstr "操作"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:208
 msgid "Select all"
