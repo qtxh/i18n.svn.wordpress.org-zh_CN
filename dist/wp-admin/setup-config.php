@@ -62,7 +62,7 @@ if ( version_compare( $required_php_version, phpversion(), '>' ) )
 	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'您正使用 PHP %1$s，但 WordPress 需要其版本高于 %2$s 才可工作。'/*/WP_I18N_OLD_PHP*/, phpversion(), $required_php_version ) );
 
 if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
-	wp_die( /*WP_I18N_OLD_MYSQL*/'您的 PHP 似乎确实 WordPress 所需的 MySQL 插件。'/*/WP_I18N_OLD_MYSQL*/ );
+	wp_die( /*WP_I18N_OLD_MYSQL*/'您的 PHP 似乎缺失 WordPress 所需的 MySQL 插件。'/*/WP_I18N_OLD_MYSQL*/ );
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
