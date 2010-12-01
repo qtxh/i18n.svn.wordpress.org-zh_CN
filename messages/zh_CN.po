@@ -4,10 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-12 21:54+0800\n"
+"POT-Creation-Date: 2010-12-01 00:06+0000\n"
+"PO-Revision-Date: 2010-12-01 21:24+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -183,7 +184,8 @@ msgstr "无法保存：%s 正在编辑这篇文章。"
 #: wp-admin/users.php:16
 #: wp-admin/users.php:81
 #: wp-admin/widgets.php:16
-#: wp-content/plugins/akismet/akismet.php:66
+#: wp-content/plugins/akismet/admin.php:45
+#: wp-content/plugins/akismet/akismet.php:94
 msgid "Cheatin&#8217; uh?"
 msgstr "开玩笑，呵？"
 
@@ -1056,6 +1058,8 @@ msgstr "%s之后"
 #: wp-admin/includes/template.php:2021
 #: wp-admin/includes/theme-install.php:325
 #: wp-admin/upload.php:449
+#: wp-content/plugins/akismet/admin.php:317
+#: wp-content/plugins/akismet/admin.php:345
 #, php-format
 msgid "%s ago"
 msgstr "%s前"
@@ -1124,7 +1128,7 @@ msgstr "《%s》上的评论"
 #: wp-admin/includes/template.php:1058
 #: wp-admin/includes/template.php:3243
 #: wp-admin/includes/template.php:3372
-#: wp-content/plugins/akismet/akismet.php:817
+#: wp-content/plugins/akismet/legacy.php:214
 #: wp-includes/theme-compat/comments-popup.php:33
 msgid "Comments"
 msgstr "评论"
@@ -1660,7 +1664,7 @@ msgstr "查看评论"
 #. translators: comment type radio button
 #. translators: comment status
 #: wp-admin/edit-form-comment.php:50
-#: wp-includes/comment.php:319
+#: wp-includes/comment.php:309
 msgctxt "adjective"
 msgid "Approved"
 msgstr "获准"
@@ -1674,7 +1678,7 @@ msgstr "待审"
 #. translators: comment type radio button
 #. translators: comment status
 #: wp-admin/edit-form-comment.php:52
-#: wp-includes/comment.php:321
+#: wp-includes/comment.php:311
 msgctxt "adjective"
 msgid "Spam"
 msgstr "垃圾评论"
@@ -2245,7 +2249,7 @@ msgid "This has been saved."
 msgstr "已保存。"
 
 #: wp-admin/edit.php:208
-#: wp-content/plugins/akismet/akismet.php:897
+#: wp-content/plugins/akismet/legacy.php:294
 #: wp-includes/post.php:953
 msgid "View Post"
 msgstr "查看文章"
@@ -4810,7 +4814,7 @@ msgstr "查看全部"
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:30
-#: wp-content/plugins/akismet/akismet.php:779
+#: wp-content/plugins/akismet/legacy.php:176
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:163
 msgid "Search"
@@ -4818,7 +4822,7 @@ msgstr "搜索"
 
 #: wp-admin/includes/nav-menu.php:690
 #: wp-admin/includes/nav-menu.php:917
-#: wp-content/plugins/akismet/akismet.php:943
+#: wp-content/plugins/akismet/legacy.php:340
 msgid "No results found."
 msgstr "未找到"
 
@@ -8667,7 +8671,7 @@ msgid "Post published."
 msgstr "文章已发布。"
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1152
+#: wp-content/plugins/akismet/akismet.php:846
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -10075,324 +10079,445 @@ msgstr "错误：请填写必要信息（姓名和电子邮件）。"
 msgid "Error: please enter a valid email address."
 msgstr "错误：请输入一个有效的电子邮件地址。"
 
-#: wp-content/plugins/akismet/akismet.php:57
-#: wp-content/plugins/akismet/akismet.php:133
+#: wp-content/plugins/akismet/admin.php:14
+#, php-format
+msgid "Akismet %s required WordPress 3.0 or higher."
+msgstr "Akismet %s 需要 WordPress 3.0 或更高版本。"
+
+#: wp-content/plugins/akismet/admin.php:14
+#, php-format
+msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version, or <a href=\"%s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "请<a href=\"%s\">升级 WordPress</a>，或 <a href=\"%s\">将 Akismet 插件降级至 2.4 版本</a>。"
+
+#: wp-content/plugins/akismet/admin.php:27
+msgid "Akismet Status"
+msgstr "Akismet 状态"
+
+#: wp-content/plugins/akismet/admin.php:36
+#: wp-content/plugins/akismet/admin.php:112
+#: wp-content/plugins/akismet/akismet.php:85
+#: wp-content/plugins/akismet/akismet.php:161
 msgid "Akismet Configuration"
 msgstr "Akismet 配置"
 
-#: wp-content/plugins/akismet/akismet.php:120
+#: wp-content/plugins/akismet/admin.php:99
+#: wp-content/plugins/akismet/akismet.php:148
 msgid "Your key has been cleared."
 msgstr "您的 key 已被删除。"
 
-#: wp-content/plugins/akismet/akismet.php:121
+#: wp-content/plugins/akismet/admin.php:100
+#: wp-content/plugins/akismet/akismet.php:149
 msgid "Your key has been verified. Happy blogging!"
 msgstr "您的 key 已经被验证。祝您开心！"
 
-#: wp-content/plugins/akismet/akismet.php:122
+#: wp-content/plugins/akismet/admin.php:101
+#: wp-content/plugins/akismet/akismet.php:150
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "输入的 key 无效。请重新确认。"
 
-#: wp-content/plugins/akismet/akismet.php:123
+#: wp-content/plugins/akismet/admin.php:102
+#: wp-content/plugins/akismet/akismet.php:151
 msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
 msgstr "无法连接到 akismet.com 的连接，因此无法验证您输入的 key 是否有效。请检查您的服务器设置。"
 
-#: wp-content/plugins/akismet/akismet.php:124
+#: wp-content/plugins/akismet/admin.php:103
+#: wp-content/plugins/akismet/akismet.php:152
 msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
 msgstr "无法连接到 Akismet 服务器。请检查您的服务器配置。"
 
-#: wp-content/plugins/akismet/akismet.php:125
+#: wp-content/plugins/akismet/admin.php:104
+#: wp-content/plugins/akismet/akismet.php:153
 #, php-format
 msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
 msgstr "请输入一个 API Key（<a href=\"%s\" style=\"color:#fff\">注册一个。</a>）"
 
-#: wp-content/plugins/akismet/akismet.php:126
+#: wp-content/plugins/akismet/admin.php:105
+#: wp-content/plugins/akismet/akismet.php:154
 msgid "This key is valid."
 msgstr "Key 有效。"
 
-#: wp-content/plugins/akismet/akismet.php:127
+#: wp-content/plugins/akismet/admin.php:106
+#: wp-content/plugins/akismet/akismet.php:155
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
 msgstr "下面的 key 先前被验证过，不过无法连接到 Akismet 服务器。请检查您的服务器配置。"
 
-#: wp-content/plugins/akismet/akismet.php:130
+#: wp-content/plugins/akismet/admin.php:109
+#: wp-content/plugins/akismet/akismet.php:158
 msgid "Options saved."
 msgstr "选项已更新。"
 
-#: wp-content/plugins/akismet/akismet.php:137
+#: wp-content/plugins/akismet/admin.php:116
+#: wp-content/plugins/akismet/akismet.php:165
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have an API key yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
 msgstr "对大多数人来说，<a href=\"%1$s\">Akismet</a> 将大量减少甚至彻底消灭垃圾评论和不良 trackback。即使有漏网之鱼，您只需将其标成“垃圾评论”后，Akismet 会自动从失误中学习。获取 WordPress API Key 需要您有 WordPress.com 账号，如果没有，可以到 <a href=\"%2$s\">WordPress.com</a> 申请一个。"
 
-#: wp-content/plugins/akismet/akismet.php:139
+#: wp-content/plugins/akismet/admin.php:118
+#: wp-content/plugins/akismet/akismet.php:167
 msgid "Akismet API Key"
 msgstr "Akismet API Key"
 
-#: wp-content/plugins/akismet/akismet.php:143
+#: wp-content/plugins/akismet/admin.php:122
+#: wp-content/plugins/akismet/akismet.php:171
 msgid "<a href=\"http://akismet.com/get/\">What is this?</a>"
 msgstr "<a href=\"http://akismet.com/get/\">这是什么？</a>"
 
-#: wp-content/plugins/akismet/akismet.php:145
+#: wp-content/plugins/akismet/admin.php:124
+#: wp-content/plugins/akismet/akismet.php:173
 msgid "Why might my key be invalid?"
 msgstr "为什么我的 key 会无效呢？"
 
-#: wp-content/plugins/akismet/akismet.php:146
+#: wp-content/plugins/akismet/admin.php:125
+#: wp-content/plugins/akismet/akismet.php:174
 msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
 msgstr "现在的问题可能有两个原因，有可能是因为拷贝错了 key，或者插件不能连接到 Akismet 服务器（可能这是您的 web 服务器上的防火墙所导致的）。"
 
-#: wp-content/plugins/akismet/akismet.php:150
+#: wp-content/plugins/akismet/admin.php:129
+#: wp-content/plugins/akismet/akismet.php:178
 msgid "Automatically discard spam comments on posts older than a month."
 msgstr "自动删除文章上一个月前的垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:151
+#: wp-content/plugins/akismet/admin.php:130
+#: wp-content/plugins/akismet/akismet.php:179
 msgid "Update options &raquo;"
 msgstr "更新选项 &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:156
+#: wp-content/plugins/akismet/admin.php:135
+#: wp-content/plugins/akismet/akismet.php:184
 msgid "Server Connectivity"
 msgstr "服务器连通性"
 
-#: wp-content/plugins/akismet/akismet.php:160
+#: wp-content/plugins/akismet/admin.php:139
+#: wp-content/plugins/akismet/akismet.php:188
 msgid "Network functions are disabled."
 msgstr "网络功能被禁止。"
 
-#: wp-content/plugins/akismet/akismet.php:161
+#: wp-content/plugins/akismet/admin.php:140
+#: wp-content/plugins/akismet/akismet.php:189
 #, php-format
 msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> or <code>gethostbynamel</code> functions.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
 msgstr "您的主机似乎禁用了 PHP 的 <code>fsockopen</code> 或 <code>gethostbynamel</code> 函数。<strong>在此问题修复之前，Akismet 无法工作。</strong>请联系您的主机服务管理员或防火墙管理员，并向他们提供 <a href=\"%s\" target=\"_blank\">Akismet 的运行环境要求</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:169
+#: wp-content/plugins/akismet/admin.php:148
+#: wp-content/plugins/akismet/akismet.php:197
 msgid "Unable to reach some Akismet servers."
 msgstr "无法连接部分 Akismet 服务器。"
 
-#: wp-content/plugins/akismet/akismet.php:170
+#: wp-content/plugins/akismet/admin.php:149
+#: wp-content/plugins/akismet/akismet.php:198
 #, php-format
 msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "网络问题或是防火墙阻止导致无法连接部分 Akismet.com 服务器，<strong>Akismet 在这个问题修复前无法正常工作</strong>。请联系您的主机提供商或防火墙管理员，并提供 <a href=\"%s\" target=\"_blank\">Akismet 和防火墙的相关信息</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:174
+#: wp-content/plugins/akismet/admin.php:153
+#: wp-content/plugins/akismet/akismet.php:202
 msgid "Unable to reach any Akismet servers."
 msgstr "无法连接任何 Akismet 服务器。"
 
-#: wp-content/plugins/akismet/akismet.php:175
+#: wp-content/plugins/akismet/admin.php:154
+#: wp-content/plugins/akismet/akismet.php:203
 #, php-format
 msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "网络问题或是防火墙阻止导致无法连接 Akismet.com 服务器，<strong>Akismet 在这个问题修复前无法正常工作</strong>。请联系您的主机提供商或防火墙管理员，并提供 <a href=\"%s\" target=\"_blank\">Akismet 和防火墙的相关信息</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:179
+#: wp-content/plugins/akismet/admin.php:158
+#: wp-content/plugins/akismet/akismet.php:207
 msgid "All Akismet servers are available."
 msgstr "全部 Akismet 服务器可用。"
 
-#: wp-content/plugins/akismet/akismet.php:180
+#: wp-content/plugins/akismet/admin.php:159
+#: wp-content/plugins/akismet/akismet.php:208
 msgid "Akismet is working correctly.  All servers are accessible."
 msgstr "Akismet 工作正常。所有服务器可用。"
 
-#: wp-content/plugins/akismet/akismet.php:185
+#: wp-content/plugins/akismet/admin.php:164
+#: wp-content/plugins/akismet/akismet.php:213
 msgid "Unable to find Akismet servers."
 msgstr "无法找到 Akismet 服务器。"
 
-#: wp-content/plugins/akismet/akismet.php:186
+#: wp-content/plugins/akismet/admin.php:165
+#: wp-content/plugins/akismet/akismet.php:214
 #, php-format
 msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "DNS 问题或防火墙阻止了 web 服务器到 Akismet.com 的连接，<strong>Akismet 在这个问题修复前无法正常工作</strong>。请联系您的主机提供商或防火墙管理员，并提供 <a href=\"%s\" target=\"_blank\">Akismet 和防火墙的相关信息</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:194
+#: wp-content/plugins/akismet/admin.php:173
+#: wp-content/plugins/akismet/akismet.php:222
 msgid "Akismet server"
 msgstr "Akismet 服务器"
 
-#: wp-content/plugins/akismet/akismet.php:194
+#: wp-content/plugins/akismet/admin.php:173
+#: wp-content/plugins/akismet/akismet.php:222
 msgid "Network Status"
 msgstr "网络状态"
 
-#: wp-content/plugins/akismet/akismet.php:203
+#: wp-content/plugins/akismet/admin.php:182
+#: wp-content/plugins/akismet/akismet.php:231
 msgid "No problems"
 msgstr "正常"
 
-#: wp-content/plugins/akismet/akismet.php:203
+#: wp-content/plugins/akismet/admin.php:182
+#: wp-content/plugins/akismet/akismet.php:231
 msgid "Obstructed"
 msgstr "阻塞"
 
-#: wp-content/plugins/akismet/akismet.php:211
+#: wp-content/plugins/akismet/admin.php:190
+#: wp-content/plugins/akismet/akismet.php:239
 #, php-format
 msgid "Last checked %s ago."
 msgstr "最后一次检查在 %s 之前"
 
-#: wp-content/plugins/akismet/akismet.php:212
+#: wp-content/plugins/akismet/admin.php:191
+#: wp-content/plugins/akismet/akismet.php:240
 msgid "Check network status &raquo;"
 msgstr "检查网络状态 &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:222
+#: wp-content/plugins/akismet/admin.php:201
+#: wp-content/plugins/akismet/akismet.php:250
 msgid "Akismet Stats"
 msgstr "Akismet 统计"
 
-#: wp-content/plugins/akismet/akismet.php:333
-msgid "Akismet is almost ready."
-msgstr "Akismet 准备就绪。"
-
-#: wp-content/plugins/akismet/akismet.php:333
-#, php-format
-msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
-msgstr "您必需<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
-
-#: wp-content/plugins/akismet/akismet.php:341
-msgid "Akismet has detected a problem."
-msgstr "Akismet 检测到一个问题。"
-
-#: wp-content/plugins/akismet/akismet.php:341
-#, php-format
-msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
-msgstr "网络或服务器问题导致 Akismet 工作异常， <a href=\"%1$s\">点击这里</a>查看怎么修复它。"
-
-#: wp-content/plugins/akismet/akismet.php:654
-#, php-format
-msgid "Akismet Spam (%s)"
-msgstr "Akismet 反垃圾评论 (%s)"
-
-#: wp-content/plugins/akismet/akismet.php:656
-#: wp-content/plugins/akismet/akismet.php:658
-msgid "Akismet Spam"
-msgstr "Akismet 反垃圾"
-
-#: wp-content/plugins/akismet/akismet.php:668
-#: wp-content/plugins/akismet/akismet.php:687
-msgid "You do not have sufficient permission to moderate comments."
-msgstr "您没有审核评论的权限。"
-
-#: wp-content/plugins/akismet/akismet.php:699
-#, php-format
-msgid "%1$s comments recovered."
-msgstr "%1$s 条评论被恢复。"
-
-#: wp-content/plugins/akismet/akismet.php:703
-msgid "All spam deleted."
-msgstr "所有垃圾评论被删除。"
-
-#: wp-content/plugins/akismet/akismet.php:751
-msgid "Caught Spam"
-msgstr "捕获垃圾信息"
-
-#: wp-content/plugins/akismet/akismet.php:756
-#, php-format
-msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
-msgstr "从您首次安装 Akismet 以来，它为您捕获了 <strong>%1$s 条垃圾评论</strong>。"
-
-#: wp-content/plugins/akismet/akismet.php:763
-msgid "You have no spam currently in the queue. Must be your lucky day. :)"
-msgstr "干净的一天。您门前没有任何垃圾。"
-
-#: wp-content/plugins/akismet/akismet.php:766
-msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
-msgstr "您只需按一下鼠标就可以删除全部垃圾评论。因为该操作无法撤销，您可能需要先检查一下以确保没有合法的评论被误认为垃圾评论。被认定为垃圾的评论会在 15 天后自动被系统删除。"
-
-#: wp-content/plugins/akismet/akismet.php:772
-#: wp-content/plugins/akismet/akismet.php:950
-#, php-format
-msgid "There are currently %1$s comments identified as spam."
-msgstr "现在有 %1$s 条评论被认定为垃圾评论。"
-
-#: wp-content/plugins/akismet/akismet.php:772
-#: wp-content/plugins/akismet/akismet.php:950
-msgid "Delete all"
-msgstr "删除全部"
-
-#: wp-content/plugins/akismet/akismet.php:781
-msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
-msgstr "这些是最近被 Akismet 认定为垃圾的评论。如果您发现任何错误，您只需将它标成“不是垃圾”，然后 Akismet 会自动学习并纠正错误。如果您希望恢复一条被误标成垃圾的评论，选中它，然后点击 “不是垃圾”。15 天后，垃圾箱将被自动清空。"
-
-#: wp-content/plugins/akismet/akismet.php:812
-msgid "All"
-msgstr "全部"
-
-#: wp-content/plugins/akismet/akismet.php:835
-msgid "Search Spam &raquo;"
-msgstr "搜索垃圾评论 &raquo;"
-
-#: wp-content/plugins/akismet/akismet.php:842
-#: wp-content/plugins/akismet/akismet.php:909
-#: wp-includes/link-template.php:1596
-msgid "&laquo; Previous Page"
-msgstr "&laquo; 上一页"
-
-#: wp-content/plugins/akismet/akismet.php:863
-#: wp-content/plugins/akismet/akismet.php:930
-#: wp-includes/link-template.php:1597
-msgid "Next Page &raquo;"
-msgstr "下一页 &raquo;"
-
-#: wp-content/plugins/akismet/akismet.php:885
-msgid "IP:"
-msgstr "IP 地址："
-
-#: wp-content/plugins/akismet/akismet.php:891
-msgid "Not Spam"
-msgstr "不是垃圾评论"
-
-#: wp-content/plugins/akismet/akismet.php:936
-msgid "De-spam marked comments &raquo;"
-msgstr "这不是垃圾 &raquo;"
-
-#: wp-content/plugins/akismet/akismet.php:938
-msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
-msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复动作将帮助 Akismet 变得更聪明，为您拦截更多的垃圾。"
-
-#: wp-content/plugins/akismet/akismet.php:968
+#: wp-content/plugins/akismet/admin.php:248
+#: wp-content/plugins/akismet/akismet.php:291
 msgid "Spam"
 msgstr "垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:974
+#: wp-content/plugins/akismet/admin.php:254
+#: wp-content/plugins/akismet/akismet.php:297
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> 已经帮您过滤了 <a href=\"%2$s\">%3$s 条垃圾评论</a>。"
 
-#: wp-content/plugins/akismet/akismet.php:992
+#: wp-content/plugins/akismet/admin.php:263
+#: wp-content/plugins/akismet/akismet.php:377
+msgid "Akismet is almost ready."
+msgstr "Akismet 准备就绪。"
+
+#: wp-content/plugins/akismet/admin.php:263
+#: wp-content/plugins/akismet/akismet.php:377
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
+msgstr "您必需<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
+
+#: wp-content/plugins/akismet/admin.php:271
+#: wp-content/plugins/akismet/akismet.php:385
+msgid "Akismet has detected a problem."
+msgstr "Akismet 检测到一个问题。"
+
+#: wp-content/plugins/akismet/admin.php:271
+#: wp-content/plugins/akismet/akismet.php:385
+#, php-format
+msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
+msgstr "网络或服务器问题导致 Akismet 工作异常， <a href=\"%1$s\">点击这里</a>查看怎么修复它。"
+
+#: wp-content/plugins/akismet/admin.php:296
+#, php-format
+msgid "Flagged as spam by %s"
+msgstr "由 %s 标记为垃圾"
+
+#: wp-content/plugins/akismet/admin.php:298
+#, php-format
+msgid "Un-spammed by %s"
+msgstr "由 %s 取消标记为垃圾"
+
+#: wp-content/plugins/akismet/admin.php:302
+msgid "View comment history"
+msgstr "查看评论历史"
+
+#: wp-content/plugins/akismet/admin.php:329
+msgid "Akismet"
+msgstr "Akismet"
+
+#: wp-content/plugins/akismet/admin.php:384
+#: wp-content/plugins/akismet/akismet.php:697
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
+msgstr "<a href=\"%1$s\">Akismet</a> 在您的博客上过滤垃圾留言，"
+
+#: wp-content/plugins/akismet/admin.php:394
+#, php-format
+msgid " but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgstr "但目前<a href='%1$s'>垃圾评论队列</a>为空。"
+
+#: wp-content/plugins/akismet/admin.php:399
+#, php-format
+msgctxt "akismet_rightnow"
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#: wp-content/plugins/akismet/admin.php:401
+#, php-format
+msgid "%1$s%2$s|akismet_rightnow"
+msgstr "%1$s%2$s|akismet_rightnow"
+
+#: wp-content/plugins/akismet/admin.php:417
+#: wp-content/plugins/akismet/akismet.php:730
+msgid "Check for Spam"
+msgstr "检查垃圾评论"
+
+#: wp-content/plugins/akismet/admin.php:449
+#, php-format
+msgid "%s un-spammed this comment"
+msgstr "%s 认为这不是垃圾评论"
+
+#: wp-content/plugins/akismet/admin.php:489
+#, php-format
+msgid "%s spammed this comment"
+msgstr "%s 将此评论标记为垃圾评论"
+
+#: wp-content/plugins/akismet/admin.php:568
+msgid "Akismet re-checked and caught this comment as spam"
+msgstr "经 Akismet 复查，我们新截获了此条评论"
+
+#: wp-content/plugins/akismet/admin.php:572
+msgid "Akismet re-checked and cleared this comment"
+msgstr "Akismet 复查了此条评论，现在认为它不是垃圾邮件了"
+
+#: wp-content/plugins/akismet/admin.php:576
+#, php-format
+msgid "Akismet was unable to re-check this comment (response: %s)"
+msgstr "Akismet 无法复查此条评论（回应：%s）"
+
+#: wp-content/plugins/akismet/akismet.php:692
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮您过滤了 %2$s 条垃圾评论，"
 
-#: wp-content/plugins/akismet/akismet.php:997
-#, php-format
-msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
-msgstr "<a href=\"%1$s\">Akismet</a> 在您的博客上过滤垃圾留言，"
-
-#: wp-content/plugins/akismet/akismet.php:1002
+#: wp-content/plugins/akismet/akismet.php:702
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "当前有 <a href=\"%2$s\">%1$s 条评论</a>在您的垃圾评论队列里。"
 
-#: wp-content/plugins/akismet/akismet.php:1007
+#: wp-content/plugins/akismet/akismet.php:707
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "目前<a href='%1$s'>垃圾评论队列</a>为空。"
 
-#: wp-content/plugins/akismet/akismet.php:1010
+#: wp-content/plugins/akismet/akismet.php:712
+#, php-format
+msgctxt "akismet_rightnow"
+msgid "%1$s %2$s"
+msgstr "%1$s%2$s"
+
+#: wp-content/plugins/akismet/akismet.php:714
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
-#: wp-content/plugins/akismet/akismet.php:1027
-msgid "Recheck Queue for Spam"
-msgstr "重新检查垃圾评论队列"
-
-#: wp-content/plugins/akismet/akismet.php:1044
-msgid "Check for Spam"
-msgstr "检查垃圾评论"
-
-#: wp-content/plugins/akismet/akismet.php:1120
+#: wp-content/plugins/akismet/akismet.php:810
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$s 条垃圾评论 %3$s %4$s 被 %5$s 截获<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1144
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "Spam Blocked"
 msgstr "已屏蔽的垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:1182
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "spam comments"
 msgstr "垃圾评论"
 
-#: wp-content/plugins/akismet/akismet.php:1182
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "blocked by"
 msgstr "截获自"
+
+#: wp-content/plugins/akismet/legacy.php:47
+#, php-format
+msgid "Akismet Spam (%s)"
+msgstr "Akismet 反垃圾评论 (%s)"
+
+#: wp-content/plugins/akismet/legacy.php:49
+#: wp-content/plugins/akismet/legacy.php:51
+msgid "Akismet Spam"
+msgstr "Akismet 反垃圾"
+
+#: wp-content/plugins/akismet/legacy.php:61
+#: wp-content/plugins/akismet/legacy.php:80
+msgid "You do not have sufficient permission to moderate comments."
+msgstr "您没有审核评论的权限。"
+
+#: wp-content/plugins/akismet/legacy.php:96
+#, php-format
+msgid "%1$s comments recovered."
+msgstr "%1$s 条评论被恢复。"
+
+#: wp-content/plugins/akismet/legacy.php:100
+msgid "All spam deleted."
+msgstr "所有垃圾评论被删除。"
+
+#: wp-content/plugins/akismet/legacy.php:148
+msgid "Caught Spam"
+msgstr "捕获垃圾信息"
+
+#: wp-content/plugins/akismet/legacy.php:153
+#, php-format
+msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
+msgstr "从您首次安装 Akismet 以来，它为您捕获了 <strong>%1$s 条垃圾评论</strong>。"
+
+#: wp-content/plugins/akismet/legacy.php:160
+msgid "You have no spam currently in the queue. Must be your lucky day. :)"
+msgstr "干净的一天。您门前没有任何垃圾。"
+
+#: wp-content/plugins/akismet/legacy.php:163
+msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
+msgstr "您只需按一下鼠标就可以删除全部垃圾评论。因为该操作无法撤销，您可能需要先检查一下以确保没有合法的评论被误认为垃圾评论。被认定为垃圾的评论会在 15 天后自动被系统删除。"
+
+#: wp-content/plugins/akismet/legacy.php:169
+#: wp-content/plugins/akismet/legacy.php:347
+#, php-format
+msgid "There are currently %1$s comments identified as spam."
+msgstr "现在有 %1$s 条评论被认定为垃圾评论。"
+
+#: wp-content/plugins/akismet/legacy.php:169
+#: wp-content/plugins/akismet/legacy.php:347
+msgid "Delete all"
+msgstr "删除全部"
+
+#: wp-content/plugins/akismet/legacy.php:178
+msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
+msgstr "这些是最近被 Akismet 认定为垃圾的评论。如果您发现任何错误，您只需将它标成“不是垃圾”，然后 Akismet 会自动学习并纠正错误。如果您希望恢复一条被误标成垃圾的评论，选中它，然后点击 “不是垃圾”。15 天后，垃圾箱将被自动清空。"
+
+#: wp-content/plugins/akismet/legacy.php:209
+msgid "All"
+msgstr "全部"
+
+#: wp-content/plugins/akismet/legacy.php:232
+msgid "Search Spam &raquo;"
+msgstr "搜索垃圾评论 &raquo;"
+
+#: wp-content/plugins/akismet/legacy.php:239
+#: wp-content/plugins/akismet/legacy.php:306
+#: wp-includes/link-template.php:1596
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 上一页"
+
+#: wp-content/plugins/akismet/legacy.php:260
+#: wp-content/plugins/akismet/legacy.php:327
+#: wp-includes/link-template.php:1597
+msgid "Next Page &raquo;"
+msgstr "下一页 &raquo;"
+
+#: wp-content/plugins/akismet/legacy.php:282
+msgid "IP:"
+msgstr "IP 地址："
+
+#: wp-content/plugins/akismet/legacy.php:288
+msgid "Not Spam"
+msgstr "不是垃圾评论"
+
+#: wp-content/plugins/akismet/legacy.php:333
+msgid "De-spam marked comments &raquo;"
+msgstr "这不是垃圾 &raquo;"
+
+#: wp-content/plugins/akismet/legacy.php:335
+msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
+msgstr "如果 Akismet 将正常评论识别为垃圾评论，您的恢复动作将帮助 Akismet 变得更聪明，为您拦截更多的垃圾。"
+
+#: wp-content/plugins/akismet/legacy.php:385
+msgid "Recheck Queue for Spam"
+msgstr "重新检查垃圾评论队列"
 
 #: wp-includes/atomlib.php:133
 #, php-format
@@ -10696,21 +10821,21 @@ msgstr "取消回复"
 msgid "Post Comment"
 msgstr "发表评论"
 
-#: wp-includes/comment.php:317
+#: wp-includes/comment.php:307
 msgid "Unapproved"
 msgstr "驳回"
 
-#: wp-includes/comment.php:558
-#: wp-includes/comment.php:560
+#: wp-includes/comment.php:548
+#: wp-includes/comment.php:550
 msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
 msgstr "重复发表评论，您好像发表过类似的评论。"
 
-#: wp-includes/comment.php:618
-#: wp-includes/comment.php:620
+#: wp-includes/comment.php:608
+#: wp-includes/comment.php:610
 msgid "You are posting comments too quickly.  Slow down."
 msgstr "您发表评论也太快了吧。放慢点。"
 
-#: wp-includes/comment.php:1339
+#: wp-includes/comment.php:1329
 msgid "Could not update comment status"
 msgstr "无法更新文评论状态"
 
