@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-12-01 00:06+0000\n"
-"PO-Revision-Date: 2010-12-01 21:24+0800\n"
+"PO-Revision-Date: 2010-12-01 21:40+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -10297,7 +10297,7 @@ msgstr "Akismet 准备就绪。"
 #: wp-content/plugins/akismet/akismet.php:377
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
-msgstr "您必需<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
+msgstr "您必须<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
 
 #: wp-content/plugins/akismet/admin.php:271
 #: wp-content/plugins/akismet/akismet.php:385
