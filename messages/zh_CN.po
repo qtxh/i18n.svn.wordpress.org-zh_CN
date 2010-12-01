@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-12-01 00:06+0000\n"
-"PO-Revision-Date: 2010-12-01 21:40+0800\n"
+"PO-Revision-Date: 2010-12-01 22:01+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -34,7 +34,7 @@ msgstr "<strong>警告：您已登出！</strong>因此无法保存草稿。<a h
 #: wp-admin/themes.php:88
 #: wp-admin/upload.php:284
 msgid "&laquo;"
-msgstr "“"
+msgstr "&laquo;"
 
 #: wp-admin/admin-ajax.php:202
 #: wp-admin/edit-comments.php:294
@@ -50,7 +50,7 @@ msgstr "“"
 #: wp-admin/themes.php:89
 #: wp-admin/upload.php:285
 msgid "&raquo;"
-msgstr "”"
+msgstr "&raquo;"
 
 #: wp-admin/admin-ajax.php:370
 #: wp-admin/edit-link-categories.php:28
@@ -121,17 +121,17 @@ msgstr "草稿保存于 %s。"
 #: wp-admin/admin-ajax.php:989
 #: wp-admin/admin-ajax.php:1201
 msgid "Someone"
-msgstr "某人"
+msgstr "有人"
 
 #: wp-admin/admin-ajax.php:991
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
-msgstr "自动保存被停用：%s 当前正在编辑这个页面。"
+msgstr "自动保存已停用：%s 正在编辑这个页面。"
 
 #: wp-admin/admin-ajax.php:991
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
-msgstr "自动保存被停用：%s 当前正在编辑这篇文章。"
+msgstr "自动保存已停用：%s 正在编辑这篇文章。"
 
 #: wp-admin/admin-ajax.php:1000
 #: wp-admin/admin-ajax.php:1190
@@ -942,7 +942,7 @@ msgstr "您无权进行自定义头部操作。"
 #: wp-admin/upload.php:406
 #, php-format
 msgid "Edit &#8220;%s&#8221;"
-msgstr "编辑“%s”"
+msgstr "编辑《%s》"
 
 #: wp-admin/edit-attachment-rows.php:99
 #: wp-admin/edit-attachment-rows.php:214
@@ -1292,7 +1292,7 @@ msgstr "搜索评论"
 #: wp-admin/upload.php:291
 #, php-format
 msgid "Displaying %s&#8211;%s of %s"
-msgstr "已显示 %s&#8211;%s，共 %s"
+msgstr "当前显示 %s&#8211;%s 条，共 %s 条"
 
 #: wp-admin/edit-comments.php:325
 #: wp-admin/edit-comments.php:425
@@ -1624,7 +1624,7 @@ msgstr "<strong>父级</strong> - 您可以以层级的方式组织您的页面�
 
 #: wp-admin/edit-form-advanced.php:187
 msgid "<strong>Template</strong> - Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them in this dropdown menu."
-msgstr "<strong>模板</strong> - 某些主题有定制的模板，您可以用在一些您想添加新功能或者自定义布局的页面上。如果这样，您可以在上面看到。"
+msgstr "<strong>模板</strong> - 某些主题有定制的模板，您可以用在一些您想添加新功能或者自定义布局的页面上。如果这样，您可以在下拉菜单中看到。"
 
 #: wp-admin/edit-form-advanced.php:188
 msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
@@ -1645,12 +1645,12 @@ msgstr "获取短链接地址"
 #: wp-admin/edit-form-advanced.php:282
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
-msgstr "最后由 %1$s 编辑于 %2$s %3$s"
+msgstr "最后由 %1$s 编辑于 %2$s%3$s"
 
 #: wp-admin/edit-form-advanced.php:284
 #, php-format
 msgid "Last edited on %1$s at %2$s"
-msgstr "最后编辑于：%1$s %2$s"
+msgstr "最后编辑于 %1$s%2$s"
 
 #: wp-admin/edit-form-comment.php:17
 #, php-format
@@ -2320,7 +2320,7 @@ msgstr "列表视图"
 
 #: wp-admin/edit.php:407
 msgid "Excerpt View"
-msgstr "摘要显示"
+msgstr "摘要视图"
 
 #: wp-admin/export.php:13
 msgid "You do not have sufficient permissions to export the content of this site."
@@ -2525,7 +2525,7 @@ msgstr "找到 %s"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:28
 msgid "The ftp PHP extension is not available"
-msgstr "PHP 的 FTP 拓展不可用"
+msgstr "PHP 的 FTP 扩展不可用"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:44
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:38
@@ -2558,11 +2558,11 @@ msgstr "%s 用户名/密码错误"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:57
 msgid "The ssh2 PHP extension is not available"
-msgstr "PHP 的 SSH2 拓展不可用"
+msgstr "PHP 的 SSH2 扩展不可用"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:61
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
-msgstr "PHP 的 SSH2 拓展可用，但还需要 PHP5 的 <code>stream_get_contents()</code> 函数"
+msgstr "PHP 的 SSH2 扩展可用，但还需要 PHP5 的 <code>stream_get_contents()</code> 函数"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -2663,7 +2663,7 @@ msgstr "正在启用维护模式 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:61
 msgid "Disabling Maintenance mode&#8230;"
-msgstr "正在禁用维护模式 &#8230;"
+msgstr "正在停用维护模式 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:370
 msgid "The plugin is at the latest version."
@@ -2680,7 +2680,7 @@ msgstr "升级包不可用。"
 #: wp-admin/includes/class-wp-upgrader.php:854
 #, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
-msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件。"
+msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件 &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:373
 #: wp-admin/includes/class-wp-upgrader.php:608
@@ -2795,7 +2795,7 @@ msgstr "启用这个插件"
 #: wp-admin/includes/class-wp-upgrader.php:1028
 #: wp-admin/includes/class-wp-upgrader.php:1271
 msgid "Activate Plugin"
-msgstr "激活插件"
+msgstr "启用插件"
 
 #: wp-admin/includes/class-wp-upgrader.php:1029
 #: wp-admin/includes/class-wp-upgrader.php:1187
@@ -2806,7 +2806,7 @@ msgstr "转到插件页面"
 #: wp-admin/includes/class-wp-upgrader.php:1187
 #: wp-admin/includes/class-wp-upgrader.php:1281
 msgid "Return to Plugins page"
-msgstr "返回到插件页面"
+msgstr "返回插件页面"
 
 #: wp-admin/includes/class-wp-upgrader.php:1038
 #: wp-admin/includes/class-wp-upgrader.php:1193
@@ -2816,7 +2816,7 @@ msgstr "返回到插件页面"
 #: wp-admin/includes/class-wp-upgrader.php:1411
 #: wp-admin/update-core.php:344
 msgid "Actions:"
-msgstr "动作："
+msgstr "操作："
 
 #: wp-admin/includes/class-wp-upgrader.php:1072
 msgid "The update process is starting. This process may take awhile on some hosts, so please be patient."
@@ -2882,11 +2882,11 @@ msgstr "返回主题页面"
 #: wp-admin/includes/class-wp-upgrader.php:1257
 #, php-format
 msgid "Successfully installed the plugin <strong>%s %s</strong>."
-msgstr "成功安装插件<strong>%s %s</strong>。"
+msgstr "成功安装插件 <strong>%s %s</strong>。"
 
 #: wp-admin/includes/class-wp-upgrader.php:1269
 msgid "Activate Plugin &amp; Run Importer"
-msgstr "激活插件并运行导入器"
+msgstr "启用插件并运行导入器"
 
 #: wp-admin/includes/class-wp-upgrader.php:1274
 #: wp-admin/plugins.php:582
@@ -2929,7 +2929,7 @@ msgstr "预览 &#8220;%s&#8221;"
 #: wp-admin/themes.php:192
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
-msgstr "激活 &#8220;%s&#8221;"
+msgstr "启用“%s”"
 
 #: wp-admin/includes/class-wp-upgrader.php:1344
 #: wp-admin/includes/class-wp-upgrader.php:1401
@@ -3000,15 +3000,15 @@ msgstr "近期草稿"
 
 #: wp-admin/includes/dashboard.php:70
 msgid "http://wordpress.org/news/"
-msgstr "http://wordpress.org/news/"
+msgstr "http://cn.wordpress.org/"
 
 #: wp-admin/includes/dashboard.php:71
 msgid "http://wordpress.org/news/feed/"
-msgstr "http://wordpress.org/news/feed/"
+msgstr "http://cn.wordpress.org/feed/"
 
 #: wp-admin/includes/dashboard.php:72
 msgid "WordPress Blog"
-msgstr "WordPress 博客"
+msgstr "WordPress China 博客"
 
 #: wp-admin/includes/dashboard.php:85
 msgid "http://planet.wordpress.org/"
@@ -3975,7 +3975,7 @@ msgstr "文章 URL"
 #: wp-admin/includes/media.php:937
 #: wp-admin/includes/media.php:2048
 msgid "Alternate Text"
-msgstr "备选文本"
+msgstr "替代文本"
 
 #: wp-admin/includes/media.php:938
 #: wp-admin/includes/media.php:2051
@@ -3996,7 +3996,7 @@ msgstr "文件名返回空的标题。"
 
 #: wp-admin/includes/media.php:1053
 msgid "Caption"
-msgstr "标题"
+msgstr "说明"
 
 #: wp-admin/includes/media.php:1062
 #: wp-includes/js/tinymce/langs/wp-langs.php:291
@@ -4220,7 +4220,7 @@ msgstr "筛选 &#187;"
 
 #: wp-admin/includes/media.php:2014
 msgid "Image Caption"
-msgstr "图像描述"
+msgstr "图像说明"
 
 #: wp-admin/includes/media.php:2028
 msgid "Insert an image from another web site"
@@ -4684,7 +4684,7 @@ msgstr "注解"
 #: wp-admin/includes/plugin-install.php:323
 #: wp-admin/includes/template.php:710
 msgid "Rating"
-msgstr "等级："
+msgstr "等级"
 
 #: wp-admin/includes/meta-boxes.php:877
 msgid "(Leave at 0 for no rating.)"
@@ -4766,13 +4766,13 @@ msgstr "自定义链接"
 #: wp-admin/includes/nav-menu.php:469
 #: wp-admin/nav-menus.php:450
 msgid "The current theme does not natively support menus, but you can use the &#8220;Custom Menu&#8221; widget to add any menus you create here to the theme&#8217;s sidebar."
-msgstr "当前的主题不提供原生的自定义目录支持。您可以用“自定义目录”小工具将您在这里创建的目录添加至主题的侧边栏。"
+msgstr "当前的主题不提供原生的自定义菜单支持。您可以用“自定义菜单”小工具将您在这里创建的菜单添加至主题的侧边栏。"
 
 #: wp-admin/includes/nav-menu.php:478
 #, php-format
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
-msgstr[0] "您的主题支持 %s 个目录。请为您的目录指定显示的位置。"
+msgstr[0] "您的主题支持 %s 个菜单。请为您的目录指定显示的位置。"
 
 #: wp-admin/includes/nav-menu.php:543
 msgid "Label"
@@ -4780,13 +4780,13 @@ msgstr "标签"
 
 #: wp-admin/includes/nav-menu.php:544
 msgid "Menu Item"
-msgstr "目录项目"
+msgstr "菜单项目"
 
 #: wp-admin/includes/nav-menu.php:551
 #: wp-admin/includes/nav-menu.php:765
 #: wp-admin/includes/nav-menu.php:937
 msgid "Add to Menu"
-msgstr "添加到目录"
+msgstr "添加至菜单"
 
 #: wp-admin/includes/nav-menu.php:595
 #: wp-admin/includes/nav-menu.php:807
@@ -4849,7 +4849,7 @@ msgstr "全选"
 
 #: wp-admin/includes/nav-menu.php:1067
 msgid "Select menu items (pages, categories, links) from the boxes at left to begin building your custom menu."
-msgstr "从左侧挑选一些项目（页面、分类目录、链接等）来开始构建您的自定义目录。"
+msgstr "从左侧挑选一些项目（页面、分类目录、链接等）来开始构建您的自定义菜单。"
 
 #: wp-admin/includes/nav-menu.php:1078
 #, php-format
@@ -4858,11 +4858,11 @@ msgstr "名为 <strong>%s</strong> 的 walker 类不存在。"
 
 #: wp-admin/includes/nav-menu.php:1087
 msgid "Click Save Menu to make pending menu items public."
-msgstr "点击“保存目录”使刚刚做出的改动于前台生效。"
+msgstr "点击“保存菜单”使刚刚做出的改动于前台生效。"
 
 #: wp-admin/includes/nav-menu.php:1110
 msgid "Show advanced menu properties"
-msgstr "显示高级目录属性"
+msgstr "显示高级菜单属性"
 
 #: wp-admin/includes/nav-menu.php:1113
 msgid "CSS Classes"
@@ -4878,7 +4878,7 @@ msgstr "发生了一个未知错误。"
 
 #: wp-admin/includes/plugin-install.php:130
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> or upload a plugin in .zip format via this page."
-msgstr "插件延伸、拓展 WordPress 的功能。您可以从 <a href=\"http://wordpress.org/extend/plugins/\">WordPress 插件网站</a>自动安装插件或者在这个页面上传 .zip 格式的插件包。"
+msgstr "插件为 WordPress 添加新功能。您可以从 <a href=\"http://wordpress.org/extend/plugins/\">WordPress 插件网站</a>自动安装插件或者在这个页面上传 .zip 格式的插件包。"
 
 #: wp-admin/includes/plugin-install.php:133
 msgid "Search for plugins by keyword, author, or tag."
@@ -5001,7 +5001,7 @@ msgstr "已安装"
 #, php-format
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "（基于 %s 次评级）"
+msgstr[0] "（基于 %s 次评价）"
 
 #: wp-admin/includes/plugin-install.php:393
 #: wp-admin/includes/plugin-install.php:577
@@ -5115,7 +5115,7 @@ msgstr "综合评级"
 
 #: wp-admin/includes/plugin-install.php:589
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>警告：</strong>该插件<strong>未被测试</strong>与您当前使用的 WordPress 版本的兼容性。"
+msgstr "<strong>警告：</strong>目前<strong>尚未测试</strong>该插件与您当前使用的 WordPress 版本的兼容性。"
 
 #: wp-admin/includes/plugin-install.php:592
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
@@ -5885,11 +5885,11 @@ msgstr "待审"
 
 #: wp-admin/includes/template.php:3582
 msgid "Enable accessibility mode"
-msgstr "启用便捷使用模式"
+msgstr "启用无障碍模式"
 
 #: wp-admin/includes/template.php:3582
 msgid "Disable accessibility mode"
-msgstr "禁用便捷使用模式"
+msgstr "停用无障碍模式"
 
 #: wp-admin/includes/template.php:3594
 msgctxt "Metaboxes"
@@ -5956,7 +5956,7 @@ msgstr "页面布局"
 
 #: wp-admin/includes/template.php:3720
 msgid "Number of Columns:"
-msgstr "显示多少栏："
+msgstr "分栏数目："
 
 #: wp-admin/includes/template.php:3743
 msgctxt "sites per page (screen options)"
@@ -6183,7 +6183,7 @@ msgstr "<strong>错误：</strong>该主题目前不可用，请稍后重试。"
 
 #: wp-admin/includes/theme-install.php:473
 msgid "<strong>Warning:</strong> This theme has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>警告：</strong>该主题<strong>未被测试</strong>与您当前使用的 WordPress 版本的兼容性。"
+msgstr "<strong>警告：</strong>目前<strong>尚未测试</strong>该主题与您当前使用的 WordPress 版本的兼容性。"
 
 #: wp-admin/includes/theme-install.php:475
 msgid "<strong>Warning:</strong> This theme has not been marked as <strong>compatible</strong> with your version of WordPress."
@@ -7021,7 +7021,7 @@ msgstr "外观"
 #: wp-admin/menu.php:166
 #: wp-admin/nav-menus.php:466
 msgid "Menus"
-msgstr "目录"
+msgstr "菜单"
 
 #: wp-admin/menu.php:173
 msgctxt "theme editor"
@@ -7117,92 +7117,92 @@ msgstr "您的主题不支持导航菜单或小工具。"
 
 #: wp-admin/nav-menus.php:237
 msgid "The menu item has been successfully deleted."
-msgstr "目录项已被成功删除。"
+msgstr "菜单项已被成功删除。"
 
 #: wp-admin/nav-menus.php:256
 msgid "The menu has been successfully deleted."
-msgstr "目录已被成功删除。"
+msgstr "菜单已被成功删除。"
 
 #: wp-admin/nav-menus.php:296
 #, php-format
 msgid "The <strong>%s</strong> menu has been successfully created."
-msgstr "<strong>%s</strong> 目录建立成功。"
+msgstr "<strong>%s</strong> 菜单建立成功。"
 
 #: wp-admin/nav-menus.php:299
 #: wp-admin/nav-menus.php:309
 msgid "Please enter a valid menu name."
-msgstr "请输入一个有效的目录名。"
+msgstr "请输入一个有效的菜单名称。"
 
 #: wp-admin/nav-menus.php:385
 #, php-format
 msgid "The <strong>%s</strong> menu has been updated."
-msgstr "<strong>%s</strong> 目录更新成功。"
+msgstr "<strong>%s</strong> 菜单更新成功。"
 
 #: wp-admin/nav-menus.php:452
 msgid "This feature is new in version 3.0; to use a custom menu in place of your theme&#8217;s default menus, support for this feature must be registered in the theme&#8217;s functions.php file. If your theme does not support the custom menus feature yet (the new default theme, Twenty Ten, does), you can learn about adding support yourself by following the below link."
-msgstr "这是 3.0 版本中引入的一个新功能。要使用自定义目录替换主题中的默认目录，在主题的 functions.php 中必须进行此功能的注册。若您的主题暂不提供此功能（我们的新默认主题 Twenty Ten 支持此功能），您可以访问下列页面来学习如何自行为主题加入支持。"
+msgstr "这是 3.0 版本中引入的一个新功能。要使用自定义菜单替换主题中的默认导航菜单，在主题的 functions.php 中必须进行此功能的注册。若您的主题暂不提供此功能（我们的新默认主题 Twenty Ten 支持此功能），您可以访问下列页面来学习如何自行为主题加入支持。"
 
 #: wp-admin/nav-menus.php:453
 msgid "You can create custom menus for your site. These menus may contain links to pages, categories, custom links or other content types (use the Screen Options tab to decide which ones to show on the screen). You can specify a different navigation label for a menu item as well as other attributes. You can create multiple menus. If your theme includes more than one menu, you can choose which custom menu to associate with each. You can also use custom menus in conjunction with the Custom Menus widget."
-msgstr "您可以为站点创建自定义目录。自定义目录可以包含指向页面、目录，甚至其他站点的链接（在“页面选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个目录项指定一个不同的导航标签。您可以创建多个目录，若您的主题支持多个目录，您可指定各个位置和主题的对应关系。您也可以在“自定义目录”小工具中调用自定义目录。"
+msgstr "您可以为站点创建自定义菜单。自定义菜单可以包含指向页面、目录，甚至其他站点的链接（在“页面选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个菜单项指定一个不同的导航标签。您可以创建多个菜单，若您的主题支持多个菜单，您可指定各个菜单在何处显示。您也可以在“自定义菜单”边栏小工具中调用自定义菜单。"
 
 #: wp-admin/nav-menus.php:454
 msgid "To create a new custom menu, click on the + tab, give the menu a name, and click Create Menu. Next, add menu items from the appropriate boxes. You&#8217;ll be able to edit the information for each menu item, and can drag and drop to put them in order. You can also drag a menu item a little to the right to make it a submenu, to create menus with hierarchy. You&#8217;ll see when the position of the drop target shifts over to create the nested placement. Don&#8217;t forget to click Save when you&#8217;re finished."
-msgstr "要创建自定义目录，请点击“+”选项卡，为菜单起一个名字，并点击“创建目录”。接着，从想要的部件中选择项目，加入到目录中去。您可以编辑每个目录项目的信息，并用拖放的方式为其排序。将某个项目稍稍向右拖动，这个项目即变为子目录，这样您的目录就有了层级关系。在完成后请不要忘记点击“保存”。"
+msgstr "要创建自定义菜单，请点击“+”选项卡，为菜单起一个名字，并点击“创建菜单”。接着，从想要的部件中选择项目，加入到菜单中去。您可以编辑每个菜单项目的信息，并用拖放的方式为其排序。将某个菜单项稍稍向右拖动，这个项目即变为子菜单，这样您的菜单就有了层级关系。在完成后请不要忘记点击“保存”。"
 
 #: wp-admin/nav-menus.php:456
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">Menus Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">关于目录的文档</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">关于菜单的文档</a>"
 
 #: wp-admin/nav-menus.php:487
 #: wp-includes/default-widgets.php:1106
 msgid "Select Menu:"
-msgstr "选择目录："
+msgstr "选择菜单："
 
 #: wp-admin/nav-menus.php:494
 msgid "Add New Menu"
-msgstr "添加新目录"
+msgstr "添加新菜单"
 
 #: wp-admin/nav-menus.php:519
 #: wp-admin/nav-menus.php:529
 msgid "Add menu"
-msgstr "添加目录"
+msgstr "添加菜单"
 
 #: wp-admin/nav-menus.php:539
 msgid "Menu Name"
-msgstr "目录名"
+msgstr "菜单名称"
 
 #: wp-admin/nav-menus.php:540
 msgid "Enter menu name here"
-msgstr "在此输入目录名"
+msgstr "在此输入菜单名称"
 
 #: wp-admin/nav-menus.php:554
 msgid "Automatically add new top-level pages"
-msgstr "自动添加顶级页面"
+msgstr "加入所有顶级页面"
 
 #: wp-admin/nav-menus.php:559
 msgid "Create Menu"
-msgstr "创建目录"
+msgstr "创建菜单"
 
 #: wp-admin/nav-menus.php:559
 msgid "Save Menu"
-msgstr "保存目录"
+msgstr "保存菜单"
 
 #: wp-admin/nav-menus.php:564
 msgid "Delete Menu"
-msgstr "删除目录"
+msgstr "删除菜单"
 
 #: wp-admin/nav-menus.php:585
 msgid "To create a custom menu, give it a name above and click Create Menu. Then choose items like pages, categories or custom links from the left column to add to this menu."
-msgstr "要创建一个自定义目录，为它起一个名字并点击“创建目录”。然后选择要加入目录的项目（页面、分类目录、自定义链接等）。"
+msgstr "要创建一个自定义菜单，为它起一个名字，并点击“创建菜单”。然后选择要加入菜单的项目（页面、分类目录、自定义链接等）。"
 
 #: wp-admin/nav-menus.php:586
 msgid "After you have added your items, drag and drop to put them in the order you want. You can also click each item to reveal additional configuration options."
-msgstr "添加完项目后，使用拖放的方式来对它们进行排序。您可以点击它们，进行更详细的设置。"
+msgstr "添加完菜单项后，使用拖放的方式来对它们进行排序。您可以点击它们，进行更详细的设置。"
 
 #: wp-admin/nav-menus.php:587
 msgid "When you have finished building your custom menu, make sure you click the Save Menu button."
-msgstr "当您构建完成自定义目录后，不要忘记点击“保存目录”按钮。"
+msgstr "当您完成自定义菜单的构建后，不要忘记点击“保存菜单”按钮。"
 
 #: wp-admin/options-discussion.php:13
 #: wp-admin/options-general.php:13
@@ -7229,7 +7229,7 @@ msgstr "本页面包含对评论、引用通告的显示选项。这么多，实
 #: wp-admin/options-reading.php:22
 #: wp-admin/options-writing.php:20
 msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
-msgstr "当您完成时，记得点击页面下方“保存更改”按钮使设置生效。"
+msgstr "调整完成后，记得点击页面下方“保存更改”按钮使设置生效。"
 
 #: wp-admin/options-discussion.php:22
 msgid "<a href=\"http://codex.wordpress.org/Settings_Discussion_SubPanel\" target=\"_blank\">Discussion Settings Documentation</a>"
@@ -7312,7 +7312,7 @@ msgstr "在每个页面顶部显示 %s 评论"
 #: wp-admin/options-discussion.php:116
 #: wp-admin/options-discussion.php:117
 msgid "E-mail me whenever"
-msgstr "任何时候都给我发送电子邮件"
+msgstr "何时发送电子邮件"
 
 #: wp-admin/options-discussion.php:120
 msgid "Anyone posts a comment"
@@ -7485,7 +7485,7 @@ msgstr "用简洁的文字描述本站点。"
 
 #: wp-admin/options-general.php:87
 msgid "WordPress address (URL)"
-msgstr "WordPress 安装地址 (URL)"
+msgstr "WordPress 地址（URL）"
 
 #: wp-admin/options-general.php:91
 msgid "Site address (URL)"
@@ -7733,7 +7733,7 @@ msgstr "本页面提供固定链接结构的设置。"
 
 #: wp-admin/options-permalink.php:20
 msgid "If you pick an option other than Default, your general URL path with structure tags, terms surrounded by <code>%</code>, will also appear in the custom structure field and your path can be further modified there."
-msgstr "若您选择的不是“默认”，“自定义结构”栏会出现一些字符。其中，变量的前后以 <code>%</code> 包裹，您可对它进行进一步的修改。"
+msgstr "若您选择的不是“默认”，“自定义结构”栏会出现一些字符，您可对它进行进一步的修改。请注意，变量名的前后各有一个 <code>%</code>。"
 
 #: wp-admin/options-permalink.php:21
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
@@ -7778,7 +7778,7 @@ msgstr "固定链接结构已更新。"
 
 #: wp-admin/options-permalink.php:185
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress 允许您更改默认的链接形式，以此提高 <abbr title=\"Universal Resource Locator\">URL</abbr> 的可读性和对搜索引擎的友好程度。<a href=\"http://codex.wordpress.org/Using_Permalinks\">参考</a>。"
+msgstr "WordPress 允许您更改默认的链接形式，以此提高 <abbr title=\"Universal Resource Locator\">URL</abbr> 的可读性和对搜索引擎的友好程度。<a href=\"http://codex.wordpress.org/Using_Permalinks\">阅读参考资料</a>。"
 
 #: wp-admin/options-permalink.php:201
 msgid "Common settings"
@@ -7810,11 +7810,11 @@ msgstr "可选"
 
 #: wp-admin/options-permalink.php:234
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <kbd>topics</kbd> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr>s 结构。例如，使用 <kbd>topics</kbd> 将让您的分类目录链接地址呈现为 <code>http://example.org/topics/uncategorized/</code>。留空则使用默认结构。"
+msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr> 结构。例如，使用 <kbd>topics</kbd> 将让您的分类目录链接地址呈现为 <code>http://example.org/topics/uncategorized/</code>。留空则使用默认结构。"
 
 #: wp-admin/options-permalink.php:236
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>topics</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr>s 结构。例如，使用 <code>topics</code> 将让您的分类目录链接地址呈现为 <code>http://example.org/index.php/topics/uncategorized/</code>。留空则使用默认结构。"
+msgstr "如果您喜欢，可以自由定义您的分类目录和标签的 <abbr title=\"Universal Resource Locator\">URL</abbr> 结构。例如，使用 <code>topics</code> 将让您的分类目录链接地址呈现为 <code>http://example.org/index.php/topics/uncategorized/</code>。留空则使用默认结构。"
 
 #. translators: prefix for category permalinks
 #: wp-admin/options-permalink.php:241
@@ -8018,7 +8018,7 @@ msgstr "拖拽下面的链接到您的书签工具栏或者右键单击链接把
 
 #: wp-admin/options-writing.php:78
 msgid "Post via e-mail"
-msgstr "通过电子邮件发表"
+msgstr "通过电子邮件发布"
 
 #: wp-admin/options-writing.php:79
 #, php-format
@@ -8056,7 +8056,7 @@ msgstr "Atom 发布协议"
 
 #: wp-admin/options-writing.php:119
 msgid "Enable the Atom Publishing Protocol."
-msgstr "激活 Atom 发布协议。"
+msgstr "启用 Atom 发布协议。"
 
 #: wp-admin/options-writing.php:123
 #: wp-admin/options-writing.php:124
@@ -8190,7 +8190,7 @@ msgstr "文档："
 #: wp-admin/plugin-editor.php:224
 #: wp-admin/theme-editor.php:221
 msgid "Lookup"
-msgstr "查"
+msgstr "查询"
 
 #: wp-admin/plugin-editor.php:228
 msgid "<strong>Warning:</strong> Making changes to active plugins is not recommended.  If your changes cause a fatal error, the plugin will be automatically deactivated."
@@ -8322,7 +8322,7 @@ msgstr "不，把我带到插件列表"
 
 #: wp-admin/plugins.php:287
 msgid "Click to view entire list of files which will be deleted"
-msgstr "点击查看将被删除的文件条目列表"
+msgstr "点击查看将被删除的文件列表"
 
 #: wp-admin/plugins.php:317
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
@@ -8335,7 +8335,7 @@ msgstr "您可以使用全新的<a href=\"%1$s\">插件浏览/安装器</a>查�
 
 #: wp-admin/plugins.php:319
 msgid "Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&#8217;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue."
-msgstr "大多数时候，每个插件其他插件、WordPress 核心程序共同工作，一切正常。但是 ... 有的时候某些插件会和其他插件相冲突，进而产生兼容性问题。如果您的站点工作异常，可能是由这个原因导致的。您可尝试禁用所有插件，再逐个启用，以排除问题。"
+msgstr "通常，每个插件其他插件、WordPress 核心程序共同工作，一切正常。但是 ... 有的时候某些插件会和其他插件相冲突，进而产生兼容性问题。如果您的站点工作异常，可能是由这个原因导致的。您可尝试禁用所有插件，再逐个启用，以排除问题。"
 
 #: wp-admin/plugins.php:320
 #, php-format
@@ -8349,7 +8349,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Managing_Plugins#Plugin_Management\
 #: wp-admin/plugins.php:333
 #, php-format
 msgid "The plugin <code>%s</code> has been <strong>deactivated</strong> due to an error: %s"
-msgstr "插件<code>%s</code><strong>未被启用</strong>由于错误：%s"
+msgstr "插件<code>%s</code> <strong>未能启用</strong>，因为：%s"
 
 #: wp-admin/plugins.php:339
 #, php-format
@@ -8724,7 +8724,7 @@ msgstr "要开始，请在右上角选择一个主题，并点击“选择”。
 
 #: wp-admin/theme-editor.php:20
 msgid "For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Lookup takes you to a web page with reference material about that particular function."
-msgstr "对于 PHP 文件，您可以使用“文档”下拉菜单选择我们从文件中识别出的函数。点击“查询”按钮可查看有关该函数的页面。"
+msgstr "对于 PHP 文件，您可以使用“文档”下拉列表选择我们从文件中识别出的函数。点击“查询”按钮可查看有关该函数的页面。"
 
 #: wp-admin/theme-editor.php:21
 msgid "After typing in your edits, click Update File."
@@ -8811,7 +8811,7 @@ msgstr "您不仅可以用关键词、作者或标签来搜索主题，也可以
 
 #: wp-admin/theme-install.php:58
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
-msgstr "您可以手动上传从别处下载的 ZIP 文件（请确认来源可靠）。您也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
+msgstr "您可以手动上传从别处下载的 zip 文件（请确认来源可靠）。您也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
 
 #: wp-admin/theme-install.php:60
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
@@ -9016,7 +9016,7 @@ msgstr "本地化版本包含了翻译和其他本地化修复，您可以跳过
 #: wp-admin/update-core.php:73
 #, php-format
 msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
-msgstr "您将安装<strong>英文版本</strong>的 WordPress %s ，这可能会破坏您当前的翻译，您可以等待本地化版本发布。"
+msgstr "您将安装<strong>英文版本</strong>的 WordPress %s，这可能会破坏您当前的翻译，您可以等待本地化版本发布。"
 
 #: wp-admin/update-core.php:83
 #: wp-admin/update-core.php:95
@@ -9070,7 +9070,7 @@ msgstr "升级插件"
 #: wp-admin/update-core.php:206
 #, php-format
 msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
-msgstr "与 WordPress %1$s 的兼容性：100%%（来自作者）"
+msgstr "与 WordPress %1$s 的兼容性：100%%（作者自评）"
 
 #: wp-admin/update-core.php:209
 #: wp-admin/update-core.php:217
@@ -9082,7 +9082,7 @@ msgstr "与 WordPress %1$s 的兼容性：%2$d%%（%4$d 人次投票，其中 %3
 #: wp-admin/update-core.php:219
 #, php-format
 msgid "Compatibility with WordPress %1$s: Unknown"
-msgstr "WordPress %1$s 兼容性：未知"
+msgstr "与 WordPress %1$s 的兼容性：未知"
 
 #: wp-admin/update-core.php:231
 #: wp-admin/update-core.php:281
@@ -9176,7 +9176,7 @@ msgstr "上传插件"
 #: wp-admin/update.php:137
 #, php-format
 msgid "Installing Plugin from uploaded file: %s"
-msgstr "安装插件从上传的文件：%s"
+msgstr "安装您上传的插件：%s"
 
 #: wp-admin/update.php:150
 #: wp-admin/update.php:170
@@ -9475,7 +9475,7 @@ msgstr "撰写文章时禁用可视化编辑器"
 
 #: wp-admin/user-edit.php:209
 msgid "Enable keyboard shortcuts for comment moderation."
-msgstr "激活评论审核键盘快捷键。"
+msgstr "启用评论审核键盘快捷键。"
 
 #: wp-admin/user-edit.php:209
 msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">More information</a>"
@@ -10265,7 +10265,7 @@ msgstr "阻塞"
 #: wp-content/plugins/akismet/akismet.php:239
 #, php-format
 msgid "Last checked %s ago."
-msgstr "最后一次检查在 %s 之前"
+msgstr "最后一次检查在 %s之前"
 
 #: wp-content/plugins/akismet/admin.php:191
 #: wp-content/plugins/akismet/akismet.php:240
@@ -10297,7 +10297,7 @@ msgstr "Akismet 准备就绪。"
 #: wp-content/plugins/akismet/akismet.php:377
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
-msgstr "您必须<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
+msgstr "您必需<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使其工作。"
 
 #: wp-content/plugins/akismet/admin.php:271
 #: wp-content/plugins/akismet/akismet.php:385
@@ -10337,7 +10337,7 @@ msgstr "<a href=\"%1$s\">Akismet</a> 在您的博客上过滤垃圾留言，"
 #: wp-content/plugins/akismet/admin.php:394
 #, php-format
 msgid " but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
-msgstr "但目前<a href='%1$s'>垃圾评论队列</a>为空。"
+msgstr "目前<a href='%1$s'>垃圾评论队列</a>为空。"
 
 #: wp-content/plugins/akismet/admin.php:399
 #, php-format
@@ -10363,7 +10363,7 @@ msgstr "%s 认为这不是垃圾评论"
 #: wp-content/plugins/akismet/admin.php:489
 #, php-format
 msgid "%s spammed this comment"
-msgstr "%s 将此评论标记为垃圾评论"
+msgstr "%s 已将此评论标记为垃圾评论"
 
 #: wp-content/plugins/akismet/admin.php:568
 msgid "Akismet re-checked and caught this comment as spam"
@@ -10945,7 +10945,7 @@ msgstr "功能"
 
 #: wp-includes/default-widgets.php:298
 msgid "Syndicate this site using RSS 2.0"
-msgstr "使用 RSS 2.0 同步此内容"
+msgstr "使用 RSS 2.0 同步站点内容"
 
 #: wp-includes/default-widgets.php:298
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
@@ -10953,11 +10953,11 @@ msgstr "文章 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-includes/default-widgets.php:299
 msgid "The latest comments to all posts in RSS"
-msgstr "RSS 上的最近评论"
+msgstr "使用 RSS 同步站点的近期评论"
 
 #: wp-includes/default-widgets.php:299
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
-msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> 评论"
+msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-includes/default-widgets.php:300
 #: wp-includes/theme-compat/sidebar.php:75
@@ -11084,11 +11084,11 @@ msgstr "分类方法："
 
 #: wp-includes/default-widgets.php:1059
 msgid "Use this widget to add one of your custom menus as a widget."
-msgstr "这个小工具可使自定义目录显示在边栏中"
+msgstr "这个小工具可使自定义菜单显示在边栏中"
 
 #: wp-includes/default-widgets.php:1060
 msgid "Custom Menu"
-msgstr "自定义目录"
+msgstr "自定义菜单"
 
 #: wp-includes/default-widgets.php:1097
 #, php-format
@@ -11513,7 +11513,7 @@ msgstr "未找到页面"
 #: wp-includes/general-template.php:925
 #, php-format
 msgid "%1$s %2$d"
-msgstr "%2$d 年 %1$s"
+msgstr "%2$d 年%1$s"
 
 #. translators: Calendar caption: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:1134
@@ -13325,12 +13325,12 @@ msgstr "文件 &#8220;%s&#8221; 不存在？"
 
 #: wp-includes/media.php:249
 msgid "The GD image library is not installed."
-msgstr "GD 图像模块没有安装。"
+msgstr "GD 图像模块未安装。"
 
 #: wp-includes/media.php:256
 #, php-format
 msgid "File &#8220;%s&#8221; is not an image."
-msgstr "文件 “%s” 不是一个图像文件。"
+msgstr "“%s”不是图像文件。"
 
 #: wp-includes/media.php:413
 msgid "Could not read image size"
@@ -13358,7 +13358,7 @@ msgstr "给出的对象 ID 不是一个目录项目的 ID。"
 
 #: wp-includes/nav-menu.php:580
 msgid "Custom"
-msgstr "自定"
+msgstr "自定义"
 
 #: wp-includes/pluggable.php:490
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
@@ -13649,11 +13649,11 @@ msgstr "修订版本"
 
 #: wp-includes/post.php:72
 msgid "Navigation Menu Items"
-msgstr "导航目录项目"
+msgstr "导航菜单项目"
 
 #: wp-includes/post.php:73
 msgid "Navigation Menu Item"
-msgstr "导航目录项目"
+msgstr "导航菜单项目"
 
 #: wp-includes/post.php:84
 msgctxt "post"
@@ -13851,15 +13851,15 @@ msgstr "(快捷链接)"
 
 #: wp-includes/script-loader.php:76
 msgid "Enter a word to look up:"
-msgstr "输入一个供查找："
+msgstr "输入关键词以查询："
 
 #: wp-includes/script-loader.php:77
 msgid "Dictionary lookup"
-msgstr "查看字典"
+msgstr "查字典"
 
 #: wp-includes/script-loader.php:78
 msgid "lookup"
-msgstr "查"
+msgstr "查字典"
 
 #: wp-includes/script-loader.php:79
 msgid "Close all open tags"
@@ -14067,7 +14067,7 @@ msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"您将永久删除所选目录。\n"
+"您将永久删除所选菜单。\n"
 " 点击“取消”停止，点击“确定”删除。"
 
 #: wp-includes/script-loader.php:508
@@ -14084,11 +14084,11 @@ msgstr "正在保存草稿 &#8230;"
 
 #: wp-includes/taxonomy.php:41
 msgid "Navigation Menus"
-msgstr "导航目录"
+msgstr "导航菜单"
 
 #: wp-includes/taxonomy.php:42
 msgid "Navigation Menu"
-msgstr "导航目录"
+msgstr "导航菜单"
 
 #: wp-includes/taxonomy.php:355
 msgctxt "taxonomy general name"
@@ -14327,25 +14327,25 @@ msgstr "发表评论"
 #: wp-includes/theme-compat/footer.php:17
 #, php-format
 msgid "%1$s is proudly powered by %2$s"
-msgstr "%1$s 由 %2$s 构建"
+msgstr "%1$s 自豪地采用 %2$s 构建"
 
 #: wp-includes/theme-compat/footer.php:19
 #, php-format
 msgid "%1$s and %2$s."
-msgstr "%1$s 与 %2$s。"
+msgstr "%1$s 和%2$s。"
 
 #: wp-includes/theme-compat/footer.php:19
 msgid "Entries (RSS)"
-msgstr "条目（RSS）"
+msgstr "文章 RSS"
 
 #: wp-includes/theme-compat/footer.php:19
 msgid "Comments (RSS)"
-msgstr "评论（RSS）"
+msgstr "评论 RSS"
 
 #: wp-includes/theme-compat/footer.php:20
 #, php-format
 msgid "%d queries. %s seconds."
-msgstr "%d 次查询。用时 %s 秒。"
+msgstr "%d 次查询，用时 %s 秒。"
 
 #: wp-includes/theme-compat/sidebar.php:32
 #, php-format
@@ -14442,7 +14442,7 @@ msgstr "站点被挂起。"
 #: wp-includes/user.php:109
 #, php-format
 msgid "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>错误</strong>：错误的密码。<a href=\"%s\" title=\"Password Lost and Found\">忘记密码</a>？"
+msgstr "<strong>错误</strong>：密码不正确。<a href=\"%s\" title=\"Password Lost and Found\">忘记密码</a>？"
 
 #: wp-includes/user.php:134
 msgid "Please log in again."
@@ -14906,7 +14906,7 @@ msgstr "您在这个站点上没有上传文件的权限。"
 #: xmlrpc.php:2812
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
-msgstr "无法写文件  %1$s（%2$s）"
+msgstr "无法写文件 %1$s（%2$s）"
 
 #: xmlrpc.php:2955
 msgid "Sorry, you can not edit this post."
@@ -15036,7 +15036,7 @@ msgstr "您的服务器现在运行的 PHP 版本为 %1$s 但 WordPress %2$s 要
 #. Not gettexted string WP_I18N_OLD_MYSQL
 #: wp-includes/load.php:110
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "您的 PHP 似乎没有安装运行 WordPress 必须的 MySQL 拓展。"
+msgstr "您的 PHP 似乎没有安装运行 WordPress 必须的 MySQL 扩展。"
 
 #. Not gettexted string WP_I18N_MAINTENANCE
 #: wp-includes/load.php:168
