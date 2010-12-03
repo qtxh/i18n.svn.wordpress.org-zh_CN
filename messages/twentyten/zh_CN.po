@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Twenty Ten\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyten\n"
 "POT-Creation-Date: 2010-07-14 16:21+0000\n"
-"PO-Revision-Date: 2010-12-01 21:28+0800\n"
+"PO-Revision-Date: 2010-12-03 22:25+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -158,7 +158,7 @@ msgstr "优雅的个人发布平台"
 #: footer.php:35
 #, php-format
 msgid "Proudly powered by %s."
-msgstr "骄傲地采用 %s。"
+msgstr "自豪地采用 %s。"
 
 #: functions.php:97
 msgid "Primary Navigation"
@@ -217,7 +217,7 @@ msgstr "您的评论正等待审核。"
 #: functions.php:318
 #, php-format
 msgid "%1$s at %2$s"
-msgstr "%2$s %1$s"
+msgstr "%1$s%2$s"
 
 #: functions.php:318
 #: functions.php:335
