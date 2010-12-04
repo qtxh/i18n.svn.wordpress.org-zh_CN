@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-12-03 11:04+0000\n"
-"PO-Revision-Date: 2010-12-04 17:04+0800\n"
+"PO-Revision-Date: 2010-12-04 17:19+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -2793,7 +2793,7 @@ msgstr[0] "启用 <span class=\"count\">(%s)</span>"
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
-msgstr[0] "最近启用 <span class=\"count\">(%s)</span>"
+msgstr[0] "最近使用过 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:224
 #, php-format
@@ -8993,7 +8993,7 @@ msgstr "您使用的 WordPress 是最新版本。"
 
 #: wp-admin/update-core.php:143
 msgid "<strong>Important:</strong> before updating, please <a href=\"http://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"http://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
-msgstr "<strong>重要：</strong>升级前，请<a href=\"http://codex.wordpress.org/WordPress_Backups\">备份您的数据库和文件</a>。要获取关于升级的帮助，请访问<a href=\"http://codex.wordpress.org/Updating_WordPress\">升级 WordPress</a> Codex 文档页面。"
+msgstr "<strong>重要：</strong>升级前，请<a href=\"http://codex.wordpress.org/WordPress_Backups\">备份您的数据库和文件</a>。要获取关于升级的帮助，请参阅 Codex 文档：<a href=\"http://codex.wordpress.org/Updating_WordPress\">升级 WordPress</a> 页面。"
 
 #: wp-admin/update-core.php:147
 msgid "An updated version of WordPress is available."
@@ -10217,12 +10217,12 @@ msgstr "但目前<a href='%1$s'>垃圾评论队列</a>为空。"
 #, php-format
 msgctxt "akismet_rightnow"
 msgid "%1$s%2$s"
-msgstr "%1$s，%2$s"
+msgstr "%1$s%2$s"
 
 #: wp-content/plugins/akismet/admin.php:401
 #, php-format
 msgid "%1$s%2$s|akismet_rightnow"
-msgstr "%1$s，%2$s|akismet_rightnow"
+msgstr "%1$s%2$s|akismet_rightnow"
 
 #: wp-content/plugins/akismet/admin.php:417
 #: wp-content/plugins/akismet/akismet.php:730
@@ -10273,12 +10273,12 @@ msgstr "目前<a href='%1$s'>垃圾评论队列</a>为空。"
 #, php-format
 msgctxt "akismet_rightnow"
 msgid "%1$s %2$s"
-msgstr "%1$s，%2$s"
+msgstr "%1$s%2$s"
 
 #: wp-content/plugins/akismet/akismet.php:714
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
-msgstr "%1$s %2$s|akismet_rightnow"
+msgstr "%1$s%2$s|akismet_rightnow"
 
 #: wp-content/plugins/akismet/akismet.php:810
 #, php-format
