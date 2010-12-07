@@ -3,29 +3,27 @@
 define( 'ZH_CN_PACK_OPTIONS_VERSION' , 2 );
 
 function zh_cn_language_pack_backend_register_settings() {
+    /*
+        XXX 这是一个 workaround。XXX
+        由于本地化“插件”不提供启用钩子和禁用钩子，
+        我们必须在这里注册设置选项，并指定初值。
+        
+        确实有些 dirty，未来大概会提交 upstream 处理。
+        也欢迎看到这条消息的你，可以为我们出谋划策。
+        
+        谢谢！
+        
+                                 -- jiehanzheng
+    */
+
+    add_option( 'zh_cn_language_pack_options_version',
+                ZH_CN_PACK_OPTIONS_VERSION );
+    add_option( 'zh_cn_language_pack_enable_backend_style_modifications', 1 );
+    
     register_setting( 'zh-cn-language-pack-general-settings',
                       'zh_cn_language_pack_options_version' );
     register_setting( 'zh-cn-language-pack-general-settings',
                       'zh_cn_language_pack_enable_backend_style_modifications' );
-    // XXX 移除不再使用的设置项。
-    unregister_setting( 'zh-cn-language-pack-general-settings',
-                        'zh_cn_language_pack_is_configured' );
-}
-
-function zh_cn_language_pack_init() {        
-    if( !(get_option('zh_cn_language_pack_options_version') > 0) ) {
-        // 初次使用      
-        // 记录当前语言包设置版本
-        update_option( 'zh_cn_language_pack_enable_backend_style_modifications', 1 );
-        update_option( 'zh_cn_language_pack_options_version', ZH_CN_PACK_OPTIONS_VERSION );
-    }
-    
-    /*        
-        if( get_option('zh_cn_language_pack_options_version') < [SOME VERSION] ) {
-            // 曾使用过，升级
-            // TODO 未来在这里添加新选项的初始值
-        }
-    */
 }
 
 function zh_cn_language_pack_backend_create_menu() {
@@ -61,11 +59,9 @@ function zh_cn_language_pack_settings_page() {
             </td>
         </tr>
     </table>
-
-    <input type="hidden" id="zh_cn_language_pack_is_configured" name="zh_cn_language_pack_is_configured" value="1" />
     
     <p class="submit">
-        <input type="submit" class="button-primary" value="<?php _e('保存设置') ?>" />
+        <input type="submit" class="button-primary" value="保存设置" />
     </p>
 
     <!--
@@ -140,7 +136,6 @@ EOF;
 }
 
 add_action( 'admin_init', 'zh_cn_language_pack_backend_register_settings' );
-add_action( 'admin_init', 'zh_cn_language_pack_init' );
 
 if ( is_admin() ) {
     add_action( 'admin_menu', 'zh_cn_language_pack_backend_create_menu' );
