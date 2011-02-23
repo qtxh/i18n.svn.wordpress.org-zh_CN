@@ -1,33 +1,17 @@
 <?php
 
-define( 'ZH_CN_PACK_OPTIONS_VERSION' , 2 );
+define( 'ZH_CN_PACK_OPTIONS_VERSION' , 3 );
 
 function zh_cn_language_pack_backend_register_settings() {
-    register_setting( 'zh-cn-language-pack-general-settings',
-                      'zh_cn_language_pack_options_version' );
+    add_option( 'zh_cn_language_pack_enable_backend_style_modifications', 1 );
+    add_option( 'zh_cn_language_pack_enable_chinese_fake_oembed', 1 );
+    
     register_setting( 'zh-cn-language-pack-general-settings',
                       'zh_cn_language_pack_enable_backend_style_modifications' );
-    // XXX 移除不再使用的设置项。
-    unregister_setting( 'zh-cn-language-pack-general-settings',
-                        'zh_cn_language_pack_is_configured' );
-}
+    register_setting( 'zh-cn-language-pack-general-settings',
+                      'zh_cn_language_pack_enable_chinese_fake_oembed' );
 
-function zh_cn_language_pack_init() {        
-    if( !(get_option('zh_cn_language_pack_options_version') > 0) ) {
-        // 初次使用      
-        // 记录当前语言包设置版本
-        update_option( 'zh_cn_language_pack_enable_backend_style_modifications', 1 );
-        update_option( 'zh_cn_language_pack_options_version', ZH_CN_PACK_OPTIONS_VERSION );
-    }
-    
-    /*        
-        if( get_option('zh_cn_language_pack_options_version') < [SOME VERSION] ) {
-            // 曾使用过，升级
-            // TODO 未来在这里添加新选项的初始值
-            // TODO 记录升级后语言包设置版本
-            update_option( 'zh_cn_language_pack_options_version', [SOME VERSION] );
-        }
-    */
+    delete_option( 'zh_cn_language_pack_options_version' ); // TODO 请不要忘记在 3.1 以后移除本行
 }
 
 function zh_cn_language_pack_backend_create_menu() {
@@ -38,10 +22,17 @@ function zh_cn_language_pack_backend_create_menu() {
 function zh_cn_language_pack_contextual_help() {
     add_contextual_help('settings_page_zh-cn-language-pack-settings',
         '<p>在这里对 WordPress 官方中文语言包进行自定义。</p>' .
-        '<p>自 WordPress 3.0.1，WordPress 中文版本新添加了“后台样式优化”的功能。开启后可以令后台显示中文更加美观，它不会影响到您站点前台的样式。</p>' .
+        '<p><strong>后台样式优化</strong> - 开启后可以令后台显示中文更加美观，它不会影响到您站点前台的样式。默认开启。</p>' .
+        '<p><strong>中文视频网站视频自动嵌入</strong> - 允许您以在文章添加视频播放页面网址的方式，简单地插入优酷网、56.com 和土豆网视频。默认开启。<br />当前支持的站点、样例 URL 和参数如下：</p>' .
+        '<ul>' .
+        '   <li><em>优酷网</em> - 如 <code>http://v.youku.com/v_show/id_XMjQxMjc1MDIw.html</code> - 宽 480px，高 400px</li>' .
+        '   <li><em>56.com</em> - 如 <code>http://www.56.com/u21/v_NTgxMzE4NDI.html</code> - 宽 480px，高 395px</li>' .
+        '   <li><em>土豆网</em> - 如 <code>http://www.tudou.com/programs/view/o9tsm_CL5As/</code> - 宽 480px，高 400px</li>' .
+        '</ul>' .
+        '<p>您只需在文章另起一段，写入形如上述的播放页面链接。在文章显示时，WordPress 将自动替换这些链接为相应视频播放器。需要您特别注意的是，请不要为 URL 设置超链接，且该 URL 本身必须独立成段。' .
         '<p><strong>更多信息：</strong></p>' .
-        '<p>若您发现任何文字上的错误，欢迎访问下列页面进行回报 ——<br />' .
-        '<a href="http://cn.wordpress.org/contact/" target="_blank">WordPress China “联系”页面</a></p>'
+        '<p>若您发现任何文字上的错误，或有任何意见、建议，欢迎访问下列页面进行回报 ——<br />' .
+        '<a href="http://cn.wordpress.org/contact/" target="_blank">WordPress China “联系”页面</a> - 不过，需要您注意的是，并不是所有问题都会被回答。</p>'
     );
 }
 
@@ -59,33 +50,46 @@ function zh_cn_language_pack_settings_page() {
             <td>
                 <label for="zh_cn_language_pack_enable_backend_style_modifications"><input type="checkbox" id="zh_cn_language_pack_enable_backend_style_modifications" name="zh_cn_language_pack_enable_backend_style_modifications" value="1"<?php checked('1', get_option('zh_cn_language_pack_enable_backend_style_modifications')); ?> /> 对后台样式进行优化。</label>
                 <br />
-                <span class="description">优化控制板以及登录页面的字体样式。此操作不会影响到您的博客前台。</span>
+                <span class="description">
+                    优化控制板以及登录页面的字体样式。此操作不会影响到您的博客前台。
+                </span>
+            </td>
+        </tr>
+        <tr valign="top">
+            <th scope="row">中国视频网站视频自动嵌入</th>
+            <td>
+                <label for="zh_cn_language_pack_enable_chinese_fake_oembed"><input type="checkbox" id="zh_cn_language_pack_enable_chinese_fake_oembed" name="zh_cn_language_pack_enable_chinese_fake_oembed" value="1"<?php checked('1', get_option('zh_cn_language_pack_enable_chinese_fake_oembed')); ?> /> 自动从 URL 嵌入中国视频网站上的视频。</label>
+                <br />
+                <span class="description">
+                    WordPress 核心程序的 oEmbed 功能无法嵌入中国视频网站的视频，因为中国视频网站大多不提供 oEmbed 服务。本选项启用后，程序将采用固定方式，在显示文章时自动将 URL 替换成相应的 Flash 视频嵌入代码。用法、支持的站点、样例 URL 格式及其嵌入大小，请见页面上方“帮助”选项卡。（试验功能。需要 <code>preg_replace()</code> 函数。在视频网站做出调整时可能出现问题。功能按照视频网站提供的嵌入代码编写，可能破坏您页面的 HTML / XHTML 标准性，可能破坏页面宽度。请慎用。）
+                </span>
             </td>
         </tr>
     </table>
-
-    <input type="hidden" id="zh_cn_language_pack_is_configured" name="zh_cn_language_pack_is_configured" value="1" />
     
     <p class="submit">
-        <input type="submit" class="button-primary" value="<?php _e('保存设置') ?>" />
+        <input type="submit" class="button-primary" value="保存设置" />
     </p>
-
-    <!--
-    <p>
-        <strong>调试信息：</strong><br />
-        zh_cn_language_pack_enable_backend_style_modifications = <?php echo get_option('zh_cn_language_pack_enable_backend_style_modifications'); ?><br />
-        zh_cn_language_pack_options_version = <?php echo get_option('zh_cn_language_pack_options_version'); ?><br />
-        ZH_CN_PACK_OPTIONS_VERSION = <?php echo ZH_CN_PACK_OPTIONS_VERSION; ?>
-    </p>
-    -->
-    
 </form>
 
-<h3 class="title">翻译纠错、使用中文提交 bug、免费技术支持</h3>
+<h3 class="title">翻译纠错、使用中文提交 bug、简单免费技术支持</h3>
 <p>请点击页面上方的“帮助”以获取联系信息。</p>
 
 </div><?php
 }
+
+function zh_cn_language_pack_substitute_chinese_video_urls( $content ) {
+    $schema = array('/^<p>http:\/\/v\.youku\.com\/v_show\/id_([a-z0-9_=]+)\.html((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://player.youku.com/player.php/sid/$1/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed></p>',
+                    '/^<p>http:\/\/www\.56\.com\/[a-z0-9]+\/v_([a-z0-9_]+)\.html((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://player.56.com/v_$1.swf" type="application/x-shockwave-flash" width="480" height="395" allowNetworking="all" allowScriptAccess="always"></embed></p>',
+                    '/^<p>http:\/\/www\.tudou\.com\/programs\/view\/([a-z0-9_]+)[\/]?((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://www.tudou.com/v/$1/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed></p>');
+
+    foreach ( $schema as $pattern => $replacement ) {
+        $content = preg_replace( $pattern, $replacement, $content );
+    }
+    
+    return $content;
+}
+    
 
 function zh_cn_language_pack_backend_style_modify() {
     echo <<<EOF
@@ -142,16 +146,19 @@ EOF;
 }
 
 add_action( 'admin_init', 'zh_cn_language_pack_backend_register_settings' );
-add_action( 'admin_init', 'zh_cn_language_pack_init' );
 
 if ( is_admin() ) {
     add_action( 'admin_menu', 'zh_cn_language_pack_backend_create_menu' );
-    add_action( 'admin_head-settings_page_zh-cn-language-pack-settings', 'zh_cn_language_pack_contextual_help');
+    add_action( 'admin_head-settings_page_zh-cn-language-pack-settings', 'zh_cn_language_pack_contextual_help' );
 }
 
 if ( get_option('zh_cn_language_pack_enable_backend_style_modifications') == 1 ) {
     add_action( 'admin_head', 'zh_cn_language_pack_backend_style_modify' );
     add_action( 'login_head', 'zh_cn_language_pack_login_screen_style_modify' );
+}
+
+if ( get_option('zh_cn_language_pack_enable_chinese_fake_oembed') == 1 ) {
+    add_filter( 'the_content', 'zh_cn_language_pack_substitute_chinese_video_urls' );
 }
 
 ?>
