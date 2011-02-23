@@ -29,7 +29,7 @@ function zh_cn_language_pack_contextual_help() {
         '   <li><em>56.com</em> - 如 <code>http://www.56.com/u21/v_NTgxMzE4NDI.html</code> - 宽 480px，高 395px</li>' .
         '   <li><em>土豆网</em> - 如 <code>http://www.tudou.com/programs/view/o9tsm_CL5As/</code> - 宽 480px，高 400px</li>' .
         '</ul>' .
-        '<p>您只需在文章另起一段，写入形如上述的播放页面链接。在文章显示时，WordPress 将自动替换这些链接为相应视频播放器。需要您特别注意的是，请不要为 URL 设置超链接。' .
+        '<p>您只需在文章另起一段，写入形如上述的播放页面链接。在文章显示时，WordPress 将自动替换这些链接为相应视频播放器。需要您特别注意的是，请不要为 URL 设置超链接，且该 URL 本身必须独立成段。' .
         '<p><strong>更多信息：</strong></p>' .
         '<p>若您发现任何文字上的错误，或有任何意见、建议，欢迎访问下列页面进行回报 ——<br />' .
         '<a href="http://cn.wordpress.org/contact/" target="_blank">WordPress China “联系”页面</a> - 不过，需要您注意的是，并不是所有问题都会被回答。</p>'
@@ -79,7 +79,7 @@ function zh_cn_language_pack_settings_page() {
 }
 
 function zh_cn_language_pack_substitute_chinese_video_urls( $content ) {
-    $schema = array('/^<p>http:\/\/v\.youku\.com\/v_show\/id_([a-z0-9_]+)\.html((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://player.youku.com/player.php/sid/$1/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed></p>',
+    $schema = array('/^<p>http:\/\/v\.youku\.com\/v_show\/id_([a-z0-9_=]+)\.html((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://player.youku.com/player.php/sid/$1/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed></p>',
                     '/^<p>http:\/\/www\.56\.com\/[a-z0-9]+\/v_([a-z0-9_]+)\.html((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://player.56.com/v_$1.swf" type="application/x-shockwave-flash" width="480" height="395" allowNetworking="all" allowScriptAccess="always"></embed></p>',
                     '/^<p>http:\/\/www\.tudou\.com\/programs\/view\/([a-z0-9_]+)[\/]?((\?|#|&).*?)*?\s*<\/p>\s*$/im' => '<p><embed src="http://www.tudou.com/v/$1/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed></p>');
 
