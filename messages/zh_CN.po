@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2011-02-23 14:57:11+00:00\n"
-"PO-Revision-Date: 2011-02-24 18:14+0800\n"
+"PO-Revision-Date: 2011-03-06 17:19+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: wp-includes/capabilities.php:727
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
-msgstr "插件和主题中，用户等级的使用已不被支持。请换用角色和兼容性。"
+msgstr "插件和主题中，用户等级的使用已不被支持。请换用角色和权限。"
 
 #: wp-includes/class-wp-admin-bar.php:104
 #: wp-includes/default-widgets.php:175
@@ -1163,7 +1163,7 @@ msgstr "预览这篇文章"
 
 #: wp-includes/script-loader.php:555
 msgid "Saving Draft&#8230;"
-msgstr "正在保存草稿 &#8230;"
+msgstr "正在保存草稿&#8230;"
 
 #: wp-includes/post-template.php:112
 msgid "Protected: %s"
@@ -5795,7 +5795,7 @@ msgstr "添加新用户"
 
 #: wp-admin/user-new.php:137
 msgid "To add a new user to your site, fill in the form on this screen. If you&#8217;re not sure which role to assign, you can use the link below to review the different roles and their capabilities. Here is a basic overview of roles:"
-msgstr "要为您的站点添加用户，请填写本页面的表单。如果您不知道应该授予用户何种权限，您可以点击下面的链接，查看不同用户角色的区别。下面做一些概述："
+msgstr "要为您的站点添加用户，请填写本页面的表单。如果您不知道应该授予用户何种权限，您可以点击下面的链接，查看不同用户角色的权限之区别。下面做一些概述："
 
 #: wp-admin/user-new.php:139
 msgid "Administrators have access to all the administration features."
@@ -6031,7 +6031,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Links_Add_New_SubPanel\" target=\"_
 
 #: wp-admin/edit-link-form.php:59
 msgid "Link added."
-msgstr "链接已添加"
+msgstr "链接已添加。"
 
 #: wp-admin/edit-link-form.php:89
 msgid "Example: Nifty blogging software"
@@ -6747,7 +6747,7 @@ msgstr "头像"
 
 #: wp-admin/options-discussion.php:162
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your site."
-msgstr "头像是一个在各个博客间一直跟随您的图像，在每个启用头像的站点上，它显示在您的名字旁边。在这里您可以启用您博客上的读者评论头像显示功能。"
+msgstr "头像是一个在各个博客间一直跟随您的图像。在每个启用头像的站点上，它显示在您的名字旁边。在这里您可以启用您站点上的读者评论头像显示功能。"
 
 #: wp-admin/options-discussion.php:168
 #: wp-admin/options-discussion.php:169
@@ -6765,7 +6765,7 @@ msgstr "显示头像"
 #: wp-admin/options-discussion.php:180
 #: wp-admin/options-discussion.php:181
 msgid "Maximum Rating"
-msgstr "最大等级"
+msgstr "最高等级"
 
 #: wp-admin/options-discussion.php:186
 msgid "G &#8212; Suitable for all audiences"
@@ -6998,7 +6998,7 @@ msgstr "站点可见性"
 
 #: wp-admin/options-privacy.php:42
 msgid "I would like my site to be visible to everyone, including search engines (like Google, Bing, Technorati) and archivers"
-msgstr "我想让我的站点对任何人可见， 包括搜索引擎（如 Google、Bing、Technorati 等）和互联网存档器"
+msgstr "我想让我的站点对任何人可见，包括搜索引擎（如 Google、Bing、Technorati 等）和互联网存档器"
 
 #: wp-admin/options-privacy.php:44
 msgid "I would like to block search engines, but allow normal visitors"
@@ -8761,7 +8761,7 @@ msgstr "行"
 #: wp-admin/options-writing.php:43
 #: wp-admin/options-writing.php:44
 msgid "Formatting"
-msgstr "格式化"
+msgstr "格式"
 
 #: wp-admin/options-writing.php:47
 msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
@@ -8871,7 +8871,7 @@ msgstr "下载最新构建版本"
 
 #: wp-admin/update-core.php:37
 msgid "You have the latest version of WordPress. You do not need to update. However, if you want to re-install version %s, you can do so automatically or download the package and re-install manually:"
-msgstr "您正在使用最新版本的 WordPress。您无需升级。尽管如此，您还是可以重新安装 %s 版本，自动重新安装或者下载安装包手动重新安装："
+msgstr "您正在使用最新版本的 WordPress。您无需升级。尽管如此，您还是可以重新安装 %s 版本。自动重新安装或者下载安装包手动重新安装："
 
 #: wp-admin/update-core.php:38
 msgid "Re-install Automatically"
@@ -8879,7 +8879,7 @@ msgstr "自动重新安装"
 
 #: wp-admin/update-core.php:50
 msgid "You can update to <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %2$s</a> automatically or download the package and install it manually:"
-msgstr "您可以选择自动升级到 <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %2$s 版本</a>或者下载安装包手动安装："
+msgstr "您可以选择自动升级到 <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %2$s 版本</a>，或者下载安装包手动安装："
 
 #: wp-admin/update-core.php:54
 msgid "Download %s"
@@ -8891,7 +8891,7 @@ msgstr "隐藏这个更新"
 
 #: wp-admin/update-core.php:73
 msgid "Bring back this update"
-msgstr "重新采用这个升级"
+msgstr "重新采用这个更新"
 
 #: wp-admin/update-core.php:76
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
@@ -9314,7 +9314,7 @@ msgstr "送交审查"
 #: wp-admin/includes/dashboard.php:919
 #: wp-admin/includes/dashboard.php:1019
 msgid "Loading&#8230;"
-msgstr "载入中 &#8230;"
+msgstr "载入中&#8230;"
 
 #: wp-admin/includes/dashboard.php:554
 #: wp-admin/includes/dashboard.php:770
@@ -9921,7 +9921,7 @@ msgstr "您目前只安装了一个主题。您可访问“网络管理员”页
 
 #: wp-admin/includes/class-wp-themes-list-table.php:83
 msgid "You only have one theme installed right now. Live a little! You can choose from over 1,000 free themes in the WordPress.org Theme Directory at any time: just click on the <a href=\"%s\">Install Themes</a> tab above."
-msgstr "您目前只安装了一个主题，太少了吧！您可随时从上千 WordPress.org 主题目录中的上千种免费主题中选择：只需点击上方的<a href=\"%s\">安装主题</a>标签。"
+msgstr "您目前只安装了一个主题，太少了吧！您可随时从 WordPress.org 主题目录中的上千种免费主题中选择：只需点击上方的<a href=\"%s\">安装主题</a>标签。"
 
 #: wp-admin/includes/class-wp-themes-list-table.php:89
 msgid "Only the current theme is available to you. Contact the %s administrator for information about accessing additional themes."
@@ -11260,7 +11260,7 @@ msgstr "下载失败。"
 #: wp-admin/includes/class-wp-upgrader.php:55
 #: wp-admin/includes/update-core.php:327
 msgid "Installing the latest version&#8230;"
-msgstr "安装最新版本 &#8230;"
+msgstr "正在安装最新版本&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:56
 msgid "Destination folder already exists."
@@ -11268,11 +11268,11 @@ msgstr "目标文件夹已存在。"
 
 #: wp-admin/includes/class-wp-upgrader.php:60
 msgid "Enabling Maintenance mode&#8230;"
-msgstr "正在启用维护模式 &#8230;"
+msgstr "正在启用维护模式&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:61
 msgid "Disabling Maintenance mode&#8230;"
-msgstr "正在停用维护模式 &#8230;"
+msgstr "正在停用维护模式&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:370
 msgid "The plugin is at the latest version."
@@ -11288,21 +11288,21 @@ msgstr "升级包不可用。"
 #: wp-admin/includes/class-wp-upgrader.php:612
 #: wp-admin/includes/class-wp-upgrader.php:865
 msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
-msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件 &#8230;"
+msgstr "正在从 <span class=\"code\">%s</span> 下载更新文件&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:373
 #: wp-admin/includes/class-wp-upgrader.php:613
 #: wp-admin/includes/class-wp-upgrader.php:866
 msgid "Unpacking the update&#8230;"
-msgstr "正在解压升级文件 &#8230;"
+msgstr "正在解压缩升级文件&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:374
 msgid "Deactivating the plugin&#8230;"
-msgstr "正在停用插件 &#8230;"
+msgstr "正在停用插件&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:375
 msgid "Removing the old version of the plugin&#8230;"
-msgstr "正在移除插件的旧版本 &#8230;"
+msgstr "正在移除插件的旧版本&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:376
 msgid "Could not remove the old plugin."
@@ -11324,16 +11324,16 @@ msgstr "安装包不可用。"
 #: wp-admin/includes/class-wp-upgrader.php:383
 #: wp-admin/includes/class-wp-upgrader.php:622
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr "正在从 <span class=\"code\">%s</span> 下载安装包 &#8230;"
+msgstr "正在从 <span class=\"code\">%s</span> 下载安装包&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:384
 #: wp-admin/includes/class-wp-upgrader.php:623
 msgid "Unpacking the package&#8230;"
-msgstr "正在解压安装包 &#8230;"
+msgstr "正在解压缩安装包&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:385
 msgid "Installing the plugin&#8230;"
-msgstr "正在安装插件 &#8230;"
+msgstr "正在安装插件&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:386
 msgid "Plugin install failed."
@@ -11349,7 +11349,7 @@ msgstr "主题已是最新版。"
 
 #: wp-admin/includes/class-wp-upgrader.php:614
 msgid "Removing the old version of the theme&#8230;"
-msgstr "正在移除主题的旧版本 &#8230;"
+msgstr "正在移除主题的旧版本&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:615
 msgid "Could not remove the old theme."
@@ -11365,7 +11365,7 @@ msgstr "主题升级成功。"
 
 #: wp-admin/includes/class-wp-upgrader.php:624
 msgid "Installing the theme&#8230;"
-msgstr "正在安装主题 &#8230;"
+msgstr "正在安装主题&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:625
 msgid "Theme install failed."
@@ -11377,7 +11377,7 @@ msgstr "主题安装成功。"
 
 #: wp-admin/includes/class-wp-upgrader.php:863
 msgid "WordPress is at the latest version."
-msgstr "WordPress 已是最新版。"
+msgstr "WordPress 已处于最新版本。"
 
 #: wp-admin/includes/class-wp-upgrader.php:867
 msgid "Could not copy files."
@@ -11390,7 +11390,7 @@ msgstr "升级插件"
 
 #: wp-admin/includes/class-wp-upgrader.php:1034
 msgid "Reactivating the plugin&#8230;"
-msgstr "正在重新启用插件 &#8230;"
+msgstr "正在重新启用插件&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:1039
 #: wp-admin/includes/class-wp-upgrader.php:1280
@@ -11549,7 +11549,7 @@ msgstr "当前页面"
 #: wp-admin/includes/class-wp-list-table.php:515
 msgctxt "paging"
 msgid "%1$s of %2$s"
-msgstr "第%1$s页，共 %2$s 页"
+msgstr "第 %1$s 页，共 %2$s 页"
 
 #: wp-admin/includes/class-wp-list-table.php:519
 msgid "Go to the next page"
@@ -11877,7 +11877,7 @@ msgstr "无法安装更新，因为 WordPress %1$s 要求 MySQL 版本 %2$s 或�
 
 #: wp-admin/includes/update-core.php:312
 msgid "Verifying the unpacked files&#8230;"
-msgstr "正在校验解压的文件 &#8230;"
+msgstr "正在校验解压的文件&#8230;"
 
 #: wp-admin/includes/update-core.php:324
 msgid "The update could not be unpacked"
@@ -11885,7 +11885,7 @@ msgstr "无法解压升级包"
 
 #: wp-admin/includes/update-core.php:352
 msgid "Upgrading database&#8230;"
-msgstr "正在升级数据库 &#8230;"
+msgstr "正在升级数据库&#8230;"
 
 #: wp-admin/includes/nav-menu.php:73
 msgid "%s (Pending)"
@@ -11953,7 +11953,7 @@ msgstr "当前的主题不提供原生的自定义菜单支持。您可以用“
 #: wp-admin/includes/nav-menu.php:473
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
-msgstr[0] "您的主题支持 %s 个菜单。请为您的目录指定显示的位置。"
+msgstr[0] "您的主题支持 %s 个菜单。请为您的菜单指定显示位置。"
 
 #: wp-admin/includes/nav-menu.php:538
 msgid "Label"
@@ -14223,7 +14223,6 @@ msgid "Spam Blocked"
 msgstr "已屏蔽的垃圾评论"
 
 #: wp-content/plugins/akismet/widget.php:89
-#, fuzzy
 msgid "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href=\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id=\"akismetcount\">%1$s</span> <span id=\"akismetsc\">spam comment</span></div> <div id=\"akismet2\"><span id=\"akismetbb\">blocked by</span><br /><span id=\"akismeta\">Akismet</span></div></a></div></div>"
 msgid_plural "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href=\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id=\"akismetcount\">%1$s</span> <span id=\"akismetsc\">spam comments</span></div> <div id=\"akismet2\"><span id=\"akismetbb\">blocked by</span><br /><span id=\"akismeta\">Akismet</span></div></a></div></div>"
 msgstr[0] "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href=\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id=\"akismetcount\">%1$s</span> <span id=\"akismetsc\">条垃圾评论</span></div> <div id=\"akismet2\"><span id=\"akismetbb\">已由</span><br /><span id=\"akismeta\">Akismet</span></div><span id=\"akismetbb\">过滤</span></a></div></div>"
@@ -14419,10 +14418,11 @@ msgstr "您必需<a href=\"%1$s\">输入一个 WordPress.com API key</a> 来使�
 msgid "Akismet has detected a problem."
 msgstr "Akismet 检测到一个问题。"
 
+# 请注意 %s 后面不加空格，因为 %s 所代替的字符串以中文结尾。
 #: wp-content/plugins/akismet/admin.php:302
 msgid "A server or network problem prevented Akismet from checking %d comment. It has been temporarily held for moderation and will be automatically re-checked in %s."
 msgid_plural "A server or network problem prevented Akismet from checking %d comments. They have been temporarily held for moderation and will be automatically re-checked in %s."
-msgstr[0] "发生了网络或服务器问题，因此 Akismet 无法检查 %d 条评论。这些评论已全部被标记为“等待复查”状态，将在 %s 内复查。"
+msgstr[0] "发生了网络或服务器问题，因此 Akismet 无法检查 %d 条评论。这些评论已全部被标记为“等待复查”状态，将在 %s内复查。"
 
 #: wp-content/plugins/akismet/admin.php:325
 msgid "Flagged as spam by Akismet"
@@ -14593,7 +14593,7 @@ msgstr "您的服务器现在运行的 PHP 版本为 %1$s 但 WordPress %2$s 要
 #. Not gettexted string WP_I18N_OLD_MYSQL
 #: wp-includes/load.php:110
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "您的 PHP 似乎没有安装运行 WordPress 必须的 MySQL 扩展。"
+msgstr "您的 PHP 似乎没有安装运行 WordPress 所必需的 MySQL 扩展。"
 
 #. Not gettexted string WP_I18N_MAINTENANCE
 #: wp-includes/load.php:168
