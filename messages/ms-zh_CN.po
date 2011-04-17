@@ -1,13 +1,16 @@
-# Translation of Multisite in Chinese (China)
-# This file is distributed under the same license as the Multisite package.
+# Simplified Chinese (zh_CN) translation for WordPress
+# Copyright (C) 2011 WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# Jiehan Zheng <zheng@jiehan.org>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Multisite\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2011-02-23 15:18:02+00:00\n"
-"PO-Revision-Date: 2011-02-24 00:46+0800\n"
+"POT-Creation-Date: 2011-02-23 17:17:25+00:00\n"
+"PO-Revision-Date: 2011-04-17 20:39+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
-"Language-Team: \n"
+"Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
