@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 3.2-bleeding\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2011-04-17 09:12:23+00:00\n"
-"PO-Revision-Date: 2011-04-17 20:38+0800\n"
+"PO-Revision-Date: 2011-04-23 02:31+0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
@@ -1667,7 +1667,7 @@ msgstr "您尝试编辑这个用户：&#8220;%s&#8221; 失败。"
 
 #: wp-includes/functions.php:2679
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
-msgstr "您尝试修改这个用户的资料：&#8220;%s&#8221; 失败。"
+msgstr "“%s”的个人资料修改失败。"
 
 #: wp-includes/functions.php:2681
 msgid "Your attempt to edit your settings has failed."
@@ -2699,21 +2699,21 @@ msgstr "页面"
 #: wp-admin/menu.php:68
 msgctxt "post"
 msgid "Add New"
-msgstr "添加新文章"
+msgstr "写文章"
 
 #: wp-includes/post.php:1160
 #: wp-admin/menu.php:93
 msgctxt "page"
 msgid "Add New"
-msgstr "添加新页面"
+msgstr "新建页面"
 
 #: wp-includes/post.php:1161
 msgid "Add New Post"
-msgstr "添加新文章"
+msgstr "撰写新文章"
 
 #: wp-includes/post.php:1161
 msgid "Add New Page"
-msgstr "添加新页面"
+msgstr "创建新页面"
 
 #: wp-includes/post.php:1162
 #: wp-admin/edit.php:200
@@ -2730,12 +2730,12 @@ msgstr "编辑页面"
 #: wp-admin/includes/template.php:1449
 #: wp-admin/includes/template.php:1457
 msgid "New Post"
-msgstr "添加新文章"
+msgstr "写文章"
 
 #: wp-includes/post.php:1163
 #: wp-admin/includes/template.php:1459
 msgid "New Page"
-msgstr "添加新页面"
+msgstr "新建页面"
 
 #: wp-includes/post.php:1164
 #: wp-admin/edit.php:200
@@ -2921,7 +2921,7 @@ msgstr "样式表丢失。"
 
 #: wp-includes/admin-bar.php:91
 msgid "Edit My Profile"
-msgstr "更新我的资料"
+msgstr "编辑我的个人资料"
 
 #: wp-includes/admin-bar.php:93
 #: wp-includes/admin-bar.php:95
@@ -5078,7 +5078,7 @@ msgstr "当您使用编辑器时，大部分键盘的快捷键和其它编辑器
 
 #: wp-includes/js/tinymce/wp-mce-help.php:187
 msgid "If you do not like the way the rich editor works, you may turn it off from Your Profile submenu, under Users in the admin menu."
-msgstr "如果您不喜欢富文本编辑器，您可以在“我的资料”子菜单中关闭它，就在管理菜单的“用户”中。"
+msgstr "如果您不喜欢富文本编辑器，可在“我的个人资料”子菜单中关闭。“我的个人资料”位于“用户”分类下。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -7853,12 +7853,12 @@ msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blan
 #: wp-admin/edit-comments.php:179
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
-msgstr[0] "已获准 %s 条评论"
+msgstr[0] "已批准 %s 条评论"
 
 #: wp-admin/edit-comments.php:183
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
-msgstr[0] "已标记 %s 条为垃圾评论。"
+msgstr[0] "已标记 %s 条评论为垃圾评论。"
 
 #: wp-admin/edit-comments.php:187
 msgid "%s comment restored from the spam"
@@ -8610,7 +8610,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Tools_Export_SubPanel\" target=\"_b
 
 #: wp-admin/export.php:121
 msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
-msgstr "当您点击下面的按钮时 WordPress 会创建一个 XML 文件，并且保存到您的电脑。"
+msgstr "在您点击下面的按钮后，WordPress 会创建一个 XML 文件，供您保存到您的电脑。"
 
 #: wp-admin/export.php:122
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
@@ -8618,7 +8618,7 @@ msgstr "我们称这种格式为 WordPress eXtended RSS 或 WXR，它包含了�
 
 #: wp-admin/export.php:123
 msgid "Once you&#8217;ve saved the download file, you can use the Import function in another WordPress installation to import this site."
-msgstr "在您保存完下载的文件后，便可以在其它 WordPress 站点中使用导入功能进行导入。"
+msgstr "保存完下载的文件后，便可以在其它 WordPress 站点中使用导入功能进行导入。"
 
 #: wp-admin/export.php:125
 msgid "Choose what to export"
@@ -8695,15 +8695,15 @@ msgstr "安装主题"
 
 #: wp-admin/theme-install.php:47
 msgid "You can find additional themes for your site by using the Theme Browser/Installer on this screen, which will display themes from the <a href=\"%s\" target=\"_blank\">WordPress.org Theme Directory</a>. These themes are designed and developed by third parties, are available free of charge, and are licensed under the GNU General Public License, version 2, just like WordPress."
-msgstr "您可以使用本页面中全新的“主题浏览/安装器”来在 <a href=\"%s\" target=\"_blank\">WordPress.org 主题目录</a>中查找其它主题。其中的主题是由第三方设计开发的，供其他 WordPress 用户免费使用。和 WordPress 程序一样，这些主题使用 GNU General Public License 第二版授权。"
+msgstr "您可以使用本页面中全新的“主题浏览/安装器”在 <a href=\"%s\" target=\"_blank\">WordPress.org 主题目录</a>中寻找更多主题。主题目录中的主题是由第三方设计开发的，供所有 WordPress 用户免费使用。与 WordPress 程序一样，这些主题使用 GNU General Public License 第二版授权。"
 
 #: wp-admin/theme-install.php:48
 msgid "You can Search for themes by keyword, author, or tag, or can get more specific and search by criteria listed in the feature filter. Alternately, you can browse the themes that are Featured, Newest, or Recently Updated. When you find a theme you like, you can preview it or install it."
-msgstr "您不仅可以用关键词、作者或标签来搜索主题，也可以使用“特性筛选器”中列出的特性来搜索主题。或者从“特色”、“热门”和“最近更新”中浏览。当您选中了喜欢的主题，您可以预览效果或安装它。"
+msgstr "您不仅可以用关键词、作者或标签来搜索主题，也可以使用“特性筛选器”中列出的特性来搜索主题。或者从“特色”、“热门”和“最近更新”中浏览。当您找到了喜欢的主题，您可以先预览效果，也可以直接安装它。"
 
 #: wp-admin/theme-install.php:49
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
-msgstr "您可以手动上传从别处下载的 zip 文件（请确认来源可靠）。您也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
+msgstr "您可以手动上传从别处下载的 zip 文件（请确认来源可靠）；也可以使用传统方式，将主题文件拷贝至 <code>/wp-content/themes</code> 目录中。"
 
 #: wp-admin/theme-install.php:51
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
@@ -8842,11 +8842,11 @@ msgstr "移除时没有选取有效的用户。"
 #: wp-admin/users.php:315
 msgid "%s user deleted"
 msgid_plural "%s users deleted"
-msgstr[0] "已经删除 %s 个用户"
+msgstr[0] "已删除 %s 个用户"
 
 #: wp-admin/users.php:318
 msgid "New user created."
-msgstr "新用户被创建。"
+msgstr "新用户已创建。"
 
 #: wp-admin/users.php:321
 msgid "Changed roles."
@@ -9442,7 +9442,7 @@ msgstr[0] "评论"
 msgctxt "Right Now"
 msgid "Approved"
 msgid_plural "Approved"
-msgstr[0] "已获准"
+msgstr[0] "获准"
 
 #: wp-admin/includes/dashboard.php:346
 msgid "Pending"
@@ -11245,7 +11245,7 @@ msgstr "您的账户正在使用自动生成的密码。您希望将其更换为
 
 #: wp-admin/includes/user.php:378
 msgid "Yes, take me to my profile page"
-msgstr "希望，请带我到资料编辑页面"
+msgstr "希望，请带我到个人资料编辑页面"
 
 #: wp-admin/includes/user.php:379
 msgid "No thanks, do not remind me again"
@@ -11411,17 +11411,17 @@ msgstr "停用无障碍模式"
 #: wp-admin/includes/template.php:1722
 msgctxt "Metaboxes"
 msgid "Show on screen"
-msgstr "在页面上显示"
+msgstr "显示如下项目"
 
 #: wp-admin/includes/template.php:1729
 msgctxt "Columns"
 msgid "Show on screen"
-msgstr "在页面上显示"
+msgstr "页面布局"
 
 #: wp-admin/includes/template.php:1756
 msgctxt "Screen Options"
 msgid "Show on screen"
-msgstr "在页面上显示"
+msgstr "页面细节"
 
 #: wp-admin/includes/template.php:1777
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
@@ -13268,7 +13268,7 @@ msgstr "通过"
 #: wp-admin/user-edit.php:28
 #: wp-admin/menu.php:189
 msgid "Profile"
-msgstr "资料"
+msgstr "个人资料"
 
 #: wp-admin/link-add.php:13
 msgid "You do not have sufficient permissions to add links to this site."
@@ -13424,7 +13424,7 @@ msgstr "编辑用户"
 
 #: wp-admin/user-edit.php:41
 msgid "Your profile contains information about you (your &#8220;account&#8221;) as well as some personal options related to using WordPress."
-msgstr "您的资料包含您的信息、您的账户信息，以及一些使用 WordPress 的偏好设置。"
+msgstr "您的个人资料包含您的个人信息和账户信息，以及使用 WordPress 的偏好设置。"
 
 #: wp-admin/user-edit.php:42
 msgid "You can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things."
@@ -13436,7 +13436,7 @@ msgstr "您的用户名不能更改，但是您可以在其它栏中输入真实
 
 #: wp-admin/user-edit.php:44
 msgid "Required fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so."
-msgstr "必填项目已经特殊标记出来了，其余都是选填项目。资料信息只会在主题需要时才可能被显示在站点前台。"
+msgstr "必填项目有特殊标记，其余是选填项目。个人资料信息仅在主题需要时才可能被显示在站点前台。"
 
 #: wp-admin/user-edit.php:45
 msgid "Remember to click the Update Profile button when you are finished."
@@ -13704,7 +13704,7 @@ msgstr "当前屏蔽搜索引擎的访问"
 
 #: wp-admin/admin-header.php:151
 msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
-msgstr "欢迎您，<a href=\"%1$s\" title=\"编辑您的资料信息\">%2$s</a>"
+msgstr "欢迎您，<a href=\"%1$s\" title=\"编辑您的个人资料信息\">%2$s</a>"
 
 #: wp-admin/plugins.php:20
 msgid "You do not have sufficient permissions to manage plugins for this site."
@@ -14081,7 +14081,7 @@ msgstr "编辑"
 #: wp-admin/menu.php:199
 #: wp-admin/menu.php:202
 msgid "Your Profile"
-msgstr "我的资料"
+msgstr "我的个人资料"
 
 #: wp-admin/menu.php:214
 msgid "Delete Site"
