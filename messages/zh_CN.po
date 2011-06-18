@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.2) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-06-18 22:42+0800\n"
+"PO-Revision-Date: 2011-06-18 22:59+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2337,7 +2337,7 @@ msgstr "如果您忘记了您的登录凭据（如用户名、密码），请联
 
 #: wp-admin/upload.php:143
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first. You can use the <em>Screen Options</em> tab to customize the display of this screen."
-msgstr "您上传的所有文件都在“媒体库”中列出，按上传时间先后排列。您可以在“页面选项”选项卡中自定义此页面。"
+msgstr "您上传的所有文件都在“媒体库”中列出，按上传时间先后排列。您可以在“显示选项”选项卡中自定义此页面。"
 
 #: wp-admin/theme-install.php:44
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
@@ -2446,7 +2446,7 @@ msgstr "这个插件在启用的过程中产生了 %d 个字符的<strong>异常
 
 #: wp-admin/users.php:25
 msgid "You can customize the display of information on this screen as you can on other screens, by using the Screen Options tab and the on-screen filters."
-msgstr "通过点击“页面选项”，或使用页面中的过滤器，您可以自定义本页上显示的信息"
+msgstr "通过点击“显示选项”，或使用页面中的过滤器，您可以自定义本页上显示的信息。"
 
 #: wp-admin/user-new.php:147
 msgid "Remember to click the Add User button at the bottom of this screen when you are finished."
@@ -2567,7 +2567,7 @@ msgstr "“WordPress URL”和“站点 URL”可以相同，也可以不同。�
 
 #: wp-admin/edit-link-form.php:44
 msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
-msgstr "链接名称、网络地址、描述是固定不动的，您可通过拖放来移动其它部件。您也可以在“页面选项”选项卡中隐藏它们，或是点击部件的标题栏来最小化。"
+msgstr "链接名称、网络地址、描述是固定不动的，您可通过拖放来移动其它部件。您也可以在“显示选项”选项卡中隐藏它们，或是点击部件的标题栏来最小化。"
 
 #: wp-admin/update-core.php:171
 msgid "While your site is being updated, it will be in maintenance mode. As soon as your updates are complete, your site will return to normal."
@@ -2669,7 +2669,7 @@ msgstr "在先前的 WordPress 版本中，导入器是内建的，但用户并�
 
 #: wp-admin/link-manager.php:46
 msgid "You can customize the display of this screen using the Screen Options tab and/or the dropdown filters above the links table."
-msgstr "您可以通过“页面选项”或链接列表上方的下拉菜单过滤器来自定义本页面的显示。"
+msgstr "您可以通过“显示选项”或链接列表上方的下拉菜单过滤器来自定义本页面的显示。"
 
 #: wp-admin/plugin-editor.php:117
 msgid "Choose a plugin to edit from the menu in the upper right and click the Select button. Click once on any file name to load it in the editor, and make your changes. Don&#8217;t forget to save your changes (Update File) when you&#8217;re finished."
@@ -2705,7 +2705,7 @@ msgstr "大部分小工具可以多次使用。您可以为每个小工具起一
 
 #: wp-admin/widgets.php:41
 msgid "Enabling Accessibility Mode, via Screen Options, allows you to use Add and Edit buttons instead of using drag and drop."
-msgstr "在“页面选项”中启用“无障碍模式“，您就可以使用“添加”和“编辑”按钮，而无须进行拖拽。"
+msgstr "在“显示选项”中启用“无障碍模式“，您就可以使用“添加”和“编辑”按钮，而无须进行拖拽。"
 
 #: wp-admin/theme-editor.php:23
 msgid "You can use the Theme Editor to edit the individual CSS and PHP files which make up your theme."
@@ -2733,7 +2733,7 @@ msgstr "当编辑完成时，请点击“上传文件”。"
 
 #: wp-admin/nav-menus.php:453
 msgid "You can create custom menus for your site. These menus may contain links to pages, categories, custom links or other content types (use the Screen Options tab to decide which ones to show on the screen). You can specify a different navigation label for a menu item as well as other attributes. You can create multiple menus. If your theme includes more than one menu, you can choose which custom menu to associate with each. You can also use custom menus in conjunction with the Custom Menus widget."
-msgstr "您可以为站点创建自定义菜单。自定义菜单可以包含指向页面、目录，甚至其他站点的链接（在“页面选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个菜单项指定一个不同的导航标签。您可以创建多个菜单，若您的主题支持多个菜单，您可指定各个菜单在何处显示。您也可以在“自定义菜单”边栏小工具中调用自定义菜单。"
+msgstr "您可以为站点创建自定义菜单。自定义菜单可以包含指向页面、目录，甚至其他站点的链接（在“显示选项”选项卡中可以选择显示哪些）。像其他属性一样，您可以为一个菜单项指定一个不同的导航标签。您可以创建多个菜单，若您的主题支持多个菜单，您可指定各个菜单在何处显示。您也可以在“自定义菜单”边栏小工具中调用自定义菜单。"
 
 #: wp-admin/includes/meta-boxes.php:559
 msgid "(no parent)"
@@ -2777,7 +2777,7 @@ msgstr "分类目录和标签的区别是什么呢？通常，标签是临时安
 
 #: wp-admin/edit-tags.php:208
 msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
-msgstr "在“页面选项”中，您可以调整每页显示的标签数量、隐藏或显示表格中的一些栏目。"
+msgstr "在“显示选项”中，您可以调整每页显示的标签数量、隐藏或显示表格中的一些栏目。"
 
 #: wp-admin/edit-tags.php:206
 msgid "<strong>Description</strong> - The description is not prominent by default; however, some themes may display it."
@@ -3008,7 +3008,7 @@ msgstr "您可以选择是否在列表中查看文章摘要。点击列表右上
 
 #: wp-admin/edit.php:155
 msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
-msgstr "您可在“页面选项”中依据您的需要隐藏或显示每页显示的文章数量。"
+msgstr "您可在“显示选项”中依据您的需要隐藏或显示每页显示的文章数量。"
 
 #: wp-admin/edit.php:156
 msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
@@ -8216,7 +8216,7 @@ msgstr "<a href=\"http://cn.forums.wordpress.org\" target=\"_blank\">中文支�
 
 #: wp-admin/includes/template.php:1833
 msgid "Screen Options"
-msgstr "页面选项"
+msgstr "显示选项"
 
 #: wp-admin/includes/template.php:1888
 msgid "Screen Layout"
