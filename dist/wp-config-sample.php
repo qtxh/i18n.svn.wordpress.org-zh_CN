@@ -77,7 +77,7 @@ define('WPLANG', 'zh_CN');
  */
 define('WP_DEBUG', false);
 
-/* 好了！请不要再继续编辑。请保存该文件。使用愉快！ */
+/* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
 /** WordPress 目录的绝对路径。 */
 if ( !defined('ABSPATH') )
