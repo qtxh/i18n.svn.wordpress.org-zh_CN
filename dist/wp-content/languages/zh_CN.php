@@ -37,7 +37,7 @@ function zh_cn_language_pack_backend_register_settings() {
     register_setting( 'media',
         'zh_cn_language_pack_enable_chinese_fake_oembed' );
 
-	// 从用户数据库移除旧设置项
+    // 从用户数据库移除旧设置项
     delete_option( 'zh_cn_language_pack_options_version' ); // TODO 在 3.2 之后移除本行
 }
 
@@ -81,7 +81,7 @@ function zh_cn_language_pack_contextual_help() {
 function zh_cn_language_pack_embed_fake_oembed_settings() {
     echo '<input type="checkbox" id="zh_cn_language_pack_enable_chinese_fake_oembed" name="zh_cn_language_pack_enable_chinese_fake_oembed" value="1"';
     echo checked( '1', get_option( 'zh_cn_language_pack_enable_chinese_fake_oembed' ) );
-    echo ' /> 自动从 URL 嵌入中国视频网站上的视频。';
+    echo ' /> 自动从 URL 嵌入中国视频网站上的视频。详见“设置” → “中文本地化”的帮助。';
 }
 
 /**
@@ -121,7 +121,7 @@ function zh_cn_language_pack_settings_page() {
     </table>
     
     <p class="submit">
-        <input type="submit" class="button-primary" value="保存设置" />
+        <input type="submit" class="button-primary" value="保存更改" />
     </p>
 </form>
 
@@ -151,44 +151,56 @@ function zh_cn_language_pack_substitute_chinese_video_urls( $content ) {
  * @since 3.0.1
  */
 function zh_cn_language_pack_backend_style_modify() {
+    // 贡献：CSS 代码由 moja 提供
+    // 您可以在 http://cn.wordpress.org/contact/ 提交您的意见
+    
+    // 即将使用 wp_enqueue_style() 来添加这些代码
     echo <<<EOF
 <style type="text/css" media="screen">
-    body { font: 13px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif,"新宋体","宋体"; }
-    #adminmenu .wp-submenu a { font-size: 11.5px; }
-    #adminmenu a.menu-top { font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
-    h1#site-heading span { font-family:  Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
-    .form-table td { font-size: 12px; }
-    #footer, #footer a, #footer p { font-size: 13px; font-style: normal; }
-    #screen-meta a.show-settings { font-size: 12px; }
-    #favorite-actions a { font-size: 12px; }
-    .postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message { font-size: 13px; }
-    #dashboard_right_now p.sub { font-size: 14px; font-style: normal; }
-    .row-actions { font-size: 12px; }
-    .widefat td, .widefat th, .widefat td p, .widefat td ol, .widefat td ul { font-size: 13px; }
-    .submit input, .button, input.button, .button-primary, input.button-primary, .button-secondary, input.button-secondary, .button-highlighted, input.button-highlighted, #postcustomstuff .submit input { font-size: 12px !important; }
-    .subsubsub { font-size: 12px; }
-    #wpcontent select { font-size: 12px; }
-    form.upgrade .hint { font-style: normal; font-weight: bold; font-size: 100% }
+    *,.wrap h2,
+    h1#site-heading, .wrap h2, h3.hndle span, #dashboard-widgets h4,
+    #dashboard_recent_comments .comment-meta .approve,
+    .tablenav .displaying-num, .howto, label,
+    .widefat td, .widefat th, .widefat td p, .widefat td ol, .widefat td ul,
+    .postbox-title-action a, input, select,
+    span.description, p.help,
+    p.description, p.indicator-hint
+    { font-family:"Microsoft YaHei",Segoe UI,Tahoma,Arial,Verdana,sans-serif; }
+
+    body, 
+    .postbox-title-action a, input,
+    may-be-removed-in-future-vers-#favorite-actions a,
+    .widget .widget-inside, .widget .widget-description,
+    #dashboard_recent_comments .comment-meta .approve,
+    .appearance_page_custom-header #upload-form p label,
+    form .forgetmenot label, .form-field p,
+    .wp_themeSkin .mceMenu span.mceText, .wp_themeSkin .mceMenu .mcePreview,
+    .menu-name-label span, .auto-add-pages label,
+    #dashboard_quick_press #media-buttons,
+    .inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row .catshow, .inline-edit-row .cathide, .inline-edit-row #bulk-titles div,
+    #the-comment-list .comment-item p.row-actions
+    { font-size: 12px; }
+     
+    .widefat th, .widefat td p, .widefat td ol, .widefat td ul,
+    .postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message,
+    p.help, p.description, .form-wrap,
+    #dashboard_right_now p.sub,
+    #contextual-help-wrap p
+    { font-size: 14px; }
+
+    .howto, em,
+    #dashboard_right_now p.sub,
+    .tablenav .displaying-num,
+    p.install-help, #dashboard_recent_comments .comment-meta .approve,
+    #utc-time, #local-time,
+    p.help, p.description, span.description, .form-wrap p,
+    .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title
+    { font-style: normal; }
+
     #poststuff .inside, #poststuff .inside p { font-size: 12px; line-height: 112% }
-    .tablenav .displaying-num { font-size: 12px; font-style: normal; }
-    p.help, p.description, span.description, .form-wrap { font-size: 13px; }
-    .widget .widget-inside, .widget .widget-description { font-size: 12px; }
-    .appearance_page_custom-header #upload-form p label { font-size: 12px; }
-    .wp_themeSkin .mceMenu span.mceText, .wp_themeSkin .mceMenu .mcePreview { font-size: 12px; }
-    form .forgetmenot label { font-size: 12px; }
-    .wrap h2 { font: normal 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
-    .howto { font-style: normal; }
-    p.help, p.description, span.description, .form-wrap p { font-style: normal; }
-    .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title { font-style: normal; }
-    #edithead .inside, #edithead .inside input { font-size: 12px; }
-    h2 .nav-tab { font: normal 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif,"Microsoft YaHei Bold","Microsoft YaHei","微软雅黑","WenQuanYi Zen Hei","文泉驿正黑","WenQuanYi Micro Hei","文泉驿微米黑","黑体"; }
-    em { font-style: normal; }
-    .menu-name-label span, .auto-add-pages label { font-size: 12px; }
-    #dashboard_quick_press #media-buttons { font-size: 12px; }
-    p.install-help { font-style: normal; }
-    .inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row .catshow, .inline-edit-row .cathide, .inline-edit-row #bulk-titles div { font-size: 12px; }
-    #the-comment-list .comment-item p.row-actions { font-size: 12px; }
-    #utc-time, #local-time { font-style: normal; }
+    form.upgrade .hint { font-style: normal; font-weight: bold; font-size: 100% }
+    .wrap h2 { font: normal 24px/35px; }
+    h2 .nav-tab { font: normal 24px/35px; }
 </style>
 
 EOF;
@@ -200,10 +212,13 @@ EOF;
  * @since 3.0.1
  */
 function zh_cn_language_pack_login_screen_style_modify() {
+    // 贡献：CSS 代码由 moja 提供
+    // 您可以在 http://cn.wordpress.org/contact/ 提交您的意见
+    
+    // 即将使用 wp_enqueue_style() 来添加这些代码
     echo <<<EOF
 <style type="text/css" media="screen">
-    body { font: 13px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif,"新宋体","宋体"; }
-    .submit input, .button, input.button, .button-primary, input.button-primary, .button-secondary, input.button-secondary, .button-highlighted, input.button-highlighted, #postcustomstuff .submit input { font-size: 12px !important; }
+    * { font: 12px Segoe UI,Tahoma,Arial,Verdana,simsun,sans-serif,"Microsoft YaHei"; }
 </style>
 
 EOF;
@@ -212,7 +227,7 @@ EOF;
 
 // 准备控制板页面
 if ( is_admin() ) {
-	add_action( 'admin_init', 'zh_cn_language_pack_backend_register_settings' );
+    add_action( 'admin_init', 'zh_cn_language_pack_backend_register_settings' );
     add_action( 'admin_menu', 'zh_cn_language_pack_backend_create_menu' );
     add_action( 'admin_head-settings_page_zh-cn-language-pack-settings', 'zh_cn_language_pack_contextual_help' );
 }
