@@ -15,6 +15,14 @@
 define( 'ZH_CN_PACK_OPTIONS_VERSION' , 3 );
 
 /**
+ * 定义本地化补丁目录
+ *
+ * @since 3.2
+ */
+define( 'ZH_CN_PACK_LANGUAGE_DIR_TO_CONTENT' , 'languages/' );
+
+
+/**
  * 注册设置
  *
  * @since 3.0.1
@@ -151,59 +159,12 @@ function zh_cn_language_pack_substitute_chinese_video_urls( $content ) {
  * @since 3.0.1
  */
 function zh_cn_language_pack_backend_style_modify() {
-    // 贡献：CSS 代码由 moja 提供
-    // 您可以在 http://cn.wordpress.org/contact/ 提交您的意见
-    
-    // 即将使用 wp_enqueue_style() 来添加这些代码
-    echo <<<EOF
-<style type="text/css" media="screen">
-    *,.wrap h2,
-    h1#site-heading, .wrap h2, h3.hndle span, #dashboard-widgets h4,
-    #dashboard_recent_comments .comment-meta .approve,
-    .tablenav .displaying-num, .howto, label,
-    .widefat td, .widefat th, .widefat td p, .widefat td ol, .widefat td ul,
-    .postbox-title-action a, input, select,
-    span.description, p.help,
-    p.description, p.indicator-hint
-    { font-family:"Microsoft YaHei",Segoe UI,Tahoma,Arial,Verdana,sans-serif; }
-
-    body, 
-    .postbox-title-action a, input,
-    may-be-removed-in-future-vers-#favorite-actions a,
-    .widget .widget-inside, .widget .widget-description,
-    #dashboard_recent_comments .comment-meta .approve,
-    .appearance_page_custom-header #upload-form p label,
-    form .forgetmenot label, .form-field p,
-    .wp_themeSkin .mceMenu span.mceText, .wp_themeSkin .mceMenu .mcePreview,
-    .menu-name-label span, .auto-add-pages label,
-    #dashboard_quick_press #media-buttons,
-    .inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row .catshow, .inline-edit-row .cathide, .inline-edit-row #bulk-titles div,
-    #the-comment-list .comment-item p.row-actions
-    { font-size: 12px; }
-     
-    .widefat th, .widefat td p, .widefat td ol, .widefat td ul,
-    .postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message,
-    p.help, p.description, .form-wrap,
-    #dashboard_right_now p.sub,
-    #contextual-help-wrap p
-    { font-size: 14px; }
-
-    .howto, em,
-    #dashboard_right_now p.sub,
-    .tablenav .displaying-num,
-    p.install-help, #dashboard_recent_comments .comment-meta .approve,
-    #utc-time, #local-time,
-    p.help, p.description, span.description, .form-wrap p,
-    .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title
-    { font-style: normal; }
-
-    #poststuff .inside, #poststuff .inside p { font-size: 12px; line-height: 112% }
-    form.upgrade .hint { font-style: normal; font-weight: bold; font-size: 100% }
-    .wrap h2 { font: normal 24px/35px; }
-    h2 .nav-tab { font: normal 24px/35px; }
-</style>
-
-EOF;
+    $styleUrl = WP_CONTENT_URL . '/' . ZH_CN_PACK_LANGUAGE_DIR_TO_CONTENT . 'zh_CN-dashboard.css';
+    $styleFile = WP_CONTENT_DIR . '/' . ZH_CN_PACK_LANGUAGE_DIR_TO_CONTENT . 'zh_CN-dashboard.css';
+    if ( file_exists( $styleFile ) ) {
+        wp_register_style( 'zh-cn-pack-style-dashboard', $styleUrl, array(), '1.0');
+        wp_enqueue_style( 'zh-cn-pack-style-dashboard' );
+    }
 }
 
 /**
@@ -214,8 +175,6 @@ EOF;
 function zh_cn_language_pack_login_screen_style_modify() {
     // 贡献：CSS 代码由 moja 提供
     // 您可以在 http://cn.wordpress.org/contact/ 提交您的意见
-    
-    // 即将使用 wp_enqueue_style() 来添加这些代码
     echo <<<EOF
 <style type="text/css" media="screen">
     * { font: 12px Segoe UI,Tahoma,Arial,Verdana,simsun,sans-serif,"Microsoft YaHei"; }
@@ -234,7 +193,7 @@ if ( is_admin() ) {
 
 // 后台样式优化
 if ( get_option('zh_cn_language_pack_enable_backend_style_modifications') == 1 ) {
-    add_action( 'admin_head', 'zh_cn_language_pack_backend_style_modify' );
+    add_action( 'admin_init', 'zh_cn_language_pack_backend_style_modify' );
     add_action( 'login_head', 'zh_cn_language_pack_login_screen_style_modify' );
 }
 

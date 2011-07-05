@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.2) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-06-30 00:29+0800\n"
+"PO-Revision-Date: 2011-07-04 17:29-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,7 +186,7 @@ msgstr "核心提交人员"
 
 #: wp-admin/credits.php:167
 msgid "Guest Committer"
-msgstr "来宾提交人员"
+msgstr "特约提交者"
 
 #: wp-admin/credits.php:172
 msgid "External Libraries"
@@ -315,11 +315,11 @@ msgid "WordPress is Free and open source software, built by a distributed commun
 msgstr "WordPress 是免费、开源的自由软件，大部分的开发工作都是由全球各地的志愿者完成的。WordPress 使用 <a href=\"%s\">GPL 许可证</a>发布，因此您有许多自由。"
 
 #: wp-admin/edit-form-advanced.php:272
-#: wp-admin/includes/post.php:1849
+#: wp-admin/includes/post.php:1853
 msgid "Word count: %s"
 msgstr "字数：%s"
 
-#: wp-admin/includes/post.php:1803
+#: wp-admin/includes/post.php:1807
 msgid "Blockquote (Alt+Shift+Q)"
 msgstr "引用文字 (Alt+Shift+Q)"
 
@@ -331,7 +331,7 @@ msgstr "开发领头人"
 msgid "Developer"
 msgstr "开发人员"
 
-#: wp-admin/includes/post.php:1809
+#: wp-admin/includes/post.php:1813
 msgid "Help (Alt + Shift + H)"
 msgstr "帮助 (Alt + Shift + H)"
 
@@ -416,7 +416,7 @@ msgstr "开发新星"
 msgid "Exit fullscreen"
 msgstr "退出全屏"
 
-#: wp-admin/includes/post.php:1850
+#: wp-admin/includes/post.php:1854
 msgid "Just write."
 msgstr "尽情写作吧。"
 
@@ -540,7 +540,7 @@ msgstr "Drop-in 高级插件放置于 <code>%s</code> 目录中。它们负责�
 msgid "Files in the <code>%s</code> directory are executed automatically."
 msgstr "WordPress 自动运行 <code>%s</code> 目录中的文件。"
 
-#: wp-admin/includes/post.php:1831
+#: wp-admin/includes/post.php:1835
 msgid "Updated."
 msgstr "已更新。"
 
@@ -697,31 +697,31 @@ msgstr "<a href=\"http://codex.wordpress.org/Links_Screen\" target=\"_blank\">�
 msgid "<a href=\"http://codex.wordpress.org/Users_Add_New_Screen\" target=\"_blank\">Documentation on Adding New Users</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Users_Add_New_Screen\" target=\"_blank\">关于新建用户的文档</a>（英文）"
 
-#: wp-admin/includes/post.php:1797
+#: wp-admin/includes/post.php:1801
 msgid "Bold (Ctrl + B)"
 msgstr "粗体 (Ctrl + B)"
 
-#: wp-admin/includes/post.php:1798
+#: wp-admin/includes/post.php:1802
 msgid "Italic (Ctrl + I)"
 msgstr "斜体 (Ctrl + I)"
 
-#: wp-admin/includes/post.php:1801
+#: wp-admin/includes/post.php:1805
 msgid "Ordered list (Alt + Shift + O)"
 msgstr "序号式列表 (Alt + Shift + O)"
 
-#: wp-admin/includes/post.php:1800
+#: wp-admin/includes/post.php:1804
 msgid "Unordered list (Alt + Shift + U)"
 msgstr "非序号式列表 (Alt + Shift + U)"
 
-#: wp-admin/includes/post.php:1804
+#: wp-admin/includes/post.php:1808
 msgid "Insert/edit image (Alt + Shift + M)"
 msgstr "插入或编辑图像 (Alt + Shift + M)"
 
-#: wp-admin/includes/post.php:1806
+#: wp-admin/includes/post.php:1810
 msgid "Insert/edit link (Alt + Shift + A)"
 msgstr "插入或编辑链接 (Alt + Shift + A)"
 
-#: wp-admin/includes/post.php:1807
+#: wp-admin/includes/post.php:1811
 msgid "Unlink (Alt + Shift + S)"
 msgstr "取消链接 (Alt + Shift + S)"
 
@@ -2178,7 +2178,7 @@ msgstr "Akismet API Key"
 msgid "<a href=\"http://akismet.com/get/\">What is this?</a>"
 msgstr "<a href=\"http://akismet.com/get/\">这是什么？</a>"
 
-#: wp-includes/load.php:107
+#: wp-includes/load.php:112
 msgid "Your server is running PHP version %1$s but WordPress %2$s requires at least %3$s."
 msgstr "您的服务器现在运行的 PHP 版本为 %1$s，但 WordPress %2$s 要求的最低版本为 %3$s。"
 
@@ -3905,7 +3905,7 @@ msgstr "您无权在本站点上升级主题。"
 msgid "You do not have sufficient permissions to update plugins for this site."
 msgstr "您无权在本站点升级插件。"
 
-#: wp-includes/load.php:421
+#: wp-includes/load.php:426
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
 msgstr "您请求的站点未被正确安装。请联系系统管理员。"
 
@@ -4298,7 +4298,7 @@ msgid "Page saved."
 msgstr "页面已保存。"
 
 #: wp-admin/edit-form-advanced.php:239
-#: wp-admin/includes/post.php:1841
+#: wp-admin/includes/post.php:1845
 msgid "Enter title here"
 msgstr "在此键入标题"
 
@@ -4369,7 +4369,7 @@ msgstr "用户已添加。"
 msgid "Mismatch"
 msgstr "不匹配"
 
-#: wp-admin/setup-config.php:165
+#: wp-admin/setup-config.php:163
 msgid "<strong>ERROR</strong>: \"Table Prefix\" can only contain numbers, letters, and underscores."
 msgstr "<strong>错误</strong>：“表前缀”只能包含数字、字母和下划线。"
 
@@ -4385,11 +4385,11 @@ msgstr "竖直平铺"
 msgid "Tile Horizontally"
 msgstr "水平平铺"
 
-#: wp-includes/load.php:168
+#: wp-includes/load.php:173
 msgid "Maintenance"
 msgstr "维护"
 
-#: wp-includes/load.php:172
+#: wp-includes/load.php:177
 msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
 msgstr "正在执行例行维护，请一分钟后回来。"
 
@@ -4719,7 +4719,7 @@ msgstr "编辑菜单条目"
 msgid "File canceled."
 msgstr "文件已取消。"
 
-#: wp-includes/load.php:20
+#: wp-includes/load.php:22
 msgid "GLOBALS overwrite attempt detected"
 msgstr "检测到 GLOBALS 的改写尝试"
 
@@ -5172,11 +5172,11 @@ msgstr "自 %1$s，到 %2$s 的 pingback 引用通告注册成功。保持 web �
 msgid "The specified target URL does not exist."
 msgstr "指定的目标 URL 不存在。"
 
-#: wp-includes/load.php:110
+#: wp-includes/load.php:115
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
 msgstr "您的 PHP 似乎没有安装运行 WordPress 所必需的 MySQL 扩展。"
 
-#: wp-includes/load.php:364
+#: wp-includes/load.php:369
 msgid "<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores."
 msgstr "<strong>错误</strong>：在 <code>wp-config.php</code> 配置文件中的 <code>$table_prefix</code> 只能包含数字、字母和下划线。"
 
@@ -5218,15 +5218,11 @@ msgstr "查询 %2$s 时，WordPress 数据库发生 %1$s 错误"
 msgid " $db->get_row(string query, output type, int offset) -- Output type must be one of: OBJECT, ARRAY_A, ARRAY_N"
 msgstr " $db->get_row(string query, output type, int offset) —— 输出类型需为 OBJECT、ARRAY_A，或 ARRAY_N"
 
-#: wp-admin/setup-config.php:62
-msgid "Your server is running PHP version %1$s but WordPress requires at least %2$s."
-msgstr "您服务器现在运行的 PHP 版本为 %s，但 WordPress 要求的最低版本为 %1$s。"
-
-#: wp-load.php:48
+#: wp-load.php:55
 msgid "ltr"
 msgstr "ltr"
 
-#: wp-load.php:49
+#: wp-load.php:56
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "看起来似乎没有 <code>wp-config.php</code> 文件。开始之前，我们需要这个文件。需要帮助？您可查看<a href='http://codex.wordpress.org/zh-cn:%%E7%%BC%%96%%E8%%BE%%91_wp-config.php'>这篇帮助文档</a>。您可以通过本网页界面来编辑 <code>wp-config.php</code> 文件，但并非所有主机都支持这种方法。最安全的做法仍是手动创建。</p><p><a href='%ssetup-config.php' class='button'>试试创建一个配置文件</a>"
 
@@ -13384,7 +13380,7 @@ msgstr "添加音频"
 #: wp-admin/includes/media.php:667
 #: wp-admin/includes/media.php:726
 #: wp-admin/includes/media.php:782
-#: wp-admin/includes/post.php:1831
+#: wp-admin/includes/post.php:1835
 msgid "Saved."
 msgstr "已保存。"
 
