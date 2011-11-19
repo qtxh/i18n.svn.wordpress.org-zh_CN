@@ -5,6 +5,8 @@
  * The permissions for the base directory must allow for writing files in order
  * for the wp-config.php to be created using this page.
  *
+ * @internal This file must be parsable by PHP4.
+ *
  * @package WordPress
  * @subpackage Administration
  */
@@ -40,10 +42,12 @@ define('WP_DEBUG', false);
 /**#@-*/
 
 require_once(ABSPATH . WPINC . '/load.php');
+require_once(ABSPATH . WPINC . '/version.php');
+wp_check_php_mysql_versions();
+
 require_once(ABSPATH . WPINC . '/compat.php');
 require_once(ABSPATH . WPINC . '/functions.php');
 require_once(ABSPATH . WPINC . '/class-wp-error.php');
-require_once(ABSPATH . WPINC . '/version.php');
 
 if (!file_exists(ABSPATH . 'wp-config-sample.php'))
 	wp_die('抱歉，我需要 wp-config-sample.php 文件作为向导工作的基础，请重新上传此文件。');
@@ -56,13 +60,7 @@ if (file_exists(ABSPATH . 'wp-config.php'))
 
 // Check if wp-config.php exists above the root directory but is not part of another install
 if (file_exists(ABSPATH . '../wp-config.php') && ! file_exists(ABSPATH . '../wp-settings.php'))
-	wp_die("<p>“wp-config.php”文件错误地存在于上级目录。若您希望重新配置这个安装，请先删除它。您可以尝试<a href='install.php'>现在安装</a>。</p>");
-
-if ( version_compare( $required_php_version, phpversion(), '>' ) )
-	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'Your server is running PHP version %1$s but WordPress requires at least %2$s.'/*/WP_I18N_OLD_PHP*/, phpversion(), $required_php_version ) );
-
-if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
-	wp_die( /*WP_I18N_OLD_MYSQL*/'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.'/*/WP_I18N_OLD_MYSQL*/ );
+	wp_die("<p>“wp-config.php”文件已存在于 WordPress 目录的上级目录。若您希望重新配置这个安装，请先删除它。您可以尝试<a href='install.php'>现在安装</a>。</p>");
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
@@ -80,11 +78,11 @@ else
 function display_header() {
 	header( 'Content-Type: text/html; charset=utf-8' );
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; 设置配置文件</title>
+<title>WordPress &rsaquo; 准备配置文件</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -98,7 +96,7 @@ switch($step) {
 		display_header();
 ?>
 
-<p>欢迎使用 WordPress！在您开始使用前，WordPress 需要一些数据库的信息。下列信息将会被问到，请作好准备。</p>
+<p>欢迎使用 WordPress！在您开始使用前，WordPress 需要一些数据库的信息。下列信息将会被问到，请做好准备。</p>
 <ol>
 	<li>数据库名</li>
 	<li>数据库用户用户名</li>
@@ -106,8 +104,8 @@ switch($step) {
 	<li>数据库主机</li>
 	<li>表名前缀（若您希望在一个数据表中安装多个 WordPress）</li>
 </ol>
-<p><strong>出于各种原因，自动创建文件可能失败，但本向导只是助您在配置文件中写如数据库信息。此时，您只需用文本编辑器打开 <code>wp-config-sample.php</code>，填入您的信息，另存为 <code>wp-config.php</code> 即可。</strong></p>
-<p>大多数的互联网主机服务提供商都向您提供了数据库的信息。若您不知道这些信息，您需要先询问好，再进行安装。若您已准备好 &hellip;</p>
+<p><strong>出于各种原因，自动创建文件可能失败，但本向导只是助您在配置文件中写如数据库信息。如果失败，您只需用文本编辑器打开 <code>wp-config-sample.php</code>，填入您的信息，另存为 <code>wp-config.php</code> 即可。</strong></p>
+<p>大多数的互联网主机服务提供商都向您提供了数据库的信息。若您不知道这些信息，您需要先询问好，再进行安装。若您已准备好&hellip;</p>
 
 <p class="step"><a href="setup-config.php?step=1<?php if ( isset( $_GET['noapi'] ) ) echo '&amp;noapi'; ?>" class="button">现在就开始！</a></p>
 <?php
@@ -132,7 +130,7 @@ switch($step) {
 		<tr>
 			<th scope="row"><label for="pwd">密码</label></th>
 			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
-			<td>... 以及 MySQL 密码。</td>
+			<td>...以及 MySQL 密码。</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="dbhost">数据库主机</label></th>
