@@ -130,7 +130,7 @@ switch($step) {
 		<tr>
 			<th scope="row"><label for="pwd">密码</label></th>
 			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
-			<td>...以及 MySQL 密码。</td>
+			<td>...以及您的 MySQL 密码。</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="dbhost">数据库主机</label></th>
@@ -139,7 +139,7 @@ switch($step) {
 		</tr>
 		<tr>
 			<th scope="row"><label for="prefix">表名前缀</label></th>
-			<td><input name="prefix" id="prefix" type="text" id="prefix" value="wp_" size="25" /></td>
+			<td><input name="prefix" id="prefix" type="text" value="wp_" size="25" /></td>
 			<td>若您希望在一个数据库中存放多个 WordPress 的数据，请修改本项以做区分。</td>
 		</tr>
 	</table>
