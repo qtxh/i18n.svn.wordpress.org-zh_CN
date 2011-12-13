@@ -33,7 +33,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
- * 身份密匙设定。
+ * 身份认证密匙设定。
  *
  * 您可以随意写一些字符
  * 或者直接访问 {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org 私钥生成服务}，
