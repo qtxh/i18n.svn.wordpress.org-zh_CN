@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 3.3\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2011-12-11 00:13:13+00:00\n"
-"PO-Revision-Date: 2011-12-12 15:03-0500\n"
+"PO-Revision-Date: 2011-12-12 15:53-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: Chinese (China)\n"
@@ -6720,7 +6720,7 @@ msgstr "Web 地址"
 
 #: wp-admin/edit-link-form.php:102
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "例子：<code>http://wordpress.org/</code> —— 不要忘了 <code>http://</code>"
+msgstr "例子：<code>http://cn.wordpress.org/</code> —— 不要忘了 <code>http://</code>"
 
 #: wp-admin/edit-link-form.php:107
 #: wp-admin/themes.php:231
@@ -8366,7 +8366,7 @@ msgstr "在<strong>评论</strong>一栏，每条评论发表的时间都注明�
 
 #: wp-admin/edit-comments.php:128
 msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows how many comments that post has received. If the bubble is gray, you have moderated all comments for that post. If it is blue, there are pending comments. Clicking the bubble will filter the comments screen to show only comments on that post."
-msgstr "在<strong>回复给</strong>栏中，有三项信息。文字是这条评论所在的文章名，点击它，可在文章编辑器中打开该篇文章。“查看文章”链接到站点前台的该条评论。气泡中的数字是该篇文章中的评论总数。灰色气泡代表您已审核完了该篇文章上的所有评论；蓝色气泡代表仍有等待审核的评论。点击气泡将筛选出该篇文章中的评论。"
+msgstr "在<strong>回应给</strong>栏中，有三项信息。文字是这条评论所在的文章名，点击它，可在文章编辑器中打开该篇文章。“查看文章”链接到站点前台的该条评论。气泡中的数字是该篇文章中的评论总数。灰色气泡代表您已审核完了该篇文章上的所有评论；蓝色气泡代表仍有等待审核的评论。点击气泡将筛选出该篇文章中的评论。"
 
 #: wp-admin/edit-comments.php:129
 msgid "Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
@@ -8843,7 +8843,7 @@ msgstr "点击<strong>移至回收站</strong>，该文章将会从列表中删�
 
 #: wp-admin/edit.php:179
 msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
-msgstr "点击<strong>预览/显示</strong>，您的浏览器将跳转到前台，为您展示文章发布后的效果，或访问已经发布的这篇文章。"
+msgstr "点击<strong>预览/查看</strong>，您的浏览器将跳转到前台，为您展示文章发布后的效果，或访问已经发布的这篇文章。"
 
 #: wp-admin/edit.php:184
 #: wp-admin/includes/class-wp-list-table.php:293
@@ -13168,7 +13168,7 @@ msgstr ""
 "希望您喜欢。谢谢！\n"
 "\n"
 "--WordPress 团队\n"
-"http://wordpress.org/\n"
+"http://cn.wordpress.org/\n"
 
 #: wp-admin/includes/upgrade.php:342
 msgid "New WordPress Site"
@@ -16167,5 +16167,5 @@ msgstr "ltr"
 #. Not gettexted string WP_I18N_NO_CONFIG
 #: wp-load.php:56
 msgid "<p>There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started.</p> <p>Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>.</p> <p>You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a></p>"
-msgstr "<p>看起来 <code>wp-config.php</code> 文件不存在。必须要有这个文件才能开始。</p> <p>需要帮助？<a href='http://codex.wordpress.org/zh-cn:%E7%BC%96%E8%BE%91_wp-config.php'>请看文档</a>。</p> <p>您也可以通过网页界面来编辑 <code>wp-config.php</code> 文件，但这个方法不一定在所有服务器上都能使用。最安全的方法是手动创建文件：</p><p><a href='%ssetup-config.php' class='button'>创建一个配置文件</a></p>"
+msgstr "<p>看起来 <code>wp-config.php</code> 文件不存在。必须要有这个文件才能开始。</p> <p>需要帮助？<a href='http://codex.wordpress.org/zh-cn:Editing_wp-config.php'>请看文档</a>。</p> <p>您可以通过下面按钮进入方便的网页界面来编辑 <code>wp-config.php</code> 文件，但这个界面不一定在所有服务器上都能使用。最安全的方法是手动创建文件。</p><p><a href='%ssetup-config.php' class='button'>创建一个配置文件</a></p>"
 
