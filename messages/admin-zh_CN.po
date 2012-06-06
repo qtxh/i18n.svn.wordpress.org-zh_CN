@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 3.3\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
 "POT-Creation-Date: 2012-06-04 15:18:00+00:00\n"
-"PO-Revision-Date: 2012-06-04 23:17-0500\n"
+"PO-Revision-Date: 2012-06-05 00:09-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: Chinese (China)\n"
@@ -111,7 +111,7 @@ msgstr "您可以在文章中嵌入 Twitter 消息了。嵌入的消息带有回
 
 #: wp-admin/about.php:77
 msgid "This works with URLs from some other sites, too. For more, see the Codex article on <a href=\"%s\">Embeds</a>."
-msgstr "直接粘贴某些其它站点的 URL 也可以自动嵌入。欲了解更多，请浏览 Codex 中文文档："
+msgstr "直接粘贴某些其它站点的 URL 也可以自动嵌入。欲了解更多，请浏览 <a href=\"%s\">Codex 中文文档</a>。"
 
 #: wp-admin/about.php:77
 msgid "http://codex.wordpress.org/Embeds"
@@ -151,7 +151,7 @@ msgstr "站点前台加载的翻译文本数量得到大幅减少，让您的中
 
 #: wp-admin/about.php:103
 msgid "Also, better support for East Asian languages, right-to-left languages, theme translations, and more."
-msgstr "同时，增强了对东亚语言等的本地化支持。很遗憾，中文组的修改被无故拒绝，核心小组没有给出任何合理解释。我们将继续尝试使用本地化补丁的形式提高您的使用体验，直到中文用户的需求在核心程序得到满足。"
+msgstr "同时，增强了对东亚语言等的本地化支持。"
 
 #: wp-admin/about.php:106
 msgid "Themes API"
