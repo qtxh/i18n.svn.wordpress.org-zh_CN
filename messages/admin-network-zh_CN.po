@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.4\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-04 18:18:08+00:00\n"
-"PO-Revision-Date: 2012-06-04 23:18-0500\n"
+"POT-Creation-Date: 2012-06-05 19:17:34+00:00\n"
+"PO-Revision-Date: 2012-06-06 23:02-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
@@ -80,7 +80,7 @@ msgid "All Sites"
 msgstr "所有站点"
 
 #: wp-admin/network/menu.php:18
-#: wp-admin/network/sites.php:296
+#: wp-admin/network/sites.php:293
 msgctxt "site"
 msgid "Add New"
 msgstr "创建站点"
@@ -883,15 +883,15 @@ msgstr "批量操作将永久删除选中的用户，或标记/取消标记选�
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
 msgstr "您可将现有的用户设为超级管理员，方法是：在编辑用户资料的页面，点击选框以赋予该用户权限。"
 
-#: wp-admin/network/users.php:262
+#: wp-admin/network/users.php:259
 msgid "Users marked as spam."
 msgstr "多个用户已被标记为垃圾用户。"
 
-#: wp-admin/network/users.php:265
+#: wp-admin/network/users.php:262
 msgid "Users removed from spam."
 msgstr "多个用户已被从垃圾用户列表中移除。"
 
-#: wp-admin/network/users.php:268
+#: wp-admin/network/users.php:265
 msgid "Users deleted."
 msgstr "多个用户已被删除。"
 
@@ -1174,5 +1174,3 @@ msgstr "在 <code>%s</code> 中的 <code>.htaccess</code> 添加下列内容，�
 msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
 msgstr "完成这些步骤后，您的网络就已被配置妥当并启用了。您将需要重新登录。"
 
-#~ msgid "User deleted."
-#~ msgstr "用户已被删除。"

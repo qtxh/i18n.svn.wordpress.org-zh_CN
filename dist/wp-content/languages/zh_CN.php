@@ -85,7 +85,7 @@ wp_embed_register_handler( '56com',
  * Youku wp_embed handler
  *
  * Embed code last updated:
- *  Tue, 05 Jun 2012 23:03:29 -0400 
+ *  Wed, 06 Jun 2012 00:36:11 -0400 
  *
  * Feel free to submit or correct URL formats here:
  *  http://cn.wordpress.org/contact/

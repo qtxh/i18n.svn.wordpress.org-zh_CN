@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.3\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-04 15:18:00+00:00\n"
-"PO-Revision-Date: 2012-06-05 00:09-0500\n"
+"POT-Creation-Date: 2012-06-06 22:17:31+00:00\n"
+"PO-Revision-Date: 2012-06-06 23:02-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: Chinese (China)\n"
@@ -30,10 +30,10 @@ msgstr "感谢升级到最新版本！WordPress %s 让您的网站变得更棒�
 #: wp-admin/freedoms.php:24
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:343
 #: wp-admin/includes/class-wp-plugins-list-table.php:416
-#: wp-admin/includes/dashboard.php:1261
+#: wp-admin/includes/dashboard.php:1255
 #: wp-admin/includes/update.php:86
 #: wp-admin/includes/update.php:109
-#: wp-admin/themes.php:137
+#: wp-admin/themes.php:143
 msgid "Version %s"
 msgstr "%s 版本"
 
@@ -260,7 +260,7 @@ msgid "Global Dashboard"
 msgstr "全局仪表盘"
 
 #: wp-admin/admin-header.php:32
-#: wp-admin/customize.php:42
+#: wp-admin/customize.php:50
 msgid "%1$s &#8212; WordPress"
 msgstr "%1$s &#8212; WordPress"
 
@@ -307,8 +307,8 @@ msgid "Edit Comment"
 msgstr "编辑评论"
 
 #: wp-admin/comment.php:50
-#: wp-admin/custom-background.php:90
-#: wp-admin/custom-header.php:110
+#: wp-admin/custom-background.php:94
+#: wp-admin/custom-header.php:112
 #: wp-admin/edit-comments.php:116
 #: wp-admin/edit-link-form.php:44
 #: wp-admin/edit-tags.php:204
@@ -335,7 +335,7 @@ msgstr "编辑评论"
 #: wp-admin/plugins.php:335
 #: wp-admin/theme-editor.php:25
 #: wp-admin/theme-install.php:46
-#: wp-admin/themes.php:45
+#: wp-admin/themes.php:49
 #: wp-admin/update-core.php:433
 #: wp-admin/upload.php:150
 #: wp-admin/user-edit.php:47
@@ -354,8 +354,8 @@ msgid "You can also moderate the comment from this screen using the Status box, 
 msgstr "您也可以使用状态栏来审核评论、修改发布时间。"
 
 #: wp-admin/comment.php:57
-#: wp-admin/custom-background.php:99
-#: wp-admin/custom-header.php:136
+#: wp-admin/custom-background.php:103
+#: wp-admin/custom-header.php:138
 #: wp-admin/edit-comments.php:132
 #: wp-admin/edit-form-advanced.php:211
 #: wp-admin/edit-form-advanced.php:236
@@ -383,7 +383,7 @@ msgstr "您也可以使用状态栏来审核评论、修改发布时间。"
 #: wp-admin/plugins.php:349
 #: wp-admin/theme-editor.php:37
 #: wp-admin/theme-install.php:61
-#: wp-admin/themes.php:78
+#: wp-admin/themes.php:84
 #: wp-admin/tools.php:27
 #: wp-admin/update-core.php:448
 #: wp-admin/upload.php:169
@@ -400,8 +400,8 @@ msgid "<a href=\"http://codex.wordpress.org/Administration_Screens#Comments\" ta
 msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2#.E8.AF.84.E8.AE.BA\" target=\"_blank\">关于评论的中文文档</a>"
 
 #: wp-admin/comment.php:59
-#: wp-admin/custom-background.php:101
-#: wp-admin/custom-header.php:138
+#: wp-admin/custom-background.php:105
+#: wp-admin/custom-header.php:140
 #: wp-admin/edit-comments.php:136
 #: wp-admin/edit-form-advanced.php:213
 #: wp-admin/edit-form-advanced.php:239
@@ -429,7 +429,7 @@ msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E7%AE%A1%E7%90%86%E9%A1%B5%E
 #: wp-admin/plugins.php:351
 #: wp-admin/theme-editor.php:42
 #: wp-admin/theme-install.php:63
-#: wp-admin/themes.php:80
+#: wp-admin/themes.php:86
 #: wp-admin/tools.php:29
 #: wp-admin/update-core.php:450
 #: wp-admin/upload.php:171
@@ -622,315 +622,315 @@ msgstr "国际化"
 msgid "Icon Design"
 msgstr "图标设计"
 
-#: wp-admin/custom-background.php:92
+#: wp-admin/custom-background.php:96
 msgid "You can customize the look of your site without touching any of your theme&#8217;s code by using a custom background. Your background can be an image or a color."
 msgstr "通过自定义背景，您无须修改模板的任何代码，就可使您的站点外观焕然一新！背景可以是图片或某种色彩。"
 
-#: wp-admin/custom-background.php:93
+#: wp-admin/custom-background.php:97
 msgid "To use a background image, simply upload it, then choose your display options below. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
 msgstr "要使用背景图片，您需先上传，然后在其下方进行简单的设置。您可选择令其单次显示，或平铺多次以充满屏幕。您还可以使背景固定不动，站点的内容在其上滚动 —— 当然，也可让它与站点内容同步滚动。"
 
-#: wp-admin/custom-background.php:94
+#: wp-admin/custom-background.php:98
 msgid "You can also choose a background color. If you know the hexadecimal code for the color you want, enter it in the Background Color field. If not, click on the Select a Color link, and a color picker will allow you to choose the exact shade you want."
 msgstr "您也可以选择背景颜色。若您知道您所需颜色的十六进制代码，请在”背景颜色“一栏中输入它。若您不了解这些，请点击“选择颜色”，并在选色器中找到您喜爱的色彩。"
 
-#: wp-admin/custom-background.php:95
+#: wp-admin/custom-background.php:99
 msgid "Don&#8217;t forget to click on the Save Changes button when you are finished."
 msgstr "请不要忘记在完成时点击“保存更改”按钮。"
 
-#: wp-admin/custom-background.php:100
+#: wp-admin/custom-background.php:104
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Documentation on Custom Background</a>"
 msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E5%A4%96%E8%A7%82_%E8%83%8C%E6%99%AF%E9%A1%B5%E9%9D%A2\" target=\"_blank\">关于自定义背景的中文文档</a>"
 
-#: wp-admin/custom-background.php:186
+#: wp-admin/custom-background.php:190
 #: wp-admin/includes/theme.php:189
 msgid "Custom Background"
 msgstr "自定义背景"
 
-#: wp-admin/custom-background.php:189
+#: wp-admin/custom-background.php:193
 msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "背景已更新。<a href=\"%s\">访问您的站点</a>来看看效果。"
 
-#: wp-admin/custom-background.php:230
+#: wp-admin/custom-background.php:234
 msgid "Remove Background Image"
 msgstr "删除背景图像"
 
-#: wp-admin/custom-background.php:231
+#: wp-admin/custom-background.php:235
 msgid "This will remove the background image. You will not be able to restore any customizations."
 msgstr "这将移除背景图像。之后，您将无法还原任何自定义元素。"
 
-#: wp-admin/custom-background.php:240
 #: wp-admin/custom-background.php:244
+#: wp-admin/custom-background.php:248
 #: wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "还原原始图像"
 
-#: wp-admin/custom-background.php:245
+#: wp-admin/custom-background.php:249
 msgid "This will restore the original background image. You will not be able to restore any customizations."
 msgstr "这将恢复原始背景图像。您将无法还原任何自定义元素。"
 
-#: wp-admin/custom-background.php:252
-#: wp-admin/custom-header.php:558
+#: wp-admin/custom-background.php:256
+#: wp-admin/custom-header.php:560
 msgid "Select Image"
 msgstr "选择图像"
 
-#: wp-admin/custom-background.php:255
-#: wp-admin/custom-header.php:580
+#: wp-admin/custom-background.php:259
+#: wp-admin/custom-header.php:582
 msgid "Choose an image from your computer:"
 msgstr "从您的计算机中选择图像："
 
-#: wp-admin/custom-background.php:267
-#: wp-admin/custom-header.php:592
+#: wp-admin/custom-background.php:271
+#: wp-admin/custom-header.php:594
 msgid "Or choose an image from your media library:"
 msgstr "或从您的媒体库中选择图像："
 
-#: wp-admin/custom-background.php:268
-#: wp-admin/custom-header.php:593
+#: wp-admin/custom-background.php:272
+#: wp-admin/custom-header.php:595
 msgid "Choose Image"
 msgstr "选择图像"
 
-#: wp-admin/custom-background.php:276
+#: wp-admin/custom-background.php:280
 msgid "Display Options"
 msgstr "显示选项"
 
-#: wp-admin/custom-background.php:282
+#: wp-admin/custom-background.php:286
 #: wp-admin/widgets.php:257
 msgid "Position"
 msgstr "位置"
 
-#: wp-admin/custom-background.php:300
+#: wp-admin/custom-background.php:304
 msgid "Repeat"
 msgstr "重复"
 
-#: wp-admin/custom-background.php:310
+#: wp-admin/custom-background.php:314
 msgid "Attachment"
 msgstr "附着方式"
 
-#: wp-admin/custom-background.php:328
-#: wp-admin/custom-header.php:678
+#: wp-admin/custom-background.php:332
+#: wp-admin/custom-header.php:680
 msgid "Select a Color"
 msgstr "选择颜色"
 
-#: wp-admin/custom-background.php:328
+#: wp-admin/custom-background.php:332
 msgid "Clear"
 msgstr "清空"
 
-#: wp-admin/custom-background.php:394
+#: wp-admin/custom-background.php:402
 msgid "Set as background"
 msgstr "设为背景"
 
-#: wp-admin/custom-background.php:403
-#: wp-admin/custom-header.php:998
+#: wp-admin/custom-background.php:414
+#: wp-admin/custom-header.php:997
 #: wp-admin/includes/media.php:21
 #: wp-admin/upload.php:139
 msgid "Media Library"
 msgstr "媒体库"
 
-#: wp-admin/custom-background.php:411
+#: wp-admin/custom-background.php:420
 #: wp-admin/includes/media.php:715
 msgid "Large"
 msgstr "大"
 
-#: wp-admin/custom-header.php:112
+#: wp-admin/custom-header.php:114
 msgid "This screen is used to customize the header section of your theme."
 msgstr "在本页面调整主题顶部的样式。"
 
-#: wp-admin/custom-header.php:113
+#: wp-admin/custom-header.php:115
 msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
 msgstr "您可以从主题默认的顶部图像中选择，或使用您自己准备的顶部图像。您还可以定义“站点标题”和“副标题”的显示方式。"
 
-#: wp-admin/custom-header.php:120
+#: wp-admin/custom-header.php:122
 msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
 msgstr "您可为站点选择一个自定义顶部图像。只需上传需要的图像并进行剪裁，新顶部图像将会立即生效。或者您也可以点击“选择图像”，使用“媒体库”中原来上传过的图像。"
 
-#: wp-admin/custom-header.php:121
+#: wp-admin/custom-header.php:123
 msgid "Some themes come with additional header images bundled. If you see multiple images displayed, select the one you&#8217;d like and click the &#8220;Save Changes&#8221; button."
 msgstr "一些主题附带了更多顶部图像供您选择。若显示了多幅图像，请选择您喜爱的图像并点击“保存更改”。"
 
-#: wp-admin/custom-header.php:122
+#: wp-admin/custom-header.php:124
 msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
 msgstr "如果您有多张顶部图像，您可以选择让 WordPress 每次随机展示其中一张图像。如需实现这种效果，勾选“已上传的图像”旁边的“随机”单选框。"
 
-#: wp-admin/custom-header.php:123
+#: wp-admin/custom-header.php:125
 msgid "If you don&#8217;t want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
 msgstr "如果您不想要顶部图像，点击本页下方“顶部图像”一节的“移除顶部图像”按钮。移除之后如需再次启用顶部图像功能，您只须选择一个选项，然后点击“保存更改”。"
 
-#: wp-admin/custom-header.php:128
-#: wp-admin/custom-header.php:656
-#: wp-admin/custom-header.php:661
+#: wp-admin/custom-header.php:130
+#: wp-admin/custom-header.php:658
+#: wp-admin/custom-header.php:663
 msgid "Header Text"
 msgstr "顶部文本"
 
-#: wp-admin/custom-header.php:130
+#: wp-admin/custom-header.php:132
 msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%1$s\">General Settings</a> section."
 msgstr "大多数主题的顶部文字显示的是“站点标题”和“副标题”。您可以在<a href=\"%1$s\">常规选项</a>进行修改。"
 
-#: wp-admin/custom-header.php:131
+#: wp-admin/custom-header.php:133
 msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by typing in a legitimate HTML hex value (eg: &#8220;#ff0000&#8221; for red) or by clicking &#8220;Select a Color&#8221; and dialing in a color using the color picker."
 msgstr "在“顶部文本”一节，您可以选择是否显示这些文字。颜色可以通过点击“选择颜色”来使用选色器选择，或者手工输入 HTML 十六进制颜色代码（如红色“#ff0000”）。"
 
-#: wp-admin/custom-header.php:132
+#: wp-admin/custom-header.php:134
 msgid "Don&#8217;t forget to Save Changes when you&#8217;re done!"
 msgstr "完成后请不要忘记点击“保存更改”按钮。"
 
-#: wp-admin/custom-header.php:137
+#: wp-admin/custom-header.php:139
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Documentation on Custom Header</a>"
 msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E5%A4%96%E8%A7%82_%E9%A1%B6%E9%83%A8%E9%A1%B5%E9%9D%A2\" target=\"_blank\">关于自定义顶部样式的中文文档</a>"
 
-#: wp-admin/custom-header.php:322
+#: wp-admin/custom-header.php:324
 msgid "<strong>Random:</strong> Show a different image on each page."
 msgstr "<strong>随机：</strong>在每个页面上显示不同的图像。"
 
-#: wp-admin/custom-header.php:523
+#: wp-admin/custom-header.php:525
 #: wp-admin/includes/theme.php:191
 msgid "Custom Header"
 msgstr "自定义顶部"
 
-#: wp-admin/custom-header.php:527
+#: wp-admin/custom-header.php:529
 msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "顶部已更新。<a href=\"%s\">访问您的站点</a>来看看效果。"
 
-#: wp-admin/custom-header.php:560
+#: wp-admin/custom-header.php:562
 msgid "You can upload a custom header image to be shown at the top of your site instead of the default one. On the next screen you will be able to crop the image."
 msgstr "在这里，您可以上传一个新的图片以取代默认的图像。上传完成后，您将可以按喜好自己剪裁图像。"
 
-#: wp-admin/custom-header.php:563
+#: wp-admin/custom-header.php:565
 msgid "Images of exactly <strong>%1$d &times; %2$d pixels</strong> will be used as-is."
 msgstr "使用图像的 <strong>%1$d &times; %2$d 像素</strong>。"
 
-#: wp-admin/custom-header.php:566
+#: wp-admin/custom-header.php:568
 msgid "Images should be at least <strong>%1$d pixels</strong> wide."
 msgstr "图像宽度应大于 <strong>%1$d 像素</strong>。"
 
-#: wp-admin/custom-header.php:569
+#: wp-admin/custom-header.php:571
 msgid "Images should be at least <strong>%1$d pixels</strong> tall."
 msgstr "图像高度应大于 <strong>%1$d 像素</strong>。"
 
-#: wp-admin/custom-header.php:573
+#: wp-admin/custom-header.php:575
 msgid "Suggested width is <strong>%1$d pixels</strong>."
 msgstr "建议宽度 <strong>%1$d 像素</strong>。"
 
-#: wp-admin/custom-header.php:575
+#: wp-admin/custom-header.php:577
 msgid "Suggested height is <strong>%1$d pixels</strong>."
 msgstr "建议高度 <strong>%1$d 像素</strong>。"
 
-#: wp-admin/custom-header.php:607
+#: wp-admin/custom-header.php:609
 msgid "Uploaded Images"
 msgstr "已上传的图像"
 
-#: wp-admin/custom-header.php:609
+#: wp-admin/custom-header.php:611
 msgid "You can choose one of your previously uploaded headers, or show a random one."
 msgstr "您可以从上传过的顶部图像中选择，或让 WordPress 在每次显示页面时随机挑选。"
 
-#: wp-admin/custom-header.php:618
+#: wp-admin/custom-header.php:620
 msgid "Default Images"
 msgstr "默认图像"
 
-#: wp-admin/custom-header.php:621
+#: wp-admin/custom-header.php:623
 msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
 msgstr "若您现在不想上传您自己的图像，可从这些精美的顶部图像中选择，或让 WordPress 在每次显示页面时随机挑选。"
 
-#: wp-admin/custom-header.php:623
+#: wp-admin/custom-header.php:625
 msgid "You can use one of these cool headers or show a random one on each page."
 msgstr "您可现在从这些精美的顶部图像中选择，或让 WordPress 在每次显示页面时随机挑选。"
 
-#: wp-admin/custom-header.php:635
+#: wp-admin/custom-header.php:637
 msgid "This will remove the header image. You will not be able to restore any customizations."
 msgstr "这将移除顶部图像。之后，您将无法还原任何自定义元素。"
 
-#: wp-admin/custom-header.php:636
+#: wp-admin/custom-header.php:638
 msgid "Remove Header Image"
 msgstr "移除顶部图像"
 
-#: wp-admin/custom-header.php:644
+#: wp-admin/custom-header.php:646
 msgid "Reset Image"
 msgstr "重设图像"
 
-#: wp-admin/custom-header.php:646
+#: wp-admin/custom-header.php:648
 msgid "This will restore the original header image. You will not be able to restore any customizations."
 msgstr "这将重设顶部图像。之后，您将无法还原任何自定义元素。"
 
-#: wp-admin/custom-header.php:647
+#: wp-admin/custom-header.php:649
 msgid "Restore Original Header Image"
 msgstr "重设顶部图像"
 
-#: wp-admin/custom-header.php:664
+#: wp-admin/custom-header.php:666
 msgid "Show header text with your image."
 msgstr "将顶部文字和图像一并显示。"
 
-#: wp-admin/custom-header.php:670
+#: wp-admin/custom-header.php:672
 msgid "Text Color"
 msgstr "文本颜色"
 
-#: wp-admin/custom-header.php:686
+#: wp-admin/custom-header.php:688
 msgid "Reset Text Color"
 msgstr "重设文字颜色"
 
-#: wp-admin/custom-header.php:688
+#: wp-admin/custom-header.php:690
 msgid "This will restore the original header text. You will not be able to restore any customizations."
 msgstr "这将重设顶部文字。您将无法还原任何自定义元素。"
 
-#: wp-admin/custom-header.php:689
+#: wp-admin/custom-header.php:691
 msgid "Restore Original Header Text"
 msgstr "恢复原始顶部文字"
 
-#: wp-admin/custom-header.php:761
-#: wp-admin/custom-header.php:893
+#: wp-admin/custom-header.php:763
+#: wp-admin/custom-header.php:895
 msgid "Image could not be processed. Please go back and try again."
 msgstr "无法处理图像。请返回重试。"
 
-#: wp-admin/custom-header.php:761
-#: wp-admin/custom-header.php:893
+#: wp-admin/custom-header.php:763
+#: wp-admin/custom-header.php:895
 msgid "Image Processing Error"
 msgstr "图像处理出错"
 
-#: wp-admin/custom-header.php:775
+#: wp-admin/custom-header.php:777
 msgid "Crop Header Image"
 msgstr "剪裁顶部图像"
 
-#: wp-admin/custom-header.php:778
+#: wp-admin/custom-header.php:780
 msgid "Choose the part of the image you want to use as your header."
 msgstr "从图像中选取一部分作为您的页面顶部图像。"
 
-#: wp-admin/custom-header.php:779
+#: wp-admin/custom-header.php:781
 msgid "You need Javascript to choose a part of the image."
 msgstr "您需要 Javascript 才可以选择图像中的某部分。"
 
-#: wp-admin/custom-header.php:797
+#: wp-admin/custom-header.php:799
 msgid "Crop and Publish"
 msgstr "剪裁并发布"
 
-#: wp-admin/custom-header.php:800
+#: wp-admin/custom-header.php:802
 msgid "Skip Cropping, Publish Image as Is"
 msgstr "不剪裁以原样发布"
 
-#: wp-admin/custom-header.php:819
+#: wp-admin/custom-header.php:821
 msgid "Image Upload Error"
 msgstr "图片上传出错"
 
-#: wp-admin/custom-header.php:959
+#: wp-admin/custom-header.php:961
 msgid "You do not have permission to customize headers."
 msgstr "您无权进行自定义头部操作。"
 
-#: wp-admin/custom-header.php:984
+#: wp-admin/custom-header.php:985
 msgid "Set as header"
 msgstr "设为顶部"
 
-#: wp-admin/customize.php:42
+#: wp-admin/customize.php:50
 msgid "Customize %s"
 msgstr "自定义 %s"
 
 #. translators: %s is the theme name in the Customize/Live Preview pane
-#: wp-admin/customize.php:73
+#: wp-admin/customize.php:82
 msgid "You are previewing %s"
 msgstr "您正在预览 %s"
 
-#: wp-admin/customize.php:98
+#: wp-admin/customize.php:107
 #: wp-admin/includes/class-wp-theme-install-list-table.php:262
 msgid "Collapse Sidebar"
 msgstr "收起边栏"
 
-#: wp-admin/customize.php:99
+#: wp-admin/customize.php:109
 #: wp-admin/includes/class-wp-theme-install-list-table.php:263
 msgid "Collapse"
 msgstr "收起"
@@ -987,7 +987,7 @@ msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E9%94%AE%E7%9B%98%E5%BF%AB%E
 #: wp-admin/link-manager.php:75
 #: wp-admin/plugins.php:410
 #: wp-admin/upload.php:186
-#: wp-admin/users.php:416
+#: wp-admin/users.php:410
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "搜索“%s”的结果"
 
@@ -1257,12 +1257,12 @@ msgid "Get Shortlink"
 msgstr "获取短链接地址"
 
 #: wp-admin/edit-form-advanced.php:326
-#: wp-admin/includes/ajax-actions.php:1760
+#: wp-admin/includes/ajax-actions.php:1736
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最后由 %1$s 编辑于 %2$s%3$s"
 
 #: wp-admin/edit-form-advanced.php:328
-#: wp-admin/includes/ajax-actions.php:1762
+#: wp-admin/includes/ajax-actions.php:1738
 msgid "Last edited on %1$s at %2$s"
 msgstr "最后编辑于 %1$s%2$s"
 
@@ -1295,7 +1295,7 @@ msgid "URL:"
 msgstr "URL："
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/ajax-actions.php:1472
+#: wp-admin/includes/ajax-actions.php:1448
 #: wp-admin/includes/class-wp-posts-list-table.php:954
 msgid "Status"
 msgstr "状态"
@@ -1328,7 +1328,7 @@ msgstr "提交于：</b>%1$s</b>"
 #: wp-admin/includes/class-wp-posts-list-table.php:537
 #: wp-admin/includes/class-wp-terms-list-table.php:258
 #: wp-admin/includes/class-wp-users-list-table.php:246
-#: wp-admin/includes/dashboard.php:668
+#: wp-admin/includes/dashboard.php:662
 #: wp-admin/includes/meta-boxes.php:84
 #: wp-admin/includes/meta-boxes.php:130
 #: wp-admin/includes/meta-boxes.php:180
@@ -1345,7 +1345,7 @@ msgstr "编辑"
 #: wp-admin/includes/class-wp-media-list-table.php:381
 #: wp-admin/includes/class-wp-posts-list-table.php:193
 #: wp-admin/includes/class-wp-posts-list-table.php:546
-#: wp-admin/includes/dashboard.php:672
+#: wp-admin/includes/dashboard.php:666
 #: wp-admin/includes/media.php:1159
 #: wp-admin/includes/meta-boxes.php:196
 msgid "Delete Permanently"
@@ -1434,7 +1434,7 @@ msgstr "例子：<code>http://cn.wordpress.org/</code> —— 不要忘了 <code
 #: wp-admin/includes/nav-menu.php:1140
 #: wp-admin/press-this.php:146
 #: wp-admin/press-this.php:638
-#: wp-admin/themes.php:264
+#: wp-admin/themes.php:280
 msgid "Description"
 msgstr "描述"
 
@@ -1580,8 +1580,8 @@ msgid "Item not added."
 msgstr "项目未被添加。"
 
 #: wp-admin/edit-tags.php:259
-#: wp-admin/includes/ajax-actions.php:1425
-#: wp-admin/includes/ajax-actions.php:1432
+#: wp-admin/includes/ajax-actions.php:1401
+#: wp-admin/includes/ajax-actions.php:1408
 msgid "Item not updated."
 msgstr "项目未更新。"
 
@@ -1984,89 +1984,89 @@ msgstr "<strong>警告：您已登出！</strong>因此无法保存草稿。<a h
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-admin/includes/ajax-actions.php:292
+#: wp-admin/includes/ajax-actions.php:268
 #: wp-admin/includes/class-wp-list-table.php:489
 #: wp-admin/includes/class-wp-list-table.php:890
 msgid "1 item"
 msgid_plural "%s items"
 msgstr[0] "%s 个项目"
 
-#: wp-admin/includes/ajax-actions.php:550
+#: wp-admin/includes/ajax-actions.php:526
 msgid "Comment %d does not exist"
 msgstr "评论 %d 不存在"
 
-#: wp-admin/includes/ajax-actions.php:627
-#: wp-admin/includes/ajax-actions.php:1562
+#: wp-admin/includes/ajax-actions.php:603
+#: wp-admin/includes/ajax-actions.php:1538
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "发生了错误，请刷新页面重试。"
 
-#: wp-admin/includes/ajax-actions.php:681
+#: wp-admin/includes/ajax-actions.php:657
 msgid "No tags found!"
 msgstr "找不到标签！"
 
-#: wp-admin/includes/ajax-actions.php:757
+#: wp-admin/includes/ajax-actions.php:733
 msgid "ERROR: you are replying to a comment on a draft post."
 msgstr "错误：您正在文章草稿上发表评论。"
 
-#: wp-admin/includes/ajax-actions.php:773
+#: wp-admin/includes/ajax-actions.php:749
 msgid "Sorry, you must be logged in to reply to a comment."
 msgstr "抱歉，回复评论需先登录。"
 
-#: wp-admin/includes/ajax-actions.php:777
-#: wp-admin/includes/ajax-actions.php:841
+#: wp-admin/includes/ajax-actions.php:753
+#: wp-admin/includes/ajax-actions.php:817
 msgid "ERROR: please type a comment."
 msgstr "错误：请输入评论内容。"
 
-#: wp-admin/includes/ajax-actions.php:972
-#: wp-admin/includes/ajax-actions.php:977
-#: wp-admin/includes/ajax-actions.php:997
+#: wp-admin/includes/ajax-actions.php:948
+#: wp-admin/includes/ajax-actions.php:953
+#: wp-admin/includes/ajax-actions.php:973
 msgid "Please provide a custom field value."
 msgstr "请输入一个自定义栏目值。"
 
-#: wp-admin/includes/ajax-actions.php:995
+#: wp-admin/includes/ajax-actions.php:971
 msgid "Please provide a custom field name."
 msgstr "请输入一个自定义栏目的名称。"
 
-#: wp-admin/includes/ajax-actions.php:1050
+#: wp-admin/includes/ajax-actions.php:1026
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "用户 <a href=\"#%s\">%s</a> 已添加"
 
 #. translators: draft saved date format, see http:php.net/date
-#: wp-admin/includes/ajax-actions.php:1073
+#: wp-admin/includes/ajax-actions.php:1049
 msgid "g:i:s a"
 msgstr "a g:i:s"
 
 #. translators: %s: date and time
-#: wp-admin/includes/ajax-actions.php:1075
+#: wp-admin/includes/ajax-actions.php:1051
 msgid "Draft saved at %s."
 msgstr "草稿保存于%s。"
 
-#: wp-admin/includes/ajax-actions.php:1079
+#: wp-admin/includes/ajax-actions.php:1055
 msgid "Your login has expired. Please open a new browser window and <a href=\"%s\" target=\"_blank\">log in again</a>. "
 msgstr "登录过期。请<a href=\"%s\" target=\"_blank\">点此打开一个新的浏览器窗口，并重新登录</a>。"
 
-#: wp-admin/includes/ajax-actions.php:1093
-#: wp-admin/includes/ajax-actions.php:1355
+#: wp-admin/includes/ajax-actions.php:1069
+#: wp-admin/includes/ajax-actions.php:1331
 msgid "Someone"
 msgstr "有人"
 
-#: wp-admin/includes/ajax-actions.php:1094
+#: wp-admin/includes/ajax-actions.php:1070
 msgid "Autosave disabled."
 msgstr "已自动禁用自动保存功能。"
 
-#: wp-admin/includes/ajax-actions.php:1097
+#: wp-admin/includes/ajax-actions.php:1073
 msgid "%s is currently editing this article. If you update it, you will overwrite the changes."
 msgstr "%s 正在编辑这篇文章。若您更新，其修改将被覆盖。"
 
-#: wp-admin/includes/ajax-actions.php:1102
-#: wp-admin/includes/ajax-actions.php:1345
+#: wp-admin/includes/ajax-actions.php:1078
+#: wp-admin/includes/ajax-actions.php:1321
 #: wp-admin/includes/post.php:156
 #: wp-admin/includes/post.php:1317
 msgid "You are not allowed to edit this page."
 msgstr "您没有修改这个页面的权限。"
 
-#: wp-admin/includes/ajax-actions.php:1105
-#: wp-admin/includes/ajax-actions.php:1348
+#: wp-admin/includes/ajax-actions.php:1081
+#: wp-admin/includes/ajax-actions.php:1324
 #: wp-admin/includes/post.php:158
 #: wp-admin/includes/post.php:1320
 #: wp-admin/press-this.php:35
@@ -2074,21 +2074,21 @@ msgstr "您没有修改这个页面的权限。"
 msgid "You are not allowed to edit this post."
 msgstr "您没有修改这篇文章的权限。"
 
-#: wp-admin/includes/ajax-actions.php:1356
+#: wp-admin/includes/ajax-actions.php:1332
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "无法保存：%s 正在编辑这个页面。"
 
-#: wp-admin/includes/ajax-actions.php:1356
+#: wp-admin/includes/ajax-actions.php:1332
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "无法保存：%s 正在编辑这篇文章。"
 
-#: wp-admin/includes/ajax-actions.php:1472
+#: wp-admin/includes/ajax-actions.php:1448
 #: wp-admin/includes/class-wp-posts-list-table.php:282
 #: wp-admin/includes/class-wp-posts-list-table.php:754
 msgid "Date"
 msgstr "日期"
 
-#: wp-admin/includes/ajax-actions.php:1481
+#: wp-admin/includes/ajax-actions.php:1457
 #: wp-admin/includes/class-wp-posts-list-table.php:593
 #: wp-admin/includes/class-wp-posts-list-table.php:961
 #: wp-admin/includes/meta-boxes.php:71
@@ -2096,7 +2096,7 @@ msgstr "日期"
 msgid "Scheduled"
 msgstr "定时"
 
-#: wp-admin/includes/ajax-actions.php:1742
+#: wp-admin/includes/ajax-actions.php:1718
 msgid "Save failed"
 msgstr "保存失败"
 
@@ -2145,14 +2145,14 @@ msgstr[0] "回收站 <span class=\"count\">(<span class=\"trash-count\">%s</span
 #: wp-admin/includes/class-wp-comments-list-table.php:188
 #: wp-admin/includes/class-wp-comments-list-table.php:392
 #: wp-admin/includes/class-wp-comments-list-table.php:397
-#: wp-admin/includes/dashboard.php:667
+#: wp-admin/includes/dashboard.php:661
 msgid "Unapprove"
 msgstr "驳回"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:190
 #: wp-admin/includes/class-wp-comments-list-table.php:394
 #: wp-admin/includes/class-wp-comments-list-table.php:396
-#: wp-admin/includes/dashboard.php:666
+#: wp-admin/includes/dashboard.php:660
 msgid "Approve"
 msgstr "批准"
 
@@ -2220,35 +2220,35 @@ msgstr "回复给 <a href=\"%1$s\">%2$s</a>。"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:392
 #: wp-admin/includes/class-wp-comments-list-table.php:397
-#: wp-admin/includes/dashboard.php:667
+#: wp-admin/includes/dashboard.php:661
 msgid "Unapprove this comment"
 msgstr "驳回这条评论"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:394
 #: wp-admin/includes/class-wp-comments-list-table.php:396
-#: wp-admin/includes/dashboard.php:666
+#: wp-admin/includes/dashboard.php:660
 msgid "Approve this comment"
 msgstr "批准这条评论"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:401
-#: wp-admin/includes/dashboard.php:670
+#: wp-admin/includes/dashboard.php:664
 msgid "Mark this comment as spam"
 msgstr "将这条评论标记为垃圾评论"
 
 #. translators: mark as spam link
 #: wp-admin/includes/class-wp-comments-list-table.php:401
-#: wp-admin/includes/dashboard.php:670
+#: wp-admin/includes/dashboard.php:664
 msgctxt "verb"
 msgid "Spam"
 msgstr "垃圾评论"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:411
-#: wp-admin/includes/dashboard.php:674
+#: wp-admin/includes/dashboard.php:668
 msgid "Move this comment to the trash"
 msgstr "将这条评论移动到回收站"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:411
-#: wp-admin/includes/dashboard.php:674
+#: wp-admin/includes/dashboard.php:668
 msgctxt "verb"
 msgid "Trash"
 msgstr "移至回收站"
@@ -2266,7 +2266,7 @@ msgid "Quick&nbsp;Edit"
 msgstr "快速编辑"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:417
-#: wp-admin/includes/dashboard.php:669
+#: wp-admin/includes/dashboard.php:663
 msgid "Reply to this comment"
 msgstr "回复这条评论"
 
@@ -2362,7 +2362,7 @@ msgstr "未找到链接。"
 #: wp-admin/includes/class-wp-plugins-list-table.php:367
 #: wp-admin/includes/class-wp-terms-list-table.php:83
 #: wp-admin/includes/class-wp-terms-list-table.php:262
-#: wp-admin/includes/class-wp-themes-list-table.php:144
+#: wp-admin/includes/class-wp-themes-list-table.php:148
 #: wp-admin/includes/class-wp-users-list-table.php:130
 #: wp-admin/includes/class-wp-users-list-table.php:252
 #: wp-admin/includes/media.php:1161
@@ -2398,7 +2398,7 @@ msgstr "评分"
 #: wp-admin/includes/class-wp-posts-list-table.php:522
 #: wp-admin/includes/class-wp-posts-list-table.php:528
 #: wp-admin/includes/class-wp-terms-list-table.php:254
-#: wp-admin/includes/dashboard.php:574
+#: wp-admin/includes/dashboard.php:568
 msgid "Edit &#8220;%s&#8221;"
 msgstr "编辑“%s”"
 
@@ -2420,7 +2420,7 @@ msgid "No items found."
 msgstr "找不到项目。"
 
 #: wp-admin/includes/class-wp-list-table.php:377
-#: wp-admin/includes/media.php:1866
+#: wp-admin/includes/media.php:1867
 msgid "Show all dates"
 msgstr "显示所有日期"
 
@@ -2521,7 +2521,7 @@ msgstr "未发布"
 
 #: wp-admin/includes/class-wp-media-list-table.php:279
 #: wp-admin/includes/class-wp-posts-list-table.php:569
-#: wp-admin/includes/dashboard.php:574
+#: wp-admin/includes/dashboard.php:568
 msgid "Y/m/d g:i:s A"
 msgstr "Y 年 n 月 j 日A g:i:s"
 
@@ -2763,8 +2763,8 @@ msgstr "损坏的主题："
 #: wp-admin/includes/class-wp-plugins-list-table.php:421
 #: wp-admin/includes/class-wp-theme-install-list-table.php:233
 #: wp-admin/includes/class-wp-theme-install-list-table.php:336
-#: wp-admin/includes/class-wp-themes-list-table.php:164
-#: wp-admin/themes.php:136
+#: wp-admin/includes/class-wp-themes-list-table.php:168
+#: wp-admin/themes.php:142
 msgid "By %s"
 msgstr "作者为 %s"
 
@@ -2853,7 +2853,7 @@ msgstr "关于 %s 的更多信息"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:190
 #: wp-admin/includes/class-wp-theme-install-list-table.php:240
-#: wp-admin/includes/class-wp-themes-list-table.php:170
+#: wp-admin/includes/class-wp-themes-list-table.php:174
 msgid "Details"
 msgstr "详细信息"
 
@@ -3044,7 +3044,7 @@ msgstr "永久删除此项目"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:551
 #: wp-admin/includes/class-wp-theme-install-list-table.php:189
-#: wp-admin/includes/class-wp-themes-list-table.php:138
+#: wp-admin/includes/class-wp-themes-list-table.php:139
 #: wp-admin/includes/class-wp-upgrader.php:1519
 #: wp-admin/includes/class-wp-upgrader.php:1520
 #: wp-admin/includes/class-wp-upgrader.php:1585
@@ -3189,7 +3189,7 @@ msgid "&larr; Close"
 msgstr "&larr; 关闭"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:325
-#: wp-admin/includes/dashboard.php:983
+#: wp-admin/includes/dashboard.php:977
 msgid "Install"
 msgstr "安装"
 
@@ -3215,13 +3215,13 @@ msgstr "您目前只能使用这个主题。请联系 %s 的管理员，以了�
 msgid "Activate &#8220;%s&#8221;"
 msgstr "启用“%s”"
 
-#: wp-admin/includes/class-wp-themes-list-table.php:140
+#: wp-admin/includes/class-wp-themes-list-table.php:143
 #: wp-admin/includes/class-wp-upgrader.php:1520
 #: wp-admin/includes/class-wp-upgrader.php:1586
 msgid "Live Preview"
 msgstr "实时预览"
 
-#: wp-admin/includes/class-wp-themes-list-table.php:143
+#: wp-admin/includes/class-wp-themes-list-table.php:147
 msgid ""
 "You are about to delete this theme '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -3229,18 +3229,18 @@ msgstr ""
 "将删除“%s”主题\n"
 "  点击“取消”放弃，点击“确定”删除。"
 
-#: wp-admin/includes/class-wp-themes-list-table.php:178
+#: wp-admin/includes/class-wp-themes-list-table.php:182
 msgid "Version: "
 msgstr "版本号："
 
 #. translators: 1: theme title, 2:  template dir, 3: stylesheet_dir, 4: theme
 #. title, 5: parent_theme
-#: wp-admin/includes/class-wp-themes-list-table.php:182
+#: wp-admin/includes/class-wp-themes-list-table.php:186
 msgid "The template files are located in <code>%2$s</code>. The stylesheet files are located in <code>%3$s</code>. <strong>%4$s</strong> uses templates from <strong>%5$s</strong>. Changes made to the templates will affect both themes."
 msgstr "该模板存放在 <code>%2$s</code>。使用的样式表存放在 <code>%3$s</code>。当前 <strong>%4$s</strong> 使用 <strong>%5$s</strong> 模板。任何对此模版的修改都将影响以此为基础的所有主题。"
 
 #. translators: 1: theme title, 2:  template dir, 3: stylesheet_dir
-#: wp-admin/includes/class-wp-themes-list-table.php:186
+#: wp-admin/includes/class-wp-themes-list-table.php:190
 msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
 msgstr "该主题的所有文件均存放于 <code>%2$s</code> 中。"
 
@@ -3584,7 +3584,7 @@ msgid "Update Theme"
 msgstr "升级主题"
 
 #: wp-admin/includes/class-wp-upgrader.php:1583
-#: wp-admin/themes.php:118
+#: wp-admin/themes.php:122
 msgid "Customize &#8220;%s&#8221;"
 msgstr "自定义“%s”"
 
@@ -3675,7 +3675,7 @@ msgid "Other WordPress News"
 msgstr "其它 WordPress 新闻"
 
 #: wp-admin/includes/dashboard.php:129
-#: wp-admin/includes/dashboard.php:583
+#: wp-admin/includes/dashboard.php:577
 msgid "View all"
 msgstr "查看所有"
 
@@ -3760,46 +3760,46 @@ msgstr "创建新站点"
 msgid "Create a New User"
 msgstr "创建新用户"
 
-#: wp-admin/includes/dashboard.php:426
+#: wp-admin/includes/dashboard.php:420
 msgid "%s user"
 msgid_plural "%s users"
 msgstr[0] "%s 位用户"
 
-#: wp-admin/includes/dashboard.php:427
+#: wp-admin/includes/dashboard.php:421
 msgid "%s site"
 msgid_plural "%s sites"
 msgstr[0] "%s 个站点"
 
-#: wp-admin/includes/dashboard.php:429
+#: wp-admin/includes/dashboard.php:423
 msgid "You have %1$s and %2$s."
 msgstr "您有 %1$s和 %2$s。"
 
-#: wp-admin/includes/dashboard.php:448
-#: wp-admin/users.php:423
+#: wp-admin/includes/dashboard.php:442
+#: wp-admin/users.php:417
 msgid "Search Users"
 msgstr "搜索用户"
 
-#: wp-admin/includes/dashboard.php:455
+#: wp-admin/includes/dashboard.php:449
 msgid "Search Sites"
 msgstr "搜索站点"
 
-#: wp-admin/includes/dashboard.php:472
+#: wp-admin/includes/dashboard.php:466
 msgid "Post published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "文章已发布。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
-#: wp-admin/includes/dashboard.php:474
+#: wp-admin/includes/dashboard.php:468
 msgid "Post submitted. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "文章已提交。<a href=\"%s\">预览文章</a> | <a href=\"%s\">编辑文章</a>"
 
-#: wp-admin/includes/dashboard.php:476
+#: wp-admin/includes/dashboard.php:470
 msgid "Draft saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "草稿已保存。<a href=\"%s\">预览文章</a> | <a href=\"%s\">编辑文章</a>"
 
-#: wp-admin/includes/dashboard.php:489
+#: wp-admin/includes/dashboard.php:483
 msgid "You can also try %s, easy blogging from anywhere on the Web."
 msgstr "您也可试试%s，从 Web 上任何角落轻松发表文章。"
 
-#: wp-admin/includes/dashboard.php:489
+#: wp-admin/includes/dashboard.php:483
 #: wp-admin/options-writing.php:27
 #: wp-admin/options-writing.php:122
 #: wp-admin/options-writing.php:126
@@ -3811,199 +3811,199 @@ msgstr "您也可试试%s，从 Web 上任何角落轻松发表文章。"
 msgid "Press This"
 msgstr "快速发布"
 
-#: wp-admin/includes/dashboard.php:541
+#: wp-admin/includes/dashboard.php:535
 msgid "Reset"
 msgstr "重置"
 
-#: wp-admin/includes/dashboard.php:543
+#: wp-admin/includes/dashboard.php:537
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
 #: wp-admin/press-this.php:464
 msgid "Submit for Review"
 msgstr "提请审批"
 
-#: wp-admin/includes/dashboard.php:586
+#: wp-admin/includes/dashboard.php:580
 msgid "There are no drafts at the moment"
 msgstr "当前没有草稿"
 
 #. translators: 1: comment author, 2: post link, 3: notification if the comment
 #. is pending
-#: wp-admin/includes/dashboard.php:700
+#: wp-admin/includes/dashboard.php:694
 msgid "From %1$s on %2$s%3$s"
 msgstr "由 %1$s 发表在《%2$s》%3$s"
 
-#: wp-admin/includes/dashboard.php:701
+#: wp-admin/includes/dashboard.php:695
 msgid "[Pending]"
 msgstr "[待审]"
 
 #. translators: %1$s is type of comment, %2$s is link to the post
-#: wp-admin/includes/dashboard.php:720
+#: wp-admin/includes/dashboard.php:714
 msgctxt "dashboard"
 msgid "%1$s on %2$s"
 msgstr "%2$s 上的 %1$s"
 
-#: wp-admin/includes/dashboard.php:779
+#: wp-admin/includes/dashboard.php:773
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
 msgstr "这个仪表盘小工具会查询 <a href=\"http://blogsearch.google.com/\">Google 博客搜索</a>。当有其它博客链接到您的站点时，它们会显示在这里。目前还未找到引入的的链接，但您不用急。"
 
-#: wp-admin/includes/dashboard.php:803
-#: wp-admin/includes/dashboard.php:805
+#: wp-admin/includes/dashboard.php:797
+#: wp-admin/includes/dashboard.php:799
 #: wp-admin/includes/post.php:1230
 msgid "Somebody"
 msgstr "有人"
 
 #. translators: incoming links feed, %1$s is other person, %3$s is content
-#: wp-admin/includes/dashboard.php:817
+#: wp-admin/includes/dashboard.php:811
 msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\""
 msgstr "%1$s 链接到这里，<a href=\"%2$s\">说</a>“%3$s”"
 
 #. translators: incoming links feed, %1$s is other person, %3$s is content
-#: wp-admin/includes/dashboard.php:820
+#: wp-admin/includes/dashboard.php:814
 msgid "%1$s linked here saying, \"%3$s\""
 msgstr "%1$s 链接到这里，说“%3$s”"
 
 #. translators: incoming links feed, %4$s is the date
-#: wp-admin/includes/dashboard.php:825
+#: wp-admin/includes/dashboard.php:819
 msgid "on %4$s"
 msgstr "于 %4$s"
 
-#: wp-admin/includes/dashboard.php:925
+#: wp-admin/includes/dashboard.php:919
 msgid "Most Popular"
 msgstr "最热门的"
 
-#: wp-admin/includes/dashboard.php:925
+#: wp-admin/includes/dashboard.php:919
 msgid "Newest Plugins"
 msgstr "最新插件"
 
-#: wp-admin/includes/dashboard.php:1007
+#: wp-admin/includes/dashboard.php:1001
 msgid "Loading&#8230;"
 msgstr "载入中&#8230;"
 
-#: wp-admin/includes/dashboard.php:1007
+#: wp-admin/includes/dashboard.php:1001
 msgid "This widget requires JavaScript."
 msgstr "这个小工具需要 JavaScript 的支持。"
 
-#: wp-admin/includes/dashboard.php:1119
+#: wp-admin/includes/dashboard.php:1113
 msgid "Storage Space"
 msgstr "储存空间"
 
-#: wp-admin/includes/dashboard.php:1123
+#: wp-admin/includes/dashboard.php:1117
 msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB</a>"
 msgstr "<a href=\"%1$s\" title=\"管理文件上传\" class=\"musublink\">%2$sMB</a>"
 
-#: wp-admin/includes/dashboard.php:1124
+#: wp-admin/includes/dashboard.php:1118
 msgid "Space Allowed"
 msgstr "允许使用"
 
-#: wp-admin/includes/dashboard.php:1131
+#: wp-admin/includes/dashboard.php:1125
 msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s%%)</a>"
 msgstr "<a href=\"%1$s\" title=\"管理文件上传\" class=\"musublink\">%2$sMB (%3$s%%)</a>"
 
-#: wp-admin/includes/dashboard.php:1132
+#: wp-admin/includes/dashboard.php:1126
 msgid "Space Used"
 msgstr "已用空间"
 
-#: wp-admin/includes/dashboard.php:1148
+#: wp-admin/includes/dashboard.php:1142
 msgid "It looks like you're using an insecure version of <a href='%s'>%s</a>. Using an outdated browser makes your computer unsafe. For the best WordPress experience, please update your browser."
 msgstr "似乎您正在使用的 <a href='%s'>%s</a> 版本不安全。使用过时的浏览器会降低您计算机的安全性。同时，为了获得最佳 WordPress 体验，请升级您的浏览器。"
 
-#: wp-admin/includes/dashboard.php:1150
+#: wp-admin/includes/dashboard.php:1144
 msgid "It looks like you're using an old version of <a href='%s'>%s</a>. For the best WordPress experience, please update your browser."
 msgstr "似乎您正在使用旧版本的 <a href='%s'>%s</a>。为获得最佳 WordPress 体验，请升级您的浏览器。"
 
-#: wp-admin/includes/dashboard.php:1167
+#: wp-admin/includes/dashboard.php:1161
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
 msgstr "<a href=\"%1$s\" class=\"update-browser-link\">升级您的 %2$s</a>，或了解一下<a href=\"%3$s\" class=\"browse-happy-link\">先进的浏览器</a>的有关信息。"
 
-#: wp-admin/includes/dashboard.php:1264
+#: wp-admin/includes/dashboard.php:1258
 msgid "Welcome to your new WordPress site!"
 msgstr "欢迎访问您全新的 WordPress 站点！"
 
-#: wp-admin/includes/dashboard.php:1265
+#: wp-admin/includes/dashboard.php:1259
 msgid "If you need help getting started, check out our documentation on <a href=\"http://codex.wordpress.org/First_Steps_With_WordPress\">First Steps with WordPress</a>. If you&#8217;d rather dive right in, here are a few things most people do first when they set up a new WordPress site. If you need help, use the Help tabs in the upper right corner to get information on how to use your current screen and where to go for more assistance."
 msgstr "如果您不清楚怎样开始，可浏览我们的文档：“<a href=\"http://codex.wordpress.org/zh-cn:%E5%87%86%E5%A4%87%E4%BD%BF%E7%94%A8_WordPress\">准备使用 WordPress</a>”。或者，您可以试试直接开始配置 WordPress。下面是大多数用户在创建完新 WordPress 站点时所做的事。若您需要帮助，请使用任何页面右上方的”帮助“选项卡，点击即可展开页面所对应的帮助内容。"
 
-#: wp-admin/includes/dashboard.php:1268
+#: wp-admin/includes/dashboard.php:1262
 msgid "Basic Settings"
 msgstr "基本设置"
 
-#: wp-admin/includes/dashboard.php:1269
+#: wp-admin/includes/dashboard.php:1263
 msgid "Here are a few easy things you can do to get your feet wet. Make sure to click Save on each Settings screen."
 msgstr "先做点简单的事情找找感觉 —— 不过别忘了在每个页面点击“保存”哦。"
 
-#: wp-admin/includes/dashboard.php:1271
+#: wp-admin/includes/dashboard.php:1265
 msgid "<a href=\"%s\">Choose your privacy setting</a>"
 msgstr "<a href=\"%s\">选择隐私策略</a>"
 
-#: wp-admin/includes/dashboard.php:1272
+#: wp-admin/includes/dashboard.php:1266
 msgid "<a href=\"%s\">Select your tagline and time zone</a>"
 msgstr "<a href=\"%s\">设置站点副标题和时区</a>"
 
-#: wp-admin/includes/dashboard.php:1273
+#: wp-admin/includes/dashboard.php:1267
 msgid "<a href=\"%s\">Turn comments on or off</a>"
 msgstr "<a href=\"%s\">打开/关闭评论功能</a>"
 
-#: wp-admin/includes/dashboard.php:1274
+#: wp-admin/includes/dashboard.php:1268
 msgid "<a href=\"%s\">Fill in your profile</a>"
 msgstr "<a href=\"%s\">填写个人资料</a>"
 
-#: wp-admin/includes/dashboard.php:1278
+#: wp-admin/includes/dashboard.php:1272
 msgid "Add Real Content"
 msgstr "码些字"
 
-#: wp-admin/includes/dashboard.php:1279
+#: wp-admin/includes/dashboard.php:1273
 msgid "Check out the sample page & post editors to see how it all works, then delete the default content and write your own!"
 msgstr "看看示例页面和示例文章是怎么样的，然后删除它们，添上您自己的内容！"
 
-#: wp-admin/includes/dashboard.php:1281
+#: wp-admin/includes/dashboard.php:1275
 msgid "View the <a href=\"%1$s\">sample page</a> and <a href=\"%2$s\">post</a>"
 msgstr "查看<a href=\"%1$s\">示例页面</a>和<a href=\"%2$s\">示例文章</a>"
 
-#: wp-admin/includes/dashboard.php:1282
+#: wp-admin/includes/dashboard.php:1276
 msgid "Delete the <a href=\"%1$s\">sample page</a> and <a href=\"%2$s\">post</a>"
 msgstr "删除<a href=\"%1$s\">示例页面</a>和<a href=\"%2$s\">示例文章</a>"
 
-#: wp-admin/includes/dashboard.php:1283
+#: wp-admin/includes/dashboard.php:1277
 msgid "<a href=\"%s\">Create an About Me page</a>"
 msgstr "<a href=\"%s\">创建一个“关于我”页面</a>"
 
-#: wp-admin/includes/dashboard.php:1284
+#: wp-admin/includes/dashboard.php:1278
 msgid "<a href=\"%s\">Write your first post</a>"
 msgstr "<a href=\"%s\">撰写您的第一篇文章</a>"
 
-#: wp-admin/includes/dashboard.php:1288
+#: wp-admin/includes/dashboard.php:1282
 msgid "Customize Your Site"
 msgstr "自定义您的站点"
 
-#: wp-admin/includes/dashboard.php:1293
+#: wp-admin/includes/dashboard.php:1287
 msgid "<a href=\"%s\">Install a theme</a> to get started customizing your site."
 msgstr "<a href=\"%s\">安装新主题</a>来开始自定义您的站点。"
 
-#: wp-admin/includes/dashboard.php:1298
+#: wp-admin/includes/dashboard.php:1292
 msgid "<a href=\"%s\">Choose light or dark</a>"
 msgstr "<a href=\"%s\">选择深/浅色系</a>"
 
-#: wp-admin/includes/dashboard.php:1301
+#: wp-admin/includes/dashboard.php:1295
 msgid "<a href=\"%s\">Set a background color</a>"
 msgstr "<a href=\"%s\">设置背景颜色</a>"
 
-#: wp-admin/includes/dashboard.php:1304
+#: wp-admin/includes/dashboard.php:1298
 msgid "<a href=\"%s\">Select a new header image</a>"
 msgstr "<a href=\"%s\">挑选顶部图像</a>"
 
-#: wp-admin/includes/dashboard.php:1307
+#: wp-admin/includes/dashboard.php:1301
 msgid "<a href=\"%s\">Add some widgets</a>"
 msgstr "<a href=\"%s\">添加几个边栏小工具</a>"
 
-#: wp-admin/includes/dashboard.php:1311
+#: wp-admin/includes/dashboard.php:1305
 msgid "Use the current theme &mdash; %1$s &mdash; or <a href=\"%2$s\">choose a new one</a>. If you stick with %1$s, here are a few ways to make your site look unique."
 msgstr "使用当前的主题（%1$s）或<a href=\"%2$s\">选个别的</a>。如果您就愿意使用 %1$s，您依然可以通过下面方法令您的站点与众不同。"
 
-#: wp-admin/includes/dashboard.php:1322
+#: wp-admin/includes/dashboard.php:1316
 msgid "Use the current theme &mdash; %1$s &mdash; or <a href=\"%2$s\">choose a new one</a>."
 msgstr "使用当前的主题（%1$s）或<a href=\"%2$s\">选个别的</a>。"
 
-#: wp-admin/includes/dashboard.php:1328
+#: wp-admin/includes/dashboard.php:1322
 msgid "Already know what you&#8217;re doing? <a href=\"%s\">Dismiss this message</a>."
 msgstr "已经了解您应该做什么了？<a href=\"%s\">隐藏这条消息</a>。"
 
@@ -4534,7 +4534,7 @@ msgid "Attachment Post URL"
 msgstr "附件专页 URL"
 
 #: wp-admin/includes/media.php:816
-#: wp-admin/includes/media.php:1981
+#: wp-admin/includes/media.php:1982
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "图像的替代文本，例如“蒙娜丽莎”"
 
@@ -4573,10 +4573,10 @@ msgid "Dimensions:"
 msgstr "尺寸："
 
 #: wp-admin/includes/media.php:1156
-#: wp-admin/includes/media.php:2011
-#: wp-admin/includes/media.php:2017
-#: wp-admin/includes/media.php:2034
-#: wp-admin/includes/media.php:2043
+#: wp-admin/includes/media.php:2012
+#: wp-admin/includes/media.php:2018
+#: wp-admin/includes/media.php:2035
+#: wp-admin/includes/media.php:2044
 msgid "Insert into Post"
 msgstr "插入到文章"
 
@@ -4589,10 +4589,6 @@ msgstr "您将删除 <strong>%s</strong>。"
 #: wp-admin/upgrade.php:97
 msgid "Continue"
 msgstr "继续"
-
-#: wp-admin/includes/media.php:1288
-msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
-msgstr "您设备上的网页浏览器不能上传文件。但是您可以通过<a href=\"http://wordpress.org/extend/mobile/\">适合您设备的原生 app</a> 来上传文件。"
 
 #: wp-admin/includes/media.php:1327
 msgid "Sorry, you have filled your storage quota (%s MB)."
@@ -4625,7 +4621,7 @@ msgstr "从您的计算机添加媒体文件"
 
 #: wp-admin/includes/media.php:1468
 #: wp-admin/includes/media.php:1671
-#: wp-admin/includes/media.php:1916
+#: wp-admin/includes/media.php:1917
 #: wp-admin/media-upload.php:111
 msgid "Save all changes"
 msgstr "保存所有更改"
@@ -4701,67 +4697,67 @@ msgstr "插入相册"
 msgid "Update gallery settings"
 msgstr "更新相册设置"
 
-#: wp-admin/includes/media.php:1797
-#: wp-admin/includes/media.php:1799
+#: wp-admin/includes/media.php:1798
+#: wp-admin/includes/media.php:1800
 #: wp-admin/upload.php:236
 msgid "Search Media"
 msgstr "搜索媒体"
 
-#: wp-admin/includes/media.php:1822
+#: wp-admin/includes/media.php:1823
 msgid "All Types"
 msgstr "所有类型"
 
-#: wp-admin/includes/media.php:1845
+#: wp-admin/includes/media.php:1846
 #: wp-admin/includes/nav-menu.php:626
 #: wp-admin/includes/nav-menu.php:840
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-admin/includes/media.php:1846
+#: wp-admin/includes/media.php:1847
 #: wp-admin/includes/nav-menu.php:627
 #: wp-admin/includes/nav-menu.php:841
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-admin/includes/media.php:1886
+#: wp-admin/includes/media.php:1887
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: wp-admin/includes/media.php:1935
+#: wp-admin/includes/media.php:1936
 msgid "Image Caption"
 msgstr "图像说明"
 
-#: wp-admin/includes/media.php:1956
+#: wp-admin/includes/media.php:1957
 msgid "Audio, Video, or Other File"
 msgstr "音频、视频等文件"
 
-#: wp-admin/includes/media.php:1974
+#: wp-admin/includes/media.php:1975
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "链接的文字，例如：“Ransom Demands（PDF）”"
 
-#: wp-admin/includes/media.php:2000
+#: wp-admin/includes/media.php:2001
 msgid "Link Image To:"
 msgstr "将图像链接到："
 
-#: wp-admin/includes/media.php:2005
+#: wp-admin/includes/media.php:2006
 msgid "Link to image"
 msgstr "链接到图像"
 
-#: wp-admin/includes/media.php:2057
+#: wp-admin/includes/media.php:2058
 msgid "You are using the multi-file uploader. Problems? Try the <a href=\"#\">browser uploader</a> instead."
 msgstr "您正在使用高级多文件上传工具。不能正确上传？请尝试使用<a href=\"#\">标准的浏览器上传工具</a> 。"
 
-#: wp-admin/includes/media.php:2071
+#: wp-admin/includes/media.php:2072
 msgid "You are using the browser&#8217;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href=\"#\">Switch to the multi-file uploader</a>."
 msgstr "您正在使用浏览器内置的标准上传工具。WordPress 提供了全新的上传工具，支持多选、拖放上传功能。<a href=\"#\">改用新的上传工具</a>。"
 
-#: wp-admin/includes/media.php:2079
+#: wp-admin/includes/media.php:2080
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "文件上传之后，您可以为它添加标题和描述。"
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
-#: wp-admin/includes/media.php:2102
+#: wp-admin/includes/media.php:2103
 msgid "Scale images to match the large size selected in %1$simage options%2$s (%3$d &times; %4$d)."
 msgstr "按照%1$s图像选项%2$s的设置，将图像剪裁到“大尺寸”（%3$d &times; %4$d）。"
 
@@ -6087,7 +6083,7 @@ msgid "Tag"
 msgstr "标签"
 
 #: wp-admin/includes/theme-install.php:81
-#: wp-admin/themes.php:203
+#: wp-admin/themes.php:219
 msgid "Feature Filter"
 msgstr "特性筛选"
 
@@ -7019,7 +7015,7 @@ msgstr "所有用户"
 #: wp-admin/menu.php:175
 #: wp-admin/menu.php:177
 #: wp-admin/user-edit.php:184
-#: wp-admin/users.php:410
+#: wp-admin/users.php:404
 msgctxt "user"
 msgid "Add New"
 msgstr "添加用户"
@@ -8708,7 +8704,7 @@ msgid "<a href=\"http://codex.wordpress.org/Theme_Development\" target=\"_blank\
 msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91\" target=\"_blank\">关于主题开发的中文文档</a>"
 
 #: wp-admin/theme-editor.php:39
-#: wp-admin/themes.php:79
+#: wp-admin/themes.php:85
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes\" target=\"_blank\">Documentation on Using Themes</a>"
 msgstr "<a href=\"http://codex.wordpress.org/zh-cn:%E4%B8%BB%E9%A2%98\" target=\"_blank\">关于使用主题的中文文档</a>"
 
@@ -8800,114 +8796,114 @@ msgctxt "theme"
 msgid "Manage Themes"
 msgstr "管理主题"
 
-#: wp-admin/themes.php:35
+#: wp-admin/themes.php:39
 msgid "Manage Themes"
 msgstr "管理主题"
 
-#: wp-admin/themes.php:40
+#: wp-admin/themes.php:44
 msgid "Aside from the default theme included with your WordPress installation, themes are designed and developed by third parties."
 msgstr "和 WordPress 程序安装时附带的主题不同，这些主题是第三方设计开发的。"
 
-#: wp-admin/themes.php:41
+#: wp-admin/themes.php:45
 msgid "You can see your active theme at the top of the screen. Below are the other themes you have installed that are not currently in use. You can see what your site would look like with one of these themes by clicking the Live Preview link (see \"Previewing and Customizing\" help tab). To change themes, click the Activate link."
 msgstr "您可以在页面上方看到当前使用的主题。其下方是一些已安装但尚未启用的主题。点击“实时预览”链接可以查看站点在使用主题之后的外观（详情参见“预览和自定义”选项卡）。要更换主题，点击“启用”链接。"
 
-#: wp-admin/themes.php:51
+#: wp-admin/themes.php:55
 msgid "Installing themes on Multisite can only be done from the Network Admin section."
 msgstr "只能在“管理网络”中为多站点安装主题。"
 
-#: wp-admin/themes.php:53
+#: wp-admin/themes.php:57
 msgid "If you would like to see more themes to choose from, click on the &#8220;Install Themes&#8221; tab and you will be able to browse or search for additional themes from the <a href=\"%s\" target=\"_blank\">WordPress.org Theme Directory</a>. Themes in the WordPress.org Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
 msgstr "若您希望从更多主题中选择，请点击“安装主题”选项卡。切换到“安装主题”选项卡后，您就可以在 <a href=\"%s\" target=\"_blank\">WordPress.org 主题目录</a>中浏览或搜索主题了。WordPress 主题目录中的主题是由第三方设计开发的，且与 WordPress 所用的许可证相兼容。哦对了，它们是免费的！"
 
-#: wp-admin/themes.php:58
+#: wp-admin/themes.php:62
 msgid "Adding Themes"
 msgstr "主题的添加"
 
-#: wp-admin/themes.php:65
+#: wp-admin/themes.php:71
 msgid "Click on the \"Live Preview\" link under any theme to preview that theme and change theme options in a separate, full-screen view. Any installed theme can be previewed and customized in this way."
 msgstr "点击任何已安装的主题下方的“实时预览”链接，在单独的界面预览并调整主题设置。"
 
-#: wp-admin/themes.php:66
+#: wp-admin/themes.php:72
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates."
 msgstr "主题预览界面可互动 —— 您可以点击任何链接，查看其它页面的效果。"
 
-#: wp-admin/themes.php:67
+#: wp-admin/themes.php:73
 msgid "In the left-hand pane you can edit the theme settings. The settings will differ, depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the \"Save &amp; Activate\" button at the top of the left-hand pane."
 msgstr "在左侧边栏您可以编辑主题设置。根据主题支持的不同，您可以调整的项目也不同。要应用您在实时预览界面的设置，请点击左上角的“保存并启用”。"
 
-#: wp-admin/themes.php:68
+#: wp-admin/themes.php:74
 msgid "When previewing on smaller monitors, you can use the \"Collapse\" icon at the bottom of the left-hand pane. This will hide the pane, giving you more room to preview your site in the new theme. To bring the pane back, click on the Collapse icon again."
 msgstr "在小屏幕设备上预览时，您可点击左下方“收起”图标，然后边栏将收起，留出更多空间显示主题外观。再次点击图标，边栏将展开。"
 
-#: wp-admin/themes.php:72
+#: wp-admin/themes.php:78
 msgid "Previewing and Customizing"
 msgstr "预览和自定义"
 
-#: wp-admin/themes.php:92
+#: wp-admin/themes.php:96
 msgid "The active theme is broken. Reverting to the default theme."
 msgstr "当前启用的主题已受损。自动切换回默认主题。"
 
-#: wp-admin/themes.php:95
+#: wp-admin/themes.php:99
 msgid "New theme activated. This theme supports widgets, please visit the <a href=\"%s\">widgets settings</a> screen to configure them."
 msgstr "新主题已启用。该主题支持小工具，可在<a href=\"%s\">小工具设置页面</a>进行配置。"
 
-#: wp-admin/themes.php:97
+#: wp-admin/themes.php:101
 msgid "New theme activated. <a href=\"%s\">Visit site</a>"
 msgstr "新主题已启用。<a href=\"%s\">查看站点</a>"
 
-#: wp-admin/themes.php:100
+#: wp-admin/themes.php:104
 msgid "Theme deleted."
 msgstr "主题已删除。"
 
-#: wp-admin/themes.php:107
+#: wp-admin/themes.php:111
 msgctxt "theme"
 msgid "Install Themes"
 msgstr "安装主题"
 
-#: wp-admin/themes.php:124
-#: wp-admin/themes.php:126
+#: wp-admin/themes.php:129
+#: wp-admin/themes.php:132
 msgid "Current theme preview"
 msgstr "当前主题预览"
 
-#: wp-admin/themes.php:129
+#: wp-admin/themes.php:135
 msgid "Current Theme"
 msgstr "当前主题"
 
-#: wp-admin/themes.php:145
+#: wp-admin/themes.php:186
 msgid "Options:"
 msgstr "选项："
 
-#: wp-admin/themes.php:195
+#: wp-admin/themes.php:211
 msgid "Available Themes"
 msgstr "可用主题"
 
-#: wp-admin/themes.php:200
-#: wp-admin/themes.php:202
+#: wp-admin/themes.php:216
+#: wp-admin/themes.php:218
 msgid "Search Installed Themes"
 msgstr "搜索已安装的主题"
 
-#: wp-admin/themes.php:209
+#: wp-admin/themes.php:225
 msgid "Theme filters"
 msgstr "主题筛选器"
 
-#: wp-admin/themes.php:235
+#: wp-admin/themes.php:251
 msgid "Apply Filters"
 msgstr "应用筛选条件"
 
-#: wp-admin/themes.php:237
+#: wp-admin/themes.php:253
 msgid "Close filters"
 msgstr "关闭筛选器"
 
-#: wp-admin/themes.php:258
+#: wp-admin/themes.php:274
 msgid "Broken Themes"
 msgstr "损坏的主题"
 
-#: wp-admin/themes.php:259
+#: wp-admin/themes.php:275
 msgid "The following themes are installed but incomplete. Themes must have a stylesheet and a template."
 msgstr "下列主题不完整，没有主题样式表和模板。"
 
-#: wp-admin/themes.php:263
+#: wp-admin/themes.php:279
 msgctxt "theme name"
 msgid "Name"
 msgstr "名称"
@@ -9385,7 +9381,7 @@ msgid "&larr; Back to Users"
 msgstr "&larr; 回到“用户”页面"
 
 #: wp-admin/user-edit.php:186
-#: wp-admin/users.php:412
+#: wp-admin/users.php:406
 msgctxt "user"
 msgid "Add Existing"
 msgstr "添加现有用户"
@@ -9838,48 +9834,48 @@ msgstr "确认删除"
 msgid "There are no valid users selected for removal."
 msgstr "选取时没有选取可删除的用户。"
 
-#: wp-admin/users.php:356
+#: wp-admin/users.php:350
 msgid "User deleted."
 msgid_plural "%s users deleted."
 msgstr[0] "已删除 %s 位用户。"
 
-#: wp-admin/users.php:360
+#: wp-admin/users.php:354
 msgid "New user created. <a href=\"%s\">Edit user</a>"
 msgstr "新用户已创建。<a href=\"%s\">编辑用户</a>"
 
-#: wp-admin/users.php:364
+#: wp-admin/users.php:358
 msgid "New user created."
 msgstr "新用户已创建。"
 
-#: wp-admin/users.php:368
+#: wp-admin/users.php:362
 msgid "Changed roles."
 msgstr "角色已改变。"
 
-#: wp-admin/users.php:371
+#: wp-admin/users.php:365
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "当前用户角色必须有用户编辑权。"
 
-#: wp-admin/users.php:372
+#: wp-admin/users.php:366
 msgid "Other user roles have been changed."
 msgstr "其他用户的角色已更改。"
 
-#: wp-admin/users.php:375
+#: wp-admin/users.php:369
 msgid "You can&#8217;t delete the current user."
 msgstr "您无法删除当前用户。"
 
-#: wp-admin/users.php:376
+#: wp-admin/users.php:370
 msgid "Other users have been deleted."
 msgstr "其它用户已被删除。"
 
-#: wp-admin/users.php:379
+#: wp-admin/users.php:373
 msgid "User removed from this site."
 msgstr "用户已从本站点删除。"
 
-#: wp-admin/users.php:382
+#: wp-admin/users.php:376
 msgid "You can't remove the current user."
 msgstr "您无法删除当前用户。"
 
-#: wp-admin/users.php:383
+#: wp-admin/users.php:377
 msgid "Other users have been removed."
 msgstr "其它用户已被删除。"
 
@@ -10020,291 +10016,3 @@ msgstr "Matt Mullenweg"
 msgid "http://ma.tt/"
 msgstr "http://ma.tt/"
 
-#~ msgid "Easier Uploading"
-#~ msgstr "简易上传"
-
-#~ msgid "File Type Detection"
-#~ msgstr "文件类型检测"
-
-#~ msgid ""
-#~ "We&#8217;ve streamlined things! Instead of needing to click on a specific "
-#~ "upload icon based on your file type, now there&#8217;s just one. Once "
-#~ "your file is uploaded, the appropriate fields will be displayed for "
-#~ "entering information based on the file type."
-#~ msgstr ""
-#~ "我们进行简化啦！现在只有一个上传图标，您不必再像原先那样自己根据文件类型在"
-#~ "一堆图标中选择了。在您上传完成之后，符合您文件类型的属性栏目将自动显示，供"
-#~ "您填写。"
-
-#~ msgid "Drag-and-Drop Media Uploader"
-#~ msgstr "支持拖放上传的多媒体上传工具"
-
-#~ msgid ""
-#~ "Adding photos or other files to posts and pages just got easier. Drag "
-#~ "files from your desktop and drop them into the uploader. Add one file at "
-#~ "a time, or many at once."
-#~ msgstr ""
-#~ "在文章和页面中添加图片等文件变得更简单了。将文件拖至上传窗口即可！一次还可"
-#~ "以拖放上传多个文件。"
-
-#~ msgid "More File Formats"
-#~ msgstr "更多文件格式"
-
-#~ msgid ""
-#~ "We&#8217;ve added the rar and 7z file formats to the list of allowed file "
-#~ "types in the uploader."
-#~ msgstr "上传工具现已支持上传 rar 和 7z 格式的文件。"
-
-#~ msgid "Dashboard Design"
-#~ msgstr "仪表盘的设计"
-
-#~ msgid "Flyout Menus"
-#~ msgstr "弹出菜单"
-
-#~ msgid ""
-#~ "Speed up navigating the dashboard and reduce repetitive clicking with our "
-#~ "new flyout submenus. As you hover over each main menu item in your "
-#~ "dashboard navigation, the submenus will magically appear, providing "
-#~ "single-click access to any dashboard screen."
-#~ msgstr ""
-#~ "全新的自动弹出式菜单提高您的效率，减少不必要的反复鼠标点击。当您把鼠标放置"
-#~ "在主菜单项目上方时，其子菜单会自动弹出——从此访问任何页面只需一次鼠标点击！"
-
-#~ msgid "Header + Admin Bar = Toolbar"
-#~ msgstr "原顶部内容 + 管理工具栏 = 一体化工具栏"
-
-#~ msgid ""
-#~ "To save space and increase efficiency, we&#8217;ve combined the admin bar "
-#~ "and the old Dashboard header into one persistent toolbar. Hovering over "
-#~ "the toolbar items will reveal submenus when available for quick access. "
-#~ msgstr ""
-#~ "为了节约宝贵的屏幕空间，我们将之前的“管理工具栏”和仪表盘的顶部内容结合了起"
-#~ "来，制作了全新的一体化工具栏。将鼠标移至相应功能分类的上方来快捷访问各项功"
-#~ "能。"
-
-#~ msgid "Responsive Design"
-#~ msgstr "自适应的界面"
-
-#~ msgid ""
-#~ "Certain dashboard screens have been updated to look better at various "
-#~ "sizes, including improved iPad/tablet support."
-#~ msgstr ""
-#~ "很多仪表盘页面的样式已经过优化，适合更多的屏幕大小，包括 iPad 和一些“平板"
-#~ "电脑”设备。"
-
-#~ msgid "Help Tabs"
-#~ msgstr "“帮助”选项卡们"
-
-#~ msgid ""
-#~ "The Help tabs located in the upper corner of the dashboard screens below "
-#~ "your name have gotten a facelift. Help content is broken into smaller "
-#~ "sections for easier access, with links to relevant documentation and the "
-#~ "support forums always visible."
-#~ msgstr ""
-#~ "每个仪表盘页面右上方的“帮助”选项卡日前接受了我们的整容手术。原先大段的帮助"
-#~ "内容大多分成了几个小类，更加实用，便于查找。其右侧的相关链接则一直显示。"
-
-#~ msgid "Feels Like the First Time"
-#~ msgstr "耳目一新"
-
-#~ msgid ""
-#~ "When we add new features, move navigation, or do anything else with the "
-#~ "dashboard that might throw you for a loop when you update your WordPress "
-#~ "site, we&#8217;ll let you know about it with new feature pointers "
-#~ "explaining the change."
-#~ msgstr ""
-#~ "今后在我们大幅改动页面设计时，新的“气泡提示”会自动通知您，告知改动的详情，"
-#~ "方便您更快了解并适应我们的新设计。"
-
-#~ msgid "Post-update Changelog"
-#~ msgstr "获知升级内容"
-
-#~ msgid ""
-#~ "This screen! From now on when you update WordPress, you&#8217;ll be "
-#~ "brought to this screen &mdash; also accessible any time from the W logo "
-#~ "in the corner of the toolbar &mdash; to get an overview of what&#8217;s "
-#~ "changed."
-#~ msgstr ""
-#~ "就是这个页面！今后每当您升级 WordPress 后，您都会看到这个页面 —— 本页面也"
-#~ "可以通过点击工具栏左侧的 W 图标访问到 —— 令您了解我们最近更新了什么。"
-
-#~ msgid "Dashboard Welcome"
-#~ msgstr "仪表盘欢迎框"
-
-#~ msgid ""
-#~ "The dashboard home screen will have a Welcome area that displays when a "
-#~ "new WordPress installation is accessed for the first time, prompting the "
-#~ "site owner to complete various setup tasks. Once dismissed, this welcome "
-#~ "can be accessed via the dashboard home screen options tab."
-#~ msgstr ""
-#~ "在用户安装完 WordPress ，第一次访问仪表盘的首页时，会看到“欢迎”框。欢迎框"
-#~ "展示如何完成配置并开始使用 WordPress。在用户关闭该框后，可以通过仪表盘首页"
-#~ "的“显示选项”令其再度显示出来。"
-
-#~ msgid "Content Tools"
-#~ msgstr "内容相关"
-
-#~ msgid ""
-#~ "Have you ever gone to edit a post after someone else has finished with "
-#~ "it, only to get an alert that tells you the other person is still editing "
-#~ "the post? From now on, you&#8217;ll only get that alert if another person "
-#~ "is still on the editing screen &mdash; no more time lag."
-#~ msgstr ""
-#~ "您原来是否遇到过“某人也在编辑这篇文章”的提示，但是实际上此人已经编辑完了的"
-#~ "问题？今后，只有他人正在编辑页面上时，您才会得到提示——没有延时！"
-
-#~ msgid "Tumblr Importer"
-#~ msgstr "Tumblr 导入工具"
-
-#~ msgid ""
-#~ "Want to import content from Tumblr to WordPress? No problem! Go to <span "
-#~ "class=\"no-break\">Tools &rarr; Import</span> to get the new Tumblr "
-#~ "Importer, which maps your Tumblog posts to the matching WordPress post "
-#~ "formats. Tip: Choose a theme designed to display post formats to get the "
-#~ "greatest benefit from the importer."
-#~ msgstr ""
-#~ "要从 Tumblr 将内容导入到 WordPress？现在可以了！访问<span class=\"no-break"
-#~ "\">“工具” > “导入”</span>来获取新的 Tumblr 导入工具。该导入工具甚至支持自"
-#~ "动为您选择正确的文章形式，在导入之前先选择一个支持文章形式功能的主题即可。"
-
-#~ msgid "Widget Improvements"
-#~ msgstr "边栏小工具改进"
-
-#~ msgid ""
-#~ "Changing themes often requires widget re-configuration based on the "
-#~ "number and position of sidebars. Now if you change back to a previous "
-#~ "theme, the widgets will automatically go back to how you had them "
-#~ "arranged in that theme. <em>Note: if you&#8217;ve added new widgets since "
-#~ "the switch, you&#8217;ll need to rescue them from the Inactive Widgets "
-#~ "area.</em>"
-#~ msgstr ""
-#~ "主题所支持的边栏数目和位置通常各不相同。更改主题经常需要您手动重新配置边"
-#~ "栏。但现在，如果您切换回原来使用过的主题，其边栏小工具将自动恢复。注意：如"
-#~ "果您在切换主题之后又添加了新的边栏，您原来小工具的设置能被保留，但是无法自"
-#~ "动恢复回它们各自的位置，这时您将需要从“未使用的小工具”中半自动地将他们放回"
-#~ "原先的位置。"
-
-#~ msgid "Flexible Permalinks"
-#~ msgstr "灵活的固定链接选择"
-
-#~ msgid ""
-#~ "You have more freedom when choosing a post permalink structure. Skip the "
-#~ "date information or add a category slug without a performance penalty."
-#~ msgstr ""
-#~ "固定链接方面，您有了更多的格式选择。删除 URL 中的日期信息、在 URL 中包含分"
-#~ "类目录别名不会再降低程序运行效率。"
-
-#~ msgid "Post Slugs: Less Funky"
-#~ msgstr "文章别名：更别致"
-
-#~ msgid ""
-#~ "Funky characters in post titles (e.g. curly quotes from a word processor) "
-#~ "will no longer result in garbled post slugs."
-#~ msgstr ""
-#~ "在文章标题中的特殊字符（比如 Word 中的引号）不会再把文章的别名弄得一团糟。"
-
-#~ msgid "jQuery and jQuery UI"
-#~ msgstr "jQuery 和 jQuery UI"
-
-#~ msgid ""
-#~ "WordPress now includes the entire jQuery UI stack and the latest version "
-#~ "of jQuery: %s."
-#~ msgstr "WordPress 现已包含整个 jQuery UI 和 jQuery 的最新版本（%s）。"
-
-#~ msgid ""
-#~ "This handy method will tell you if a <code>WP_Query</code> object is the "
-#~ "main WordPress query or a secondary query."
-#~ msgstr ""
-#~ "这个实用的方法可以返回一个指定的 <code>WP_Query</code> 对象是否是主 "
-#~ "WordPress 查询。"
-
-#~ msgid "WP_Screen API"
-#~ msgstr "WP_Screen API"
-
-#~ msgid ""
-#~ "WordPress has a nice new API for working with admin screens. Create rich "
-#~ "screens, add help documentation, adapt to screen contexts, and more."
-#~ msgstr ""
-#~ "WordPress 新增了超棒的 API，供您调整各个后台页面的细节，比如创建内容丰富的"
-#~ "页面、添加帮助文本、适应页面上下文等等。"
-
-#~ msgid "Editor API Overhaul"
-#~ msgstr "编辑器 API 的大调整"
-
-#~ msgid ""
-#~ "The new editor API automatically pulls in all the JS and CSS goodness for "
-#~ "the editor. It even supports multiple editors on the same page."
-#~ msgstr ""
-#~ "新的编辑器 API 可以自动为您的插件页面添加文章、页面编辑器及其所需的所有 "
-#~ "JS 和 CSS 文件。它甚至支持您在一个页面上加入多个编辑器。"
-
-#~ msgid "Upload Image"
-#~ msgstr "上传一张图像"
-#~ msgctxt ""
-#~ "Custom Background: Choose an image from your computer - or - Choose from "
-#~ "image library"
-
-#~ msgid "or"
-#~ msgstr "or"
-
-#~ msgid ""
-#~ "If you want to discard your custom header and go back to the default "
-#~ "included in your theme, click on the buttons to remove the custom image "
-#~ "and restore the original header image."
-#~ msgstr ""
-#~ "若您想放弃使用当前的自定义顶部样式，并恢复成主题所提供的默认样式，点击“重"
-#~ "设顶部图像”按钮即可。"
-#~ msgctxt ""
-#~ "Custom Header: Choose an image from your computer - or - Choose from "
-#~ "image library"
-
-#~ msgid "or"
-#~ msgstr "或"
-
-#~ msgid "5 stars"
-#~ msgstr "5 星"
-
-#~ msgid "4 stars"
-#~ msgstr "4 星"
-
-#~ msgid "3 stars"
-#~ msgstr "3 星"
-
-#~ msgid "2 stars"
-#~ msgstr "2 星"
-
-#~ msgid "1 star"
-#~ msgstr "1 星"
-
-#~ msgid "Deactivating the plugin&#8230;"
-#~ msgstr "正在停用插件&#8230;"
-
-#~ msgid "Reactivating the plugin&#8230;"
-#~ msgstr "正在重新启用插件&#8230;"
-
-#~ msgid "Default Caption"
-#~ msgstr "默认说明"
-
-#~ msgid "An Unexpected HTTP Error occurred during the API request."
-#~ msgstr "在向 API 发送请求时发生了一个 HTTP 异常错误。"
-
-#~ msgid "An unknown error occurred during the API request."
-#~ msgstr "向 API 请求时发生了未知错误。"
-
-#~ msgid "Search for plugins by keyword, author, or tag."
-#~ msgstr "以关键字、作者或标签搜索插件。"
-
-#~ msgid "Colors"
-#~ msgstr "颜色"
-
-#~ msgid ""
-#~ "<strong>Select Files</strong> will open the multi-file uploader, or you "
-#~ "can use the <strong>Browser Uploader</strong>."
-#~ msgstr ""
-#~ "点击<strong>选择文件</strong>会弹出多文件上传工具，当然您也可以使用"
-#~ "<strong>浏览器上传工具</strong>。"
-
-#~ msgid ""
-#~ "<strong>ERROR</strong>: \"Table Prefix\" can only contain numbers, "
-#~ "letters, and underscores."
-#~ msgstr "<strong>错误</strong>：“表前缀”只能包含数字、字母和下划线。"

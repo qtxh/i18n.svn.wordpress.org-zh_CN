@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.4\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-04 16:18:06+00:00\n"
-"PO-Revision-Date: 2012-06-04 22:02-0500\n"
+"POT-Creation-Date: 2012-06-06 22:17:26+00:00\n"
+"PO-Revision-Date: 2012-06-06 23:04-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
@@ -50,7 +50,7 @@ msgid "Username:"
 msgstr "用户名："
 
 #: wp-activate.php:86
-#: wp-includes/post-template.php:1225
+#: wp-includes/post-template.php:1222
 msgid "Password:"
 msgstr "密码："
 
@@ -99,6 +99,9 @@ msgid "Settings"
 msgstr "设置"
 
 #: wp-content/plugins/akismet/admin.php:72
+#: wp-includes/class-wp-customize-manager.php:89
+#: wp-includes/class-wp-customize-manager.php:92
+#: wp-includes/class-wp-customize-manager.php:95
 msgid "Cheatin&#8217; uh?"
 msgstr "开玩笑，呵？"
 
@@ -1003,14 +1006,14 @@ msgid "Error occurred while accessing post metadata for file location."
 msgstr "从文章属性中读取文件路径时出错。"
 
 #: wp-includes/class-wp-customize-control.php:219
-#: wp-includes/class-wp-customize-manager.php:809
+#: wp-includes/class-wp-customize-manager.php:827
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; 选择 &mdash;"
 
 #: wp-includes/class-wp-customize-control.php:243
-#: wp-includes/class-wp-customize-control.php:422
-#: wp-includes/class-wp-customize-control.php:457
-#: wp-includes/class-wp-customize-control.php:464
+#: wp-includes/class-wp-customize-control.php:428
+#: wp-includes/class-wp-customize-control.php:463
+#: wp-includes/class-wp-customize-control.php:470
 #: wp-includes/js/tinymce/langs/wp-langs.php:246
 msgid "Default"
 msgstr "默认"
@@ -1028,7 +1031,7 @@ msgid "Remove"
 msgstr "移除"
 
 #: wp-includes/class-wp-customize-control.php:315
-#: wp-includes/class-wp-customize-control.php:458
+#: wp-includes/class-wp-customize-control.php:464
 msgid "No Image"
 msgstr "不设图像"
 
@@ -1045,90 +1048,94 @@ msgid "Remove Image"
 msgstr "删除图像"
 
 #: wp-includes/class-wp-customize-control.php:387
+msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgstr "您设备上的网页浏览器不能上传文件。但是您可以通过<a href=\"http://wordpress.org/extend/mobile/\">适合您设备的原生 app</a> 来上传文件。"
+
+#: wp-includes/class-wp-customize-control.php:392
 msgid "Drop a file here or <a href=\"#\" class=\"upload\">select a file</a>."
 msgstr "将文件拖到这里，或直接<a href=\"#\" class=\"upload\">选择文件</a>。"
 
-#: wp-includes/class-wp-customize-control.php:390
+#: wp-includes/class-wp-customize-control.php:395
 msgid "Select File"
 msgstr "选择文件"
 
-#: wp-includes/class-wp-customize-control.php:415
-#: wp-includes/class-wp-customize-manager.php:726
+#: wp-includes/class-wp-customize-control.php:421
+#: wp-includes/class-wp-customize-manager.php:744
 msgid "Background Image"
 msgstr "背景图像"
 
-#: wp-includes/class-wp-customize-control.php:451
-#: wp-includes/class-wp-customize-manager.php:711
+#: wp-includes/class-wp-customize-control.php:457
+#: wp-includes/class-wp-customize-manager.php:729
 msgid "Header Image"
 msgstr "顶部图像"
 
-#: wp-includes/class-wp-customize-control.php:459
+#: wp-includes/class-wp-customize-control.php:465
 msgid "Random Default Image"
 msgstr "随机预设图片"
 
-#: wp-includes/class-wp-customize-control.php:460
+#: wp-includes/class-wp-customize-control.php:466
 msgid "Random Uploaded Image"
 msgstr "随机上传文件"
 
-#: wp-includes/class-wp-customize-manager.php:435
+#: wp-includes/class-wp-customize-manager.php:453
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
 msgstr "设置已保存、主题已启用。请<a href=\"%s\">浏览您的站点</a>。"
 
-#: wp-includes/class-wp-customize-manager.php:637
+#: wp-includes/class-wp-customize-manager.php:655
 msgid "Site Title & Tagline"
 msgstr "站点标题和副标题"
 
-#: wp-includes/class-wp-customize-manager.php:648
+#: wp-includes/class-wp-customize-manager.php:666
 #: wp-includes/class-wp-xmlrpc-server.php:360
 msgid "Site Title"
 msgstr "站点标题"
 
-#: wp-includes/class-wp-customize-manager.php:659
+#: wp-includes/class-wp-customize-manager.php:677
 msgid "Tagline"
 msgstr "副标题"
 
-#: wp-includes/class-wp-customize-manager.php:666
+#: wp-includes/class-wp-customize-manager.php:684
 msgid "Colors"
 msgstr "颜色"
 
-#: wp-includes/class-wp-customize-manager.php:682
+#: wp-includes/class-wp-customize-manager.php:700
 msgid "Display Header Text"
 msgstr "显示顶部文字"
 
-#: wp-includes/class-wp-customize-manager.php:688
+#: wp-includes/class-wp-customize-manager.php:706
 msgid "Header Text Color"
 msgstr "顶部文字颜色"
 
-#: wp-includes/class-wp-customize-manager.php:703
+#: wp-includes/class-wp-customize-manager.php:721
 msgid "Background Color"
 msgstr "背景颜色"
 
-#: wp-includes/class-wp-customize-manager.php:744
+#: wp-includes/class-wp-customize-manager.php:762
 msgid "Background Repeat"
 msgstr "重复背景"
 
-#: wp-includes/class-wp-customize-manager.php:748
+#: wp-includes/class-wp-customize-manager.php:766
 msgid "No Repeat"
 msgstr "不重复"
 
-#: wp-includes/class-wp-customize-manager.php:749
+#: wp-includes/class-wp-customize-manager.php:767
 msgid "Tile"
 msgstr "平铺"
 
-#: wp-includes/class-wp-customize-manager.php:750
+#: wp-includes/class-wp-customize-manager.php:768
 msgid "Tile Horizontally"
 msgstr "水平平铺"
 
-#: wp-includes/class-wp-customize-manager.php:751
+#: wp-includes/class-wp-customize-manager.php:769
 msgid "Tile Vertically"
 msgstr "竖直平铺"
 
-#: wp-includes/class-wp-customize-manager.php:761
+#: wp-includes/class-wp-customize-manager.php:779
 msgid "Background Position"
 msgstr "背景位置"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:765
+#: wp-includes/class-wp-customize-manager.php:783
 #: wp-includes/js/tinymce/langs/wp-langs.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:372
 #: wp-includes/js/tinymce/langs/wp-langs.php:471
@@ -1136,7 +1143,7 @@ msgid "Left"
 msgstr "左"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:766
+#: wp-includes/class-wp-customize-manager.php:784
 #: wp-includes/js/tinymce/langs/wp-langs.php:80
 #: wp-includes/js/tinymce/langs/wp-langs.php:451
 #: wp-includes/js/tinymce/langs/wp-langs.php:472
@@ -1144,63 +1151,63 @@ msgid "Center"
 msgstr "中"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:767
+#: wp-includes/class-wp-customize-manager.php:785
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
 #: wp-includes/js/tinymce/langs/wp-langs.php:373
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
 msgid "Right"
 msgstr "右"
 
-#: wp-includes/class-wp-customize-manager.php:777
+#: wp-includes/class-wp-customize-manager.php:795
 msgid "Background Attachment"
 msgstr "背景附着方式"
 
-#: wp-includes/class-wp-customize-manager.php:781
+#: wp-includes/class-wp-customize-manager.php:799
 msgid "Fixed"
 msgstr "固定"
 
-#: wp-includes/class-wp-customize-manager.php:782
+#: wp-includes/class-wp-customize-manager.php:800
 msgid "Scroll"
 msgstr "随内容滚动"
 
-#: wp-includes/class-wp-customize-manager.php:802
+#: wp-includes/class-wp-customize-manager.php:820
 msgid "Navigation"
 msgstr "导航菜单"
 
-#: wp-includes/class-wp-customize-manager.php:805
+#: wp-includes/class-wp-customize-manager.php:823
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "您的主题支持 %s 个菜单。请为您的菜单指定显示位置。"
 
-#: wp-includes/class-wp-customize-manager.php:805
+#: wp-includes/class-wp-customize-manager.php:823
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "菜单内容可在“外观”的“菜单”页面进行编辑"
 
-#: wp-includes/class-wp-customize-manager.php:837
+#: wp-includes/class-wp-customize-manager.php:855
 msgid "Static Front Page"
 msgstr "静态首页"
 
-#: wp-includes/class-wp-customize-manager.php:840
+#: wp-includes/class-wp-customize-manager.php:858
 msgid "Your theme supports a static front page."
 msgstr "您的主题提供静态首页支持。"
 
-#: wp-includes/class-wp-customize-manager.php:851
+#: wp-includes/class-wp-customize-manager.php:869
 msgid "Front page displays"
 msgstr "首页显示"
 
-#: wp-includes/class-wp-customize-manager.php:855
+#: wp-includes/class-wp-customize-manager.php:873
 msgid "Your latest posts"
 msgstr "您的最新文章"
 
-#: wp-includes/class-wp-customize-manager.php:856
+#: wp-includes/class-wp-customize-manager.php:874
 msgid "A static page"
 msgstr "一个静态页面"
 
-#: wp-includes/class-wp-customize-manager.php:867
+#: wp-includes/class-wp-customize-manager.php:885
 msgid "Front page"
 msgstr "首页"
 
-#: wp-includes/class-wp-customize-manager.php:879
+#: wp-includes/class-wp-customize-manager.php:897
 msgid "Posts page"
 msgstr "文章页"
 
@@ -1227,8 +1234,8 @@ msgstr "英语=en,丹麦语=da,荷兰语=nl,芬兰语=fi,法语=fr,德语=de,意
 
 #: wp-includes/class-wp-editor.php:619
 #: wp-includes/js/tinymce/langs/wp-langs.php:18
-#: wp-includes/script-loader.php:279
-#: wp-includes/script-loader.php:353
+#: wp-includes/script-loader.php:277
+#: wp-includes/script-loader.php:351
 msgid "Update"
 msgstr "更新"
 
@@ -1339,13 +1346,13 @@ msgstr "未指定搜索条件。自动显示近期条目。"
 
 #: wp-includes/class-wp-editor.php:808
 #: wp-includes/js/tinymce/langs/wp-langs.php:19
-#: wp-includes/script-loader.php:308
-#: wp-includes/script-loader.php:345
+#: wp-includes/script-loader.php:306
+#: wp-includes/script-loader.php:343
 msgid "Cancel"
 msgstr "取消"
 
 #: wp-includes/class-wp-editor.php:811
-#: wp-includes/script-loader.php:280
+#: wp-includes/script-loader.php:278
 msgid "Add Link"
 msgstr "添加链接"
 
@@ -1585,6 +1592,9 @@ msgid "Sorry, you are not allowed to assign a term to one of the given taxonomie
 msgstr "抱歉，您无权向某些分类法指定项目。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1075
+#: wp-includes/class-wp-xmlrpc-server.php:1582
+#: wp-includes/class-wp-xmlrpc-server.php:1669
+#: wp-includes/class-wp-xmlrpc-server.php:1736
 #: wp-includes/taxonomy.php:2025
 msgid "Invalid term ID"
 msgstr "条目 ID 无效"
@@ -1662,12 +1672,6 @@ msgstr "抱歉，无法创建这个项目。发生了未知错误。"
 #: wp-includes/class-wp-xmlrpc-server.php:1569
 msgid "You are not allowed to edit terms in this taxonomy."
 msgstr "您无权编辑该分类法下的项目。"
-
-#: wp-includes/class-wp-xmlrpc-server.php:1582
-#: wp-includes/class-wp-xmlrpc-server.php:1669
-#: wp-includes/class-wp-xmlrpc-server.php:1736
-msgid "Invalid term ID."
-msgstr "项目 ID 无效。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1593
 msgid "This taxonomy is not hierarchical so you can't set a parent."
@@ -1971,7 +1975,7 @@ msgid "Comment on %s"
 msgstr "《%s》上的评论"
 
 #: wp-includes/comment-template.php:1041
-#: wp-includes/script-loader.php:335
+#: wp-includes/script-loader.php:333
 msgid "Reply"
 msgstr "回复"
 
@@ -2116,7 +2120,7 @@ msgstr "您站点的 WordPress 页面"
 
 #: wp-includes/default-widgets.php:18
 #: wp-includes/default-widgets.php:24
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:817
 #: wp-includes/theme-compat/sidebar.php:55
 msgid "Pages"
 msgstr "页面"
@@ -2424,7 +2428,7 @@ msgid "Last updated"
 msgstr "最后更新"
 
 #: wp-includes/deprecated.php:1898
-#: wp-includes/post-template.php:1164
+#: wp-includes/post-template.php:1161
 msgid "Missing Attachment"
 msgstr "附件丢失"
 
@@ -2555,7 +2559,7 @@ msgstr "&hellip;"
 #. enter 'characters'. Otherwise, enter 'words'. Do not translate into
 #. your own language.
 #: wp-includes/formatting.php:2148
-#: wp-includes/script-loader.php:293
+#: wp-includes/script-loader.php:291
 msgctxt "word count: words or characters?"
 msgid "words"
 msgstr "characters"
@@ -3009,7 +3013,7 @@ msgstr "插入"
 #: wp-includes/js/tinymce/langs/wp-langs.php:20
 #: wp-includes/js/tinymce/wp-mce-help.php:287
 #: wp-includes/script-loader.php:178
-#: wp-includes/script-loader.php:309
+#: wp-includes/script-loader.php:307
 #: wp-login.php:597
 msgid "Close"
 msgstr "关闭"
@@ -3580,7 +3584,7 @@ msgstr "插入或编辑图像"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:149
 #: wp-includes/js/tinymce/langs/wp-langs.php:374
-#: wp-includes/script-loader.php:278
+#: wp-includes/script-loader.php:276
 msgid "Insert/edit link"
 msgstr "插入或编辑链接"
 
@@ -3722,8 +3726,8 @@ msgid "Cell"
 msgstr "单元格"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:203
-#: wp-includes/script-loader.php:427
-#: wp-includes/script-loader.php:535
+#: wp-includes/script-loader.php:425
+#: wp-includes/script-loader.php:533
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "离开这个页面，您所做的更改将丢失。"
 
@@ -4088,7 +4092,7 @@ msgid "Plugin"
 msgstr "插件"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:339
-#: wp-includes/post-template.php:1441
+#: wp-includes/post-template.php:1438
 #: wp-includes/theme-compat/sidebar.php:21
 msgid "Author"
 msgstr "作者"
@@ -5767,79 +5771,79 @@ msgstr "(更多...)"
 msgid "There is no excerpt because this is a protected post."
 msgstr "无法提供摘要。这是一篇受保护的文章。"
 
-#: wp-includes/post-template.php:636
+#: wp-includes/post-template.php:633
 msgid "Pages:"
 msgstr "页面："
 
-#: wp-includes/post-template.php:638
+#: wp-includes/post-template.php:635
 msgid "Next page"
 msgstr "下一页"
 
-#: wp-includes/post-template.php:639
+#: wp-includes/post-template.php:636
 msgid "Previous page"
 msgstr "上一页"
 
-#: wp-includes/post-template.php:900
+#: wp-includes/post-template.php:897
 msgid "Home"
 msgstr "首页"
 
-#: wp-includes/post-template.php:1224
+#: wp-includes/post-template.php:1221
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "这是一篇受密码保护的文章。您需要提供访问密码："
 
-#: wp-includes/post-template.php:1225
+#: wp-includes/post-template.php:1222
 msgid "Submit"
 msgstr "提交"
 
 #. translators: revision date format, see http:php.net/date
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1299
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "Y 年 n 月 j 日 H:i:s"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1304
+#: wp-includes/post-template.php:1301
 msgid "%1$s [Autosave]"
 msgstr "%1$s [自动保存]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1306
+#: wp-includes/post-template.php:1303
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [当前修订版本]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1372
+#: wp-includes/post-template.php:1369
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s 由 %2$s"
 
-#: wp-includes/post-template.php:1399
+#: wp-includes/post-template.php:1396
 msgid "Restore"
 msgstr "还原"
 
-#: wp-includes/post-template.php:1422
+#: wp-includes/post-template.php:1419
 msgid "Compare Revisions"
 msgstr "比较修订版本"
 
 #. translators: column name in revisons
-#: wp-includes/post-template.php:1438
+#: wp-includes/post-template.php:1435
 msgctxt "revisions column name"
 msgid "Old"
 msgstr "旧"
 
 #. translators: column name in revisons
-#: wp-includes/post-template.php:1439
+#: wp-includes/post-template.php:1436
 msgctxt "revisions column name"
 msgid "New"
 msgstr "新"
 
 #. translators: column name in revisons
-#: wp-includes/post-template.php:1440
+#: wp-includes/post-template.php:1437
 msgctxt "revisions column name"
 msgid "Date Created"
 msgstr "创建日期"
 
-#: wp-includes/post-template.php:1442
+#: wp-includes/post-template.php:1439
 msgid "Actions"
 msgstr "操作"
 
@@ -5952,13 +5956,13 @@ msgstr "等待复审"
 
 #: wp-includes/post.php:613
 #: wp-includes/post.php:633
-#: wp-includes/script-loader.php:356
+#: wp-includes/script-loader.php:354
 msgid "Private"
 msgstr "私密"
 
 #: wp-includes/post.php:614
 #: wp-includes/post.php:634
-#: wp-includes/script-loader.php:361
+#: wp-includes/script-loader.php:359
 msgid "Published"
 msgstr "已发布"
 
@@ -6077,8 +6081,8 @@ msgid "The page template is invalid."
 msgstr "页面模板无效。"
 
 #: wp-includes/post.php:2947
-#: wp-includes/script-loader.php:362
-#: wp-includes/script-loader.php:387
+#: wp-includes/script-loader.php:360
+#: wp-includes/script-loader.php:385
 msgctxt "tag delimiter"
 msgid ","
 msgstr "、"
@@ -6248,12 +6252,12 @@ msgid "Toggle Editor Text Direction"
 msgstr "切换编辑器文本书写方向"
 
 #: wp-includes/script-loader.php:97
-#: wp-includes/script-loader.php:324
+#: wp-includes/script-loader.php:322
 msgid "You do not have permission to do that."
 msgstr "您无权执行此操作。"
 
 #: wp-includes/script-loader.php:98
-#: wp-includes/script-loader.php:325
+#: wp-includes/script-loader.php:323
 msgid "An unidentified error has occurred."
 msgstr "发生了无法识别的错误。"
 
@@ -6397,142 +6401,142 @@ msgstr "强"
 msgid "Mismatch"
 msgstr "不匹配"
 
-#: wp-includes/script-loader.php:281
-#: wp-includes/script-loader.php:386
+#: wp-includes/script-loader.php:279
+#: wp-includes/script-loader.php:384
 msgid "(no title)"
 msgstr "(无标题)"
 
-#: wp-includes/script-loader.php:282
+#: wp-includes/script-loader.php:280
 msgid "No matches found."
 msgstr "找不到符合条件的项目。"
 
-#: wp-includes/script-loader.php:305
+#: wp-includes/script-loader.php:303
 msgid "Save &amp; Activate"
 msgstr "保存并启用"
 
-#: wp-includes/script-loader.php:306
+#: wp-includes/script-loader.php:304
 msgid "Save &amp; Publish"
 msgstr "保存并发布"
 
-#: wp-includes/script-loader.php:307
+#: wp-includes/script-loader.php:305
 msgid "Saved"
 msgstr "已保存"
 
-#: wp-includes/script-loader.php:316
+#: wp-includes/script-loader.php:314
 msgid "Add"
 msgstr "添加"
 
-#: wp-includes/script-loader.php:317
+#: wp-includes/script-loader.php:315
 msgid "Separate multiple categories with commas."
 msgstr "多个分类目录请用英文逗号（,）分开。"
 
-#: wp-includes/script-loader.php:334
+#: wp-includes/script-loader.php:332
 msgid "Approve and Reply"
 msgstr "批准并回复"
 
-#: wp-includes/script-loader.php:344
+#: wp-includes/script-loader.php:342
 msgid "OK"
 msgstr "确定"
 
-#: wp-includes/script-loader.php:346
+#: wp-includes/script-loader.php:344
 msgid "Publish on:"
 msgstr "发布于："
 
-#: wp-includes/script-loader.php:347
+#: wp-includes/script-loader.php:345
 msgid "Schedule for:"
 msgstr "定时："
 
-#: wp-includes/script-loader.php:348
+#: wp-includes/script-loader.php:346
 msgid "Published on:"
 msgstr "发布于："
 
-#: wp-includes/script-loader.php:349
+#: wp-includes/script-loader.php:347
 msgid "Show more comments"
 msgstr "显示更多评论"
 
-#: wp-includes/script-loader.php:350
+#: wp-includes/script-loader.php:348
 msgid "No more comments found."
 msgstr "已无更多评论。"
 
-#: wp-includes/script-loader.php:351
+#: wp-includes/script-loader.php:349
 msgid "Publish"
 msgstr "发布"
 
-#: wp-includes/script-loader.php:352
+#: wp-includes/script-loader.php:350
 msgid "Schedule"
 msgstr "定时"
 
-#: wp-includes/script-loader.php:354
+#: wp-includes/script-loader.php:352
 msgid "Save as Pending"
 msgstr "保存并提请审核"
 
-#: wp-includes/script-loader.php:355
+#: wp-includes/script-loader.php:353
 msgid "Save Draft"
 msgstr "保存草稿"
 
-#: wp-includes/script-loader.php:357
+#: wp-includes/script-loader.php:355
 msgid "Public"
 msgstr "公开"
 
-#: wp-includes/script-loader.php:358
+#: wp-includes/script-loader.php:356
 msgid "Public, Sticky"
 msgstr "公开、置顶"
 
-#: wp-includes/script-loader.php:359
+#: wp-includes/script-loader.php:357
 msgid "Password Protected"
 msgstr "密码保护"
 
-#: wp-includes/script-loader.php:360
+#: wp-includes/script-loader.php:358
 msgid "Privately Published"
 msgstr "私密、已发布"
 
-#: wp-includes/script-loader.php:370
+#: wp-includes/script-loader.php:368
 msgid "Submitted on:"
 msgstr "提交于："
 
-#: wp-includes/script-loader.php:384
-#: wp-includes/script-loader.php:392
+#: wp-includes/script-loader.php:382
+#: wp-includes/script-loader.php:390
 msgid "Error while saving the changes."
 msgstr "保存更改时发生错误。"
 
-#: wp-includes/script-loader.php:385
+#: wp-includes/script-loader.php:383
 msgid "Remove From Bulk Edit"
 msgstr "从批量编辑中移除"
 
-#: wp-includes/script-loader.php:397
+#: wp-includes/script-loader.php:395
 msgid "Plugin Information:"
 msgstr "插件信息："
 
-#: wp-includes/script-loader.php:398
+#: wp-includes/script-loader.php:396
 msgid "Are you sure you want to install this plugin?"
 msgstr "您确认要安装该插件吗？"
 
-#: wp-includes/script-loader.php:411
+#: wp-includes/script-loader.php:409
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "无法加载预览图片。请尝试刷新页面。"
 
-#: wp-includes/script-loader.php:416
+#: wp-includes/script-loader.php:414
 msgid "Use as featured image"
 msgstr "作为特色图像"
 
-#: wp-includes/script-loader.php:417
+#: wp-includes/script-loader.php:415
 msgid "Saving..."
 msgstr "正在保存..."
 
-#: wp-includes/script-loader.php:418
+#: wp-includes/script-loader.php:416
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "无法设置为缩略图。请尝试其它附件。"
 
-#: wp-includes/script-loader.php:419
+#: wp-includes/script-loader.php:417
 msgid "Done"
 msgstr "完成"
 
-#: wp-includes/script-loader.php:425
+#: wp-includes/script-loader.php:423
 msgctxt "search results"
 msgid "No results found."
 msgstr "无结果。"
 
-#: wp-includes/script-loader.php:426
+#: wp-includes/script-loader.php:424
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -6540,7 +6544,7 @@ msgstr ""
 "您将永久删除所选菜单。\n"
 " 点击“取消”停止，点击“确定”删除。"
 
-#: wp-includes/script-loader.php:534
+#: wp-includes/script-loader.php:532
 msgid "Saving Draft&#8230;"
 msgstr "正在保存草稿 &#8230;"
 
@@ -7510,80 +7514,3 @@ msgstr "<p>您正在找的站点（<strong>%s</strong>）不存在。您可以�
 msgid "<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</em></p>"
 msgstr "<p>您正在找的站点（<strong>%s</strong>）不存在。</p>"
 
-#~ msgid ""
-#~ "A server or network problem prevented Akismet from checking %d comment. "
-#~ "It has been temporarily held for moderation and will be automatically re-"
-#~ "checked in %s."
-
-#~ msgid_plural ""
-#~ "A server or network problem prevented Akismet from checking %d comments. "
-#~ "They have been temporarily held for moderation and will be automatically "
-#~ "re-checked in %s."
-#~ msgstr[0] ""
-#~ "发生了网络或服务器问题，因此 Akismet 无法检查 %d 条评论。这些评论已全部被"
-#~ "标记为“等待复查”状态，将在 %s内复查。"
-
-#~ msgid ""
-#~ "%1$s%2$s%3$s %4$sspam comment%5$s %6$sblocked by%7$s<br />%8$sAkismet%9$s"
-
-#~ msgid_plural ""
-#~ "%1$s%2$s%3$s %4$sspam comments%5$s %6$sblocked by%7$s<br />%8$sAkismet%9$s"
-#~ msgstr[0] ""
-#~ "%1$s%2$s%3$s %4$s条垃圾评论%5$s %6$s已被截获%7$s<br />%8$sAkismet%9$s"
-
-#~ msgid ""
-#~ "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href="
-#~ "\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id="
-#~ "\"akismetcount\">%1$s</span> <span id=\"akismetsc\">spam comment</span></"
-#~ "div> <div id=\"akismet2\"><span id=\"akismetbb\">blocked by</span><br /"
-#~ "><span id=\"akismeta\">Akismet</span></div></a></div></div>"
-
-#~ msgid_plural ""
-#~ "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href="
-#~ "\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id="
-#~ "\"akismetcount\">%1$s</span> <span id=\"akismetsc\">spam comments</span></"
-#~ "div> <div id=\"akismet2\"><span id=\"akismetbb\">blocked by</span><br /"
-#~ "><span id=\"akismeta\">Akismet</span></div></a></div></div>"
-#~ msgstr[0] ""
-#~ "<div id=\"akismetwrap\"><div id=\"akismetstats\"><a id=\"aka\" href="
-#~ "\"http://akismet.com\" title=\"\"><div id=\"akismet1\"><span id="
-#~ "\"akismetcount\">%1$s</span> <span id=\"akismetsc\">条垃圾评论</span></"
-#~ "div> <div id=\"akismet2\"><span id=\"akismetbb\">已由</span><br /><span "
-#~ "id=\"akismeta\">Akismet</span></div><span id=\"akismetbb\">过滤</span></"
-#~ "a></div></div>"
-
-#~ msgid "Only published posts can be made sticky."
-#~ msgstr "只能置顶已发布的文章。"
-
-#~ msgid "Invalid taxonomy."
-#~ msgstr "分类法无效。"
-
-#~ msgid "You are not allowed to upload files to this site."
-#~ msgstr "您无权在此站点上传文件。"
-
-#~ msgid "Sorry, you cannot upload files."
-#~ msgstr "抱歉，您不能上传文件。"
-
-#~ msgid "Invalid post type."
-#~ msgstr "文章类型无效。"
-
-#~ msgid "%1$s &#8212; WordPress"
-#~ msgstr "%1$s &#8212; WordPress"
-
-#~ msgid "&larr; Return to %s"
-#~ msgstr "&larr; 回到 %s"
-
-#~ msgid "Manage Themes"
-#~ msgstr "管理主题"
-
-#~ msgid "You are previewing"
-#~ msgstr "您正在预览"
-
-#~ msgid "Collapse Sidebar"
-#~ msgstr "收起边栏"
-
-#~ msgid "Collapse"
-#~ msgstr "收起"
-
-#~ msgid "Invalid Taxonomy"
-#~ msgstr "分类法无效"

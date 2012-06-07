@@ -4,10 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Eleven 1.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyeleven\n"
-"POT-Creation-Date: 2012-04-18 18:18:06+00:00\n"
-"PO-Revision-Date: 2012-04-22 02:26-0500\n"
+"POT-Creation-Date: 2012-06-04 15:18:22+00:00\n"
+"PO-Revision-Date: 2012-06-06 23:05-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,8 +128,8 @@ msgstr "评论已关闭。"
 #: content.php:15
 #: content.php:19
 #: inc/widgets.php:89
-#: showcase.php:116
-#: showcase.php:195
+#: showcase.php:120
+#: showcase.php:199
 msgid "Permalink to %s"
 msgstr "链向 %s 的固定链接"
 
@@ -172,7 +173,7 @@ msgstr "%"
 #: content-quote.php:35
 #: content-status.php:34
 #: content.php:41
-#: functions.php:321
+#: functions.php:344
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
 
@@ -198,7 +199,7 @@ msgstr "页码："
 #: content-quote.php:69
 #: content-status.php:43
 #: content.php:77
-#: showcase.php:197
+#: showcase.php:201
 msgid "Leave a reply"
 msgstr "发表回复"
 
@@ -209,7 +210,7 @@ msgstr "发表回复"
 #: content-quote.php:69
 #: content-status.php:43
 #: content.php:77
-#: showcase.php:197
+#: showcase.php:201
 msgid "<b>1</b> Reply"
 msgstr "<b>1</b> 条回复"
 
@@ -220,7 +221,7 @@ msgstr "<b>1</b> 条回复"
 #: content-quote.php:69
 #: content-status.php:43
 #: content.php:77
-#: showcase.php:197
+#: showcase.php:201
 msgid "<b>%</b> Replies"
 msgstr "<b>%</b> 条回复"
 
@@ -235,8 +236,8 @@ msgstr "<b>%</b> 条回复"
 #: content-single.php:52
 #: content-status.php:45
 #: content.php:80
-#: functions.php:499
-#: functions.php:527
+#: functions.php:522
+#: functions.php:550
 #: image.php:41
 msgid "Edit"
 msgstr "编辑"
@@ -297,7 +298,7 @@ msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%
 msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> 由 </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
 
 #: content-image.php:39
-#: functions.php:564
+#: functions.php:587
 msgid "View all posts by %s"
 msgstr "查看所有由 %s 发布的文章"
 
@@ -352,111 +353,111 @@ msgid "Primary Menu"
 msgstr "主菜单"
 
 #. translators: header image description
-#: functions.php:142
+#: functions.php:164
 msgid "Wheel"
 msgstr "车轮"
 
 #. translators: header image description
-#: functions.php:148
+#: functions.php:170
 msgid "Shore"
 msgstr "海边"
 
 #. translators: header image description
-#: functions.php:154
+#: functions.php:176
 msgid "Trolley"
 msgstr "电车"
 
 #. translators: header image description
-#: functions.php:160
+#: functions.php:182
 msgid "Pine Cone"
 msgstr "松果"
 
 #. translators: header image description
-#: functions.php:166
+#: functions.php:188
 msgid "Chessboard"
 msgstr "棋盘"
 
 #. translators: header image description
-#: functions.php:172
+#: functions.php:194
 msgid "Lanterns"
 msgstr "灯笼"
 
 #. translators: header image description
-#: functions.php:178
+#: functions.php:200
 msgid "Willow"
 msgstr "垂柳"
 
 #. translators: header image description
-#: functions.php:184
+#: functions.php:206
 msgid "Hanoi Plant"
 msgstr "河内奇葩"
 
-#: functions.php:368
+#: functions.php:391
 msgid "Main Sidebar"
 msgstr "主边栏"
 
-#: functions.php:377
+#: functions.php:400
 msgid "Showcase Sidebar"
 msgstr "陈列柜边栏"
 
-#: functions.php:379
+#: functions.php:402
 msgid "The sidebar for the optional Showcase Template"
 msgstr "有时可能会用到的“陈列柜模板”上的边栏"
 
-#: functions.php:387
+#: functions.php:410
 msgid "Footer Area One"
 msgstr "第一页脚区域"
 
-#: functions.php:389
-#: functions.php:399
-#: functions.php:409
+#: functions.php:412
+#: functions.php:422
+#: functions.php:432
 msgid "An optional widget area for your site footer"
 msgstr "站点页脚处供您选用的小工具区域"
 
-#: functions.php:397
+#: functions.php:420
 msgid "Footer Area Two"
 msgstr "第二页脚区域"
 
-#: functions.php:407
+#: functions.php:430
 msgid "Footer Area Three"
 msgstr "第三页脚区域"
 
-#: functions.php:427
+#: functions.php:450
 #: single.php:18
 msgid "Post navigation"
 msgstr "文章导航"
 
-#: functions.php:428
+#: functions.php:451
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> 早期文章"
 
-#: functions.php:429
+#: functions.php:452
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "较新文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:499
+#: functions.php:522
 msgid "Pingback:"
 msgstr "Pingback 引用通告："
 
 #. translators: 1: comment author, 2: date and time
-#: functions.php:516
+#: functions.php:539
 msgid "%1$s on %2$s <span class=\"says\">said:</span>"
 msgstr "%1$s 在 %2$s <span class=\"says\">说道：</span>"
 
 #. translators: 1: date, 2: time
-#: functions.php:522
+#: functions.php:545
 msgid "%1$s at %2$s"
 msgstr "%1$s%2$s"
 
-#: functions.php:531
+#: functions.php:554
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正等待审核。"
 
-#: functions.php:540
+#: functions.php:563
 msgid "Reply <span>&darr;</span>"
 msgstr "回复 <span>&darr;</span>"
 
-#: functions.php:558
+#: functions.php:581
 msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr "<span class=\"sep\">发表于 </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> 由 </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
@@ -464,15 +465,15 @@ msgstr "<span class=\"sep\">发表于 </span><a href=\"%1$s\" title=\"%2$s\" rel
 msgid "Page %s"
 msgstr "第 %s 页"
 
-#: header.php:113
+#: header.php:129
 msgid "Main menu"
 msgstr "主菜单"
 
-#: header.php:115
+#: header.php:131
 msgid "Skip to primary content"
 msgstr "跳至主内容区域"
 
-#: header.php:116
+#: header.php:132
 msgid "Skip to secondary content"
 msgstr "跳至副内容区域"
 
@@ -492,90 +493,96 @@ msgstr "下一个 &rarr;"
 msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "<span class=\"meta-prep meta-prep-entry-date\">发表于 </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span>，尺寸为 <a href=\"%3$s\" title=\"到全尺寸图像的链接\">%4$s &times; %5$s</a>，属于 <a href=\"%6$s\" title=\"回到 %7$s\" rel=\"gallery\">%7$s</a>"
 
-#: inc/theme-options.php:61
+#: inc/theme-options.php:55
+#: inc/theme-options.php:474
 msgid "Color Scheme"
 msgstr "配色方案"
 
-#: inc/theme-options.php:67
+#: inc/theme-options.php:61
+#: inc/theme-options.php:491
 msgid "Link Color"
 msgstr "链接颜色"
 
-#: inc/theme-options.php:68
+#: inc/theme-options.php:62
 msgid "Default Layout"
 msgstr "默认布局"
 
-#: inc/theme-options.php:100
-#: inc/theme-options.php:101
+#: inc/theme-options.php:94
+#: inc/theme-options.php:95
 msgid "Theme Options"
 msgstr "主题选项"
 
-#: inc/theme-options.php:116
+#: inc/theme-options.php:110
 msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
 msgstr "有些主题在“主题选项”页面提供个性化的设置项。若您换用其它主题，这些选项可能会变更或消失。您当前使用的主题（Twenty Eleven）提供如下主题选项："
 
-#: inc/theme-options.php:118
+#: inc/theme-options.php:112
 msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
 msgstr "<strong>色彩方案</strong>：您可为站点选择“浅色”方案（背景浅色、文字深色）或“深色”方案（背景深色、文字浅色）。"
 
-#: inc/theme-options.php:119
+#: inc/theme-options.php:113
 msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
 msgstr "<strong>链接颜色</strong>：您可指定站点中链接的颜色。您可输入 HTML 颜色或十六进制代码，或通过“选择颜色”按钮来从色彩环中选择。"
 
-#: inc/theme-options.php:120
+#: inc/theme-options.php:114
 msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
 msgstr "<strong>默认布局</strong>：您可为您的站点选择默认布局，如边栏的显示与否，及其显示位置。"
 
-#: inc/theme-options.php:122
+#: inc/theme-options.php:116
 msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
 msgstr "请不要忘记在完成后点击“保存更改”，使主题设置生效。"
 
-#: inc/theme-options.php:124
+#: inc/theme-options.php:118
 msgid "For more information:"
 msgstr "更多信息："
 
-#: inc/theme-options.php:125
+#: inc/theme-options.php:119
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Documentation on Theme Options</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">关于主题选项的文档（英文）</a>"
 
-#: inc/theme-options.php:126
+#: inc/theme-options.php:120
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://zh-cn.forums.wordpress.org/\" target=\"_blank\">中文支持论坛</a>"
 
-#: inc/theme-options.php:133
+#: inc/theme-options.php:127
 msgid "Overview"
 msgstr "概述"
 
-#: inc/theme-options.php:155
+#: inc/theme-options.php:149
 msgid "Light"
 msgstr "浅色"
 
-#: inc/theme-options.php:161
+#: inc/theme-options.php:155
 msgid "Dark"
 msgstr "深色"
 
-#: inc/theme-options.php:179
+#: inc/theme-options.php:173
 msgid "Content on left"
 msgstr "将内容置于左侧"
 
-#: inc/theme-options.php:184
+#: inc/theme-options.php:178
 msgid "Content on right"
 msgstr "将内容置于右侧"
 
-#: inc/theme-options.php:189
+#: inc/theme-options.php:183
 msgid "One-column, no sidebar"
 msgstr "一栏、不带边栏"
 
-#: inc/theme-options.php:279
+#: inc/theme-options.php:273
 msgid "Select a Color"
 msgstr "选择颜色"
 
-#: inc/theme-options.php:282
+#: inc/theme-options.php:276
 msgid "Default color: %s"
 msgstr "默认颜色：%s"
 
-#: inc/theme-options.php:318
+#: inc/theme-options.php:312
 msgid "%s Theme Options"
 msgstr "%s 主题选项"
+
+#: inc/theme-options.php:498
+msgid "Layout"
+msgstr "布局"
 
 #: inc/widgets.php:19
 msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
@@ -630,15 +637,15 @@ msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再
 msgid "Search"
 msgstr "搜索"
 
-#: showcase.php:73
+#: showcase.php:77
 msgid "Featured Post"
 msgstr "特色文章"
 
-#: showcase.php:146
+#: showcase.php:150
 msgid "Featuring: %s"
 msgstr "特色：%s"
 
-#: showcase.php:156
+#: showcase.php:160
 msgid "Recent Posts"
 msgstr "近期文章"
 
