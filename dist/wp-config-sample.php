@@ -2,7 +2,7 @@
 /** 
  * WordPress 基础配置文件。
  *
- * 本文件包含以下配置选项：MySQL 设置、数据库表名前缀、密匙、
+ * 本文件包含以下配置选项：MySQL 设置、数据库表名前缀、密钥、
  * WordPress 语言设定以及 ABSPATH。如需更多信息，请访问
  * {@link http://codex.wordpress.org/zh-cn:%E7%BC%96%E8%BE%91_wp-config.php
  * 编辑 wp-config.php} Codex 页面。MySQL 设置具体信息请咨询您的空间提供商。
