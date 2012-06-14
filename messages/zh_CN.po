@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.4\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-06 22:17:26+00:00\n"
-"PO-Revision-Date: 2012-06-06 23:04-0500\n"
+"POT-Creation-Date: 2012-06-13 18:18:21+00:00\n"
+"PO-Revision-Date: 2012-06-13 17:41-0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
@@ -99,9 +99,8 @@ msgid "Settings"
 msgstr "设置"
 
 #: wp-content/plugins/akismet/admin.php:72
-#: wp-includes/class-wp-customize-manager.php:89
-#: wp-includes/class-wp-customize-manager.php:92
-#: wp-includes/class-wp-customize-manager.php:95
+#: wp-includes/class-wp-customize-manager.php:80
+#: wp-includes/script-loader.php:308
 msgid "Cheatin&#8217; uh?"
 msgstr "开玩笑，呵？"
 
@@ -461,7 +460,7 @@ msgid "Delete all"
 msgstr "全部删除"
 
 #: wp-content/plugins/akismet/legacy.php:176
-#: wp-includes/admin-bar.php:638
+#: wp-includes/admin-bar.php:639
 #: wp-includes/class-wp-editor.php:786
 #: wp-includes/default-widgets.php:194
 #: wp-includes/general-template.php:163
@@ -573,7 +572,7 @@ msgstr "WordPress.org"
 
 #: wp-includes/admin-bar.php:99
 #: wp-includes/default-widgets.php:318
-#: wp-login.php:78
+#: wp-login.php:81
 msgid "http://wordpress.org/"
 msgstr "http://cn.wordpress.org/"
 
@@ -714,25 +713,25 @@ msgstr[0] "%s 条评论待审"
 msgid "Themes"
 msgstr "主题"
 
-#: wp-includes/admin-bar.php:582
+#: wp-includes/admin-bar.php:583
 msgid "Customize"
 msgstr "自定义"
 
-#: wp-includes/admin-bar.php:591
+#: wp-includes/admin-bar.php:592
 #: wp-includes/functions.php:2557
 msgid "Widgets"
 msgstr "小工具"
 
-#: wp-includes/admin-bar.php:594
+#: wp-includes/admin-bar.php:595
 msgid "Menus"
 msgstr "菜单"
 
-#: wp-includes/admin-bar.php:597
+#: wp-includes/admin-bar.php:598
 #: wp-includes/js/tinymce/langs/wp-langs.php:410
 msgid "Background"
 msgstr "背景"
 
-#: wp-includes/admin-bar.php:600
+#: wp-includes/admin-bar.php:601
 msgid "Header"
 msgstr "顶部"
 
@@ -1005,137 +1004,133 @@ msgstr "您没有上传文件的权限。"
 msgid "Error occurred while accessing post metadata for file location."
 msgstr "从文章属性中读取文件路径时出错。"
 
-#: wp-includes/class-wp-customize-control.php:219
-#: wp-includes/class-wp-customize-manager.php:827
+#: wp-includes/class-wp-customize-control.php:222
+#: wp-includes/class-wp-customize-manager.php:870
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; 选择 &mdash;"
 
-#: wp-includes/class-wp-customize-control.php:243
-#: wp-includes/class-wp-customize-control.php:428
-#: wp-includes/class-wp-customize-control.php:463
+#: wp-includes/class-wp-customize-control.php:246
+#: wp-includes/class-wp-customize-control.php:431
 #: wp-includes/class-wp-customize-control.php:470
+#: wp-includes/class-wp-customize-control.php:477
 #: wp-includes/js/tinymce/langs/wp-langs.php:246
 msgid "Default"
 msgstr "默认"
 
-#: wp-includes/class-wp-customize-control.php:268
+#: wp-includes/class-wp-customize-control.php:271
 msgid "Hex Value"
 msgstr "十六进制值"
 
-#: wp-includes/class-wp-customize-control.php:299
+#: wp-includes/class-wp-customize-control.php:302
 msgid "Upload"
 msgstr "上传"
 
-#: wp-includes/class-wp-customize-control.php:300
+#: wp-includes/class-wp-customize-control.php:303
 msgid "Remove"
 msgstr "移除"
 
-#: wp-includes/class-wp-customize-control.php:315
-#: wp-includes/class-wp-customize-control.php:464
+#: wp-includes/class-wp-customize-control.php:318
+#: wp-includes/class-wp-customize-control.php:471
 msgid "No Image"
 msgstr "不设图像"
 
-#: wp-includes/class-wp-customize-control.php:319
+#: wp-includes/class-wp-customize-control.php:322
 msgid "Upload New"
 msgstr "上传新的"
 
-#: wp-includes/class-wp-customize-control.php:320
+#: wp-includes/class-wp-customize-control.php:323
 msgid "Uploaded"
 msgstr "已上传的"
 
-#: wp-includes/class-wp-customize-control.php:367
+#: wp-includes/class-wp-customize-control.php:370
 msgid "Remove Image"
 msgstr "删除图像"
 
-#: wp-includes/class-wp-customize-control.php:387
+#: wp-includes/class-wp-customize-control.php:390
 msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
 msgstr "您设备上的网页浏览器不能上传文件。但是您可以通过<a href=\"http://wordpress.org/extend/mobile/\">适合您设备的原生 app</a> 来上传文件。"
 
-#: wp-includes/class-wp-customize-control.php:392
+#: wp-includes/class-wp-customize-control.php:395
 msgid "Drop a file here or <a href=\"#\" class=\"upload\">select a file</a>."
 msgstr "将文件拖到这里，或直接<a href=\"#\" class=\"upload\">选择文件</a>。"
 
-#: wp-includes/class-wp-customize-control.php:395
+#: wp-includes/class-wp-customize-control.php:398
 msgid "Select File"
 msgstr "选择文件"
 
-#: wp-includes/class-wp-customize-control.php:421
-#: wp-includes/class-wp-customize-manager.php:744
+#: wp-includes/class-wp-customize-control.php:424
+#: wp-includes/class-wp-customize-manager.php:783
 msgid "Background Image"
 msgstr "背景图像"
 
-#: wp-includes/class-wp-customize-control.php:457
-#: wp-includes/class-wp-customize-manager.php:729
+#: wp-includes/class-wp-customize-control.php:460
+#: wp-includes/class-wp-customize-manager.php:763
 msgid "Header Image"
 msgstr "顶部图像"
 
-#: wp-includes/class-wp-customize-control.php:465
+#: wp-includes/class-wp-customize-control.php:472
 msgid "Random Default Image"
 msgstr "随机预设图片"
 
-#: wp-includes/class-wp-customize-control.php:466
+#: wp-includes/class-wp-customize-control.php:473
 msgid "Random Uploaded Image"
 msgstr "随机上传文件"
 
-#: wp-includes/class-wp-customize-manager.php:453
-msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
-msgstr "设置已保存、主题已启用。请<a href=\"%s\">浏览您的站点</a>。"
-
-#: wp-includes/class-wp-customize-manager.php:655
+#: wp-includes/class-wp-customize-manager.php:689
 msgid "Site Title & Tagline"
 msgstr "站点标题和副标题"
 
-#: wp-includes/class-wp-customize-manager.php:666
+#: wp-includes/class-wp-customize-manager.php:700
 #: wp-includes/class-wp-xmlrpc-server.php:360
 msgid "Site Title"
 msgstr "站点标题"
 
-#: wp-includes/class-wp-customize-manager.php:677
+#: wp-includes/class-wp-customize-manager.php:711
 msgid "Tagline"
 msgstr "副标题"
 
-#: wp-includes/class-wp-customize-manager.php:684
+#: wp-includes/class-wp-customize-manager.php:718
 msgid "Colors"
 msgstr "颜色"
 
-#: wp-includes/class-wp-customize-manager.php:700
+#: wp-includes/class-wp-customize-manager.php:734
 msgid "Display Header Text"
 msgstr "显示顶部文字"
 
-#: wp-includes/class-wp-customize-manager.php:706
+#: wp-includes/class-wp-customize-manager.php:740
 msgid "Header Text Color"
 msgstr "顶部文字颜色"
 
-#: wp-includes/class-wp-customize-manager.php:721
+#: wp-includes/class-wp-customize-manager.php:755
 msgid "Background Color"
 msgstr "背景颜色"
 
-#: wp-includes/class-wp-customize-manager.php:762
+#: wp-includes/class-wp-customize-manager.php:805
 msgid "Background Repeat"
 msgstr "重复背景"
 
-#: wp-includes/class-wp-customize-manager.php:766
+#: wp-includes/class-wp-customize-manager.php:809
 msgid "No Repeat"
 msgstr "不重复"
 
-#: wp-includes/class-wp-customize-manager.php:767
+#: wp-includes/class-wp-customize-manager.php:810
 msgid "Tile"
 msgstr "平铺"
 
-#: wp-includes/class-wp-customize-manager.php:768
+#: wp-includes/class-wp-customize-manager.php:811
 msgid "Tile Horizontally"
 msgstr "水平平铺"
 
-#: wp-includes/class-wp-customize-manager.php:769
+#: wp-includes/class-wp-customize-manager.php:812
 msgid "Tile Vertically"
 msgstr "竖直平铺"
 
-#: wp-includes/class-wp-customize-manager.php:779
+#: wp-includes/class-wp-customize-manager.php:822
 msgid "Background Position"
 msgstr "背景位置"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:783
+#: wp-includes/class-wp-customize-manager.php:826
 #: wp-includes/js/tinymce/langs/wp-langs.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:372
 #: wp-includes/js/tinymce/langs/wp-langs.php:471
@@ -1143,7 +1138,7 @@ msgid "Left"
 msgstr "左"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:784
+#: wp-includes/class-wp-customize-manager.php:827
 #: wp-includes/js/tinymce/langs/wp-langs.php:80
 #: wp-includes/js/tinymce/langs/wp-langs.php:451
 #: wp-includes/js/tinymce/langs/wp-langs.php:472
@@ -1151,63 +1146,63 @@ msgid "Center"
 msgstr "中"
 
 #. translators: alignment
-#: wp-includes/class-wp-customize-manager.php:785
+#: wp-includes/class-wp-customize-manager.php:828
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
 #: wp-includes/js/tinymce/langs/wp-langs.php:373
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
 msgid "Right"
 msgstr "右"
 
-#: wp-includes/class-wp-customize-manager.php:795
+#: wp-includes/class-wp-customize-manager.php:838
 msgid "Background Attachment"
 msgstr "背景附着方式"
 
-#: wp-includes/class-wp-customize-manager.php:799
+#: wp-includes/class-wp-customize-manager.php:842
 msgid "Fixed"
 msgstr "固定"
 
-#: wp-includes/class-wp-customize-manager.php:800
+#: wp-includes/class-wp-customize-manager.php:843
 msgid "Scroll"
 msgstr "随内容滚动"
 
-#: wp-includes/class-wp-customize-manager.php:820
+#: wp-includes/class-wp-customize-manager.php:863
 msgid "Navigation"
 msgstr "导航菜单"
 
-#: wp-includes/class-wp-customize-manager.php:823
+#: wp-includes/class-wp-customize-manager.php:866
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "您的主题支持 %s 个菜单。请为您的菜单指定显示位置。"
 
-#: wp-includes/class-wp-customize-manager.php:823
+#: wp-includes/class-wp-customize-manager.php:866
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "菜单内容可在“外观”的“菜单”页面进行编辑"
 
-#: wp-includes/class-wp-customize-manager.php:855
+#: wp-includes/class-wp-customize-manager.php:898
 msgid "Static Front Page"
 msgstr "静态首页"
 
-#: wp-includes/class-wp-customize-manager.php:858
+#: wp-includes/class-wp-customize-manager.php:901
 msgid "Your theme supports a static front page."
 msgstr "您的主题提供静态首页支持。"
 
-#: wp-includes/class-wp-customize-manager.php:869
+#: wp-includes/class-wp-customize-manager.php:912
 msgid "Front page displays"
 msgstr "首页显示"
 
-#: wp-includes/class-wp-customize-manager.php:873
+#: wp-includes/class-wp-customize-manager.php:916
 msgid "Your latest posts"
 msgstr "您的最新文章"
 
-#: wp-includes/class-wp-customize-manager.php:874
+#: wp-includes/class-wp-customize-manager.php:917
 msgid "A static page"
 msgstr "一个静态页面"
 
-#: wp-includes/class-wp-customize-manager.php:885
+#: wp-includes/class-wp-customize-manager.php:928
 msgid "Front page"
 msgstr "首页"
 
-#: wp-includes/class-wp-customize-manager.php:897
+#: wp-includes/class-wp-customize-manager.php:940
 msgid "Posts page"
 msgstr "文章页"
 
@@ -1235,7 +1230,7 @@ msgstr "英语=en,丹麦语=da,荷兰语=nl,芬兰语=fi,法语=fr,德语=de,意
 #: wp-includes/class-wp-editor.php:619
 #: wp-includes/js/tinymce/langs/wp-langs.php:18
 #: wp-includes/script-loader.php:277
-#: wp-includes/script-loader.php:351
+#: wp-includes/script-loader.php:352
 msgid "Update"
 msgstr "更新"
 
@@ -1347,7 +1342,7 @@ msgstr "未指定搜索条件。自动显示近期条目。"
 #: wp-includes/class-wp-editor.php:808
 #: wp-includes/js/tinymce/langs/wp-langs.php:19
 #: wp-includes/script-loader.php:306
-#: wp-includes/script-loader.php:343
+#: wp-includes/script-loader.php:344
 msgid "Cancel"
 msgstr "取消"
 
@@ -1975,7 +1970,7 @@ msgid "Comment on %s"
 msgstr "《%s》上的评论"
 
 #: wp-includes/comment-template.php:1041
-#: wp-includes/script-loader.php:333
+#: wp-includes/script-loader.php:334
 msgid "Reply"
 msgstr "回复"
 
@@ -2860,10 +2855,10 @@ msgid "Search for:"
 msgstr "搜索："
 
 #: wp-includes/general-template.php:187
-#: wp-login.php:434
-#: wp-login.php:459
-#: wp-login.php:490
-#: wp-login.php:546
+#: wp-login.php:446
+#: wp-login.php:471
+#: wp-login.php:502
+#: wp-login.php:558
 msgid "Log in"
 msgstr "登录"
 
@@ -2872,32 +2867,32 @@ msgid "Log out"
 msgstr "登出"
 
 #: wp-includes/general-template.php:258
-#: wp-login.php:531
-#: wp-login.php:653
+#: wp-login.php:543
+#: wp-login.php:677
 msgid "Username"
 msgstr "用户名"
 
 #: wp-includes/general-template.php:259
-#: wp-login.php:657
+#: wp-login.php:681
 msgid "Password"
 msgstr "密码"
 
 #: wp-includes/general-template.php:260
-#: wp-login.php:661
+#: wp-login.php:685
 msgid "Remember Me"
 msgstr "记住我的登录信息"
 
 #: wp-includes/general-template.php:261
-#: wp-login.php:644
-#: wp-login.php:663
+#: wp-login.php:668
+#: wp-login.php:687
 msgid "Log In"
 msgstr "登录"
 
 #: wp-includes/general-template.php:336
-#: wp-login.php:436
-#: wp-login.php:492
-#: wp-login.php:542
-#: wp-login.php:677
+#: wp-login.php:448
+#: wp-login.php:504
+#: wp-login.php:554
+#: wp-login.php:704
 msgid "Register"
 msgstr "注册"
 
@@ -3014,7 +3009,7 @@ msgstr "插入"
 #: wp-includes/js/tinymce/wp-mce-help.php:287
 #: wp-includes/script-loader.php:178
 #: wp-includes/script-loader.php:307
-#: wp-login.php:597
+#: wp-login.php:612
 msgid "Close"
 msgstr "关闭"
 
@@ -3726,8 +3721,8 @@ msgid "Cell"
 msgstr "单元格"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:203
-#: wp-includes/script-loader.php:425
-#: wp-includes/script-loader.php:533
+#: wp-includes/script-loader.php:426
+#: wp-includes/script-loader.php:534
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "离开这个页面，您所做的更改将丢失。"
 
@@ -5731,7 +5726,7 @@ msgstr "您的站点 %s 有新用户注册："
 
 #: wp-includes/pluggable.php:1208
 #: wp-includes/pluggable.php:1216
-#: wp-login.php:218
+#: wp-login.php:230
 msgid "Username: %s"
 msgstr "用户名：%s"
 
@@ -5956,13 +5951,13 @@ msgstr "等待复审"
 
 #: wp-includes/post.php:613
 #: wp-includes/post.php:633
-#: wp-includes/script-loader.php:354
+#: wp-includes/script-loader.php:355
 msgid "Private"
 msgstr "私密"
 
 #: wp-includes/post.php:614
 #: wp-includes/post.php:634
-#: wp-includes/script-loader.php:359
+#: wp-includes/script-loader.php:360
 msgid "Published"
 msgstr "已发布"
 
@@ -6081,8 +6076,8 @@ msgid "The page template is invalid."
 msgstr "页面模板无效。"
 
 #: wp-includes/post.php:2947
-#: wp-includes/script-loader.php:360
-#: wp-includes/script-loader.php:385
+#: wp-includes/script-loader.php:361
+#: wp-includes/script-loader.php:386
 msgctxt "tag delimiter"
 msgid ","
 msgstr "、"
@@ -6252,12 +6247,12 @@ msgid "Toggle Editor Text Direction"
 msgstr "切换编辑器文本书写方向"
 
 #: wp-includes/script-loader.php:97
-#: wp-includes/script-loader.php:322
+#: wp-includes/script-loader.php:323
 msgid "You do not have permission to do that."
 msgstr "您无权执行此操作。"
 
 #: wp-includes/script-loader.php:98
-#: wp-includes/script-loader.php:323
+#: wp-includes/script-loader.php:324
 msgid "An unidentified error has occurred."
 msgstr "发生了无法识别的错误。"
 
@@ -6375,7 +6370,7 @@ msgid "&#8220;%s&#8221; has failed to upload."
 msgstr "“%s”上传失败。"
 
 #: wp-includes/script-loader.php:259
-#: wp-login.php:482
+#: wp-login.php:494
 msgid "Strength indicator"
 msgstr "强度评估"
 
@@ -6402,7 +6397,7 @@ msgid "Mismatch"
 msgstr "不匹配"
 
 #: wp-includes/script-loader.php:279
-#: wp-includes/script-loader.php:384
+#: wp-includes/script-loader.php:385
 msgid "(no title)"
 msgstr "(无标题)"
 
@@ -6422,121 +6417,121 @@ msgstr "保存并发布"
 msgid "Saved"
 msgstr "已保存"
 
-#: wp-includes/script-loader.php:314
+#: wp-includes/script-loader.php:315
 msgid "Add"
 msgstr "添加"
 
-#: wp-includes/script-loader.php:315
+#: wp-includes/script-loader.php:316
 msgid "Separate multiple categories with commas."
 msgstr "多个分类目录请用英文逗号（,）分开。"
 
-#: wp-includes/script-loader.php:332
+#: wp-includes/script-loader.php:333
 msgid "Approve and Reply"
 msgstr "批准并回复"
 
-#: wp-includes/script-loader.php:342
+#: wp-includes/script-loader.php:343
 msgid "OK"
 msgstr "确定"
 
-#: wp-includes/script-loader.php:344
+#: wp-includes/script-loader.php:345
 msgid "Publish on:"
 msgstr "发布于："
 
-#: wp-includes/script-loader.php:345
+#: wp-includes/script-loader.php:346
 msgid "Schedule for:"
 msgstr "定时："
 
-#: wp-includes/script-loader.php:346
+#: wp-includes/script-loader.php:347
 msgid "Published on:"
 msgstr "发布于："
 
-#: wp-includes/script-loader.php:347
+#: wp-includes/script-loader.php:348
 msgid "Show more comments"
 msgstr "显示更多评论"
 
-#: wp-includes/script-loader.php:348
+#: wp-includes/script-loader.php:349
 msgid "No more comments found."
 msgstr "已无更多评论。"
 
-#: wp-includes/script-loader.php:349
+#: wp-includes/script-loader.php:350
 msgid "Publish"
 msgstr "发布"
 
-#: wp-includes/script-loader.php:350
+#: wp-includes/script-loader.php:351
 msgid "Schedule"
 msgstr "定时"
 
-#: wp-includes/script-loader.php:352
+#: wp-includes/script-loader.php:353
 msgid "Save as Pending"
 msgstr "保存并提请审核"
 
-#: wp-includes/script-loader.php:353
+#: wp-includes/script-loader.php:354
 msgid "Save Draft"
 msgstr "保存草稿"
 
-#: wp-includes/script-loader.php:355
+#: wp-includes/script-loader.php:356
 msgid "Public"
 msgstr "公开"
 
-#: wp-includes/script-loader.php:356
+#: wp-includes/script-loader.php:357
 msgid "Public, Sticky"
 msgstr "公开、置顶"
 
-#: wp-includes/script-loader.php:357
+#: wp-includes/script-loader.php:358
 msgid "Password Protected"
 msgstr "密码保护"
 
-#: wp-includes/script-loader.php:358
+#: wp-includes/script-loader.php:359
 msgid "Privately Published"
 msgstr "私密、已发布"
 
-#: wp-includes/script-loader.php:368
+#: wp-includes/script-loader.php:369
 msgid "Submitted on:"
 msgstr "提交于："
 
-#: wp-includes/script-loader.php:382
-#: wp-includes/script-loader.php:390
+#: wp-includes/script-loader.php:383
+#: wp-includes/script-loader.php:391
 msgid "Error while saving the changes."
 msgstr "保存更改时发生错误。"
 
-#: wp-includes/script-loader.php:383
+#: wp-includes/script-loader.php:384
 msgid "Remove From Bulk Edit"
 msgstr "从批量编辑中移除"
 
-#: wp-includes/script-loader.php:395
+#: wp-includes/script-loader.php:396
 msgid "Plugin Information:"
 msgstr "插件信息："
 
-#: wp-includes/script-loader.php:396
+#: wp-includes/script-loader.php:397
 msgid "Are you sure you want to install this plugin?"
 msgstr "您确认要安装该插件吗？"
 
-#: wp-includes/script-loader.php:409
+#: wp-includes/script-loader.php:410
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "无法加载预览图片。请尝试刷新页面。"
 
-#: wp-includes/script-loader.php:414
+#: wp-includes/script-loader.php:415
 msgid "Use as featured image"
 msgstr "作为特色图像"
 
-#: wp-includes/script-loader.php:415
+#: wp-includes/script-loader.php:416
 msgid "Saving..."
 msgstr "正在保存..."
 
-#: wp-includes/script-loader.php:416
+#: wp-includes/script-loader.php:417
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "无法设置为缩略图。请尝试其它附件。"
 
-#: wp-includes/script-loader.php:417
+#: wp-includes/script-loader.php:418
 msgid "Done"
 msgstr "完成"
 
-#: wp-includes/script-loader.php:423
+#: wp-includes/script-loader.php:424
 msgctxt "search results"
 msgid "No results found."
 msgstr "无结果。"
 
-#: wp-includes/script-loader.php:424
+#: wp-includes/script-loader.php:425
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -6544,7 +6539,7 @@ msgstr ""
 "您将永久删除所选菜单。\n"
 " 点击“取消”停止，点击“确定”删除。"
 
-#: wp-includes/script-loader.php:532
+#: wp-includes/script-loader.php:533
 msgid "Saving Draft&#8230;"
 msgstr "正在保存草稿 &#8230;"
 
@@ -6775,7 +6770,7 @@ msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out 
 msgstr "以 <a href=\"%1$s\">%2$s</a> 的身份登录。<a href=\"%3$s\" title=\"Log out of this account\">登出 &raquo;</a>"
 
 #: wp-includes/theme-compat/comments-popup.php:80
-#: wp-login.php:535
+#: wp-login.php:547
 msgid "E-mail"
 msgstr "电子邮件"
 
@@ -7070,202 +7065,202 @@ msgstr "您可以通过我们提供的 web 向导来创建 <code>wp-config.php</
 msgid "Create a Configuration File"
 msgstr "创建配置文件"
 
-#: wp-login.php:79
+#: wp-login.php:82
 msgid "Powered by WordPress"
 msgstr "基于 WordPress"
 
-#: wp-login.php:130
+#: wp-login.php:140
 msgid "Are you lost?"
 msgstr "不知道自己在哪？"
 
-#: wp-login.php:130
+#: wp-login.php:140
 msgid "&larr; Back to %s"
 msgstr "&larr; 回到 %s"
 
-#: wp-login.php:174
+#: wp-login.php:186
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
 msgstr "<strong>错误</strong>：请输入用户名或电子邮件地址。"
 
-#: wp-login.php:178
+#: wp-login.php:190
 msgid "<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr "<strong>错误</strong>：未能通过电子邮件地址找到用户。"
 
-#: wp-login.php:190
+#: wp-login.php:202
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
 msgstr "<strong>错误</strong>：用户名或电子邮件地址无效。"
 
-#: wp-login.php:204
+#: wp-login.php:216
 msgid "Password reset is not allowed for this user"
 msgstr "不能重设该用户的密码"
 
-#: wp-login.php:216
+#: wp-login.php:228
 msgid "Someone requested that the password be reset for the following account:"
 msgstr "有人要求重设如下帐号的密码："
 
-#: wp-login.php:219
+#: wp-login.php:231
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr "若这不是您本人要求的，请忽略本邮件，一切如常。"
 
-#: wp-login.php:220
+#: wp-login.php:232
 msgid "To reset your password, visit the following address:"
 msgstr "要重置您的密码，请打开下面的链接："
 
-#: wp-login.php:230
+#: wp-login.php:242
 msgid "[%s] Password Reset"
 msgstr "[%s] 密码重设"
 
-#: wp-login.php:236
+#: wp-login.php:248
 msgid "The e-mail could not be sent."
 msgstr "无法发送电子邮件。"
 
-#: wp-login.php:236
+#: wp-login.php:248
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "可能原因：您的主机禁用了 mail() 函数..."
 
-#: wp-login.php:256
-#: wp-login.php:259
-#: wp-login.php:264
+#: wp-login.php:268
+#: wp-login.php:271
+#: wp-login.php:276
 msgid "Invalid key"
 msgstr "无效 key"
 
-#: wp-login.php:298
+#: wp-login.php:310
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>错误</strong>：请填写用户名。"
 
-#: wp-login.php:300
+#: wp-login.php:312
 msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "<strong>错误</strong>：此用户名包含无效字符，请输入有效的用户名。"
 
-#: wp-login.php:303
+#: wp-login.php:315
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>错误</strong>：该用户名已被注册，请再选择一个。"
 
-#: wp-login.php:308
+#: wp-login.php:320
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>错误</strong>：请填写电子邮件地址。"
 
-#: wp-login.php:310
+#: wp-login.php:322
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>错误</strong>：电子邮件地址不正确。"
 
-#: wp-login.php:313
+#: wp-login.php:325
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>错误</strong>：该电子邮件地址已经被注册，请换一个。"
 
-#: wp-login.php:326
+#: wp-login.php:338
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>错误</strong>：无法完成您的注册请求... 请联系<a href=\"mailto:%s\">管理员</a>！"
 
-#: wp-login.php:413
+#: wp-login.php:425
 msgid "Sorry, that key does not appear to be valid."
 msgstr "抱歉，该 key 似乎无效。"
 
-#: wp-login.php:417
+#: wp-login.php:429
 msgid "Lost Password"
 msgstr "忘记密码"
 
-#: wp-login.php:417
+#: wp-login.php:429
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
 msgstr "请输入您的用户名或电子邮箱地址。您会收到一封包含创建新密码链接的电子邮件。"
 
-#: wp-login.php:425
+#: wp-login.php:437
 msgid "Username or E-mail:"
 msgstr "用户名或电子邮件地址："
 
-#: wp-login.php:430
+#: wp-login.php:442
 msgid "Get New Password"
 msgstr "获取新密码"
 
-#: wp-login.php:456
+#: wp-login.php:468
 msgid "The passwords do not match."
 msgstr "您两次输入的密码不符。"
 
-#: wp-login.php:459
+#: wp-login.php:471
 msgid "Password Reset"
 msgstr "密码重置"
 
-#: wp-login.php:459
+#: wp-login.php:471
 msgid "Your password has been reset."
 msgstr "您的密码已被重置。"
 
-#: wp-login.php:467
-#: wp-login.php:486
+#: wp-login.php:479
+#: wp-login.php:498
 msgid "Reset Password"
 msgstr "重置密码"
 
-#: wp-login.php:467
+#: wp-login.php:479
 msgid "Enter your new password below."
 msgstr "请在下方输入您的新密码。"
 
-#: wp-login.php:474
+#: wp-login.php:486
 msgid "New password"
 msgstr "新密码"
 
-#: wp-login.php:478
+#: wp-login.php:490
 msgid "Confirm new password"
 msgstr "确认新密码"
 
-#: wp-login.php:483
+#: wp-login.php:495
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "提示：您的密码最好至少包含 7 个字符。为了保证密码强度，使用大小写字母，数字和符号，例如 ! \" ? $ % ^ &amp; )。"
 
-#: wp-login.php:526
+#: wp-login.php:538
 msgid "Registration Form"
 msgstr "注册表单"
 
-#: wp-login.php:526
+#: wp-login.php:538
 msgid "Register For This Site"
 msgstr "在这个站点注册"
 
-#: wp-login.php:539
+#: wp-login.php:551
 msgid "A password will be e-mailed to you."
 msgstr "密码将通过电子邮件发送给您。"
 
-#: wp-login.php:547
-#: wp-login.php:678
-#: wp-login.php:680
+#: wp-login.php:559
+#: wp-login.php:705
+#: wp-login.php:707
 msgid "Password Lost and Found"
 msgstr "找回密码"
 
-#: wp-login.php:547
-#: wp-login.php:678
-#: wp-login.php:680
+#: wp-login.php:559
+#: wp-login.php:705
+#: wp-login.php:707
 msgid "Lost your password?"
 msgstr "忘记密码？"
 
-#: wp-login.php:593
+#: wp-login.php:606
 msgid "You have logged in successfully."
 msgstr "登录成功。"
 
-#: wp-login.php:622
+#: wp-login.php:646
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>错误</strong>：Cookies 被阻止或者您的浏览器不支持。要使用 WordPress，您必须<a href='http://www.google.com/cookies.html'>启用 cookies</a>。"
 
-#: wp-login.php:626
+#: wp-login.php:650
 msgid "You are now logged out."
 msgstr "您已登出。"
 
-#: wp-login.php:628
+#: wp-login.php:652
 msgid "User registration is currently not allowed."
 msgstr "新用户注册暂时关闭。"
 
-#: wp-login.php:630
+#: wp-login.php:654
 msgid "Check your e-mail for the confirmation link."
 msgstr "请检查您的邮件，内有确认激活链接。"
 
-#: wp-login.php:632
+#: wp-login.php:656
 msgid "Check your e-mail for your new password."
 msgstr "请查收您邮件中的新密码。"
 
-#: wp-login.php:634
+#: wp-login.php:658
 msgid "Registration complete. Please check your e-mail."
 msgstr "注册完成。请查收我们给您发的邮件。"
 
-#: wp-login.php:636
+#: wp-login.php:660
 msgid "Your session has expired. Please log-in again."
 msgstr "登录会话已过期，请重新登录。"
 
-#: wp-login.php:638
+#: wp-login.php:662
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to experience the awesomeness."
 msgstr "<strong>WordPress 升级成功！</strong>请重新登录。"
 

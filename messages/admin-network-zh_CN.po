@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.4\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-05 19:17:34+00:00\n"
-"PO-Revision-Date: 2012-06-06 23:02-0500\n"
+"POT-Creation-Date: 2012-06-13 18:19:02+00:00\n"
+"PO-Revision-Date: 2012-06-13 17:47-0800\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: \n"
@@ -94,7 +94,7 @@ msgid "Installed Themes"
 msgstr "已安装的主题"
 
 #: wp-admin/network/menu.php:32
-#: wp-admin/network/themes.php:220
+#: wp-admin/network/themes.php:223
 msgctxt "theme"
 msgid "Add New"
 msgstr "添加主题"
@@ -149,203 +149,199 @@ msgid "Upload settings control the size of the uploaded files and the amount of 
 msgstr "上传设置控制每个站点所能上传的文件数目、大小和文件类型（用空格隔开）。您也可以对每个站点做出不同的限制。"
 
 #: wp-admin/network/settings.php:32
-msgid "Checkboxes for media upload buttons set which are shown in the visual editor. If unchecked, a generic upload button is still visible; other media types can still be uploaded if on the allowed file types list."
-msgstr "下面几个复选框控制多媒体文件上传，它们将体现在可视化编辑器中。若不选，“通用类型”的上传按钮依然会显示，用户可以上传您在文件类型列表中限定的文件。"
-
-#: wp-admin/network/settings.php:33
 msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
 msgstr "菜单设置允许您选择一般用户是否有权自行控制插件。"
 
-#: wp-admin/network/settings.php:34
+#: wp-admin/network/settings.php:33
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
 msgstr "现在已经不能在设置页面添加超级管理员了。您需前往“管理网络” > “用户”，然后点击相应的用户名，或其下的编辑链接。之后您可在用户编辑页面为用户授予超级管理员权限。"
 
-#: wp-admin/network/settings.php:39
+#: wp-admin/network/settings.php:38
 msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">关于网络设置的文档</a>（英文）"
 
-#: wp-admin/network/settings.php:121
+#: wp-admin/network/settings.php:120
 msgid "Operational Settings"
 msgstr "运营设置"
 
-#: wp-admin/network/settings.php:124
+#: wp-admin/network/settings.php:123
 msgid "Network Name"
 msgstr "网络名称"
 
-#: wp-admin/network/settings.php:128
+#: wp-admin/network/settings.php:127
 msgid "What you would like to call this network."
 msgstr "您如何称呼您的网络。"
 
-#: wp-admin/network/settings.php:133
+#: wp-admin/network/settings.php:132
 msgid "Network Admin Email"
 msgstr "网络管理员电子邮件地址"
 
-#: wp-admin/network/settings.php:137
+#: wp-admin/network/settings.php:136
 msgid "Registration and support emails will come from this address. An address such as <code>support@%s</code> is recommended."
 msgstr "注册和支持邮件发自此地址。建议使用类似 <code>support@%s</code> 的地址。"
 
-#: wp-admin/network/settings.php:141
+#: wp-admin/network/settings.php:140
 msgid "Registration Settings"
 msgstr "注册设置"
 
-#: wp-admin/network/settings.php:144
+#: wp-admin/network/settings.php:143
 msgid "Allow new registrations"
 msgstr "允许新站点注册"
 
-#: wp-admin/network/settings.php:151
+#: wp-admin/network/settings.php:150
 msgid "Registration is disabled."
 msgstr "禁止注册。"
 
-#: wp-admin/network/settings.php:152
+#: wp-admin/network/settings.php:151
 msgid "User accounts may be registered."
 msgstr "用户可注册账户。"
 
-#: wp-admin/network/settings.php:153
+#: wp-admin/network/settings.php:152
 msgid "Logged in users may register new sites."
 msgstr "登录用户可注册新站点。"
 
-#: wp-admin/network/settings.php:154
+#: wp-admin/network/settings.php:153
 msgid "Both sites and user accounts can be registered."
 msgstr "用户不仅可以注册新用户，还可注册新站点。"
 
-#: wp-admin/network/settings.php:156
+#: wp-admin/network/settings.php:155
 msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
 msgstr "若禁止注册，请在 <code>wp-config.php</code> 文件中将 <code>NOBLOGREDIRECT</code> 设为当用户访问不存在站点时跳转到的 URL。"
 
-#: wp-admin/network/settings.php:162
+#: wp-admin/network/settings.php:161
 msgid "Registration notification"
 msgstr "注册提醒"
 
-#: wp-admin/network/settings.php:168
+#: wp-admin/network/settings.php:167
 msgid "Send the network admin an email notification every time someone registers a site or user account."
 msgstr "一旦有新用户、新站点注册，立即通知网络管理员。"
 
-#: wp-admin/network/settings.php:173
+#: wp-admin/network/settings.php:172
 msgid "Add New Users"
 msgstr "添加新用户"
 
-#: wp-admin/network/settings.php:175
+#: wp-admin/network/settings.php:174
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
 msgstr "允许站点管理员通过子站点的“用户 &rarr; 添加新用户”页面添加新用户。"
 
-#: wp-admin/network/settings.php:180
+#: wp-admin/network/settings.php:179
 msgid "Banned Names"
 msgstr "不允许使用的名称"
 
-#: wp-admin/network/settings.php:184
+#: wp-admin/network/settings.php:183
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "用户不可注册这些站点。名称间使用空格隔开。"
 
-#: wp-admin/network/settings.php:189
+#: wp-admin/network/settings.php:188
 msgid "Limited Email Registrations"
 msgstr "限制电子邮件注册"
 
-#: wp-admin/network/settings.php:196
+#: wp-admin/network/settings.php:195
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "若您只允许用户注册某些域名。每个域名一行。"
 
-#: wp-admin/network/settings.php:201
+#: wp-admin/network/settings.php:200
 msgid "Banned Email Domains"
 msgstr "不允许使用的电子邮件域"
 
-#: wp-admin/network/settings.php:206
+#: wp-admin/network/settings.php:205
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "若您不允许使用下列电子邮件域的用户注册站点。每个域名一行。"
 
-#: wp-admin/network/settings.php:211
+#: wp-admin/network/settings.php:210
 msgid "New Site Settings"
 msgstr "新站点设置"
 
-#: wp-admin/network/settings.php:215
+#: wp-admin/network/settings.php:214
 msgid "Welcome Email"
 msgstr "“欢迎”电子邮件"
 
-#: wp-admin/network/settings.php:220
+#: wp-admin/network/settings.php:219
 msgid "The welcome email sent to new site owners."
 msgstr "用以欢迎新站点所有者的电子邮件。"
 
-#: wp-admin/network/settings.php:224
+#: wp-admin/network/settings.php:223
 msgid "Welcome User Email"
 msgstr "“欢迎”用户电子邮件"
 
-#: wp-admin/network/settings.php:229
+#: wp-admin/network/settings.php:228
 msgid "The welcome email sent to new users."
 msgstr "本电子邮件将被发送至新用户。"
 
-#: wp-admin/network/settings.php:238
+#: wp-admin/network/settings.php:237
 msgid "The first post on a new site."
 msgstr "新站点的首篇文章。"
 
-#: wp-admin/network/settings.php:242
+#: wp-admin/network/settings.php:241
 msgid "First Page"
 msgstr "首篇页面"
 
-#: wp-admin/network/settings.php:247
+#: wp-admin/network/settings.php:246
 msgid "The first page on a new site."
 msgstr "新站点的首篇页面。"
 
-#: wp-admin/network/settings.php:251
+#: wp-admin/network/settings.php:250
 msgid "First Comment"
 msgstr "首条评论"
 
-#: wp-admin/network/settings.php:256
+#: wp-admin/network/settings.php:255
 msgid "The first comment on a new site."
 msgstr "新站点的首条评论。"
 
-#: wp-admin/network/settings.php:260
+#: wp-admin/network/settings.php:259
 msgid "First Comment Author"
 msgstr "首条评论的作者"
 
-#: wp-admin/network/settings.php:264
+#: wp-admin/network/settings.php:263
 msgid "The author of the first comment on a new site."
 msgstr "新站点首条评论的作者。"
 
-#: wp-admin/network/settings.php:268
+#: wp-admin/network/settings.php:267
 msgid "First Comment URL"
 msgstr "首条评论者的 URL"
 
-#: wp-admin/network/settings.php:272
+#: wp-admin/network/settings.php:271
 msgid "The URL for the first comment on a new site."
 msgstr "新站点首条评论作者的 URL。"
 
-#: wp-admin/network/settings.php:276
+#: wp-admin/network/settings.php:275
 msgid "Upload Settings"
 msgstr "上传设置"
 
-#: wp-admin/network/settings.php:279
+#: wp-admin/network/settings.php:278
 msgid "Site upload space"
 msgstr "站点上传大小配额"
 
-#: wp-admin/network/settings.php:281
+#: wp-admin/network/settings.php:280
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "上传文件的总大小不能超过 %s MB"
 
-#: wp-admin/network/settings.php:286
+#: wp-admin/network/settings.php:285
 msgid "Upload file types"
 msgstr "上传文件类型"
 
-#: wp-admin/network/settings.php:291
+#: wp-admin/network/settings.php:290
 msgid "Max upload file size"
 msgstr "最大上传文件的大小"
 
-#: wp-admin/network/settings.php:292
+#: wp-admin/network/settings.php:291
 msgctxt "File size in kilobytes"
 msgid "%s KB"
 msgstr "%s KB"
 
-#: wp-admin/network/settings.php:301
+#: wp-admin/network/settings.php:300
 msgid "Language Settings"
 msgstr "语言设置"
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:303
 msgid "Default Language"
 msgstr "默认语言"
 
-#: wp-admin/network/settings.php:316
+#: wp-admin/network/settings.php:315
 msgid "Menu Settings"
 msgstr "菜单设置"
 
-#: wp-admin/network/settings.php:319
+#: wp-admin/network/settings.php:318
 msgid "Enable administration menus"
 msgstr "启用管理菜单"
 
@@ -529,25 +525,25 @@ msgid "You do not have sufficient permissions to manage themes for this site."
 msgstr "您无权管理此站点的主题。"
 
 #: wp-admin/network/site-themes.php:131
-#: wp-admin/network/themes.php:194
+#: wp-admin/network/themes.php:197
 msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "主题"
 
 #: wp-admin/network/site-themes.php:162
-#: wp-admin/network/themes.php:228
+#: wp-admin/network/themes.php:231
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s 个主题已启用。"
 
 #: wp-admin/network/site-themes.php:165
-#: wp-admin/network/themes.php:231
+#: wp-admin/network/themes.php:234
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s 个主题已停用。"
 
 #: wp-admin/network/site-themes.php:167
-#: wp-admin/network/themes.php:236
+#: wp-admin/network/themes.php:239
 msgid "No theme selected."
 msgstr "没有选择主题。"
 
@@ -715,62 +711,62 @@ msgstr "站点已被标记为垃圾站点。"
 msgid "You do not have sufficient permissions to manage network themes."
 msgstr "您无权管理网络的主题。"
 
-#: wp-admin/network/themes.php:108
+#: wp-admin/network/themes.php:111
 msgid "You do not have sufficient permissions to delete themes for this site."
 msgstr "您无权为此站点删除主题。"
 
-#: wp-admin/network/themes.php:143
+#: wp-admin/network/themes.php:146
 msgid "Delete Theme"
 msgid_plural "Delete Themes"
 msgstr[0] "删除主题"
 
-#: wp-admin/network/themes.php:145
+#: wp-admin/network/themes.php:148
 msgid "This theme may be active on other sites in the network."
 msgid_plural "These themes may be active on other sites in the network."
 msgstr[0] "这些主题可能正在本网络中的其它站点中使用着。"
 
-#: wp-admin/network/themes.php:146
+#: wp-admin/network/themes.php:149
 msgid "You are about to remove the following theme:"
 msgid_plural "You are about to remove the following themes:"
 msgstr[0] "您将删除下列主题："
 
 #. translators: 1: theme name, 2: theme author
-#: wp-admin/network/themes.php:151
+#: wp-admin/network/themes.php:154
 msgid "Are you sure you wish to delete these themes?"
 msgstr "您确定要删除这些主题吗？"
 
-#: wp-admin/network/themes.php:160
+#: wp-admin/network/themes.php:163
 msgid "Yes, Delete this theme"
 msgid_plural "Yes, Delete these themes"
 msgstr[0] "确定，删除这些主题"
 
-#: wp-admin/network/themes.php:163
+#: wp-admin/network/themes.php:166
 msgid "No, Return me to the theme list"
 msgstr "不，回到主题列表"
 
-#: wp-admin/network/themes.php:200
+#: wp-admin/network/themes.php:203
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
 msgstr "本页面设置每个站点的“外观”菜单中，可供用户选择的主题。不能停用站点正在使用的主题。"
 
-#: wp-admin/network/themes.php:201
+#: wp-admin/network/themes.php:204
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
 msgstr "若网络管理员禁用了正在使用的主题，在该站点上，这个主题将依然可用。一旦这位用户选择了其它主题，那么用户就无法再选择回来了。"
 
-#: wp-admin/network/themes.php:202
+#: wp-admin/network/themes.php:205
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
 msgstr "在“编辑站点”的“主题”选项卡，您可以为每个站点设置不同的主题。通过“所有站点”页面上相应站点的“编辑”链接可以找到这个选项卡。只有网络管理员有权安装和编辑主题。"
 
-#: wp-admin/network/themes.php:207
+#: wp-admin/network/themes.php:210
 msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">关于网络主题的文档</a>（英文）"
 
-#: wp-admin/network/themes.php:234
+#: wp-admin/network/themes.php:237
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
 msgstr[0] "%s 个主题已删除。"
 
-#: wp-admin/network/themes.php:238
+#: wp-admin/network/themes.php:241
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr "您不能删除主站点正在使用的主题。"
 
