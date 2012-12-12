@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.5\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-12-05 19:18:35+00:00\n"
-"PO-Revision-Date: 2012-12-05 15:12-0500\n"
+"POT-Creation-Date: 2012-12-07 23:18:56+00:00\n"
+"PO-Revision-Date: 2012-12-11 20:29-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: zh_CN\n"
@@ -71,40 +71,30 @@ msgid ""
 "Creating image galleries is faster with drag and drop reordering, inline "
 "caption editing, and simplified controls for layout."
 msgstr ""
-"有了拖拽排序、图片说明快速编辑、简化的控件设计，我们让整理相册变得更快。"
+"有了拖拽排序、图片说明快速编辑、简化的控件设计，我们让整理相册变得更容易。"
 
-#: wp-admin/about.php:51
-msgid "Insert Multiple Images"
-msgstr "一次插入多张图像"
-
-#: wp-admin/about.php:52
-msgid ""
-"Have a need for speed? You can now insert multiple images at once and then "
-"compose your words around them."
-msgstr "着急写文章？您可以一次插入多张图片，然后在图片周围开始写作。"
-
-#: wp-admin/about.php:58
+#: wp-admin/about.php:54
 msgid "New Default Theme"
 msgstr "全新默认主题"
 
-#: wp-admin/about.php:62
+#: wp-admin/about.php:58
 msgid "Introducing Twenty Twelve"
 msgstr "Twenty Twelve 全新登场"
 
-#: wp-admin/about.php:63
+#: wp-admin/about.php:59
 msgid ""
 "The newest default theme for WordPress is simple, flexible, and elegant."
 msgstr "WordPress 的最新主题。简洁、灵活、优美。"
 
-#: wp-admin/about.php:64
+#: wp-admin/about.php:60
 msgid ""
 "What makes it really shine are the design details, like the gorgeous Open "
 "Sans typeface and a fully responsive design that looks great on any device."
 msgstr ""
-"细节上的设计令它与众不同。比如我们选用了美观的 Open Sans 字体、引入了相应式网"
+"细节上的设计令它与众不同。比如我们选用了美观的 Open Sans 字体、引入了响应式网"
 "页设计，在任何设备上都有很好的效果。"
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:61
 msgid ""
 "Naturally, Twenty Twelve supports all the theme features you’ve come to know "
 "and love, but it is also designed to be as great for a website as it is for "
@@ -113,15 +103,15 @@ msgstr ""
 "显然，Twenty Twelve 支持我们所有的主题特性，同时它不仅适用于博客，还适用于网"
 "站。"
 
-#: wp-admin/about.php:70
+#: wp-admin/about.php:66
 msgid "Retina Ready"
 msgstr "支持 Retina 显示屏"
 
-#: wp-admin/about.php:74
+#: wp-admin/about.php:70
 msgid "So Sharp You Can&#8217;t See the Pixels"
 msgstr "清晰到看不见像素啦"
 
-#: wp-admin/about.php:75
+#: wp-admin/about.php:71
 msgid ""
 "The WordPress dashboard now looks beautiful on high-resolution screens like "
 "those found on the iPad, Kindle Fire HD, Nexus 10, and MacBook Pro with "
@@ -132,15 +122,15 @@ msgstr ""
 "HD、Nexus 10 和配备 Retina 显示屏的 MacBook Pro 等。图标等视觉元素显示清晰、"
 "详尽。"
 
-#: wp-admin/about.php:80
+#: wp-admin/about.php:76
 msgid "Smoother Experience"
 msgstr "更平滑的体验"
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:80
 msgid "Better Accessibility"
 msgstr "增强的可用性"
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:81
 msgid ""
 "WordPress supports more usage modes than ever before. Screenreaders, touch "
 "devices, and mouseless workflows all have improved ease of use and "
@@ -149,11 +139,11 @@ msgstr ""
 "WordPress 支持了更广泛的使用方式。读屏软件、触摸设备、纯键盘操作等工作流程都"
 "变得简洁明了。"
 
-#: wp-admin/about.php:87
+#: wp-admin/about.php:83
 msgid "More Polish"
 msgstr "精致设计"
 
-#: wp-admin/about.php:88
+#: wp-admin/about.php:84
 msgid ""
 "A number of screens and controls have been refined. For example, a new color "
 "picker makes it easier for you to choose that perfect shade of blue."
@@ -161,15 +151,15 @@ msgstr ""
 "本版本还包含了对一些页面的细节优化。比如，我们的新选色器让您轻松选到您要的那"
 "种蓝色。"
 
-#: wp-admin/about.php:93
+#: wp-admin/about.php:89
 msgid "Under the Hood"
 msgstr "面板之下"
 
-#: wp-admin/about.php:97
+#: wp-admin/about.php:93
 msgid "Meta Query Additions"
 msgstr "元查询特性的增强"
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:94
 msgid ""
 "The <code>WP_Comment_Query</code> and <code>WP_User_Query</code> classes now "
 "support meta queries just like <code>WP_Query.</code> Meta queries now "
@@ -179,11 +169,11 @@ msgstr ""
 "<code>WP_Query</code> 一样，支持了元查询。元查询功能添加了无需指定元 key 的对"
 "象查询方式。"
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:97
 msgid "Post Objects"
 msgstr "“Post”文章对象"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:98
 msgid ""
 "Post objects are now instances of a <code>WP_Post</code> class, which "
 "improves performance by loading selected properties on demand."
@@ -191,11 +181,11 @@ msgstr ""
 "“Post”对象变成了 <code>WP_Post</code> 类的实例，通过按需加载的方法，带来了性"
 "能上的增强。"
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:101
 msgid "Image Editing API"
 msgstr "图像编辑 API"
 
-#: wp-admin/about.php:106
+#: wp-admin/about.php:102
 msgid ""
 "The <code>WP_Image_Editor</code> class abstracts image editing functionality "
 "such as cropping and scaling, and uses ImageMagick when available."
@@ -203,37 +193,37 @@ msgstr ""
 "<code>WP_Image_Editor</code> 类将图像编辑功能抽象化，并在 ImageMagick 可用时"
 "使用它。"
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:108
 msgid "Multisite Improvements"
 msgstr "多站点功能增强"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:109
 msgid ""
 "<code>switch_to_blog()</code> is now significantly faster and more reliable."
 msgstr "<code>switch_to_blog()</code> 比以往更快、更可靠。"
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:112
 msgid "XML-RPC API"
 msgstr "XML-RPC API"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:113
 msgid ""
 "The <a href=\"%s\">WordPress API</a> is now always enabled, and supports "
 "fetching users, editing profiles, managing post revisions, and searching "
 "posts."
 msgstr ""
-"The <a href=\"%s\">WordPress API</a> 永远启用，支持获取用户、编辑个人资料、管"
-"理文章历史版本和搜索文章。"
+"<a href=\"%s\">WordPress API</a> 永远启用，支持获取用户、编辑个人资料、管理文"
+"章历史版本和搜索文章。"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:113
 msgid "http://codex.wordpress.org/XML-RPC_WordPress_API"
 msgstr "http://codex.wordpress.org/zh-cn:XML-RPC_WordPress_API"
 
-#: wp-admin/about.php:120 wp-admin/credits.php:160
+#: wp-admin/about.php:116 wp-admin/credits.php:160
 msgid "External Libraries"
 msgstr "外部库"
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:117
 msgid ""
 "WordPress now includes the <a href=\"%1$s\">Underscore</a> and <a href=\"%2$s"
 "\">Backbone</a> JavaScript libraries. TinyMCE, jQuery, jQuery UI, and "
@@ -243,52 +233,52 @@ msgstr ""
 "\">Backbone</a> JavaScript 库。TinyMCE、jQuery、jQuery UI 和 SimplePie 升级到"
 "了当前最新版本。"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:125
 msgid "Return to Updates"
 msgstr "返回“更新”"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:125
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "返回“仪表盘” &rarr; “更新”"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:129
 msgid "Go to Dashboard &rarr; Home"
 msgstr "前往“仪表盘” &rarr; “首页”"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:129
 msgid "Go to Dashboard"
 msgstr "前往“仪表盘”"
 
-#: wp-admin/about.php:144
+#: wp-admin/about.php:140
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "维护更新"
 
-#: wp-admin/about.php:145
+#: wp-admin/about.php:141
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "安全更新"
 
-#: wp-admin/about.php:146
+#: wp-admin/about.php:142
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "维护和安全更新"
 
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:149
+#: wp-admin/about.php:145
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:153
+#: wp-admin/about.php:149
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:157
+#: wp-admin/about.php:153
 msgid ""
 "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural ""
@@ -297,7 +287,7 @@ msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s �
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:161
+#: wp-admin/about.php:157
 msgid ""
 "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
 "bug."
@@ -306,7 +296,7 @@ msgid_plural ""
 "bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:160
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
@@ -375,7 +365,7 @@ msgstr "编辑评论"
 
 #: wp-admin/comment.php:50 wp-admin/custom-background.php:88
 #: wp-admin/custom-header.php:106 wp-admin/edit-comments.php:116
-#: wp-admin/edit-form-advanced.php:218 wp-admin/edit-link-form.php:44
+#: wp-admin/edit-form-advanced.php:217 wp-admin/edit-link-form.php:44
 #: wp-admin/edit-tags.php:204 wp-admin/edit.php:154 wp-admin/edit.php:199
 #: wp-admin/export.php:48 wp-admin/import.php:21
 #: wp-admin/includes/screen.php:781 wp-admin/index.php:46
@@ -409,8 +399,8 @@ msgstr "您也可以使用状态栏来审核评论、修改发布时间。"
 
 #: wp-admin/comment.php:57 wp-admin/custom-background.php:97
 #: wp-admin/custom-header.php:132 wp-admin/edit-comments.php:132
-#: wp-admin/edit-form-advanced.php:195 wp-admin/edit-form-advanced.php:210
-#: wp-admin/edit-form-advanced.php:227 wp-admin/edit-link-form.php:52
+#: wp-admin/edit-form-advanced.php:194 wp-admin/edit-form-advanced.php:209
+#: wp-admin/edit-form-advanced.php:226 wp-admin/edit-link-form.php:52
 #: wp-admin/edit-tags.php:234 wp-admin/edit.php:191 wp-admin/edit.php:212
 #: wp-admin/export.php:54 wp-admin/import.php:27 wp-admin/index.php:99
 #: wp-admin/link-manager.php:59 wp-admin/media-new.php:55
@@ -437,8 +427,8 @@ msgstr ""
 
 #: wp-admin/comment.php:59 wp-admin/custom-background.php:99
 #: wp-admin/custom-header.php:134 wp-admin/edit-comments.php:136
-#: wp-admin/edit-form-advanced.php:197 wp-admin/edit-form-advanced.php:213
-#: wp-admin/edit-form-advanced.php:229 wp-admin/edit-link-form.php:54
+#: wp-admin/edit-form-advanced.php:196 wp-admin/edit-form-advanced.php:212
+#: wp-admin/edit-form-advanced.php:228 wp-admin/edit-link-form.php:54
 #: wp-admin/edit-tags.php:243 wp-admin/edit.php:193 wp-admin/edit.php:214
 #: wp-admin/export.php:56 wp-admin/import.php:29 wp-admin/index.php:101
 #: wp-admin/link-manager.php:61 wp-admin/media-new.php:57
@@ -1273,44 +1263,40 @@ msgstr ""
 "有一个自动保存的版本比如下显示的版本还要新。<a href=\"%s\">查看自动保存的版本"
 "</a>"
 
-#: wp-admin/edit-form-advanced.php:110 wp-admin/includes/meta-boxes.php:316
-msgid "Attachment Page Content"
-msgstr "附件页面内容"
-
-#: wp-admin/edit-form-advanced.php:134 wp-admin/edit-form-advanced.php:279
+#: wp-admin/edit-form-advanced.php:133 wp-admin/edit-form-advanced.php:278
 msgid "Page Attributes"
 msgstr "页面属性"
 
-#: wp-admin/edit-form-advanced.php:134
+#: wp-admin/edit-form-advanced.php:133
 msgid "Attributes"
 msgstr "属性"
 
-#: wp-admin/edit-form-advanced.php:137
+#: wp-admin/edit-form-advanced.php:136
 msgid "Featured Image"
 msgstr "特色图像"
 
-#: wp-admin/edit-form-advanced.php:143
+#: wp-admin/edit-form-advanced.php:142
 msgid "Send Trackbacks"
 msgstr "发送 trackback"
 
-#: wp-admin/edit-form-advanced.php:146
+#: wp-admin/edit-form-advanced.php:145
 msgid "Custom Fields"
 msgstr "自定义栏目"
 
-#: wp-admin/edit-form-advanced.php:150 wp-admin/includes/dashboard.php:308
+#: wp-admin/edit-form-advanced.php:149 wp-admin/includes/dashboard.php:308
 #: wp-admin/menu.php:214
 msgid "Discussion"
 msgstr "讨论"
 
-#: wp-admin/edit-form-advanced.php:156
+#: wp-admin/edit-form-advanced.php:155
 #: wp-admin/includes/class-wp-posts-list-table.php:750
 #: wp-admin/includes/class-wp-terms-list-table.php:101
 #: wp-admin/includes/class-wp-terms-list-table.php:343
-#: wp-admin/includes/meta-boxes.php:598
+#: wp-admin/includes/meta-boxes.php:574
 msgid "Slug"
 msgstr "别名"
 
-#: wp-admin/edit-form-advanced.php:176
+#: wp-admin/edit-form-advanced.php:175
 msgid ""
 "The title field and the big Post Editing Area are fixed in place, but you "
 "can reposition all the other boxes using drag and drop. You can also "
@@ -1324,11 +1310,11 @@ msgstr ""
 "项”在页面中取消隐藏这些模块（摘要、发送 Trackback、自定义栏目、讨论、别名，和"
 "作者）。您还可以切换一栏/两栏布局。"
 
-#: wp-admin/edit-form-advanced.php:180
+#: wp-admin/edit-form-advanced.php:179
 msgid "Customizing This Display"
 msgstr "自定义显示方式"
 
-#: wp-admin/edit-form-advanced.php:184
+#: wp-admin/edit-form-advanced.php:183
 msgid ""
 "<strong>Title</strong> - Enter a title for your post. After you enter a "
 "title, you&#8217;ll see the permalink below, which you can edit."
@@ -1336,7 +1322,7 @@ msgstr ""
 "<strong>标题</strong> - 为您的文章键入一个标题。之后，您将看到一个固定链接地"
 "址，它是可以编辑的。"
 
-#: wp-admin/edit-form-advanced.php:185
+#: wp-admin/edit-form-advanced.php:184
 msgid ""
 "<strong>Post editor</strong> - Enter the text for your post. There are two "
 "modes of editing: Visual and Text. Choose the mode by clicking on the "
@@ -1358,16 +1344,16 @@ msgstr ""
 "该界面后，将鼠标移至上方，控制按钮就会显示出来。点击“退出全屏”可返回标准编辑"
 "界面。"
 
-#: wp-admin/edit-form-advanced.php:189
+#: wp-admin/edit-form-advanced.php:188
 msgid "Title and Post Editor"
 msgstr "标题和文章编辑器"
 
-#: wp-admin/edit-form-advanced.php:194
+#: wp-admin/edit-form-advanced.php:193
 msgid ""
 "You can also create posts with the <a href=\"%s\">Press This bookmarklet</a>."
 msgstr "您亦可通过<a href=\"%s\">快速发布书签</a>来创建文章。"
 
-#: wp-admin/edit-form-advanced.php:196
+#: wp-admin/edit-form-advanced.php:195
 msgid ""
 "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank"
 "\">Documentation on Writing and Editing Posts</a>"
@@ -1376,7 +1362,7 @@ msgstr ""
 "%E5%86%99%E6%96%87%E7%AB%A0%E9%A1%B5%E9%9D%A2\" target=\"_blank\">关于撰写和"
 "编辑文章的中文文档</a>"
 
-#: wp-admin/edit-form-advanced.php:200
+#: wp-admin/edit-form-advanced.php:199
 msgid ""
 "Pages are similar to Posts in that they have a title, body text, and "
 "associated metadata, but they are different in that they are not part of the "
@@ -1390,7 +1376,7 @@ msgstr ""
 "不能被分类、亦不能拥有标签，但是它们可以有层级关系。您可将页面附属在另一个页"
 "面之下。"
 
-#: wp-admin/edit-form-advanced.php:201
+#: wp-admin/edit-form-advanced.php:200
 msgid ""
 "Creating a Page is very similar to creating a Post, and the screens can be "
 "customized in the same way using drag and drop, the Screen Options tab, and "
@@ -1405,11 +1391,11 @@ msgstr ""
 "全屏写作界面支持“可视化”和“文本”模式。页面编辑器和文章编辑器也很类似，除了如"
 "下“页面属性”模块中的一些选项略有不同："
 
-#: wp-admin/edit-form-advanced.php:205
+#: wp-admin/edit-form-advanced.php:204
 msgid "About Pages"
 msgstr "关于页面"
 
-#: wp-admin/edit-form-advanced.php:211
+#: wp-admin/edit-form-advanced.php:210
 msgid ""
 "<a href=\"http://codex.wordpress.org/Pages_Add_New_Screen\" target=\"_blank"
 "\">Documentation on Adding New Pages</a>"
@@ -1417,7 +1403,7 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Pages_Add_New_Screen\" target=\"_blank"
 "\">关于新建页面的文档</a>（英文）"
 
-#: wp-admin/edit-form-advanced.php:212
+#: wp-admin/edit-form-advanced.php:211
 msgid ""
 "<a href=\"http://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\" "
 "target=\"_blank\">Documentation on Editing Pages</a>"
@@ -1426,13 +1412,13 @@ msgstr ""
 "%A2%E2%80%9D%E9%A1%B5%E9%9D%A2#.E7.BC.96.E8.BE.91.E5.8D.95.E4.B8.AA.E9.A1.B5."
 "E9.9D.A2\" target=\"_blank\">关于编辑页面的中文文档</a>"
 
-#: wp-admin/edit-form-advanced.php:220
+#: wp-admin/edit-form-advanced.php:219
 msgid ""
 "This screen allows you to edit four fields for metadata in a file within the "
 "media library."
 msgstr "在此页面，您可编辑媒体库中文件的四项属性。"
 
-#: wp-admin/edit-form-advanced.php:221 wp-admin/media.php:76
+#: wp-admin/edit-form-advanced.php:220 wp-admin/media.php:76
 msgid ""
 "For images only, you can click on Edit Image under the thumbnail to expand "
 "out an inline image editor with icons for cropping, rotating, or flipping "
@@ -1445,7 +1431,7 @@ msgstr ""
 "您可以裁切、旋转、翻转图片。您还可以撤销或重做操作。在编辑器的右侧，您可以对"
 "图片剪裁等进行更详尽的设置。您可以点击“帮助”以了解更多。"
 
-#: wp-admin/edit-form-advanced.php:222 wp-admin/media.php:77
+#: wp-admin/edit-form-advanced.php:221 wp-admin/media.php:77
 msgid ""
 "Note that you crop the image by clicking on it (the Crop icon is already "
 "selected) and dragging the cropping frame to select the desired part. Then "
@@ -1454,11 +1440,11 @@ msgstr ""
 "裁切图片：请点击图片，并将裁切选区调整至您希望裁下的区域。然后点击“保存”以保"
 "存图片。"
 
-#: wp-admin/edit-form-advanced.php:223 wp-admin/media.php:78
+#: wp-admin/edit-form-advanced.php:222 wp-admin/media.php:78
 msgid "Remember to click Update Media to save metadata entered or changed."
 msgstr "在完成后请不要忘记点击“更新媒体”。"
 
-#: wp-admin/edit-form-advanced.php:228 wp-admin/media.php:83
+#: wp-admin/edit-form-advanced.php:227 wp-admin/media.php:83
 msgid ""
 "<a href=\"http://codex.wordpress.org/Media_Add_New_Screen#Edit_Media\" "
 "target=\"_blank\">Documentation on Edit Media</a>"
@@ -1468,7 +1454,7 @@ msgstr ""
 "E8.BE.91.E5.AA.92.E4.BD.93.E6.96.87.E4.BB.B6\" target=\"_blank\">关于编辑媒体"
 "文件的中文文档</a>"
 
-#: wp-admin/edit-form-advanced.php:234
+#: wp-admin/edit-form-advanced.php:233
 msgid ""
 "You can upload and insert media (images, audio, documents, etc.) by clicking "
 "the Add Media button. You can select from the images and files already "
@@ -1480,7 +1466,7 @@ msgstr ""
 "以从已经上传到媒体库的文件中选择，并直接插入文章，或者上传新的文件，然后再插"
 "入。要创建相册，选择要添加的图像，并点击“创建新相册”按钮。"
 
-#: wp-admin/edit-form-advanced.php:235
+#: wp-admin/edit-form-advanced.php:234
 msgid ""
 "You can also embed media from many popular websites including Twitter, "
 "YouTube, Flickr and others by pasting the media URL on its own line into the "
@@ -1491,17 +1477,17 @@ msgstr ""
 "内容。只需在您的文章里另起一行，然后粘贴页面的网址。请<a href=\"http://codex."
 "wordpress.org/zh-cn:%E5%B5%8C%E5%85%A5\">阅读文档</a>来了解用法。"
 
-#: wp-admin/edit-form-advanced.php:239
+#: wp-admin/edit-form-advanced.php:238
 msgid "Inserting Media"
 msgstr "插入多媒体"
 
-#: wp-admin/edit-form-advanced.php:245
+#: wp-admin/edit-form-advanced.php:244
 msgid ""
 "Several boxes on this screen contain settings for how your content will be "
 "published, including:"
 msgstr "本页几个模块控制内容发布方式："
 
-#: wp-admin/edit-form-advanced.php:246
+#: wp-admin/edit-form-advanced.php:245
 msgid ""
 "<strong>Publish</strong> - You can set the terms of publishing your post in "
 "the Publish box. For Status, Visibility, and Publish (immediately), click on "
@@ -1515,7 +1501,7 @@ msgstr ""
 "性”、“发布”右侧的“编辑”按钮，可以调整更多设置。可见性设置包括密码保护和文章置"
 "顶；通过设置发布选项，可实现定时发布功能。"
 
-#: wp-admin/edit-form-advanced.php:249
+#: wp-admin/edit-form-advanced.php:248
 msgid ""
 "<strong>Format</strong> - Post Formats designate how your theme will display "
 "a specific post. For example, you could have a <em>standard</em> blog post "
@@ -1531,7 +1517,7 @@ msgstr ""
 "%E6%96%87%E7%AB%A0%E5%BD%A2%E5%BC%8F#.E6.94.AF.E6.8C.81.E7.9A.84.E5.BD.A2.E5."
 "BC.8F\">每种文章形式的介绍</a>。您的主题或许会支持最多十种文章形式。"
 
-#: wp-admin/edit-form-advanced.php:253
+#: wp-admin/edit-form-advanced.php:252
 msgid ""
 "<strong>Featured Image</strong> - This allows you to associate an image with "
 "your post without inserting it. This is usually useful only if your theme "
@@ -1541,11 +1527,11 @@ msgstr ""
 "<strong>特色图片</strong> - 为文章配上一张特色图片。若您的主题具有“特色图"
 "片”功能，这张图片可能会显示在首页、页面顶端等位置。"
 
-#: wp-admin/edit-form-advanced.php:260
+#: wp-admin/edit-form-advanced.php:259
 msgid "Publish Settings"
 msgstr "发布设置"
 
-#: wp-admin/edit-form-advanced.php:264
+#: wp-admin/edit-form-advanced.php:263
 msgid ""
 "<strong>Send Trackbacks</strong> - Trackbacks are a way to notify legacy "
 "blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to "
@@ -1556,7 +1542,7 @@ msgstr ""
 "一种方式。请输入希望发送 trackback 至哪个（哪些） URL。如果您链接到的是其他 "
 "WordPress 站点，则无须填写此栏，这些站点将自动通过 pingback 方式通知。"
 
-#: wp-admin/edit-form-advanced.php:265
+#: wp-admin/edit-form-advanced.php:264
 msgid ""
 "<strong>Discussion</strong> - You can turn comments and pings on or off, and "
 "if there are comments on the post, you can see them here and moderate them."
@@ -1564,11 +1550,11 @@ msgstr ""
 "<strong>讨论</strong> - 您可以设置评论和引用通告的开关。若该篇文章有评论，您"
 "可以在这里浏览、审核评论。"
 
-#: wp-admin/edit-form-advanced.php:269 wp-admin/options-discussion.php:15
+#: wp-admin/edit-form-advanced.php:268 wp-admin/options-discussion.php:15
 msgid "Discussion Settings"
 msgstr "讨论设置"
 
-#: wp-admin/edit-form-advanced.php:273
+#: wp-admin/edit-form-advanced.php:272
 msgid ""
 "<strong>Parent</strong> - You can arrange your pages in hierarchies. For "
 "example, you could have an &#8220;About&#8221; page that has &#8220;Life "
@@ -1578,7 +1564,7 @@ msgstr ""
 "<strong>父级</strong> - 您可以以层级的方式组织您的页面。例如，您可以创建一"
 "个“关于”页面，它的下级有“人生”和“我的宠物”。层级深度不限。"
 
-#: wp-admin/edit-form-advanced.php:274
+#: wp-admin/edit-form-advanced.php:273
 msgid ""
 "<strong>Template</strong> - Some themes have custom templates you can use "
 "for certain pages that might have additional features or custom layouts. If "
@@ -1587,7 +1573,7 @@ msgstr ""
 "<strong>模板</strong> - 某些主题有定制的模板，您可以用在一些您想添加新功能或"
 "者自定义布局的页面上。如果这样，您可以在下拉菜单中看到。"
 
-#: wp-admin/edit-form-advanced.php:275
+#: wp-admin/edit-form-advanced.php:274
 msgid ""
 "<strong>Order</strong> - Pages are usually ordered alphabetically, but you "
 "can choose your own order by entering a number (1 for first, etc.) in this "
@@ -1596,15 +1582,15 @@ msgstr ""
 "<strong>排序</strong> - 页面默认按照字母表顺序进行排序。您也可以通过为页面指"
 "定数字（1 代表在最前，2 代表其次...）来自定义页面的顺序。"
 
-#: wp-admin/edit-form-advanced.php:338
+#: wp-admin/edit-form-advanced.php:337
 msgid "Get Shortlink"
 msgstr "获取短链接地址"
 
-#: wp-admin/edit-form-advanced.php:375 wp-admin/includes/ajax-actions.php:1754
+#: wp-admin/edit-form-advanced.php:374 wp-admin/includes/ajax-actions.php:1754
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最后由 %1$s 编辑于 %2$s%3$s"
 
-#: wp-admin/edit-form-advanced.php:377 wp-admin/includes/ajax-actions.php:1756
+#: wp-admin/edit-form-advanced.php:376 wp-admin/includes/ajax-actions.php:1756
 msgid "Last edited on %1$s at %2$s"
 msgstr "最后编辑于 %1$s%2$s"
 
@@ -1666,7 +1652,7 @@ msgstr "移至回收站"
 msgid "<a href=\"%s\">Links</a> / Edit Link"
 msgstr "<a href=\"%s\">链接</a> / 编辑链接"
 
-#: wp-admin/edit-link-form.php:15 wp-admin/includes/meta-boxes.php:729
+#: wp-admin/edit-link-form.php:15 wp-admin/includes/meta-boxes.php:705
 msgid "Update Link"
 msgstr "更新链接"
 
@@ -1746,17 +1732,6 @@ msgid ""
 "<code>http://</code>"
 msgstr ""
 "例子：<code>http://cn.wordpress.org/</code> —— 不要忘了 <code>http://</code>"
-
-#: wp-admin/edit-link-form.php:99
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:175
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:152
-#: wp-admin/includes/class-wp-plugins-list-table.php:182
-#: wp-admin/includes/class-wp-terms-list-table.php:100
-#: wp-admin/includes/media.php:938 wp-admin/includes/nav-menu.php:166
-#: wp-admin/includes/nav-menu.php:1140 wp-admin/press-this.php:146
-#: wp-admin/press-this.php:642 wp-admin/themes.php:292
-msgid "Description"
-msgstr "描述"
 
 #: wp-admin/edit-link-form.php:102
 msgid ""
@@ -2572,13 +2547,13 @@ msgstr "%s 正在编辑这篇文章。若您更新，其修改将被覆盖。"
 
 #: wp-admin/includes/ajax-actions.php:1071
 #: wp-admin/includes/ajax-actions.php:1314 wp-admin/includes/post.php:166
-#: wp-admin/includes/post.php:1282
+#: wp-admin/includes/post.php:1284
 msgid "You are not allowed to edit this page."
 msgstr "您没有修改这个页面的权限。"
 
 #: wp-admin/includes/ajax-actions.php:1074
 #: wp-admin/includes/ajax-actions.php:1317 wp-admin/includes/post.php:168
-#: wp-admin/includes/post.php:1285 wp-admin/press-this.php:35
+#: wp-admin/includes/post.php:1287 wp-admin/press-this.php:35
 #: wp-admin/upload.php:62
 msgid "You are not allowed to edit this post."
 msgstr "您没有修改这篇文章的权限。"
@@ -2903,7 +2878,7 @@ msgstr "未找到链接。"
 #: wp-admin/includes/class-wp-themes-list-table.php:149
 #: wp-admin/includes/class-wp-users-list-table.php:130
 #: wp-admin/includes/class-wp-users-list-table.php:257
-#: wp-admin/includes/media.php:1182 wp-admin/includes/meta-boxes.php:723
+#: wp-admin/includes/media.php:1182 wp-admin/includes/meta-boxes.php:699
 #: wp-admin/includes/template.php:495 wp-admin/includes/widgets.php:210
 #: wp-admin/widgets.php:278
 msgid "Delete"
@@ -2924,7 +2899,7 @@ msgstr "可见性"
 
 #: wp-admin/includes/class-wp-links-list-table.php:86
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:151
-#: wp-admin/includes/meta-boxes.php:982
+#: wp-admin/includes/meta-boxes.php:958
 msgid "Rating"
 msgstr "评分"
 
@@ -2962,7 +2937,7 @@ msgid "Visit %s"
 msgstr "访问 %s"
 
 #: wp-admin/includes/class-wp-list-table.php:378
-#: wp-admin/includes/media.php:2026
+#: wp-admin/includes/media.php:2030
 msgid "Show all dates"
 msgstr "显示所有日期"
 
@@ -3628,7 +3603,7 @@ msgid "[less]"
 msgstr "[更少]"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:849
-#: wp-admin/includes/meta-boxes.php:659 wp-admin/includes/meta-boxes.php:660
+#: wp-admin/includes/meta-boxes.php:635 wp-admin/includes/meta-boxes.php:636
 msgid "Parent"
 msgstr "父级"
 
@@ -3637,13 +3612,13 @@ msgid "Main Page (no parent)"
 msgstr "主页面（无父级）"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:873
-#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1820
-#: wp-admin/includes/meta-boxes.php:675 wp-admin/includes/meta-boxes.php:676
+#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1824
+#: wp-admin/includes/meta-boxes.php:651 wp-admin/includes/meta-boxes.php:652
 msgid "Order"
 msgstr "排序"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:888
-#: wp-admin/includes/meta-boxes.php:670
+#: wp-admin/includes/meta-boxes.php:646
 msgid "Default Template"
 msgstr "默认模板"
 
@@ -4408,7 +4383,7 @@ msgstr ""
 "的链接，但您不用急。"
 
 #: wp-admin/includes/dashboard.php:820 wp-admin/includes/dashboard.php:822
-#: wp-admin/includes/post.php:1195
+#: wp-admin/includes/post.php:1197
 msgid "Somebody"
 msgstr "有人"
 
@@ -4564,6 +4539,12 @@ msgstr "打开/关闭评论功能"
 msgid "Learn more about getting started"
 msgstr "了解更多新手上路知识"
 
+#: wp-admin/includes/dashboard.php:1293
+msgid "http://codex.wordpress.org/First_Steps_With_WordPress"
+msgstr ""
+"http://codex.wordpress.org/zh-cn:%E5%87%86%E5%A4%87%E4%BD%BF"
+"%E7%94%A8_WordPress"
+
 #: wp-admin/includes/deprecated.php:542
 msgid "No matching users were found!"
 msgstr "没有找到符合条件的用户！"
@@ -4608,7 +4589,7 @@ msgstr "标签模板"
 msgid "Category Template"
 msgstr "分类目录模板"
 
-#: wp-admin/includes/file.php:27 wp-admin/includes/meta-boxes.php:669
+#: wp-admin/includes/file.php:27 wp-admin/includes/meta-boxes.php:645
 msgid "Page Template"
 msgstr "页面模板"
 
@@ -4885,7 +4866,7 @@ msgstr "连接类型"
 msgid "Proceed"
 msgstr "继续"
 
-#: wp-admin/includes/image-edit.php:19 wp-admin/includes/image-edit.php:610
+#: wp-admin/includes/image-edit.php:19 wp-admin/includes/image-edit.php:602
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "图像数据不存在，请重新上传图像。"
 
@@ -4947,7 +4928,7 @@ msgstr "还原图像"
 msgid "Image Crop"
 msgstr "图像裁切"
 
-#: wp-admin/includes/image-edit.php:118 wp-admin/includes/image-edit.php:164
+#: wp-admin/includes/image-edit.php:118 wp-admin/includes/image-edit.php:156
 msgid "(help)"
 msgstr "(帮助)"
 
@@ -4959,35 +4940,11 @@ msgid ""
 msgstr ""
 "在图片上点击拖拽一个选定区域可以裁切图片。拖动过程中，选区尺寸会在下方显示。"
 
-#: wp-admin/includes/image-edit.php:121 wp-admin/user-edit.php:220
-msgid "Keyboard Shortcuts"
-msgstr "键盘快捷键"
-
-#: wp-admin/includes/image-edit.php:123
-msgid "Arrow: move by 10px"
-msgstr "箭头：移动 10 像素"
-
-#: wp-admin/includes/image-edit.php:124
-msgid "Shift + arrow: move by 1px"
-msgstr "Shift + 箭头：移动 1 像素"
-
-#: wp-admin/includes/image-edit.php:125
-msgid "Ctrl + arrow: resize by 10px"
-msgstr "Ctrl + 箭头：缩放 10 像素"
-
-#: wp-admin/includes/image-edit.php:126
-msgid "Ctrl + Shift + arrow: resize by 1px"
-msgstr "Ctrl + 箭头：缩放 1 像素"
-
-#: wp-admin/includes/image-edit.php:127
-msgid "Shift + drag: lock aspect ratio"
-msgstr "Shift + 拖拽：锁定长宽比"
-
-#: wp-admin/includes/image-edit.php:130
+#: wp-admin/includes/image-edit.php:122
 msgid "Crop Aspect Ratio"
 msgstr "按比例裁切"
 
-#: wp-admin/includes/image-edit.php:131
+#: wp-admin/includes/image-edit.php:123
 msgid ""
 "You can specify the crop selection aspect ratio then hold down the Shift key "
 "while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. "
@@ -4996,11 +4953,11 @@ msgstr ""
 "您可以指定长宽比，当您拖拽的时候按住 Shift 键即可。可以选值 1:1（正方）、"
 "4:3、16:9 等，如果已有选区，指定的长宽比会即时应用。"
 
-#: wp-admin/includes/image-edit.php:133
+#: wp-admin/includes/image-edit.php:125
 msgid "Crop Selection"
 msgstr "裁切选区"
 
-#: wp-admin/includes/image-edit.php:134
+#: wp-admin/includes/image-edit.php:126
 msgid ""
 "Once started, the selection can be adjusted by entering new values (in "
 "pixels). Note that these values are scaled to approximately match the "
@@ -5010,19 +4967,19 @@ msgstr ""
 "开始后，选区大小可以通过输入像素值值来调整。注意：数值会被调整到大致符合图片"
 "原始大小，最小值为媒体设置中指定的缩略图大小。"
 
-#: wp-admin/includes/image-edit.php:139
+#: wp-admin/includes/image-edit.php:131
 msgid "Aspect ratio:"
 msgstr "长宽比："
 
-#: wp-admin/includes/image-edit.php:148
+#: wp-admin/includes/image-edit.php:140
 msgid "Selection:"
 msgstr "选区："
 
-#: wp-admin/includes/image-edit.php:163
+#: wp-admin/includes/image-edit.php:155
 msgid "Thumbnail Settings"
 msgstr "缩略图设置"
 
-#: wp-admin/includes/image-edit.php:165
+#: wp-admin/includes/image-edit.php:157
 msgid ""
 "The thumbnail image can be cropped differently. For example it can be square "
 "or contain only a portion of the original image to showcase it better. Here "
@@ -5032,75 +4989,75 @@ msgstr ""
 "可以以不同方式裁切缩略图。比如，为了更佳的显示效果，可以裁切出图片的一小部"
 "分。在此，您可选择将变更应用到所有图像尺寸，或仅对缩略图作修改。"
 
-#: wp-admin/includes/image-edit.php:169
+#: wp-admin/includes/image-edit.php:161
 msgid "Current thumbnail"
 msgstr "当前缩略图"
 
-#: wp-admin/includes/image-edit.php:173
+#: wp-admin/includes/image-edit.php:165
 msgid "Apply changes to:"
 msgstr "将更改应用于："
 
-#: wp-admin/includes/image-edit.php:177
+#: wp-admin/includes/image-edit.php:169
 msgid "All image sizes"
 msgstr "所有图像大小"
 
-#: wp-admin/includes/image-edit.php:185
+#: wp-admin/includes/image-edit.php:177
 msgid "All sizes except thumbnail"
 msgstr "除缩略图外所有尺寸"
 
-#: wp-admin/includes/image-edit.php:195
+#: wp-admin/includes/image-edit.php:187
 msgid ""
 "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to "
 "return to the Image Editor."
 msgstr "未保存的更改将丢失。按“确定”以继续，按“取消”可返回“图片编辑器”。"
 
-#: wp-admin/includes/image-edit.php:218 wp-admin/includes/image-edit.php:257
-#: wp-admin/includes/image-edit.php:357
+#: wp-admin/includes/image-edit.php:210 wp-admin/includes/image-edit.php:249
+#: wp-admin/includes/image-edit.php:349
 msgid "$image needs to be an WP_Image_Editor object"
 msgstr "$image 得是一个 WP_Image_Editor 对象"
 
-#: wp-admin/includes/image-edit.php:285
+#: wp-admin/includes/image-edit.php:277
 msgid "Use WP_Image_Editor::rotate"
 msgstr "使用 WP_Image_Editor::rotate"
 
-#: wp-admin/includes/image-edit.php:307
+#: wp-admin/includes/image-edit.php:299
 msgid "Use WP_Image_Editor::flip"
 msgstr "使用 WP_Image_Editor::flip"
 
-#: wp-admin/includes/image-edit.php:492
+#: wp-admin/includes/image-edit.php:484
 msgid "Cannot load image metadata."
 msgstr "无法载入图像属性。"
 
-#: wp-admin/includes/image-edit.php:545
+#: wp-admin/includes/image-edit.php:537
 msgid "Cannot save image metadata."
 msgstr "无法保存图像属性。"
 
-#: wp-admin/includes/image-edit.php:550
+#: wp-admin/includes/image-edit.php:542
 msgid "Image metadata is inconsistent."
 msgstr "图像属性不正确。"
 
-#: wp-admin/includes/image-edit.php:552
+#: wp-admin/includes/image-edit.php:544
 msgid "Image restored successfully."
 msgstr "图像还原成功。"
 
-#: wp-admin/includes/image-edit.php:571
+#: wp-admin/includes/image-edit.php:563
 msgid "Unable to create new image."
 msgstr "无法创建新图像。"
 
-#: wp-admin/includes/image-edit.php:594
+#: wp-admin/includes/image-edit.php:586
 msgid ""
 "Error while saving the scaled image. Please reload the page and try again."
 msgstr "保存缩放后的图片图像时出错，请刷新后再试。"
 
-#: wp-admin/includes/image-edit.php:602
+#: wp-admin/includes/image-edit.php:594
 msgid "Nothing to save, the image has not changed."
 msgstr "没有可供保存的内容，因此没有修改图像。"
 
-#: wp-admin/includes/image-edit.php:645
+#: wp-admin/includes/image-edit.php:637
 msgid "Unable to save the image."
 msgstr "无法保存图像。"
 
-#: wp-admin/includes/image-edit.php:734
+#: wp-admin/includes/image-edit.php:726
 msgid "Image saved"
 msgstr "图像已保存"
 
@@ -5220,23 +5177,23 @@ msgstr "文件名返回了空的标题。"
 msgid "Location of the uploaded file."
 msgstr "上传文件的位置。"
 
-#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2142
+#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2146
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "图像的替代文本，例如“蒙娜丽莎”"
 
-#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1806
+#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1810
 msgid "Show"
 msgstr "显示"
 
-#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1807
+#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1811
 msgid "Hide"
 msgstr "隐藏"
 
-#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2348
+#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2364
 msgid "File name:"
 msgstr "文件名："
 
-#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2351
+#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2367
 msgid "File type:"
 msgstr "文件类型："
 
@@ -5244,12 +5201,12 @@ msgstr "文件类型："
 msgid "Upload date:"
 msgstr "上传日期："
 
-#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2356
+#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2377
 msgid "Dimensions:"
 msgstr "尺寸："
 
-#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2172
-#: wp-admin/includes/media.php:2178
+#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2176
+#: wp-admin/includes/media.php:2182
 msgid "Insert into Post"
 msgstr "插入到文章"
 
@@ -5262,16 +5219,16 @@ msgstr "您将删除 <strong>%s</strong>。"
 msgid "Continue"
 msgstr "继续"
 
-#: wp-admin/includes/media.php:1546
+#: wp-admin/includes/media.php:1550
 msgid "Drop files here"
 msgstr "将文件拖到这里"
 
-#: wp-admin/includes/media.php:1547
+#: wp-admin/includes/media.php:1551
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "或"
 
-#: wp-admin/includes/media.php:1569
+#: wp-admin/includes/media.php:1573
 msgid ""
 "Your browser has some limitations uploading large files with the multi-file "
 "uploader. Please use the browser uploader for files over 100MB."
@@ -5279,124 +5236,124 @@ msgstr ""
 "您的浏览器对多文件上传工具的上传文件大小有限制。请使用浏览器上传工具来上传大"
 "于 100MB 的文件。"
 
-#: wp-admin/includes/media.php:1603
+#: wp-admin/includes/media.php:1607
 msgid "Add media files from your computer"
 msgstr "从您的计算机添加媒体文件"
 
-#: wp-admin/includes/media.php:1632 wp-admin/includes/media.php:1830
-#: wp-admin/includes/media.php:2076
+#: wp-admin/includes/media.php:1636 wp-admin/includes/media.php:1834
+#: wp-admin/includes/media.php:2080
 msgid "Save all changes"
 msgstr "保存所有更改"
 
-#: wp-admin/includes/media.php:1667
+#: wp-admin/includes/media.php:1671
 msgid "Insert media from another website"
 msgstr "插入其它站点上的媒体"
 
-#: wp-admin/includes/media.php:1805
+#: wp-admin/includes/media.php:1809
 msgid "All Tabs:"
 msgstr "所有单项："
 
-#: wp-admin/includes/media.php:1809
+#: wp-admin/includes/media.php:1813
 msgid "Sort Order:"
 msgstr "排序："
 
-#: wp-admin/includes/media.php:1810 wp-admin/includes/media.php:1878
+#: wp-admin/includes/media.php:1814 wp-admin/includes/media.php:1882
 msgid "Ascending"
 msgstr "升序"
 
-#: wp-admin/includes/media.php:1811 wp-admin/includes/media.php:1881
+#: wp-admin/includes/media.php:1815 wp-admin/includes/media.php:1885
 msgid "Descending"
 msgstr "降序"
 
-#: wp-admin/includes/media.php:1812
+#: wp-admin/includes/media.php:1816
 msgctxt "verb"
 msgid "Clear"
 msgstr "不排序"
 
-#: wp-admin/includes/media.php:1819 wp-admin/menu.php:63 wp-admin/menu.php:215
+#: wp-admin/includes/media.php:1823 wp-admin/menu.php:63 wp-admin/menu.php:215
 msgid "Media"
 msgstr "多媒体"
 
-#: wp-admin/includes/media.php:1842
+#: wp-admin/includes/media.php:1846
 msgid "Link thumbnails to:"
 msgstr "链接缩略图到："
 
-#: wp-admin/includes/media.php:1847
+#: wp-admin/includes/media.php:1851
 msgid "Image File"
 msgstr "图像文件"
 
-#: wp-admin/includes/media.php:1857
+#: wp-admin/includes/media.php:1861
 msgid "Order images by:"
 msgstr "图像排序依据："
 
-#: wp-admin/includes/media.php:1862
+#: wp-admin/includes/media.php:1866
 msgid "Menu order"
 msgstr "菜单排序"
 
-#: wp-admin/includes/media.php:1864
+#: wp-admin/includes/media.php:1868
 msgid "Date/Time"
 msgstr "日期和时间"
 
-#: wp-admin/includes/media.php:1865
+#: wp-admin/includes/media.php:1869
 msgid "Random"
 msgstr "随机"
 
-#: wp-admin/includes/media.php:1873
+#: wp-admin/includes/media.php:1877
 msgid "Order:"
 msgstr "排序："
 
-#: wp-admin/includes/media.php:1888
+#: wp-admin/includes/media.php:1892
 msgid "Gallery columns:"
 msgstr "相册列数："
 
-#: wp-admin/includes/media.php:1909
+#: wp-admin/includes/media.php:1913
 msgid "Update gallery settings"
 msgstr "更新相册设置"
 
-#: wp-admin/includes/media.php:1957 wp-admin/includes/media.php:1959
+#: wp-admin/includes/media.php:1961 wp-admin/includes/media.php:1963
 #: wp-admin/upload.php:238
 msgid "Search Media"
 msgstr "搜索媒体"
 
-#: wp-admin/includes/media.php:1982
+#: wp-admin/includes/media.php:1986
 msgid "All Types"
 msgstr "所有类型"
 
-#: wp-admin/includes/media.php:2005 wp-admin/includes/nav-menu.php:627
+#: wp-admin/includes/media.php:2009 wp-admin/includes/nav-menu.php:627
 #: wp-admin/includes/nav-menu.php:840
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-admin/includes/media.php:2006 wp-admin/includes/nav-menu.php:628
+#: wp-admin/includes/media.php:2010 wp-admin/includes/nav-menu.php:628
 #: wp-admin/includes/nav-menu.php:841
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-admin/includes/media.php:2046
+#: wp-admin/includes/media.php:2050
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: wp-admin/includes/media.php:2096
+#: wp-admin/includes/media.php:2100
 msgid "Image Caption"
 msgstr "图像说明"
 
-#: wp-admin/includes/media.php:2117
+#: wp-admin/includes/media.php:2121
 msgid "Audio, Video, or Other File"
 msgstr "音频、视频等文件"
 
-#: wp-admin/includes/media.php:2135
+#: wp-admin/includes/media.php:2139
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "链接的文字，例如：“Ransom Demands（PDF）”"
 
-#: wp-admin/includes/media.php:2161
+#: wp-admin/includes/media.php:2165
 msgid "Link Image To:"
 msgstr "将图像链接到："
 
-#: wp-admin/includes/media.php:2166
+#: wp-admin/includes/media.php:2170
 msgid "Link to image"
 msgstr "链接到图像"
 
-#: wp-admin/includes/media.php:2201
+#: wp-admin/includes/media.php:2205
 msgid ""
 "You are using the multi-file uploader. Problems? Try the <a href=\"%1$s\" "
 "target=\"%2$s\">browser uploader</a> instead."
@@ -5404,7 +5361,7 @@ msgstr ""
 "您正在使用多文件上传工具。遇到问题？请尝试使用<a href=\"#\">标准浏览器上传工"
 "具</a> 。"
 
-#: wp-admin/includes/media.php:2215
+#: wp-admin/includes/media.php:2219
 msgid ""
 "You are using the browser&#8217;s built-in file uploader. The WordPress "
 "uploader includes multiple file selection and drag and drop capability. <a "
@@ -5415,18 +5372,18 @@ msgstr ""
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
-#: wp-admin/includes/media.php:2246
+#: wp-admin/includes/media.php:2250
 msgid ""
 "Scale images to match the large size selected in %1$simage options%2$s (%3$d "
 "&times; %4$d)."
 msgstr ""
 "按照%1$s图像选项%2$s的设置，将图像剪裁到“大尺寸”（%3$d &times; %4$d）。"
 
-#: wp-admin/includes/media.php:2258
+#: wp-admin/includes/media.php:2262
 msgid "Sorry, you have used all of your storage quota of %s MB."
 msgstr "抱歉，您的储存限额已用完（%s MB）。"
 
-#: wp-admin/includes/media.php:2344
+#: wp-admin/includes/media.php:2360
 msgid "File URL:"
 msgstr "文件 URL："
 
@@ -5475,21 +5432,21 @@ msgstr "发布于：<b>%1$s</b>"
 msgid "Uploaded on: <b>%1$s</b>"
 msgstr "上传于：</b>%1$s</b>"
 
-#: wp-admin/includes/meta-boxes.php:342 wp-admin/options-writing.php:90
+#: wp-admin/includes/meta-boxes.php:318 wp-admin/options-writing.php:90
 msgid "Standard"
 msgstr "标准"
 
-#: wp-admin/includes/meta-boxes.php:412 wp-admin/includes/meta-boxes.php:754
+#: wp-admin/includes/meta-boxes.php:388 wp-admin/includes/meta-boxes.php:730
 #: wp-admin/includes/nav-menu.php:874 wp-admin/press-this.php:499
 msgid "Most Used"
 msgstr "最常用"
 
 #. translators: %s: add new taxonomy label
-#: wp-admin/includes/meta-boxes.php:436 wp-admin/press-this.php:521
+#: wp-admin/includes/meta-boxes.php:412 wp-admin/press-this.php:521
 msgid "+ %s"
 msgstr "+ %s"
 
-#: wp-admin/includes/meta-boxes.php:467
+#: wp-admin/includes/meta-boxes.php:443
 msgid ""
 "Excerpts are optional hand-crafted summaries of your content that can be "
 "used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target="
@@ -5499,19 +5456,19 @@ msgstr ""
 "codex.wordpress.org/zh-cn:%E6%91%98%E8%A6%81\" target=\"_blank\">了解关于人工"
 "摘要的更多信息。</a>"
 
-#: wp-admin/includes/meta-boxes.php:481
+#: wp-admin/includes/meta-boxes.php:457
 msgid "Already pinged:"
 msgstr "已 ping 通告过："
 
-#: wp-admin/includes/meta-boxes.php:490
+#: wp-admin/includes/meta-boxes.php:466
 msgid "Send trackbacks to:"
 msgstr "发送 trackback 到："
 
-#: wp-admin/includes/meta-boxes.php:490
+#: wp-admin/includes/meta-boxes.php:466
 msgid "Separate multiple URLs with spaces"
 msgstr "多个 URL 用空格分隔"
 
-#: wp-admin/includes/meta-boxes.php:491
+#: wp-admin/includes/meta-boxes.php:467
 msgid ""
 "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked "
 "to them. If you link other WordPress sites they&#8217;ll be notified "
@@ -5524,7 +5481,7 @@ msgstr ""
 "cn:%E5%8D%9A%E5%AE%A2%E7%BB%AA%E8%AE%BA#.E7.AE.A1.E7.90.86.E8.AF.84.E8.AE.BA"
 "\" target=\"_blank\">pingback</a> 地址。"
 
-#: wp-admin/includes/meta-boxes.php:517
+#: wp-admin/includes/meta-boxes.php:493
 msgid ""
 "Custom fields can be used to add extra metadata to a post that you can <a "
 "href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank"
@@ -5534,48 +5491,48 @@ msgstr ""
 "org/zh-cn:%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE\" target=\"_blank\">"
 "在主题中使用它们</a>。"
 
-#: wp-admin/includes/meta-boxes.php:532
+#: wp-admin/includes/meta-boxes.php:508
 msgid "Allow comments."
 msgstr "允许评论。"
 
-#: wp-admin/includes/meta-boxes.php:533
+#: wp-admin/includes/meta-boxes.php:509
 msgid ""
 "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on this "
 "page."
 msgstr ""
 "这个页面接受 <a href=\"%s\" target=\"_blank\">trackback 和 pingback</a>。"
 
-#: wp-admin/includes/meta-boxes.php:533
+#: wp-admin/includes/meta-boxes.php:509
 msgid "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 msgstr ""
 "http://codex.wordpress.org/zh-cn:%E5%8D%9A%E5%AE%A2%E7%BB%AA%E8%AE%BA#.E7.AE."
 "A1.E7.90.86.E8.AF.84.E8.AE.BA"
 
-#: wp-admin/includes/meta-boxes.php:564
+#: wp-admin/includes/meta-boxes.php:540
 msgid "Add comment"
 msgstr "添加评论"
 
-#: wp-admin/includes/meta-boxes.php:582
+#: wp-admin/includes/meta-boxes.php:558
 msgid "Show comments"
 msgstr "显示评论"
 
-#: wp-admin/includes/meta-boxes.php:650
+#: wp-admin/includes/meta-boxes.php:626
 msgid "(no parent)"
 msgstr "(无父级)"
 
-#: wp-admin/includes/meta-boxes.php:677
+#: wp-admin/includes/meta-boxes.php:653
 msgid "Need help? Use the Help tab in the upper right of your screen."
 msgstr "需要帮助？请点击页面右上角的“帮助”选项卡。"
 
-#: wp-admin/includes/meta-boxes.php:704
+#: wp-admin/includes/meta-boxes.php:680
 msgid "Visit Link"
 msgstr "访问链接"
 
-#: wp-admin/includes/meta-boxes.php:712
+#: wp-admin/includes/meta-boxes.php:688
 msgid "Keep this link private"
 msgstr "将这个链接设为私密链接"
 
-#: wp-admin/includes/meta-boxes.php:723
+#: wp-admin/includes/meta-boxes.php:699
 msgid ""
 "You are about to delete this link '%s'\n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -5583,166 +5540,166 @@ msgstr ""
 "您将删除链接“%s”\n"
 " 按“取消”停止，按“确定”删除。"
 
-#: wp-admin/includes/meta-boxes.php:775 wp-admin/includes/meta-boxes.php:777
+#: wp-admin/includes/meta-boxes.php:751 wp-admin/includes/meta-boxes.php:753
 msgid "+ Add New Category"
 msgstr "+ 添加分类目录"
 
-#: wp-admin/includes/meta-boxes.php:778
+#: wp-admin/includes/meta-boxes.php:754
 msgid "New category name"
 msgstr "新分类目录名称"
 
-#: wp-admin/includes/meta-boxes.php:799
+#: wp-admin/includes/meta-boxes.php:775
 msgid "<code>_blank</code> &mdash; new window or tab."
 msgstr "<code>_blank</code> &mdash; 新窗口或新标签。"
 
-#: wp-admin/includes/meta-boxes.php:802
+#: wp-admin/includes/meta-boxes.php:778
 msgid "<code>_top</code> &mdash; current window or tab, with no frames."
 msgstr "<code>_top</code> &mdash; 不包含框架的当前窗口或标签。"
 
-#: wp-admin/includes/meta-boxes.php:805
+#: wp-admin/includes/meta-boxes.php:781
 msgid "<code>_none</code> &mdash; same window or tab."
 msgstr "<code>_none</code> &mdash; 同一窗口或标签。"
 
-#: wp-admin/includes/meta-boxes.php:807
+#: wp-admin/includes/meta-boxes.php:783
 msgid "Choose the target frame for your link."
 msgstr "为您的链接选择目标框架。"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:852
+#: wp-admin/includes/meta-boxes.php:828
 msgid "rel:"
 msgstr "关系（rel）："
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:856 wp-admin/includes/meta-boxes.php:857
+#: wp-admin/includes/meta-boxes.php:832 wp-admin/includes/meta-boxes.php:833
 msgid "identity"
 msgstr "同一个人"
 
-#: wp-admin/includes/meta-boxes.php:860
+#: wp-admin/includes/meta-boxes.php:836
 msgid "another web address of mine"
 msgstr "我的另一个 web 地址"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:864 wp-admin/includes/meta-boxes.php:865
+#: wp-admin/includes/meta-boxes.php:840 wp-admin/includes/meta-boxes.php:841
 msgid "friendship"
 msgstr "友情"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:867
+#: wp-admin/includes/meta-boxes.php:843
 msgid "contact"
 msgstr "偶有联系"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:870
+#: wp-admin/includes/meta-boxes.php:846
 msgid "acquaintance"
 msgstr "熟人"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:873
+#: wp-admin/includes/meta-boxes.php:849
 msgid "friend"
 msgstr "朋友"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:876 wp-admin/includes/meta-boxes.php:909
-#: wp-admin/includes/meta-boxes.php:932
+#: wp-admin/includes/meta-boxes.php:852 wp-admin/includes/meta-boxes.php:885
+#: wp-admin/includes/meta-boxes.php:908
 msgid "none"
 msgstr "无"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:881 wp-admin/includes/meta-boxes.php:882
+#: wp-admin/includes/meta-boxes.php:857 wp-admin/includes/meta-boxes.php:858
 msgid "physical"
 msgstr "网下接触"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:884
+#: wp-admin/includes/meta-boxes.php:860
 msgid "met"
 msgstr "已见过面"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:889 wp-admin/includes/meta-boxes.php:890
+#: wp-admin/includes/meta-boxes.php:865 wp-admin/includes/meta-boxes.php:866
 msgid "professional"
 msgstr "职场关系"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:892
+#: wp-admin/includes/meta-boxes.php:868
 msgid "co-worker"
 msgstr "同事"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:895
+#: wp-admin/includes/meta-boxes.php:871
 msgid "colleague"
 msgstr "同行"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:900 wp-admin/includes/meta-boxes.php:901
+#: wp-admin/includes/meta-boxes.php:876 wp-admin/includes/meta-boxes.php:877
 msgid "geographical"
 msgstr "地理关系"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:903
+#: wp-admin/includes/meta-boxes.php:879
 msgid "co-resident"
 msgstr "同住"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:906
+#: wp-admin/includes/meta-boxes.php:882
 msgid "neighbor"
 msgstr "邻居"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:914 wp-admin/includes/meta-boxes.php:915
+#: wp-admin/includes/meta-boxes.php:890 wp-admin/includes/meta-boxes.php:891
 msgid "family"
 msgstr "家庭关系"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:917
+#: wp-admin/includes/meta-boxes.php:893
 msgid "child"
 msgstr "子女"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:920
+#: wp-admin/includes/meta-boxes.php:896
 msgid "kin"
 msgstr "亲戚"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:923
+#: wp-admin/includes/meta-boxes.php:899
 msgid "parent"
 msgstr "父母"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:926
+#: wp-admin/includes/meta-boxes.php:902
 msgid "sibling"
 msgstr "兄弟姐妹"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:929
+#: wp-admin/includes/meta-boxes.php:905
 msgid "spouse"
 msgstr "配偶"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:937 wp-admin/includes/meta-boxes.php:938
+#: wp-admin/includes/meta-boxes.php:913 wp-admin/includes/meta-boxes.php:914
 msgid "romantic"
 msgstr "情感关系"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:940
+#: wp-admin/includes/meta-boxes.php:916
 msgid "muse"
 msgstr "灵感女神"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:943
+#: wp-admin/includes/meta-boxes.php:919
 msgid "crush"
 msgstr "迷恋"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:946
+#: wp-admin/includes/meta-boxes.php:922
 msgid "date"
 msgstr "交往中"
 
 #. translators: xfn: http:gmpg.org/xfn/
-#: wp-admin/includes/meta-boxes.php:949
+#: wp-admin/includes/meta-boxes.php:925
 msgid "sweetheart"
 msgstr "恋人"
 
-#: wp-admin/includes/meta-boxes.php:955
+#: wp-admin/includes/meta-boxes.php:931
 msgid ""
 "If the link is to a person, you can specify your relationship with them "
 "using the above form. If you would like to learn more about the idea check "
@@ -5751,19 +5708,19 @@ msgstr ""
 "如果链接指向某个人，您可以用上面的表单指定您与此人的关系。如果您想了解更多，"
 "请查看：<a href=\"http://gmpg.org/xfn/\">XFN</a>。"
 
-#: wp-admin/includes/meta-boxes.php:970
+#: wp-admin/includes/meta-boxes.php:946
 msgid "Image Address"
 msgstr "图像地址"
 
-#: wp-admin/includes/meta-boxes.php:974
+#: wp-admin/includes/meta-boxes.php:950
 msgid "RSS Address"
 msgstr "RSS 地址"
 
-#: wp-admin/includes/meta-boxes.php:978
+#: wp-admin/includes/meta-boxes.php:954
 msgid "Notes"
 msgstr "备注"
 
-#: wp-admin/includes/meta-boxes.php:991
+#: wp-admin/includes/meta-boxes.php:967
 msgid "(Leave at 0 for no rating.)"
 msgstr "（0 代表不评分。）"
 
@@ -6377,59 +6334,59 @@ msgstr "您无法以当前用户的身份编辑这个页面。"
 msgid "You are not allowed to edit posts as this user."
 msgstr "您无法以当前用户的身份编辑文章。"
 
-#: wp-admin/includes/post.php:285
+#: wp-admin/includes/post.php:287
 msgid "You are not allowed to edit pages."
 msgstr "您没有编辑页面的权限。"
 
-#: wp-admin/includes/post.php:287
+#: wp-admin/includes/post.php:289
 msgid "You are not allowed to edit posts."
 msgstr "您没有编辑文章的权限。"
 
-#: wp-admin/includes/post.php:434
+#: wp-admin/includes/post.php:436
 msgid "Auto Draft"
 msgstr "自动草稿"
 
-#: wp-admin/includes/post.php:525
+#: wp-admin/includes/post.php:527
 msgid "You are not allowed to create pages on this site."
 msgstr "您无权在该站点创建页面。"
 
-#: wp-admin/includes/post.php:527
+#: wp-admin/includes/post.php:529
 msgid "You are not allowed to create posts or drafts on this site."
 msgstr "您无权在本站点创建文章或草稿。"
 
-#: wp-admin/includes/post.php:1053
+#: wp-admin/includes/post.php:1055
 msgid "Click to edit this part of the permalink"
 msgstr "点击编辑这部分固定链接"
 
-#: wp-admin/includes/post.php:1055
+#: wp-admin/includes/post.php:1057
 msgid "Temporary permalink. Click to edit this part."
 msgstr "临时固定链接，点击可更改这部分。"
 
-#: wp-admin/includes/post.php:1059 wp-admin/includes/post.php:1087
+#: wp-admin/includes/post.php:1061 wp-admin/includes/post.php:1089
 msgid "Permalink:"
 msgstr "固定链接："
 
-#: wp-admin/includes/post.php:1061
+#: wp-admin/includes/post.php:1063
 msgid "Change Permalinks"
 msgstr "更改固定链接"
 
-#: wp-admin/includes/post.php:1128
+#: wp-admin/includes/post.php:1130
 msgid "Remove featured image"
 msgstr "移除特色图像"
 
-#: wp-admin/includes/post.php:1199
+#: wp-admin/includes/post.php:1201
 msgid "Warning: %s is currently editing this post"
 msgstr "注意：%s 正在编辑该文章"
 
-#: wp-admin/includes/post.php:1202
+#: wp-admin/includes/post.php:1204
 msgid "Warning: %s is currently editing this page"
 msgstr "注意：%s 正在编辑该页面"
 
-#: wp-admin/includes/post.php:1205
+#: wp-admin/includes/post.php:1207
 msgid "Warning: %s is currently editing this."
 msgstr "注意：%s 当前正在编辑。"
 
-#: wp-admin/includes/post.php:1266
+#: wp-admin/includes/post.php:1268
 msgid "Preview not available. Please save as a draft first."
 msgstr "预览不可用。请先保存草稿。"
 
@@ -9890,10 +9847,6 @@ msgstr "点击选择图像"
 msgid "Add from URL"
 msgstr "用 URL 添加"
 
-#: wp-admin/press-this.php:291
-msgid "Refresh"
-msgstr "刷新"
-
 #: wp-admin/press-this.php:478
 msgid "Post Format:"
 msgstr "文章形式："
@@ -11115,6 +11068,10 @@ msgstr "可视化编辑器"
 #: wp-admin/user-edit.php:208
 msgid "Disable the visual editor when writing"
 msgstr "撰写文章时不使用可视化编辑器"
+
+#: wp-admin/user-edit.php:220
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
 
 #: wp-admin/user-edit.php:221
 msgid "Enable keyboard shortcuts for comment moderation."
