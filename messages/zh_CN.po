@@ -1,11 +1,11 @@
-# Copyright (C) 2012 WordPress
+# Copyright (C) 2013 WordPress
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.6-beta3\n"
+"Project-Id-Version: WordPress 3.6-beta4\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
 "POT-Creation-Date: 2013-06-23 06:13:23+00:00\n"
-"PO-Revision-Date: 2013-06-24 03:58-0000\n"
+"PO-Revision-Date: 2013-06-24 05:50-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"

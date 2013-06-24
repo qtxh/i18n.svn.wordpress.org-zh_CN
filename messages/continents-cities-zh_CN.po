@@ -1,8 +1,8 @@
-# Copyright (C) 2012 WordPress
+# Copyright (C) 2013 WordPress
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.6-beta3\n"
+"Project-Id-Version: WordPress 3.6-alpha-23230\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
 "POT-Creation-Date: 2013-01-01 00:19:07+00:00\n"
 "PO-Revision-Date: \n"

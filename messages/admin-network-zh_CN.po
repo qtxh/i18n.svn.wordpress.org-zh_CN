@@ -1,11 +1,11 @@
-# Copyright (C) 2012 WordPress
+# Copyright (C) 2013 WordPress
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.6-beta3\n"
+"Project-Id-Version: WordPress 3.6-beta3-24450\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2013-04-29 01:14:06+00:00\n"
-"PO-Revision-Date: 2013-06-24 05:05-0000\n"
+"POT-Creation-Date: 2013-06-20 03:14:06+00:00\n"
+"PO-Revision-Date: 2013-06-24 05:51-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -223,6 +223,10 @@ msgid ""
 msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target="
 "\"_blank\">关于网络设置的文档</a>（英文）"
+
+#: wp-admin/network/settings.php:78
+msgid "Options saved."
+msgstr "设置已保存。"
 
 #: wp-admin/network/settings.php:87
 msgid "Operational Settings"
