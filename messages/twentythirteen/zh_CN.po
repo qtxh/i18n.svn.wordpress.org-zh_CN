@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Thirteen 0.1\n"
+"Project-Id-Version: Twenty Thirteen 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
-"POT-Creation-Date: 2013-06-06 19:14:09+00:00\n"
-"PO-Revision-Date: 2013-06-24 05:38-0000\n"
+"POT-Creation-Date: 2013-08-01 18:14:18+00:00\n"
+"PO-Revision-Date: 2013-08-08 03:16-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 404.php:16
 msgid "Not found"
@@ -147,7 +147,7 @@ msgid ""
 "searching can help."
 msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
 
-#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 0.1)  #-#-#-#-#
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:20
 msgid "http://wordpress.org/"
@@ -161,14 +161,14 @@ msgstr "优雅的个人发布平台"
 msgid "Proudly powered by %s"
 msgstr "自豪地采用%s"
 
-#: functions.php:92
+#: functions.php:93
 msgid "Navigation Menu"
 msgstr "导航菜单"
 
 #. Translators: If there are characters in your language that are not
 #. * supported by Source Sans Pro, translate this to 'off'. Do not translate
 #. * into your own language.
-#: functions.php:123
+#: functions.php:124
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "off"
@@ -176,76 +176,76 @@ msgstr "off"
 #. Translators: If there are characters in your language that are not
 #. * supported by Bitter, translate this to 'off'. Do not translate into your
 #. * own language.
-#: functions.php:129
+#: functions.php:130
 msgctxt "Bitter font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:258
+#: functions.php:212
 msgid "Page %s"
 msgstr "第%s页"
 
-#: functions.php:273
+#: functions.php:227
 msgid "Main Widget Area"
 msgstr "主挂件区"
 
-#: functions.php:275
-msgid "Appears in the footer section of the site"
-msgstr "在网站页脚区域出现"
+#: functions.php:229
+msgid "Appears in the footer section of the site."
+msgstr "在网站页脚区域出现。"
 
-#: functions.php:283
+#: functions.php:237
 msgid "Secondary Widget Area"
 msgstr "从挂件区"
 
-#: functions.php:285
+#: functions.php:239
 msgid "Appears on posts and pages in the sidebar."
 msgstr "在文章和页面边栏出现"
 
-#: functions.php:310
+#: functions.php:264
 msgid "Posts navigation"
 msgstr "文章导航"
 
-#: functions.php:314
+#: functions.php:268
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> 早期文章"
 
-#: functions.php:318
+#: functions.php:272
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "较新文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:346
+#: functions.php:300
 msgid "Post navigation"
 msgstr "文章导航"
 
-#: functions.php:349
+#: functions.php:303
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
-#: functions.php:350
+#: functions.php:304
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:370
+#: functions.php:324
 msgid "Sticky"
 msgstr "置顶"
 
 #. Translators: used between list items, there is a space after the comma.
-#: functions.php:376 functions.php:382
+#: functions.php:330 functions.php:336
 msgid ", "
 msgstr "、"
 
-#: functions.php:391
+#: functions.php:345
 msgid "View all posts by %s"
 msgstr "查看所有由%s发布的文章"
 
-#: functions.php:410
+#: functions.php:365
 msgctxt "1: post format name. 2: date"
 msgid "%1$s on %2$s"
 msgstr "%1$s于%2$s"
 
-#: functions.php:414
+#: functions.php:371
 msgid "Permalink to %s"
 msgstr "链向%s的固定链接"
 
@@ -328,11 +328,13 @@ msgstr "http://wordpress.org/themes/twentythirteen"
 msgid ""
 "The 2013 theme for WordPress takes us back to the blog, featuring a full "
 "range of post formats, each displayed beautifully in their own unique way. "
-"Design details abound, starting with a gorgeous color scheme and matching "
-"header images, optional display fonts for beautiful typography, and a wide "
-"layout that looks great on large screens yet remains device-agnostic and is "
-"readable on any device."
+"Design details abound, starting with a vibrant color scheme and matching "
+"header images, beautiful typography and icons, and a flexible layout that "
+"looks great on any device, big or small."
 msgstr ""
+"WordPress的2013年主题将我们带回博客。它有各式各样的文章格式，每种都独一无二。"
+"设计细节比比皆是，从充满活力的配色方案到与之匹配的标题图片，优美的字体和图"
+"标，还有在任何大小的设备上都能完美展示的灵活的版式。"
 
 #. Author of the plugin/theme
 msgid "the WordPress team"
