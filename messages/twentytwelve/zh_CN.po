@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Twelve 1.1.1\n"
+"Project-Id-Version: Twenty Twelve 1.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentytwelve\n"
-"POT-Creation-Date: 2013-05-22 21:14:07+00:00\n"
-"PO-Revision-Date: 2013-06-24 05:45-0000\n"
+"POT-Creation-Date: 2013-08-01 18:14:15+00:00\n"
+"PO-Revision-Date: 2013-08-08 03:17-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 404.php:17
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
@@ -141,7 +141,7 @@ msgstr "特色文章"
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "查看所有由%s发表的文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#. #-#-#-#-#  twentytwelve.pot (Twenty Twelve 1.1.1)  #-#-#-#-#
+#. #-#-#-#-#  twentytwelve.pot (Twenty Twelve 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:17
 msgid "http://wordpress.org/"

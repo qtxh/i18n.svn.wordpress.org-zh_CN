@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.6-beta3-24450\n"
+"Project-Id-Version: WordPress 3.6\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2013-06-20 03:14:06+00:00\n"
-"PO-Revision-Date: 2013-06-24 05:51-0000\n"
+"POT-Creation-Date: 2013-07-28 19:14:14+00:00\n"
+"PO-Revision-Date: 2013-08-08 03:13-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
 #: wp-admin/network/site-info.php:43 wp-admin/network/site-new.php:37
@@ -122,7 +122,7 @@ msgstr "主题%s"
 msgid "Installed Themes"
 msgstr "已安装的主题"
 
-#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:229
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:231
 msgctxt "theme"
 msgid "Add New"
 msgstr "添加主题"
@@ -629,17 +629,17 @@ msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "主题"
 
-#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:237
+#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:239
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s个主题已启用。"
 
-#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:240
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:242
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s个主题已停用。"
 
-#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:245
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:247
 msgid "No theme selected."
 msgstr "没有选择主题。"
 
@@ -877,13 +877,13 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target="
 "\"_blank\">关于网络主题的文档</a>（英文）"
 
-#: wp-admin/network/themes.php:243
+#: wp-admin/network/themes.php:245
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
 msgstr[0] "%s个主题已删除。"
 
-#: wp-admin/network/themes.php:247
+#: wp-admin/network/themes.php:249
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr "您不能删除主站点正在使用的主题。"
 
@@ -1187,8 +1187,8 @@ msgid ""
 "network."
 msgstr "创建网络时，您不可以定义DO_NOT_UPGRADE_GLOBAL_TABLES常量。"
 
-#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:465
-#: wp-admin/network.php:499
+#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:464
+#: wp-admin/network.php:498
 msgid "Warning:"
 msgstr "警告："
 
@@ -1304,7 +1304,7 @@ msgctxt "subdirectory examples"
 msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
 msgstr "比如<code>%1$s/site1</code>和<code>%1$s/site2</code>"
 
-#: wp-admin/network.php:229 wp-admin/network.php:465 wp-admin/network.php:499
+#: wp-admin/network.php:229 wp-admin/network.php:464 wp-admin/network.php:498
 msgid ""
 "Subdirectory networks may not be fully compatible with custom wp-content "
 "directories."
@@ -1439,7 +1439,7 @@ msgstr ""
 "<code>/* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */</code>的<strong>"
 "上方</strong>："
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid ""
 "This unique authentication key is also missing from your <code>wp-config."
 "php</code> file."
@@ -1448,11 +1448,11 @@ msgid_plural ""
 "php</code> file."
 msgstr[0] "<code>wp-config.php</code>文件中缺失唯一认证key。"
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid "To make your installation more secure, you should also add:"
 msgstr "为了让您的安装更加安全，您应添加："
 
-#: wp-admin/network.php:462
+#: wp-admin/network.php:461
 msgid ""
 "Add the following to your <code>web.config</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -1460,7 +1460,7 @@ msgstr ""
 "在 <code>%s</code>中的<code>web.config</code>添加下列内容，覆盖掉其他"
 "WordPress规则。"
 
-#: wp-admin/network.php:496
+#: wp-admin/network.php:495
 msgid ""
 "Add the following to your <code>.htaccess</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -1468,7 +1468,7 @@ msgstr ""
 "在 <code>%s</code>中的<code>.htaccess</code>添加下列内容，覆盖掉其他WordPress"
 "规则。 "
 
-#: wp-admin/network.php:508
+#: wp-admin/network.php:507
 msgid ""
 "Once you complete these steps, your network is enabled and configured. You "
 "will have to log in again."
