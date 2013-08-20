@@ -143,4 +143,24 @@ function zh_cn_l10n_patch_character_count_register_script() {
 }
 add_action( 'admin_footer',
 	'zh_cn_l10n_patch_character_count_register_script' );
+
+/**
+ * ICP license number
+ *
+ * For compliance with the Telecommunications Regulations. Value is defined
+ * in wp-config.php.
+ *
+ * @since 3.7.0
+ */
+function zh_cn_l10n_icp_num( $content ) {
+	if ( defined('WP_ZH_CN_ICP_NUM') && WP_ZH_CN_ICP_NUM ) {
+		echo '<a href="http://www.miitbeian.gov.cn/" rel="nofollow" ' .
+			'title="工业和信息化部ICP/IP地址/域名信息备案管理系统">' .
+			esc_attr( WP_ZH_CN_ICP_NUM ) . "</a>\n";
+	}
+}
+add_action( 'twentyten_credits', 'zh_cn_l10n_icp_num' );
+add_action( 'twentyeleven_credits', 'zh_cn_l10n_icp_num' );
+add_action( 'twentytwelve_credits', 'zh_cn_l10n_icp_num' );
+add_action( 'twentythirteen_credits', 'zh_cn_l10n_icp_num' );
 ?>
