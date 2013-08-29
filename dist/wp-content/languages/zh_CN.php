@@ -147,18 +147,41 @@ add_action( 'admin_footer',
 /**
  * ICP license number
  *
- * For compliance with the Telecommunications Regulations. Value is defined
+ * For compliance with the Telecommunications Regulations. Can be turned off
  * in wp-config.php.
  *
  * @since 3.7.0
  */
-function zh_cn_l10n_icp_num( $content ) {
-	if ( defined('WP_ZH_CN_ICP_NUM') && WP_ZH_CN_ICP_NUM ) {
-		echo '<a href="http://www.miitbeian.gov.cn/" rel="nofollow" ' .
-			'title="工业和信息化部ICP/IP地址/域名信息备案管理系统">' .
-			esc_attr( WP_ZH_CN_ICP_NUM ) . "</a>\n";
+function zh_cn_l10n_settings_init() {
+	if ( defined( 'WP_ZH_CN_ICP_NUM' ) && WP_ZH_CN_ICP_NUM ) {
+		add_settings_field( 'zh_cn_l10n_icp_num',
+			'ICP备案号',
+			'zh_cn_l10n_icp_num_callback',
+			'general' );
+		register_setting( 'general', 'zh_cn_l10n_icp_num' );
 	}
 }
+
+add_action( 'admin_init', 'zh_cn_l10n_settings_init' );
+
+function zh_cn_l10n_icp_num_callback() {
+	echo '<input name="zh_cn_l10n_icp_num" type="text" ' .
+		'id="zh_cn_l10n_icp_num" value="' .
+		esc_attr( get_option( 'zh_cn_l10n_icp_num' ) ) .
+		'" class="regluar-text ltr" />' .
+		'<p class="description">仅对WordPress自带主题有效。</p>';
+}
+
+function zh_cn_l10n_icp_num( $content ) {
+	if ( defined( 'WP_ZH_CN_ICP_NUM' ) && WP_ZH_CN_ICP_NUM &&
+			get_option( 'zh_cn_l10n_icp_num' ) ) {
+		echo '<a href="http://www.miitbeian.gov.cn/" rel="nofollow" ' .
+			'title="工业和信息化部ICP/IP地址/域名信息备案管理系统">' .
+			esc_attr( get_option( 'zh_cn_l10n_icp_num' ) ) .
+			 "</a>\n";
+	}
+}
+
 add_action( 'twentyten_credits', 'zh_cn_l10n_icp_num' );
 add_action( 'twentyeleven_credits', 'zh_cn_l10n_icp_num' );
 add_action( 'twentytwelve_credits', 'zh_cn_l10n_icp_num' );
