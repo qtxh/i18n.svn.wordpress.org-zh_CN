@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.7-RC2\n"
+"Project-Id-Version: WordPress 3.7-RC2-25890\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2013-10-22 23:05:42+00:00\n"
-"PO-Revision-Date: 2013-10-23 15:50-0000\n"
+"POT-Creation-Date: 2013-10-23 21:01:18+00:00\n"
+"PO-Revision-Date: 2013-10-25 03:01-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -86,13 +86,13 @@ msgstr ""
 "在WordPress 3.8推出时，您仍需要点击“现在更新”按钮，但我们现在对那个美丽的蓝按"
 "钮更加充满信心。"
 
-#: wp-admin/about.php:68
+#: wp-admin/about.php:67
 msgid ""
 "This site <strong>is</strong> able to apply these updates automatically. "
 "Cool!"
 msgstr "这个站点<strong>能够</strong>自动更新，赞！"
 
-#: wp-admin/about.php:70
+#: wp-admin/about.php:77
 msgid ""
 "This site <strong>is not</strong> able to apply these updates automatically. "
 "But we&#8217;ll email %s when there is a new security release."
@@ -100,11 +100,16 @@ msgstr ""
 "这个站点<strong>不能</strong>自动应用更新，但我们会在有新的安全更新时向您发送"
 "电子邮件。"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:79
+msgid ""
+"This site <strong>is not</strong> able to apply these updates automatically."
+msgstr "这个站点<strong>不能</strong>自动安装更新。"
+
+#: wp-admin/about.php:89
 msgid "Create Stronger Passwords"
 msgstr "创建更安全的密码"
 
-#: wp-admin/about.php:80
+#: wp-admin/about.php:93
 msgid ""
 "Your password is your site&#8217;s first line of defense. It&#8217;s best to "
 "create passwords that are complex, long, and unique. To that end, our "
@@ -116,19 +121,19 @@ msgstr ""
 "WordPress 3.7中更新了密码强度指示条，以期发现更多会降低您密码的安全性的常见问"
 "题：日期、名字、按键序列（123456789）、甚至是流行文化。"
 
-#: wp-admin/about.php:81
+#: wp-admin/about.php:94
 msgid "Try it out on the right."
 msgstr "现在就在右边试试。"
 
-#: wp-admin/about.php:86
+#: wp-admin/about.php:99
 msgid "Getting the urge to <a href=\"%s\">change your password</a>?"
 msgstr "有想要<a href=\"%s\">更换密码</a>的冲动了？"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:107
 msgid "Improved Search Results"
 msgstr "改良的搜索结果"
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:108
 msgid ""
 "Search results are now ordered by how well the search query matches a post, "
 "instead of ordered only by date. For example, when your search terms match a "
@@ -137,11 +142,11 @@ msgstr ""
 "搜索结果现在会按照搜索条件与内容的匹配程度排序，而不是仅按照日期。如果您的搜"
 "索条件刚好与一篇文章的标题相匹配，那这篇文章将被推到最顶。"
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:111
 msgid "Better Global Support"
 msgstr "更全球化"
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:112
 msgid ""
 "Localized versions of WordPress will receive faster and more complete "
 "translations. WordPress 3.7 adds support for automatically installing the "
@@ -150,15 +155,15 @@ msgstr ""
 "本地化的WordPress将会得到更新更完整的翻译。WordPress 3.7将能够自动安装正确的"
 "语言文件，并保证它们是最新的。"
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:118
 msgid "Under the Hood"
 msgstr "面板之下"
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:122
 msgid "More Background Updates (Experimental)"
 msgstr "更多后台更新（试验性）"
 
-#: wp-admin/about.php:110
+#: wp-admin/about.php:123
 msgid ""
 "Want WordPress to always update automatically, even for major feature "
 "releases? Want to always keep a certain plugin up to date in the background? "
@@ -168,11 +173,11 @@ msgstr ""
 "想让WordPress总能自动升级，即便是有重大更新吗？想总让某个插件保持最新吗？"
 "WordPress 3.7将能为开发者和系统管理员提供更精细的更新控制。"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:126
 msgid "Advanced Date Queries"
 msgstr "先进的数据查询"
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:127
 msgid ""
 "Developers can now query for posts within a date range, or that are older "
 "than or newer than a specific point in time. Or get really fancy: all posts "
@@ -181,11 +186,11 @@ msgstr ""
 "开发者将可以搜索某段日期中、或比某一时间旧或新的文章，也可以更有创意点：所有"
 "在周五下午写出的文章？没问题。"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:130
 msgid "Multisite Improvements"
 msgstr "改进的多站点支持"
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:131
 msgid ""
 "<code>wp_get_sites()</code> allows developers to easily get an array of all "
 "the sites on your network without resorting to a direct database query "
@@ -194,52 +199,52 @@ msgstr ""
 "<code>wp_get_sites()</code>使得开发者可以轻松获取网络上的站点列表，并告别以往"
 "的数据库查询&mdash;这只是WordPress对多站点支持做出的许多改进之一。"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:138
 msgid "Return to Updates"
 msgstr "返回“更新”"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:138
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "返回“仪表盘” &rarr; “更新”"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:142
 msgid "Go to Dashboard &rarr; Home"
 msgstr "前往“仪表盘” &rarr; “首页”"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:142
 msgid "Go to Dashboard"
 msgstr "前往“仪表盘”"
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:153
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "维护更新"
 
-#: wp-admin/about.php:141
+#: wp-admin/about.php:154
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "安全更新"
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:155
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "维护和安全更新"
 
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:145
+#: wp-admin/about.php:158
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:149
+#: wp-admin/about.php:162
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:153
+#: wp-admin/about.php:166
 msgid ""
 "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural ""
@@ -248,7 +253,7 @@ msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s �
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:157
+#: wp-admin/about.php:170
 msgid ""
 "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
 "bug."
@@ -257,7 +262,7 @@ msgid_plural ""
 "bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
-#: wp-admin/about.php:160
+#: wp-admin/about.php:173
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
@@ -3929,7 +3934,7 @@ msgid "Update Translations"
 msgstr "更新翻译"
 
 #: wp-admin/includes/class-wp-upgrader-skins.php:558
-#: wp-admin/includes/class-wp-upgrader.php:1871
+#: wp-admin/includes/class-wp-upgrader.php:1889
 msgid "Updating translations for %1$s (%2$s)&#8230;"
 msgstr "正在更新%1$s（%2$s）的翻译…"
 
@@ -4225,143 +4230,143 @@ msgstr ""
 msgid "Please select a file"
 msgstr "请选择一个文件"
 
-#: wp-admin/includes/class-wp-upgrader.php:1855
+#: wp-admin/includes/class-wp-upgrader.php:1873
 msgid "Updating to WordPress %s"
 msgstr "升级到WordPress %s"
 
-#: wp-admin/includes/class-wp-upgrader.php:1856
+#: wp-admin/includes/class-wp-upgrader.php:1874
 msgid "WordPress %s"
 msgstr "WordPress %s"
 
-#: wp-admin/includes/class-wp-upgrader.php:1861
+#: wp-admin/includes/class-wp-upgrader.php:1879
 msgid "Updating theme: %s"
 msgstr "升级主题：%s"
 
-#: wp-admin/includes/class-wp-upgrader.php:1866
+#: wp-admin/includes/class-wp-upgrader.php:1884
 msgid "Updating plugin: %s"
 msgstr "升级插件：%s"
 
-#: wp-admin/includes/class-wp-upgrader.php:1870
+#: wp-admin/includes/class-wp-upgrader.php:1888
 msgid "Translations for %s"
 msgstr "%s的翻译"
 
-#: wp-admin/includes/class-wp-upgrader.php:1885 wp-admin/update-core.php:413
+#: wp-admin/includes/class-wp-upgrader.php:1903 wp-admin/update-core.php:413
 msgid "Installation Failed"
 msgstr "安装失败"
 
-#: wp-admin/includes/class-wp-upgrader.php:1887
+#: wp-admin/includes/class-wp-upgrader.php:1905
 #: wp-admin/includes/update-core.php:984 wp-admin/update-core.php:418
 msgid "WordPress updated successfully"
 msgstr "WordPress升级成功"
 
 #. translators: 1: Site name, 2: WordPress version number.
-#: wp-admin/includes/class-wp-upgrader.php:2140
+#: wp-admin/includes/class-wp-upgrader.php:2158
 msgid "[%1$s] Your site has updated to WordPress %2$s"
 msgstr "[%1$s] 您的站点已被更新至WordPress %2$s"
 
 #. translators: 1: Site name, 2: WordPress version number.
-#: wp-admin/includes/class-wp-upgrader.php:2146
+#: wp-admin/includes/class-wp-upgrader.php:2164
 msgid "[%1$s] WordPress %2$s is available. Please update!"
 msgstr "[%1$s] WordPress %2$s现已可用，请更新！"
 
 #. translators: 1: Site name.
-#: wp-admin/includes/class-wp-upgrader.php:2151
+#: wp-admin/includes/class-wp-upgrader.php:2169
 msgid "[%1$s] URGENT: Your site may be down due to a failed update"
 msgstr "[%1$s] 紧急：因更新失败，您的站点或已不可用"
 
-#: wp-admin/includes/class-wp-upgrader.php:2166
+#: wp-admin/includes/class-wp-upgrader.php:2184
 msgid ""
 "Howdy! Your site at %1$s has been updated automatically to WordPress %2$s."
 msgstr "嗨！您位于 %1$s 的站点已被成功升级到WordPress %2$s。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2169
+#: wp-admin/includes/class-wp-upgrader.php:2187
 msgid "No further action is needed on your part."
 msgstr "您不需要再做什么。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2173
+#: wp-admin/includes/class-wp-upgrader.php:2191
 msgid "For more on version %s, see the About WordPress screen:"
 msgstr "要获取更多关于%s版本的信息，请参阅“关于WordPress”屏幕："
 
-#: wp-admin/includes/class-wp-upgrader.php:2177
+#: wp-admin/includes/class-wp-upgrader.php:2195
 msgid "WordPress %s is also now available."
 msgstr "WordPress %s也已可用。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2178
-#: wp-admin/includes/class-wp-upgrader.php:2195
+#: wp-admin/includes/class-wp-upgrader.php:2196
+#: wp-admin/includes/class-wp-upgrader.php:2213
 msgid "Updating is easy and only takes a few moments:"
 msgstr "升级很简单，花不了您多长时间："
 
-#: wp-admin/includes/class-wp-upgrader.php:2186
+#: wp-admin/includes/class-wp-upgrader.php:2204
 msgid "Please update your site at %1$s to WordPress %2$s."
 msgstr "请升级您位于 %1$s 的站点到WordPress %2$s。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2193
+#: wp-admin/includes/class-wp-upgrader.php:2211
 msgid "We tried but were unable to update your site automatically."
 msgstr "我们未能自动更新您的站点。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2201
+#: wp-admin/includes/class-wp-upgrader.php:2219
 msgid ""
 "Your site at %1$s experienced a critical failure while trying to update "
 "WordPress to version %2$s."
 msgstr "您位于 %1$s 的站点在升级到WordPress %2$s的过程中遇到了严重问题。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2203
+#: wp-admin/includes/class-wp-upgrader.php:2221
 msgid ""
 "Your site at %1$s experienced a critical failure while trying to update to "
 "the latest version of WordPress, %2$s."
 msgstr ""
 "您位于 %1$s 的站点在升级到WordPress的最新版本，%2$s的过程中遇到了严重问题。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2205
+#: wp-admin/includes/class-wp-upgrader.php:2223
 msgid ""
 "This means your site may be offline or broken. Don't panic; this can be "
 "fixed."
 msgstr "这意味着您的站点可能已不可用或损坏。别慌，这能被修好。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2207
+#: wp-admin/includes/class-wp-upgrader.php:2225
 msgid ""
 "Please check out your site now. It's possible that everything is working. If "
 "it says you need to update, you should do so:"
 msgstr "请检查您的站点，有可能一切工作正常。如果它说您需要更新，请照做："
 
-#: wp-admin/includes/class-wp-upgrader.php:2214
+#: wp-admin/includes/class-wp-upgrader.php:2232
 msgid ""
 "Keeping your site updated is important for security. It also makes the "
 "internet a safer place for you and your readers."
 msgstr "保持更新站点对确保安全至关重要，这也会让互联网和您的读者更安全。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2217
+#: wp-admin/includes/class-wp-upgrader.php:2235
 msgid ""
 "If you experience any issues or need support, the volunteers in the "
 "WordPress.org support forums may be able to help."
 msgstr ""
 "如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2222
+#: wp-admin/includes/class-wp-upgrader.php:2240
 msgid ""
 "You also have some plugins or themes with updates available. Update them now:"
 msgstr "您的一些插件或主题也有更新可用，请更新它们："
 
-#: wp-admin/includes/class-wp-upgrader.php:2226
+#: wp-admin/includes/class-wp-upgrader.php:2244
 msgid "The WordPress Team"
 msgstr "WordPress小组"
 
-#: wp-admin/includes/class-wp-upgrader.php:2230
+#: wp-admin/includes/class-wp-upgrader.php:2248
 msgid "Your site was running version %s."
 msgstr "您的站点正在运行%s版本。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2231
+#: wp-admin/includes/class-wp-upgrader.php:2249
 msgid "We have some data that describes the error your site encountered."
 msgstr "我们有一些关于您的站点遇到的错误的信息。"
 
-#: wp-admin/includes/class-wp-upgrader.php:2232
+#: wp-admin/includes/class-wp-upgrader.php:2250
 msgid ""
 "Your hosting company, support forum volunteers, or a friendly developer may "
 "be able to use this information to help you:"
 msgstr ""
 "您的主机商、支持论坛的志愿者、或一位友善的开发者将可以利用以下信息来帮您："
 
-#: wp-admin/includes/class-wp-upgrader.php:2245
+#: wp-admin/includes/class-wp-upgrader.php:2263
 msgid "Error code: %s"
 msgstr "错误代码：%s"
 
