@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 3.7-RC2-25890\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
 "POT-Creation-Date: 2013-10-23 21:01:18+00:00\n"
-"PO-Revision-Date: 2013-10-25 03:18-0000\n"
+"PO-Revision-Date: 2013-10-26 11:17-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -1578,7 +1578,7 @@ msgstr "最后由%1$s编辑于%2$s%3$s"
 
 #: wp-admin/edit-form-advanced.php:498 wp-admin/includes/ajax-actions.php:1818
 msgid "Last edited on %1$s at %2$s"
-msgstr "最后编辑于%1$s%2$s"
+msgstr "最后编辑于%1$s %2$s"
 
 #: wp-admin/edit-form-comment.php:33
 msgid "Name:"
@@ -10759,8 +10759,7 @@ msgid ""
 "\">child theme</a> instead."
 msgstr ""
 "升级新版本的主题将会导致您所做的修改被覆盖。要避免类似悲剧的发生，请考虑创建"
-"一个<a href=\"http://codex.wordpress.org/zh-cn:%E5%AD%90%E4%B8%BB%E9%A2%98\" "
-"target=\"_blank\">子主题</a>。"
+"一个<a href=\"%s\" target=\"_blank\">子主题</a>。"
 
 #: wp-admin/theme-editor.php:39
 msgid ""
@@ -11378,7 +11377,7 @@ msgstr "请选择需要升级的插件。"
 #. translators: %1 date, %2 time.
 #: wp-admin/update-core.php:509
 msgid "Last checked on %1$s at %2$s."
-msgstr "最后检查于%1$s%2$s"
+msgstr "最后检查于%1$s %2$s"
 
 #: wp-admin/update-core.php:510
 msgid "Check Again"
