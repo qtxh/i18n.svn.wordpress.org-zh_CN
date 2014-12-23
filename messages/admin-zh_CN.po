@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.1\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
 "POT-Creation-Date: 2014-12-18 19:14:06+00:00\n"
-"PO-Revision-Date: 2014-12-23 00:56-0000\n"
+"PO-Revision-Date: 2014-12-23 01:26-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: wp-admin/about.php:54
 msgid "The straightforward typography is readable on any screen size."
-msgstr "简单的排班在任何屏幕尺寸上都容易阅读。"
+msgstr "简单的排版在任何屏幕尺寸上都容易阅读。"
 
 #: wp-admin/about.php:55
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 
 #: wp-admin/about.php:136
 msgid "Customizer API"
-msgstr "自定义API"
+msgstr "定制器API"
 
 #: wp-admin/about.php:137
 msgid ""
