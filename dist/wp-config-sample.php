@@ -62,16 +62,6 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 /**
- * WordPress语言设置，中文版本默认为中文。
- *
- * 本项设定能够让WordPress显示您需要的语言。
- * wp-content/languages内应放置同名的.mo语言文件。
- * 例如，要使用WordPress简体中文界面，请在wp-content/languages
- * 放入zh_CN.mo，并将WPLANG设为'zh_CN'。
- */
-define('WPLANG', 'zh_CN');
-
-/**
  * 开发者专用：WordPress调试模式。
  *
  * 将这个值改为true，WordPress将显示所有用于开发的提示。
