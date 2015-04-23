@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Ten 1.6\n"
+"Project-Id-Version: Twenty Ten 1.8\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyten\n"
 "POT-Creation-Date: 2013-10-24 19:42:39+00:00\n"
-"PO-Revision-Date: 2013-10-26 10:43-0000\n"
+"PO-Revision-Date: 2015-04-23 01:43-0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.6\n"
 
 #: 404.php:16 loop.php:33
 msgid "Not Found"
@@ -85,11 +85,10 @@ msgstr "较新评论 <span class=\"meta-nav\">&rarr;</span>"
 msgid "Comments are closed."
 msgstr "评论功能已关闭。"
 
-#. #-#-#-#-#  twentyten.pot (Twenty Ten 1.6)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:40
-msgid "http://wordpress.org/"
-msgstr "http://cn.wordpress.org/"
+msgid "https://wordpress.org/"
+msgstr "https://cn.wordpress.org/"
 
 #: footer.php:40
 msgid "Semantic Personal Publishing Platform"
@@ -393,8 +392,8 @@ msgid "Twenty Ten"
 msgstr "Twenty Ten"
 
 #. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentyten"
-msgstr "http://wordpress.org/themes/twentyten"
+msgid "https://wordpress.org/themes/twentyten/"
+msgstr "https://wordpress.org/themes/twentyten/"
 
 #. Description of the plugin/theme
 msgid ""
