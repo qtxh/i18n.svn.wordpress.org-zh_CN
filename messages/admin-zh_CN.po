@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.9\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-11-13 23:15:44+00:00\n"
-"PO-Revision-Date: 2017-11-14 23:26+0000\n"
+"PO-Revision-Date: 2017-11-15 21:03+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3056,7 +3056,7 @@ msgstr "启用插件并运行导入工具"
 
 #: wp-admin/includes/class-plugin-installer-skin.php:55
 msgid "Activate Plugin &amp; Return to Press This"
-msgstr "激活插件并返回“按这里”"
+msgstr "激活插件并返回“快速发布”"
 
 #: wp-admin/includes/class-plugin-installer-skin.php:57
 #: wp-admin/includes/class-plugin-upgrader-skin.php:51
@@ -10969,14 +10969,14 @@ msgstr "此项目已被删除。"
 
 #: wp-admin/press-this.php:38
 msgid "Activate Press This"
-msgstr "激活“按这里”"
+msgstr "激活“快速发布”"
 
 #. translators: URL to wp-admin/press-this.php
 #: wp-admin/press-this.php:56
 msgid ""
 "Press This is not installed. Please install Press This from <a href=\"%s"
 "\">the main site</a>."
-msgstr "“按这里”并未安装，请从<a href=\"%s\">主站点</a>安装“按这里”。"
+msgstr "“快速发布”并未安装，请从<a href=\"%s\">主站点</a>安装“按这里”。"
 
 #: wp-admin/press-this.php:63 wp-admin/press-this.php:69
 msgid "Installation Required"
@@ -10984,7 +10984,7 @@ msgstr "需要安装"
 
 #: wp-admin/press-this.php:68
 msgid "Press This is not available. Please contact your site administrator."
-msgstr "“按这里”不可用，请联系您的站点管理员。"
+msgstr "“快速发布”不可用，请联系您的站点管理员。"
 
 #: wp-admin/privacy.php:34
 msgid ""
