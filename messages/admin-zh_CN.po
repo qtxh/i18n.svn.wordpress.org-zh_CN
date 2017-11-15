@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.8\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-10-31 13:15:22+00:00\n"
-"PO-Revision-Date: 2017-11-15 01:06+0000\n"
+"PO-Revision-Date: 2017-11-15 21:04+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -11667,7 +11667,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Tools_Screen\">工具文档</a>"
 msgid ""
 "Press This is a little tool that lets you grab bits of the web and create "
 "new posts with ease."
-msgstr "“按这里”是一个能让您抓取网络上的点滴并方便地创建文章的小工具。"
+msgstr "“快速发布”是一个能让您抓取网络上的点滴并方便地创建文章的小工具。"
 
 #: wp-admin/tools.php:42
 msgid ""
@@ -11680,7 +11680,7 @@ msgstr ""
 
 #: wp-admin/tools.php:46
 msgid "Install Press This"
-msgstr "安装“按这里”"
+msgstr "安装“快速发布”"
 
 #: wp-admin/tools.php:47
 msgid "Bookmarklet"
@@ -11695,7 +11695,7 @@ msgstr ""
 
 #: wp-admin/tools.php:54
 msgid "Copy &#8220;Press This&#8221; bookmarklet code"
-msgstr "复制“按这里”浏览器书签代码"
+msgstr "复制“快速发布”浏览器书签代码"
 
 #: wp-admin/tools.php:60
 msgid ""
@@ -11714,11 +11714,11 @@ msgstr "直接链接（适合手机）"
 msgid ""
 "Follow the link to open Press This. Then add it to your device&#8217;s "
 "bookmarks or home screen."
-msgstr "跟随此链接来开启“按这里”，然后将其添加到您的设备的收藏夹或主屏幕。"
+msgstr "跟随此链接来开启“快速发布”，然后将其添加到您的设备的收藏夹或主屏幕。"
 
 #: wp-admin/tools.php:71
 msgid "Open Press This"
-msgstr "打开按这里"
+msgstr "打开“快速发布”"
 
 #: wp-admin/tools.php:104
 msgid ""
