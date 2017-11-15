@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.9\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-11-13 23:14:24+00:00\n"
-"PO-Revision-Date: 2017-11-14 23:22+0000\n"
+"PO-Revision-Date: 2017-11-15 21:02+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -4861,7 +4861,7 @@ msgstr "“%s”不是图像文件。"
 
 #: wp-includes/deprecated.php:3927 wp-includes/deprecated.php:3944
 msgid "The Press This plugin is required."
-msgstr "需要安装按这里插件。"
+msgstr "需要安装“快速发布”插件。"
 
 #. translators: 1: post title, 2: site name
 #: wp-includes/embed.php:467
