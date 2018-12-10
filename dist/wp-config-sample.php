@@ -41,8 +41,7 @@ define('DB_COLLATE', '');
  * 身份认证密钥与盐。
  *
  * 修改为任意独一无二的字串！
- * 或者直接访问{@link https://api.wordpress.org/secret-key/1.1/salt/
- * WordPress.org密钥生成服务}
+ * 或者直接访问{@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org密钥生成服务}
  * 任何修改都会导致所有cookies失效，所有用户将必须重新登录。
  *
  * @since 2.6.0
@@ -77,14 +76,6 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-
-/**
- * zh_CN本地化设置：启用ICP备案号显示
- *
- * 可在设置→常规中修改。
- * 如需禁用，请移除或注释掉本行。
- */
-define('WP_ZH_CN_ICP_NUM', true);
 
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
