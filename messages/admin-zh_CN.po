@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.9\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-11-13 23:15:44+00:00\n"
-"PO-Revision-Date: 2017-11-15 21:03+0000\n"
+"PO-Revision-Date: 2017-11-17 22:18+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10613,7 +10613,7 @@ msgstr "文档："
 
 #: wp-admin/plugin-editor.php:261 wp-admin/theme-editor.php:270
 msgid "Look Up"
-msgstr "向上查"
+msgstr "查询"
 
 #: wp-admin/plugin-editor.php:267
 msgid ""
