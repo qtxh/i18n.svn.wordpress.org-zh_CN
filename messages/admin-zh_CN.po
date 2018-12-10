@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 5.0\n"
 "Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
 "POT-Creation-Date: 2018-12-06T19:22:15+00:00\n"
-"PO-Revision-Date: 2018-12-10 20:09+0000\n"
+"PO-Revision-Date: 2018-12-10 20:12+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -8151,7 +8151,7 @@ msgstr "文档："
 
 #: wp-admin/theme-editor.php:270 wp-admin/plugin-editor.php:261
 msgid "Look Up"
-msgstr "向上查"
+msgstr "查询"
 
 #: wp-admin/theme-editor.php:280
 msgid "This is a file in your current parent theme."

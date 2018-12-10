@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 5.0\n"
 "Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
 "POT-Creation-Date: 2018-12-06T19:20:55+00:00\n"
-"PO-Revision-Date: 2018-12-10 16:24+0000\n"
+"PO-Revision-Date: 2018-12-10 20:12+0000\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -3857,8 +3857,8 @@ msgid ""
 "the URL is for a supported video file (%s) or stream (e.g. YouTube and "
 "Vimeo)."
 msgstr ""
-"抱歉，我们未能从提供的URL载入视频。请检查该URL是一个支持的视频文件（%s）或视"
-"频流（如YouTube和Vimeo）。"
+"抱歉，我们未能从提供的URL载入视频。请检查该URL是否为一个支持的视频文件（%s）"
+"或视频流（如YouTube和Vimeo）。"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:79
 #: wp-includes/media-template.php:1196 wp-includes/media-template.php:1201
@@ -9349,7 +9349,7 @@ msgstr "时区"
 #. translators: 1: month number (01, 02, etc.), 2: month abbreviation
 #: wp-includes/customize/class-wp-customize-date-time-control.php:201
 msgid "%1$s-%2$s"
-msgstr "%1$s-%2$s"
+msgstr "%2$s"
 
 #. translators: 1: timezone name, 2: timezone abbreviation, 3: gmt offset
 #: wp-includes/customize/class-wp-customize-date-time-control.php:234
