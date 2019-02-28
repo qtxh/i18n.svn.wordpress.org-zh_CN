@@ -63,7 +63,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * 如果您有在同一数据库内安装多个WordPress的需求，请为每个WordPress设置
  * 不同的数据表前缀。前缀名只能为数字、字母加下划线。
  */
-$table_prefix  = 'wp_';
+$table_prefix = 'wp_';
 
 /**
  * 开发者专用：WordPress调试模式。
